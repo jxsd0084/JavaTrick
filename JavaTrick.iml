@@ -24,6 +24,7 @@
       <excludeFolder url="file://$MODULE_DIR$/python" />
       <excludeFolder url="file://$MODULE_DIR$/scala" />
       <excludeFolder url="file://$MODULE_DIR$/shell" />
+      <excludeFolder url="file://$MODULE_DIR$/sql" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
