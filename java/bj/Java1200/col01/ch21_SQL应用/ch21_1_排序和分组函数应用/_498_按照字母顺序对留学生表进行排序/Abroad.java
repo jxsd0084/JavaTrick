@@ -1,0 +1,50 @@
+package bj.Java1200.col01.ch21_SQL应用.ch21_1_排序和分组函数应用._498_按照字母顺序对留学生表进行排序;
+
+public class Abroad {
+
+	private int    id;
+	private String name;
+	private String surname;
+	private String nationality;
+
+	public int getId() {
+
+		return id;
+	}
+
+	public void setId( int id ) {
+
+		this.id = id;
+	}
+
+	public String getName() {
+
+		return name;
+	}
+
+	public void setName( String name ) {
+
+		this.name = name;
+	}
+
+	public String getSurname() {
+
+		return surname;
+	}
+
+	public void setSurname( String surname ) {
+
+		this.surname = surname;
+	}
+
+	public String getNationality() {
+
+		return nationality;
+	}
+
+	public void setNationality( String nationality ) {
+
+		this.nationality = nationality;
+	}
+
+}
