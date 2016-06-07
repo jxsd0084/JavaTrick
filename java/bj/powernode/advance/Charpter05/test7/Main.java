@@ -13,6 +13,7 @@ public class Main {
 
 		int speed = Car.MAX_SPEED;
 
+		System.out.println( "speed -> " + speed );
 	}
 
 }

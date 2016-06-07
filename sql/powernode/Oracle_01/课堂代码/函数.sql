@@ -1,0 +1,159 @@
+-- 单行函数
+SELECT  ENAME , LOWER(ENAME) ,Length(ENAME)  "姓名长度"                          
+FROM EMP 
+--WHERE   lower(ENAME) = 'smith'
+
+
+SELECT * FROM EMP FOR UPDATE;
+
+
+-- 多行函数
+SELECT MAX(SAL)
+FROM EMP
+
+-- 字符函数,主要处理字符型的数据
+SELECT *
+FROM EMP 
+WHERE lower(ENAME) = 'smith'
+
+
+SELECT *
+FROM EMP 
+WHERE ENAME =  UPPER('smith')
+
+
+SELECT INITCAP(ENAME)
+FROM EMP  
+
+
+SELECT * FROM EMP FOR UPDATE;
+
+
+-- 找出首字符大写的员工的信息
+SELECT *
+FROM EMP
+WHERE INITCAP(ENAME) = ENAME;
+
+
+SELECT  ENAME  ,SUBSTR(ENAME,0,2) "前两个字符" ,RPAD(sal,10,'*')
+FROM EMP;
+
+
+
+SELECT ROUND(45.943, 2) "小数点后两位",
+       ROUND(45.943, 0) "个位",
+       ROUND(45.942, -1) "十位"
+  FROM SYS.DUAL;
+
+
+
+SELECT ENAME ,  (SYSDATE - HIREDATE)/365 ,  ROUND(  (SYSDATE - HIREDATE)/365,0 ) "工作年限" 
+FROM EMP 
+
+
+SELECT TRUNC(45.946, 2) "小数点后两位",
+       TRUNC(45.946, 0) "个位",
+       TRUNC(45.946, -1) "十位"
+  FROM SYS.DUAL;
+  
+  
+SELECT  SAL, MOD(SAL,300)
+FROM EMP   
+
+
+
+SELECT ENAME ,  (SYSDATE - HIREDATE)/30 ,  months_between(SYSDATE,HIREDATE)
+FROM EMP ;
+
+SELECT ENAME, HIREDATE,  (HIREDATE + 90) "转正日期" ,add_months (HIREDATE ,3)  "精确转正日期"
+FROM EMP;
+
+
+select 
+extract(hour from timestamp '2001-2-16 2:38:40 ' ) 小时,
+extract(minute from timestamp '2001-2-16 2:38:40 ' ) 分钟,
+extract(second from timestamp '2001-2-16 2:38:40 ' ) 秒,
+extract(DAY from timestamp '2001-2-16 2:38:40 ' ) 日,
+extract(MONTH from timestamp '2001-2-16 2:38:40 ' ) 月,
+extract(YEAR from timestamp '2001-2-16 2:38:40 ' ) 年
+ from dual;
+ 
+ 
+select extract (YEAR from date '2001-2-16' ) from dual; 
+
+SELECT ENAME,HIREDATE , extract (MONTH from  HIREDATE ) 
+FROM EMP 
+
+
+SELECT  ENAME || HIREDATE
+FROM EMP
+
+
+
+SELECT ENAME ,HIREDATE ,TO_CHAR(HIREDATE,'YYYY-MM-DD DAY' )
+FROM EMP 
+
+
+SELECT *
+FROM EMP 
+WHERE TO_CHAR (HIREDATE ,'YYYY-MM-DD') =  '1981-2-20'
+
+
+SELECT TO_CHAR (HIREDATE ,'YYYY-MM-DD')
+FROM EMP 
+WHERE TO_CHAR (HIREDATE ,'YYYY-MM-DD') =  '1981-2-20'
+
+
+
+SELECT E.ENAME, E.SAL, TO_CHAR(E.SAL, '$99,999.99') AS "薪水"   ,TO_CHAR(E.SAL ,'L00,000.00')
+  FROM EMP E
+ WHERE E.ENAME = 'Smith';
+ 
+
+
+SELECT   TO_NUMBER('$10,800.00', '$00,000.00')  
+FROM SYS.DUAL; 
+
+
+SELECT *
+FROM EMP 
+WHERE TO_CHAR (HIREDATE ,'YYYY-MM-DD') =  '1981-2-20'
+
+
+SELECT *
+FROM EMP 
+WHERE HIREDATE  =  TO_DATE('1981-2-20','YYYY-MM-D')
+
+
+
+SELECT   ENAME,HIREDATE, LAST_DAY('20-2月-1980')
+FROM EMP 
+
+
+SELECT CONCAT( LOWER(ENAME) ,INITCAP(JOB))  "员工信息"
+FROM EMP;
+
+
+
+SELECT  E.ENAME,E.SAL,E.COMM ,(E.SAL * 12 + E.COMM) 年收入
+FROM EMP  E;
+
+SELECT  E.ENAME,E.SAL,E.COMM ,(E.SAL * 12 + NVL(E.COMM , 0) )  年收入
+FROM EMP  E;
+
+
+SELECT  E.ENAME,  NVL(ENAME,'') , NVL(E.HIREDATE ,'23-12月-1989')
+FROM EMP  E
+WHERE EMPNO = 9000
+
+
+SELECT  E.ENAME,  NVL(SAL,'100') , NVL(E.HIREDATE ,'23-12月-1989')
+FROM EMP  E
+WHERE EMPNO = 9000
+
+
+
+
+
+
+SELECT * FROM EMP FOR UPDATE;
