@@ -2,7 +2,6 @@ package bj.Java1200.col02.ch17_解析XML文件.ch17_4_使用DOM解析XML._481.DO
 
 import bj.Java1200.col02.ch17_解析XML文件.ch17_4_使用DOM解析XML._481.entity.Book;
 import bj.Java1200.col02.ch17_解析XML文件.ch17_4_使用DOM解析XML._481.entity.BookPrice;
-import org.w3c.dom.*;
 import org.xml.sax.SAXException;
 
 import javax.xml.parsers.DocumentBuilder;

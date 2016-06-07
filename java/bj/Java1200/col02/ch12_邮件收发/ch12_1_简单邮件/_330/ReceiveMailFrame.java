@@ -1,6 +1,5 @@
 package bj.Java1200.col02.ch12_邮件收发.ch12_1_简单邮件._330;
 
-import javax.mail.*;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;

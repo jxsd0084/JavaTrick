@@ -1,11 +1,6 @@
 package bj.Java1200.col01.ch22_数据库操作.ch22_4_数据增加_更新与删除操作._545;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 

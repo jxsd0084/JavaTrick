@@ -1,10 +1,6 @@
 package bj.Java1200.col01.ch24_数据库高级应用.ch24_4_使用视图._601_获取数据库中的全部用户视图;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 

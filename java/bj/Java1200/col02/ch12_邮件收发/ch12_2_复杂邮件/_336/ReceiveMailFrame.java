@@ -2,7 +2,6 @@ package bj.Java1200.col02.ch12_邮件收发.ch12_2_复杂邮件._336;
 
 import com.sun.mail.imap.IMAPFolder;
 
-import javax.mail.*;
 import javax.mail.internet.MimeUtility;
 import javax.swing.*;
 import java.awt.*;

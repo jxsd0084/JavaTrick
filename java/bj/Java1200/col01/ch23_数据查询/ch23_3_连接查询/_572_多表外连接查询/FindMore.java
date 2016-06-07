@@ -1,10 +1,6 @@
 package bj.Java1200.col01.ch23_数据查询.ch23_3_连接查询._572_多表外连接查询;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 
 public class FindMore {
 

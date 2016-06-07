@@ -1,18 +1,11 @@
 package bj.Java1200.col02.ch10_网络应用基础.ch10_1_网络地址解析._299;
 
-import java.awt.Color;
-import java.awt.EventQueue;
-import java.awt.Font;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
-
-import javax.swing.JButton;
-
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JTextField;
 
 @SuppressWarnings( "serial" )
 public class ByDomainGainIpFrame extends JFrame {

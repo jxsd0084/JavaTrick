@@ -1,34 +1,16 @@
 package bj.Java1200.col02.ch12_邮件收发.ch12_2_复杂邮件._335;
 
-import java.awt.BorderLayout;
-import java.awt.EventQueue;
-import java.awt.FileDialog;
+import com.sun.mail.imap.IMAPFolder;
+
+import javax.mail.*;
+import javax.mail.internet.MimeUtility;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.BufferedOutputStream;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.InputStream;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.OutputStream;
+import java.io.*;
 import java.util.Properties;
 import java.util.Vector;
-
-import javax.mail.Address;
-import javax.mail.Folder;
-import javax.mail.Message;
-import javax.mail.Multipart;
-import javax.mail.Session;
-import javax.mail.Store;
-import javax.mail.internet.MimeUtility;
-import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.JTextArea;
-
-import com.sun.mail.imap.IMAPFolder;
 
 public class ReceiveMailFrame extends JFrame {
 

@@ -4,8 +4,6 @@
  */
 package bj.Java1200.col02.ch07_JFreeChart基本操作._193;
 
-import java.awt.Font;
-
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
 import org.jfree.chart.JFreeChart;
@@ -19,6 +17,8 @@ import org.jfree.data.category.CategoryDataset;
 import org.jfree.data.general.DatasetUtilities;
 import org.jfree.ui.ApplicationFrame;
 import org.jfree.ui.RefineryUtilities;
+
+import java.awt.*;
 
 public class BarDemo18 extends ApplicationFrame {
 

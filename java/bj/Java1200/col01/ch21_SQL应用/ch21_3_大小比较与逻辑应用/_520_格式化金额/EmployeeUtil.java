@@ -1,10 +1,6 @@
 package bj.Java1200.col01.ch21_SQL应用.ch21_3_大小比较与逻辑应用._520_格式化金额;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
