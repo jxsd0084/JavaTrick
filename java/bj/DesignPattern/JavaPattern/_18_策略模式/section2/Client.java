@@ -1,0 +1,26 @@
+package bj.DesignPattern.JavaPattern._18_策略模式.section2;
+
+/**
+ * @author cbf4Life cbf4life@126.com
+ *         I'm glad to share my knowledge with you all.
+ */
+public class Client {
+
+	/**
+	 * 测试
+ 	 * @param args
+	 */
+	public static void main( String[] args ) {
+
+		// 声明出一个具体的策略
+		Strategy strategy = new ConcreteStrategy1();
+
+		// 声明出上下文对象
+		Context context = new Context( strategy );
+
+		// 执行封装后的方法
+		context.doAnythinig();
+
+	}
+
+}
