@@ -1,17 +1,17 @@
-  --´´½¨Ò»¸ö´æ´¢¹ý³Ì
+  --åˆ›å»ºä¸€ä¸ªå­˜å‚¨è¿‡ç¨‹
   CREATE OR REPLACE PROCEDURE PROC_INSER_DEPT(P_DEPTNO NUMBER,
                                               P_DNAME  VARCHAR2,
                                               P_LOC    NUMBER) IS
-  -- ÔÚisÖ®ºó,beginÖ®Ç°,ÊÇÉùÃ÷²¿·Ö
+  -- åœ¨isä¹‹åŽ,beginä¹‹å‰,æ˜¯å£°æ˜Žéƒ¨åˆ†
 BEGIN
 
-  --´«Èë²ÎÊý²¢Ìá½» 
+  --ä¼ å…¥å‚æ•°å¹¶æäº¤
   INSERT INTO DEPT VALUES (P_DEPTNO, P_DNAME, P_LOC);
 
-  --Ìá½»  
+  --æäº¤
   COMMIT;
 
-  --½áÊø  
+  --ç»“æŸ
 END;
   --------------------------------------------------------------------------------------------------------
 
@@ -19,133 +19,133 @@ END;
 
   --------------------------------------------------------------------------------------------------------
 
-  -- ¿ÉÒÔÔÚÒ»¸öÄäÃû¿éÖÐµ÷ÓÃ´æ´¢¹ý³Ì
+  -- å¯ä»¥åœ¨ä¸€ä¸ªåŒ¿åå—ä¸­è°ƒç”¨å­˜å‚¨è¿‡ç¨‹
   DECLARE
   --V_DEPTNO    DEPT.DEPTNO%TYPE  := 60;
-  --V_DNAME    DEPT.DNAME%TYPE := '¿ª·¢²¿';
-  --V_LOC    DEPT.LOC_ID%TYPE := 1001;    
+  --V_DNAME    DEPT.DNAME%TYPE := 'å¼€å‘éƒ¨';
+  --V_LOC    DEPT.LOC_ID%TYPE := 1001;
 BEGIN
   --PROC_INSER_DEPT(V_DEPTNO,V_DNAME,V_LOC);
 
-  -- °´ÕÕÎ»ÖÃ½øÐÐµ÷ÓÃ
-  PROC_INSER_DEPT(70, 'Î¬ÐÞ²¿', 1001);
+  -- æŒ‰ç…§ä½ç½®è¿›è¡Œè°ƒç”¨
+  PROC_INSER_DEPT(70, 'ç»´ä¿®éƒ¨', 1001);
 
-  -- °´ÕÕÃû³Æ½øÐÐµ÷ÓÃ
-  PROC_INSER_DEPT(P_LOC => 1001, P_DNAME => '¿ª·¢Ò»²¿', P_DEPTNO => 90);
+  -- æŒ‰ç…§åç§°è¿›è¡Œè°ƒç”¨
+  PROC_INSER_DEPT(P_LOC => 1001, P_DNAME => 'å¼€å‘ä¸€éƒ¨', P_DEPTNO => 90);
 
 END;
 
   --------------------------------------------------------------------------------------------------------
 
-  --´´½¨´æ´¢¹ý³Ì,²ÎÊý:P_IN IN VARCHAR2, P_OUT OUT VARCHAR2, P_IN_OUT IN OUT VARCHAR2
-  --in'Èë';out'³ö';in-out'¼´ÈëÓÖ³ö';
+  --åˆ›å»ºå­˜å‚¨è¿‡ç¨‹,å‚æ•°:P_IN IN VARCHAR2, P_OUT OUT VARCHAR2, P_IN_OUT IN OUT VARCHAR2
+  --in'å…¥';out'å‡º';in-out'å³å…¥åˆå‡º';
   CREATE OR REPLACE PROCEDURE PARAM_TEST(P_IN IN VARCHAR2, P_OUT OUT VARCHAR2, P_IN_OUT IN OUT VARCHAR2) IS
 
-  --¿ªÊ¼
+  --å¼€å§‹
 BEGIN
 
-  --ÏµÍ³Êä³öÐÅÏ¢
-  DBMS_OUTPUT.put_line('ÔÚ¹ý³ÌÖÐµÄÊä³ö===================P_IN=' || P_IN); DBMS_OUTPUT.put_line('ÔÚ¹ý³ÌÖÐµÄÊä³ö===================P_OUT=' || P_OUT); DBMS_OUTPUT.put_line('ÔÚ¹ý³ÌÖÐµÄÊä³ö===================P_IN_OUT=' || P_IN_OUT); P_OUT := 'OUTÀàÐÍµÄ±äÁ¿ÔÚ¹ý³ÌÖÐ±»ÖØÐÂ¸³Öµ'; P_IN_OUT := 'IN OUTÀàÐÍµÄ±äÁ¿ÔÚ¹ý³ÌÖÐ±»ÖØÐÂ¸³Öµ';
+  --ç³»ç»Ÿè¾“å‡ºä¿¡æ¯
+  DBMS_OUTPUT.put_line('åœ¨è¿‡ç¨‹ä¸­çš„è¾“å‡º===================P_IN=' || P_IN); DBMS_OUTPUT.put_line('åœ¨è¿‡ç¨‹ä¸­çš„è¾“å‡º===================P_OUT=' || P_OUT); DBMS_OUTPUT.put_line('åœ¨è¿‡ç¨‹ä¸­çš„è¾“å‡º===================P_IN_OUT=' || P_IN_OUT); P_OUT := 'OUTç±»åž‹çš„å˜é‡åœ¨è¿‡ç¨‹ä¸­è¢«é‡æ–°èµ‹å€¼'; P_IN_OUT := 'IN OUTç±»åž‹çš„å˜é‡åœ¨è¿‡ç¨‹ä¸­è¢«é‡æ–°èµ‹å€¼';
 
-  --½áÊø
+  --ç»“æŸ
 END;
 
   --------------------------------------------------------------------------------------------------------
 
-  --ÉùÃ÷
+  --å£°æ˜Ž
   DECLARE
 
-  -- INÀàÐÍµÄ²ÎÊý¿ÉÒÔÊ¹Ò»¸öÒÑ¾­³õÊ¼»¯ºÃµÄ±äÁ¿,Ò²¿ÉÒÔÊÇÒ»¸ö×Ö·û³£Á¿
-  V_IN VARCHAR2(100) := 'INÀàÐÍÊý¾ÝµÄÔ­Ê¼Öµ';
+  -- INç±»åž‹çš„å‚æ•°å¯ä»¥ä½¿ä¸€ä¸ªå·²ç»åˆå§‹åŒ–å¥½çš„å˜é‡,ä¹Ÿå¯ä»¥æ˜¯ä¸€ä¸ªå­—ç¬¦å¸¸é‡
+  V_IN VARCHAR2(100) := 'INç±»åž‹æ•°æ®çš„åŽŸå§‹å€¼';
 
-  -- OUTÀàÐÍµÄ²ÎÊý,±ØÐëÊÇÒ»¸ö±äÁ¿
-  V_OUT VARCHAR2(100) := 'OUTÀàÐÍÊý¾ÝµÄÔ­Ê¼Öµ';
+  -- OUTç±»åž‹çš„å‚æ•°,å¿…é¡»æ˜¯ä¸€ä¸ªå˜é‡
+  V_OUT VARCHAR2(100) := 'OUTç±»åž‹æ•°æ®çš„åŽŸå§‹å€¼';
 
-  -- IN OUT ÀàÐÍµÄ²ÎÊý,Ö»ÄÜÊÇÒ»¸ö³õÊ¼»¯ºÃµÄ±äÁ¿
-  V_IN_OUT VARCHAR2(100) := 'IN OUTÀàÐÍÊý¾ÝµÄÔ­Ê¼Öµ';
+  -- IN OUT ç±»åž‹çš„å‚æ•°,åªèƒ½æ˜¯ä¸€ä¸ªåˆå§‹åŒ–å¥½çš„å˜é‡
+  V_IN_OUT VARCHAR2(100) := 'IN OUTç±»åž‹æ•°æ®çš„åŽŸå§‹å€¼';
 
-  --¿ªÊ¼
+  --å¼€å§‹
 BEGIN
 
-  --½«±äÁ¿Ö¸Ïò
+  --å°†å˜é‡æŒ‡å‘
   PARAM_TEST(P_IN => V_IN, P_OUT => V_OUT, P_IN_OUT => V_IN_OUT);
 
-  --Êä³öÐÅÏ¢
-  DBMS_OUTPUT.put_line('µ÷ÓÃ¹ý³ÌÖ®ºó*********************V_IN=' || V_IN); DBMS_OUTPUT.put_line('µ÷ÓÃ¹ý³ÌÖ®ºó*********************V_OUT=' || V_OUT); DBMS_OUTPUT.put_line('µ÷ÓÃ¹ý³ÌÖ®ºó*********************V_IN_OUT=' || V_IN_OUT);
+  --è¾“å‡ºä¿¡æ¯
+  DBMS_OUTPUT.put_line('è°ƒç”¨è¿‡ç¨‹ä¹‹åŽ*********************V_IN=' || V_IN); DBMS_OUTPUT.put_line('è°ƒç”¨è¿‡ç¨‹ä¹‹åŽ*********************V_OUT=' || V_OUT); DBMS_OUTPUT.put_line('è°ƒç”¨è¿‡ç¨‹ä¹‹åŽ*********************V_IN_OUT=' || V_IN_OUT);
 
-  --½áÊø
+  --ç»“æŸ
 END;
 
   --------------------------------------------------------------------------------------------------------
 
-  -- ´´½¨Ò»¸öº¯Êý,²ÎÊýÊÇÒ»¸öÔ±¹¤µÄÃû×Ö,
-  -- ÔÚº¯ÊýÖÐ²éÑ¯¸ÃÔ±¹¤µÄ¹¤×Ê,
-  -- ¸ù¾Ý²»Í¬µÄÇé¿ö,·µ»Ø¹¤×ÊµÄÔö³¤Êý
-  --º¯ÊýÊÇÓÐ·µ»ØÖµµÄ,ËùÒÔÓÐreturn¹Ø¼ü×Ö 
+  -- åˆ›å»ºä¸€ä¸ªå‡½æ•°,å‚æ•°æ˜¯ä¸€ä¸ªå‘˜å·¥çš„åå­—,
+  -- åœ¨å‡½æ•°ä¸­æŸ¥è¯¢è¯¥å‘˜å·¥çš„å·¥èµ„,
+  -- æ ¹æ®ä¸åŒçš„æƒ…å†µ,è¿”å›žå·¥èµ„çš„å¢žé•¿æ•°
+  --å‡½æ•°æ˜¯æœ‰è¿”å›žå€¼çš„,æ‰€ä»¥æœ‰returnå…³é”®å­—
   CREATE OR REPLACE FUNCTION ADD_SAL(P_NAME VARCHAR2) RETURN NUMBER IS
 
   V_SAL EMP.SAL%TYPE;
 
 BEGIN
 
-  /* ÔÚº¯ÊýÖÐËäÈ»¿ÉÒÔÖ´ÐÐDMLÓï¾ä,µ«ÊÇÃ»ÓÐÊ²Ã´ÒâÒå,Î¥±³º¯ÊýµÄÓÃÒâ
+  /* åœ¨å‡½æ•°ä¸­è™½ç„¶å¯ä»¥æ‰§è¡ŒDMLè¯­å¥,ä½†æ˜¯æ²¡æœ‰ä»€ä¹ˆæ„ä¹‰,è¿èƒŒå‡½æ•°çš„ç”¨æ„
   UPDATE EMP SET SAL = 9000 WHERE UPPER(ENAME) = UPPER(P_NAME);
   COMMIT;
   */
 
-  --¶Ô×Ö¶Î½¨Á¢µÈÊ½²éÑ¯   
+  --å¯¹å­—æ®µå»ºç«‹ç­‰å¼æŸ¥è¯¢
   SELECT SAL INTO V_SAL FROM EMP WHERE UPPER(ENAME) = UPPER(P_NAME);
 
-  --µ±Ð½Ë®v_salÐ¡ÓÚ2000Ê±,Ôò   
+  --å½“è–ªæ°´v_salå°äºŽ2000æ—¶,åˆ™
   IF (V_SAL < 2000) THEN
 
-  --·µ»ØÐ½Ë®*1.5±¶   
+  --è¿”å›žè–ªæ°´*1.5å€
   RETURN V_SAL * 1.5;
 
-  --µ±Ð½Ë®Ð¡ÓÚ3000Ê±,Ôò       
+  --å½“è–ªæ°´å°äºŽ3000æ—¶,åˆ™
   ELSIF(V_SAL < 3000) THEN
 
-  --·µ»ØÐ½Ë®*1.3±¶   
+  --è¿”å›žè–ªæ°´*1.3å€
   RETURN V_SAL * 1.3;
 
-  --µ±Ð½Ë®Ð¡ÓÚ4000Ê±       
+  --å½“è–ªæ°´å°äºŽ4000æ—¶
   ELSIF(V_SAL < 4000) THEN
 
-  --·µ»ØÐ½Ë®*1.1±¶   
+  --è¿”å›žè–ªæ°´*1.1å€
   RETURN V_SAL * 1.1; ELSE
 
-  --ÆäËûÇé¿ö²»Ôö¼ÓÐ½Ë®     
+  --å…¶ä»–æƒ…å†µä¸å¢žåŠ è–ªæ°´
   RETURN V_SAL;
-	
---½áÊøifÌõ¼þÅÐ¶Ï	
+
+--ç»“æŸifæ¡ä»¶åˆ¤æ–­
 END IF;
 
-  --´¦ÀíÒì³£
+  --å¤„ç†å¼‚å¸¸
 EXCEPTION
 
-  --µ±·¢ÉúNO_DATA_FOUNDÒì³£Ê±,Êä³öÐÅÏ¢
-  WHEN NO_DATA_FOUND THEN DBMS_OUTPUT.put_line('ÄãÊäÈëµÄÔ±¹¤Ãû³Æ:' || P_NAME || ' ²»´æÔÚ!');
+  --å½“å‘ç”ŸNO_DATA_FOUNDå¼‚å¸¸æ—¶,è¾“å‡ºä¿¡æ¯
+  WHEN NO_DATA_FOUND THEN DBMS_OUTPUT.put_line('ä½ è¾“å…¥çš„å‘˜å·¥åç§°:' || P_NAME || ' ä¸å­˜åœ¨!');
 
-  --½áÊø
+  --ç»“æŸ
 END;
 
 --------------------------------------------------------------------------------------------------------
 
-  --¸üÐÂemp±íÖÐÊý¾Ý
+  --æ›´æ–°empè¡¨ä¸­æ•°æ®
   SELECT * FROM EMP FOR UPDATE
-	
---------------------------------------------------------------------------------------------------------	
 
-  --¸ù¾Ýemp±íÖÐ×Ö¶ÎµÄÀàÐÍÉùÃ÷±äÁ¿
+--------------------------------------------------------------------------------------------------------
+
+  --æ ¹æ®empè¡¨ä¸­å­—æ®µçš„ç±»åž‹å£°æ˜Žå˜é‡
   DECLARE V_NAME EMP.ENAME%TYPE := 'SMITH'; V_ADD_SAL EMP.SAL%TYPE;
 
 BEGIN
 
-  --¶Ô±äÁ¿½øÐÐ¸³Öµ
+  --å¯¹å˜é‡è¿›è¡Œèµ‹å€¼
   V_ADD_SAL := ADD_SAL(P_NAME => V_NAME); DBMS_OUTPUT.put_line('V_ADD_SAL=' || V_ADD_SAL);
 
 END;
 
-  SELECT E.ENAME, E.SAL Ô­À´µÄ¹¤×Ê, ADD_SAL(E.ENAME) "Ôö³¤ºóµÄ¹¤×Ê" FROM EMP E;
+  SELECT E.ENAME, E.SAL åŽŸæ¥çš„å·¥èµ„, ADD_SAL(E.ENAME) "å¢žé•¿åŽçš„å·¥èµ„" FROM EMP E;
 
   select * from emp;

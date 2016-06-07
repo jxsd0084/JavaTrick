@@ -1,5 +1,7 @@
---1����дһ��pl/sql�飻
---1����emp���в�ѯ����ΪFORD�Ĺ��ʣ�����ʾ����Ļ�ϡ�
+
+
+--1、编写一个pl/sql块；
+--1）在emp表中查询姓名为FORD的工资，并显示在屏幕上。
 
 DECLARE 
   EMP_SAL EMP.SAL%TYPE;
@@ -8,7 +10,7 @@ BEGIN
   DBMS_OUTPUT.PUT_LINE(EMP_SAL);
 END;
 
---2����emp���в�ѯ����Ϊ7934����Ϣ����ʾ����Ļ�ϡ�
+--2）在emp表中查询代号为7934的信息并显示在屏幕上。
 
 SELECT * FROM EMP;
 
@@ -19,9 +21,13 @@ BEGIN
   DBMS_OUTPUT.PUT_LINE(EMP_TAB.EMPNO||'  '||EMP_TAB.ENAME||'  '||EMP_TAB.JOB||'  '||EMP_TAB.MGR||'  '||TO_CHAR(EMP_TAB.HIREDATE,'YYYY-MM-DD')||'  '||EMP_TAB.SAL||'  '||EMP_TAB.COMM||'  '||EMP_TAB.DEPTNO);
 END;
 
---2����дһ��pl/sql�飬����1+2+3+4+5+����+100��ֵ������ʾ����Ļ�ϡ�
 
---FOR ѭ��
+
+
+
+--2、编写一个pl/sql块，计算1+2+3+4+5+……+100的值，并显示在屏幕上。
+
+--FOR 循环
 DECLARE
   SUM_N NUMBER(4) := 0;
 BEGIN
@@ -31,7 +37,7 @@ BEGIN
   DBMS_OUTPUT.PUT_LINE(SUM_N);
 END;
 
---��ѭ��
+--简单循环
 DECLARE
   SUM_N NUMBER(4) := 0;
   I     NUMBER(3) := 0;
@@ -44,7 +50,7 @@ BEGIN
   DBMS_OUTPUT.PUT_LINE(SUM_N);
 END;
 
---WHILE ѭ��
+--WHILE 循环
 DECLARE
   SUM_N NUMBER(4) := 0;
   I     NUMBER(3) := 0;
@@ -56,12 +62,16 @@ BEGIN
   DBMS_OUTPUT.PUT_LINE(SUM_N);
 END;
 
-/*3����дһ��pl/sql�飻
-      ��ѯ����Ա���Ĺ���
-���ʵ���2000��1500��
-���ʽ���2000-3200֮����30%��
-���ʸ���3200���䡣
-      ��ifʵ�֡�*/
+
+
+
+
+/*3、编写一个pl/sql块；
+      查询所有员工的工资
+工资低于2000涨1500；
+工资介于2000-3200之间涨30%；
+工资高于3200不变。
+      用if实现。*/
 DECLARE
   CURSOR CUR_EMP IS
     SELECT SAL FROM EMP FOR UPDATE;
@@ -83,17 +93,21 @@ END;
   
 DBMS_OUTPUT.PUT_LINE
 
-/*4������һ������student_��š�����дpl/sql����ʵ�����¹��ܡ�
-1���ֶΣ�
-Sid   ѧ������
-����Ϊ��λ��������  Sname  ѧ������
-10λ�ַ���  Ssex  ѧ���Ա�
-1λ�ַ�
-2������100������
-  ѧ�������ֱ���s001,s002,s003,s004����s100��
-  �Ա�ֱ��ǣ����sid�ܱ�2������Ϊ���ԣ�����ΪŮ�ԡ�
 
-3����ʾ����oracle�����ʵ�������������ֶΣ�sid���ǡ�*/
+
+
+
+/*4、建立一个表“student_班号”，编写pl/sql块来实现如下功能。
+1）字段：
+Sid   学生代码
+必须为六位整型数字  Sname  学生姓名
+10位字符型  Ssex  学生性别
+1位字符
+2）插入100条数据
+  学生姓名分别是s001,s002,s003,s004……s100，
+  性别分别是：如果sid能被2整除，为男性，否则为女性。
+
+3）提示：在oracle中如何实现类似自增长字段？sid就是。*/
 
 CREATE TABLE STUDENT_CNO(
        SID        NUMBER(6),
@@ -126,11 +140,15 @@ END;
 
 SELECT * FROM STUDENT_CNO;
 
-/*5��  ��дһPL/SQL�������й�Ա�����ǻ���нˮ��10%��н��������Ӻ��нˮ����5000����ȡ���ù�Ա�ļ�н��
-�漰��֪ʶ�㣺
-1��  �α�Ķ����ʹ��
-2��  ʹ��ѭ���α�ʵ��
-3��  Current of �α���÷�*/
+
+
+
+
+/*5、  编写一PL/SQL，对所有雇员按他们基本薪水的10%加薪，如果增加后的薪水大于5000，则取消该雇员的加薪。
+涉及的知识点：
+1）  游标的定义和使用
+2）  使用循环游标实现
+3）  Current of 游标的用法*/
 
 --CREATE OR REPLACE PROCEDURE P_EMP IS
 DECLARE
@@ -148,14 +166,18 @@ BEGIN
 END;
 
 SELECT * FROM EMP;
-/*6��  ���ݿͻ�������ı�������ѯ�����м�����¼������ʾ���ṹ
-�漰��֪ʶ�㣺
-1��  Oracle��ϵͳ��ͼ
-2��  ��̬SQL��ʹ��
-3��  �α��ʹ��
-ʵ�ֵĲ��裺
-1��  �ҳ��ܹ���ѯ���ṹ��������ͼ����ע������Sqlplus�е������Sql����������SYS�û�����ͼ����Ѱ�������ṹ��������ͼ
-2��  ����ʲôʱ����Ҫʹ�ö�̬SQL����Ҫʹ���α�*/
+
+
+
+
+/*6、  根据客户端输入的表名，查询表中有几条记录，并显示表结构
+涉及的知识点：
+1）  Oracle的系统视图
+2）  动态SQL的使用
+3）  游标的使用
+实现的步骤：
+1）  找出能够查询表结构的数据视图——注意区分Sqlplus中的命令和Sql语句的区别。在SYS用户的视图中找寻描述表结构的数据视图
+2）  考虑什么时候需要使用动态SQL，需要使用游标*/
 
 
 SELECT COUNT(*) FROM EMPS
@@ -177,7 +199,7 @@ BEGIN
   V_SQL := 'SELECT COUNT(*) FROM ' || V_TABLE_NAME;
   EXECUTE IMMEDIATE V_SQL
     INTO V_COUNT;
-  DBMS_OUTPUT.PUT_LINE('����������' || V_COUNT);
+  DBMS_OUTPUT.PUT_LINE('数据条数：' || V_COUNT);
   FOR EMP_REC IN CUR_EMP(V_TABLE_NAME) LOOP
     DBMS_OUTPUT.PUT_LINE(EMP_REC.column_name || '   ' || EMP_REC.data_type ||
                          '   ' || EMP_REC.data_length);
@@ -188,14 +210,14 @@ EXCEPTION
     V_CODE    := SQLCODE;
     V_MESSAGE := SQLERRM;
     IF (V_CODE = -942) THEN
-      DBMS_OUTPUT.put_line('������ı���:' || V_TABLE_NAME || ' ������!');
+      DBMS_OUTPUT.put_line('你输入的表名:' || V_TABLE_NAME || ' 不存在!');
     END IF;
   
 END;
 
 
 declare
-  vtname varchar2(20) := '&����';
+  vtname varchar2(20) := '&表名';
   vcount number;
   vsql1  varchar2(1000);
   cursor c1 is
@@ -211,18 +233,18 @@ begin
     from user_tables
    where upper(table_name) = upper(vtname);
   if vcount < 1 then
-    dbms_output.put_line(vtname || '�����������������룡');
+    dbms_output.put_line(vtname || '表不存在请重新输入！');
   else
     vsql1 := 'select count(*) from ' || vtname;
     execute immediate vsql1
       into vcount;
-    dbms_output.put_line(vtname || '���й���' || vcount || '����¼');
+    dbms_output.put_line(vtname || '表中共有' || vcount || '条记录');
     open c1;
     loop
       fetch c1
         into vcolname, vcoltype, vcollen;
       exit when c1%notfound;
-      dbms_output.put_line('����' || '  ' || '����(����)');
+      dbms_output.put_line('列名' || '  ' || '类型(长度)');
       dbms_output.put_line('---------------------------');
       dbms_output.put_line(vcolname || '  ' || vcoltype || '(' || vcollen || ')');
     end loop;

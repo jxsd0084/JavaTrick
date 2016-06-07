@@ -18,6 +18,9 @@ BEGIN
                        V_TABLE2(2) || '  V_TABLE1(3)=' || V_TABLE2(3));
 
 END;
+
+
+
 ---------------------------------------------------------------------
 DECLARE
     TYPE  EMP_REC IS RECORD (
@@ -39,6 +42,9 @@ BEGIN
     DBMS_OUTPUT.put_line(EMP_REC_1.EMPNO ||EMP_REC_1.ENAME || EMP_REC_1.JOB || EMP_REC_1.MGR ||  TO_CHAR( EMP_REC_1.HIREDATE ,'YYYY-MM-DD') );
 
 END;
+
+
+
 ---------------------------------------------------------------------
 DECLARE
   V_EMPNO DATE;
@@ -69,6 +75,9 @@ BEGIN
   V_3 := '张三';
   DBMS_OUTPUT.put_line(V_3);
 END;
+
+
+
 ---------------------------------------------------------------------
 DECLARE
     -- V_EMP_REC 是一个记录类型的变量
@@ -103,6 +112,9 @@ BEGIN
    
     DBMS_OUTPUT.put_line(V_EMP_REC2.EMPNO ||V_EMP_REC2.ENAME || V_EMP_REC2.JOB || V_EMP_REC2.MGR ||  TO_CHAR( V_EMP_REC2.HIREDATE ,'YYYY-MM-DD') );
 END;
+
+
+
 ---------------------------------------------------------------------
 declare
   --v_weight number(3) := 100;
@@ -120,7 +132,9 @@ begin
   v_weight := v_weight + 1;
   dbms_output.put_line('在嵌套块外v_weight的值是:' || v_weight);
 end;
-/
+
+
+
 
 ---------------------------------------------------------------------
 DECLARE
@@ -137,6 +151,10 @@ BEGIN
        DBMS_OUTPUT.put_line('假的');   
    END IF;
 END;
+
+
+
+
 ---------------------------------------------------------------------
 declare
   v_1 varchar2(20) ;
@@ -152,6 +170,9 @@ SELECT * FROM EMP;
 SELECT MAX(SAL) 
     FROM EMP 
     GROUP BY DEPTNO;
+
+
+
 ---------------------------------------------------------------------
 DECLARE
     --V_EMPNO   EMP.EMPNO%TYPE; 
@@ -182,8 +203,11 @@ BEGIN
    DELETE FROM DEPT WHERE DEPTNO = 40;
    COMMIT;
 END;
----------------------------------------------------------------------
 
+
+
+
+---------------------------------------------------------------------
 CREATE TABLE USERS(
     ID        NUMBER(4) PRIMARY KEY,
     NAME      VARCHAR2(20),
@@ -221,6 +245,9 @@ BEGIN
 )';
 END;
 
+
+
+
 ---------------------------------------------------------------------
 --DECLARE
 CREATE OR REPLACE PROCEDURE  P_EMP IS
@@ -233,6 +260,10 @@ BEGIN
     EXECUTE IMMEDIATE  V_SQL INTO V_COUNT;    
     DBMS_OUTPUT.PUT_LINE(V_COUNT);    
 END;
+
+
+
+
 ---------------------------------------------------------------------
 DECLARE
    V_SCORE   NUMBER(3) := 70;
@@ -247,6 +278,10 @@ BEGIN
       DBMS_OUTPUT.put_line('优');      
    END IF;       
 END;
+
+
+
+
 ---------------------------------------------------------------------
 SELECT *  FROM EMP WHERE EMPNO = 7369;
 
@@ -277,6 +312,10 @@ BEGIN
   END LOOP;  
   COMMIT;
 END;
+
+
+
+
 ---------------------------------------------------------------------
 DECLARE
   V_COUNT NUMBER(2) := 0;
@@ -292,6 +331,10 @@ BEGIN
   
   COMMIT;
 END;
+
+
+
+
 ---------------------------------------------------------------------
 
 SELECT * FROM USERS;
@@ -313,6 +356,10 @@ BEGIN
     
     COMMIT;
 END;
+
+
+
+
 ---------------------------------------------------------------------
 DECLARE
    V_COUNT   NUMBER(2);  
@@ -321,6 +368,10 @@ BEGIN
    V_COUNT := SQL%ROWCOUNT;
    DBMS_OUTPUT.put_line('共删除数据:' || V_COUNT);  
 END;
+
+
+
+
 ---------------------------------------------------------------------
 DECLARE
     -- 声明游标,就是将游标和一个查询语句绑在一起
@@ -338,6 +389,10 @@ BEGIN
     CLOSE CUR_EMP;
 
 END;
+
+
+
+
 ---------------------------------------------------------------------
 DECLARE
 --CREATE OR REPLACE PROCEDURE  V_EMP IS
@@ -365,6 +420,10 @@ BEGIN
   DBMS_OUTPUT.put_line('数据总条数:' || CUR_EMP%ROWCOUNT);
 
 END;
+
+
+
+
 ---------------------------------------------------------------------
 --DECLARE
 CREATE OR REPLACE PROCEDURE  V_EMP IS
@@ -386,6 +445,10 @@ BEGIN
   
   CLOSE CUR_EMP;  
 END;
+
+
+
+
 ---------------------------------------------------------------------
 -- FOR 循环可以简化游标的开发,游标别隐式的open fetch close;
 -- 并且自动维护记录类型的变量
@@ -401,9 +464,12 @@ BEGIN
   DBMS_OUTPUT.put_line('数据总条数:' || CUR_EMP%ROWCOUNT);
 
 END;
+
+
+
+
 ---------------------------------------------------------------------
 --DECLARE
-
 CREATE OR REPLACE PROCEDURE PROC_EMP(PARAM_DEPTNO DEPT.DEPTNO%TYPE) IS
   -- 声明了一个带有参数的游标
   CURSOR CUR_EMP(P_DEPTNO NUMBER) IS
@@ -431,6 +497,10 @@ BEGIN
   END LOOP;
 
 END;
+
+
+
+
 ---------------------------------------------------------------------
 SELECT E.SAL  FROM EMP E WHERE UPPER(ENAME) = 'CLARK' FOR UPDATE;
 
@@ -453,6 +523,10 @@ BEGIN
 END;
 
 SELECT SAL FROM EMP ;
+
+
+
+
 ---------------------------------------------------------------------
 DECLARE
    CURSOR  CUR_EMP IS  
@@ -494,6 +568,10 @@ BEGIN
      EXECUTE IMMEDIATE V_SQL INTO V_COUNT;
      OPEN  CUR_EMP(V_TABLE_NAME);
 END;
+
+
+
+
 ---------------------------------------------------------------------
 DECLARE
 
@@ -501,6 +579,10 @@ BEGIN
 
 
 END;
+
+
+
+
 ---------------------------------------------------------------------
 DECLARE
 

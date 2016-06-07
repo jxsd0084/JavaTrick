@@ -81,6 +81,10 @@ EXCEPTION
 		
 --结束		
 END;
+
+
+
+
 --------------------------------------------------------
 
 --声明
@@ -95,6 +99,9 @@ EXCEPTION
   WHEN OTHERS THEN
     DBMS_OUTPUT.put_line('遇到其他的异常');
 END;
+
+
+
 
 --------------------------------------------------------
 drop table sm_emp;
@@ -129,6 +136,9 @@ EXCEPTION
     DBMS_OUTPUT.put_line('phonelostexception：' || v_name || '的电话为空');
 END;
 
+
+
+
 --------------------------------------------------------
 DROP TABLE ERR_LOG;
 CREATE TABLE ERR_LOG(CODE NUMBER(10), MESSAGE VARCHAR2(255), DATETIME DATE);
@@ -154,6 +164,10 @@ EXCEPTION
     COMMIT;
     DBMS_OUTPUT.put_line('发生异常');
 END;
+
+
+
+
 --------------------------------------------------------
 DECLARE
 

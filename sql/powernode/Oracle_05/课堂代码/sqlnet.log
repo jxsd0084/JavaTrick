@@ -2,18 +2,18 @@
 
 ***********************************************************************
 Fatal NI connect error 12541, connecting to:
- (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=PC2011080312UFB)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=bjpowernode.com)(CID=(PROGRAM=D:\Program Files\PLSQL_Developer_8.0.3.1510¼òÌåÖĞÎÄÂÌÉ«°æ\PLSQL_Developer_8.0.3.1510¼òÌåÖĞÎÄÂÌÉ«°æ\PLSQL Developer 8.0.3.1510\plsqldev.exe)(HOST=PC2011080312UFB)(USER=Administrator))))
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=PC2011080312UFB)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=bjpowernode.com)(CID=(PROGRAM=D:\Program Files\PLSQL_Developer_8.0.3.1510ç®€ä½“ä¸­æ–‡ç»¿è‰²ç‰ˆ\PLSQL_Developer_8.0.3.1510ç®€ä½“ä¸­æ–‡ç»¿è‰²ç‰ˆ\PLSQL Developer 8.0.3.1510\plsqldev.exe)(HOST=PC2011080312UFB)(USER=Administrator))))
 
   VERSION INFORMATION:
 	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
 	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
-  Time: 08-11ÔÂ-2011 10:54:51
+  Time: 08-11æœˆ-2011 10:54:51
   Tracing not turned on.
   Tns error struct:
     ns main err code: 12541
-    TNS-12541: TNS: ÎŞ¼àÌı³ÌĞò
+    TNS-12541: TNS: æ— ç›‘å¬ç¨‹åº
     ns secondary err code: 12560
     nt main err code: 511
-    TNS-00511: ÎŞ¼àÌı³ÌĞò
+    TNS-00511: æ— ç›‘å¬ç¨‹åº
     nt secondary err code: 61
     nt OS err code: 0
