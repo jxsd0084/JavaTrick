@@ -1,0 +1,510 @@
+/etc/alternatives/fakeroot:      echo >&2 "fakeroot: $i"
+/etc/alternatives/fakeroot:       echo "fakeroot version 1.18.2"
+/etc/alternatives/fakeroot:FAKED_MODE="unknown-is-root"
+/etc/alternatives/fakeroot:fakeroot, create a fake root environment.
+/etc/alternatives/fakeroot:LIB=libfakeroot-sysv.so
+/etc/alternatives/fakeroot:PATHS=/usr/lib/x86_64-linux-gnu/libfakeroot:${FAKEROOT_PREFIX}/lib64/libfakeroot:${FAKEROOT_PREFIX}/lib32/libfakeroot
+/etc/alternatives/fakeroot:# strip /bin/fakeroot to find install prefix
+/etc/alternatives/fakeroot:# the requested program with fake root privileges.
+/etc/alternatives/fakeroot:   usage: fakeroot [-l|--lib fakerootlib] [-f|--faked fakedbin]
+/etc/alternatives/ghostscript-current/lib/gs_kanji.ps:% Define the encoding for the root font.
+/etc/alternatives/ghostscript-current/lib/rollconv.ps:                % Copy the definition of the root font.
+/etc/alternatives/ghostscript-current/lib/wftopfa.ps:% Define the Encoding for the root font.
+/etc/alternatives/ghostscript-current/lib/wftopfa.ps:% Define the template for the root font dictionary.
+/etc/alternatives/ghostscript-current/lib/wftopfa.ps:    { dup wfrootencoding exch get 0 eq
+/etc/alternatives/ghostscript-current/lib/wftopfa.ps:  /Encoding wfrootencoding
+/etc/alternatives/ghostscript-current/lib/wftopfa.ps:   fontname cvn writerootfont
+/etc/alternatives/ghostscript-current/lib/wftopfa.ps:/makerootfont		% <rootname> makerootfont <font>
+/etc/alternatives/ghostscript-current/lib/wftopfa.ps: { save exch makerootfont setfont (%stdout) (w) file writefont restore
+/etc/alternatives/ghostscript-current/lib/wftopfa.ps:/wfrootencoding
+/etc/alternatives/ghostscript-current/lib/wftopfa.ps: { wfrootfontdict dup length 4 add	% FontName, FDepVector, PrefEnc, FID
+/etc/alternatives/ghostscript-current/lib/wftopfa.ps:/wfrootfontdict mark
+/etc/alternatives/ghostscript-current/lib/wftopfa.ps:% Write a root font.  Again, wrfont.ps does most of the work.
+/etc/alternatives/ghostscript-current/lib/wftopfa.ps:/writerootfont		% <rootname> writerootfont -
+/etc/alternatives/ghostscript-current/Resource/Decoding/FCO_Unicode:16#221A  radical      squareroot
+/etc/alternatives/ghostscript-current/Resource/Decoding/FCO_Unicode:16#221B        cuberoot
+/etc/alternatives/ghostscript-current/Resource/Decoding/FCO_Unicode:16#221C        fourthroot
+/etc/alternatives/ghostscript-current/Resource/Decoding/Unicode:16#221A  radical      squareroot
+/etc/alternatives/ghostscript-current/Resource/Decoding/Unicode:16#221B        cuberoot
+/etc/alternatives/ghostscript-current/Resource/Decoding/Unicode:16#221C        fourthroot
+/etc/alternatives/ghostscript-current/Resource/Init/gs_btokn.ps:        /renderbands /resetfile /reversepath /rootfont /rrand
+/etc/alternatives/ghostscript-current/Resource/Init/gs_init.ps:/rootfont where { pop /findencoding { .findencoding } def } if
+/etc/alternatives/ghostscript-current/Resource/Init/pdf_font.ps:    1 index exch    % <<>> (root) (root) (~GS~0)
+/etc/alternatives/ghostscript-current/Resource/Init/pdf_font.ps:    3 index exch    % <<>> (root) (root~GS~0) <<>> (root~GS~0)
+/etc/alternatives/ghostscript-current/Resource/Init/pdf_font.ps:    5 string cvs    % <<>> (root) (0)
+/etc/alternatives/ghostscript-current/Resource/Init/pdf_font.ps:    concatstrings   % <<>> (root) (root~GS~0)
+/etc/alternatives/ghostscript-current/Resource/Init/pdf_font.ps:    dup             % <<>> (root) (root~GS~0) (root~GS~0)
+/etc/alternatives/ghostscript-current/Resource/Init/pdf_font.ps:  exch pop cvn      % /root0
+/etc/alternatives/ghostscript-current/Resource/Init/pdf_font.ps:      exch pop exit % <<>> (root~GS~0)
+/etc/alternatives/ghostscript-current/Resource/Init/pdf_font.ps:  .namestring       % <<>> (root)
+/etc/alternatives/ghostscript-current/Resource/Init/pdf_font.ps:        rootfont /WMode known { rootfont /WMode get 1 eq } { //false } ifelse
+/etc/alternatives/ghostscript-current/Resource/Init/pdf_font.ps:/unique_name {  % <dict> </root> unique_name </unique>
+/etc/alternatives/ghostscript-current/Resource/Init/pdf_main.ps:         (   **** Warning:  No /Pages node. The document root directly point a page.\n)
+/etc/alternatives/ghostscript-current/Resource/Init/pdf_ops.ps:    dup /WMode .knownget { 0 eq } { //true } ifelse % {proc} <<rootfont>> ?horz
+/etc/alternatives/ghostscript-current/Resource/Init/pdf_ops.ps:/?FontMatrixNonHV {		% <<rootfont>> -- ?nonhv
+/etc/alternatives/ghostscript-current/Resource/Init/pdf_ops.ps:  rootfont /WMode knownoget { 1 eq { exch } if } if
+/etc/alternatives/vncserver:       "xsetroot -solid grey\n".
+/etc/apparmor.d/abstractions/lightdm_chromium-browser:    capability sys_chroot, # fod sandbox to chroot to a safe directory
+/etc/apparmor.d/abstractions/nis:  # portmapper may ask root processes to do nis/ldap at low ports
+/etc/apparmor.d/abstractions/ubuntu-helpers:# 1. This does not work for root owned processes, because of the way we use
+/etc/apparmor.d/abstractions/ubuntu-helpers:#    and going unconfined as root is not desirable any way.
+/etc/apparmor.d/abstractions/ubuntu-helpers:#    this to support root, but it would make the policy harder to understand
+/etc/apparmor.d/cache/.features:caps {mask {chown dac_override dac_read_search fowner fsetid kill setgid setuid setpcap linux_immutable net_bind_service net_broadcast net_admin net_raw ipc_lock ipc_owner sys_module sys_rawio sys_chroot sys_ptrace sys_pacct sys_admin sys_boot sys_nice sys_resource sys_time sys_tty_config mknod lease audit_write audit_control setfcap mac_override mac_admin syslog wake_alarm block_suspend
+/etc/apparmor.d/cache/.features:namespaces {pivot_root {yes
+/etc/apparmor.d/tunables/home:@{HOME}=@{HOMEDIRS}/*/ /root/
+/etc/apparmor.d/usr.sbin.cupsd:  # filters and drivers (PPD generators) are always run as non-root,
+/etc/apt/apt.conf.d/50unattended-upgrades://Unattended-Upgrade::Mail "root@localhost";
+/etc/at-spi2/accessibility.conf:    <!-- Allow root to connect -->
+/etc/at-spi2/accessibility.conf:    <allow user="root"/>
+/etc/bash.bashrc:    debian_chroot=$(cat /etc/debian_chroot)
+/etc/bash.bashrc:if [ -z "$debian_chroot" ] && [ -r /etc/debian_chroot ]; then
+/etc/bash.bashrc:PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
+/etc/bash.bashrc:	See "man sudo_root" for details.
+/etc/bash.bashrc:# set variable identifying the chroot you work in (used in the prompt below)
+/etc/bash.bashrc:	To run a command as administrator (user "root"), use "sudo <command>".
+/etc/bash_completion:_complete_as_root()
+/etc/bash_completion:complete -F _root_command fakeroot gksu gksudo kdesudo really sudo
+/etc/bash_completion.d/bind-utils:        defname search port= querytype= type= recurse retry root timeout vc \
+/etc/bash_completion.d/cvs:        COMPREPLY=( $( command ls -d ${cvsroot}/!(CVSROOT) ) )
+/etc/bash_completion.d/cvs:        COMPREPLY=( $( command ls -d ${cvsroot}/${prefix}/!(CVSROOT) ) )
+/etc/bash_completion.d/cvs:    COMPREPLY=( $( compgen -W '${cvsroots[@]}' -- "$cur" ) )
+/etc/bash_completion.d/cvs:                    COMPREPLY=( ${COMPREPLY[@]#$cvsroot} )
+/etc/bash_completion.d/cvs:                COMPREPLY=( $( cvs -d "$cvsroot" co -c 2> /dev/null | \
+/etc/bash_completion.d/cvs:                COMPREPLY=( $( cvs -d "$cvsroot" co -c | awk '{print $1}' ) )
+/etc/bash_completion.d/cvs:        cvsroot)
+/etc/bash_completion.d/cvs:                    cvsroot=${COMP_WORDS[((count+1))]}
+/etc/bash_completion.d/cvs:            _cvs_roots
+/etc/bash_completion.d/cvs:_cvs_roots()
+/etc/bash_completion.d/cvs:    cvsroots=( $CVSROOT )
+/etc/bash_completion.d/cvs:        cvsroots=( "${cvsroots[@]}" $( awk '{ print $2 }' ~/.cvspass ) )
+/etc/bash_completion.d/cvs:        if [[ "${COMP_WORDS[((count))]}" == "$cvsroot" && "$mode" == cvsroot ]]; then
+/etc/bash_completion.d/cvs:                if [ -r ${cvsroot}/${prefix} ]; then
+/etc/bash_completion.d/cvs:    local -a cvsroots
+/etc/bash_completion.d/cvs:    local cur prev count mode i cvsroot cvsroots pwd
+/etc/bash_completion.d/cvs:                    mode=cvsroot
+/etc/bash_completion.d/cvsps:            --cvs-direct --no-cvs-direct --debuglvl -Z --root -q -A' \
+/etc/bash_completion.d/cvsps:        --root)
+/etc/bash_completion.d/cvsps:            type _cvs_roots &>/dev/null && _cvs_roots
+/etc/bash_completion.d/cvsps:        type _cvs_roots &>/dev/null && _cvs_roots
+/etc/bash_completion.d/cvs:    [ -r CVS/Root ] && cvsroots=( "${cvsroots[@]}" $(cat CVS/Root) )
+/etc/bash_completion.d/cvs:                [ -z "$cvsroot" ] && cvsroot=$CVSROOT
+/etc/bash_completion.d/cvs:                [ -z "$cvsroot" ] && cvsroot=$CVSROOT
+/etc/bash_completion.d/cvs:                [ -z "$cvsroot" ] && cvsroot=$CVSROOT
+/etc/bash_completion.d/dpkg:                --debug=help --licence --admindir --root --instdir \
+/etc/bash_completion.d/dpkg:                --force-not-root --force-overwrite \
+/etc/bash_completion.d/genisoimage:            -icon-position -root-info -prep-boot \
+/etc/bash_completion.d/genisoimage:        -root-info|-prep-boot|-*-list)
+/etc/bash_completion.d/larch:            init-tree tree-root tree-version set-tree-version inventory \
+/etc/bash_completion.d/lintian:                        --arch --root"
+/etc/bash_completion.d/lintian:                    --color --unpack-info --md5sums --checksums --allow-root \
+/etc/bash_completion.d/lintian:            --lab|--archivedir|--dist|--root)
+/etc/bash_completion.d/mplayer:        -autoq|-autosync|-loop|-menu-root|-speed|-sstep|-aid|-alang| \
+/etc/bash_completion.d/munin-node:        COMPREPLY=( $( compgen -W '--force-root --[no]force-root \
+/etc/bash_completion.d/qemu:            -chroot -runas' -- "$cur" ) )
+/etc/bash_completion.d/qemu:        -tftp|-smb|-L|-chroot)
+/etc/bash_completion.d/quota-tools:            --no-remount -R --exclude-root -F --format -a --all' -- "$cur" ) )
+/etc/bash_completion.d/rpm:                    --clean --rmsource --rmspec --test --sign --buildroot \
+/etc/bash_completion.d/rpm:                COMPREPLY=( $( compgen -W '--import --dbpath --root' \
+/etc/bash_completion.d/rpm:                COMPREPLY=( $( compgen -W "$opts --root --dbpath --nodeps \
+/etc/bash_completion.d/rpm:        --dbpath|--excludepath|--prefix|--relocate|--root)
+/etc/bash_completion.d/rpm:        --import|--dbpath|--root)
+/etc/bash_completion.d/rpm:                        --last --root --state" -- "$cur" ) )
+/etc/bash_completion.d/rpm:                        --package --pkgid --root --specfile --state 
+/etc/bash_completion.d/rpm:                --test --replacepkgs --replacefiles --root \
+/etc/bash_completion:    [[ $EUID -eq 0 || ${root_command:-} ]]
+/etc/bash_completion:    if _complete_as_root; then
+/etc/bash_completion:    if _complete_as_root; then
+/etc/bash_completion:    local root_command=$1
+/etc/bash_completion:# Return true if the completion should be treated as running as root
+/etc/bash_completion:_root_command()
+/etc/brltty/en-us-g2.ctb:begword redro 1235-1246-1235-135 redroot redrock
+/etc/brltty/ipa.ctb:always  ̘ 6-156		# advancing sign below         417 advanced tongue root
+/etc/brltty/ipa.ctb:always  ̙ 6-234		# retracting sign below        418 retracted tongue root
+/etc/ca-certificates.conf.dpkg-old:mozilla/Comodo_AAA_Services_root.crt
+/etc/ca-certificates.conf.dpkg-old:mozilla/Comodo_Secure_Services_root.crt
+/etc/ca-certificates.conf.dpkg-old:mozilla/Comodo_Trusted_Services_root.crt
+/etc/ca-certificates.conf:mozilla/Comodo_AAA_Services_root.crt
+/etc/ca-certificates.conf:mozilla/Comodo_Secure_Services_root.crt
+/etc/ca-certificates.conf:mozilla/Comodo_Trusted_Services_root.crt
+/etc/cron.daily/apt:#  - Send report mail to root
+/etc/cron.daily/man-db:    chown man:root /var/cache/man || true
+/etc/cron.daily/standard:# Start in the root filesystem, make SElinux happy
+/etc/cron.d/anacron:30 7    * * *   root	start -q anacron || :
+/etc/cron.d/anacron:#30 7    * * *   root	test -x /etc/init.d/anacron && /usr/sbin/invoke-rc.d anacron start >/dev/null
+/etc/crontab:17 *	* * *	root    cd / && run-parts --report /etc/cron.hourly
+/etc/crontab:25 6	* * *	root	test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily )
+/etc/crontab:47 6	* * 7	root	test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.weekly )
+/etc/crontab:52 6	1 * *	root	test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.monthly )
+/etc/cron.weekly/man-db:    chown man:root /var/cache/man || true
+/etc/cups/cups-files.conf:#DocumentRoot /usr/share/cups/doc-root
+/etc/cups/cups-files.conf:# of ServerRoot is used as the root directory.  Also see the "LogLevel"
+/etc/cups/cups-files.conf:# of ServerRoot is used as the root directory.  Also see the "PageLogFormat"
+/etc/cups/cups-files.conf:#RemoteRoot remroot
+/etc/cups/cups-files.conf:# root directory.  Also see the "AccessLogLevel" directive in cupsd.conf.
+/etc/cups/cups-files.conf:# User that is substituted for unauthenticated (remote) root accesses...
+/etc/dbus-1/session.conf:  <include if_selinux_enabled="yes" selinux_root_relative="yes">contexts/dbus_contexts</include>
+/etc/dbus-1/system.conf:  <include if_selinux_enabled="yes" selinux_root_relative="yes">contexts/dbus_contexts</include>
+/etc/dbus-1/system.d/avahi-dbus.conf:  <!-- Only root or user avahi can own the Avahi service -->
+/etc/dbus-1/system.d/avahi-dbus.conf:  <policy user="root">
+/etc/dbus-1/system.d/avahi-dbus.conf:  <policy user="root">
+/etc/dbus-1/system.d/bluetooth.conf:    <!-- allow root to send to agents -->
+/etc/dbus-1/system.d/bluetooth.conf:  <policy user="root">
+/etc/dbus-1/system.d/com.hp.hplip.conf:  <!-- Only root can own the service -->
+/etc/dbus-1/system.d/com.hp.hplip.conf:  <policy user="root">
+/etc/dbus-1/system.d/com.redhat.NewPrinterNotification.conf:	<policy user="root">
+/etc/dbus-1/system.d/com.redhat.NewPrinterNotification.conf:	<policy user="root">
+/etc/dbus-1/system.d/com.redhat.PrinterDriversInstaller.conf:	<policy user="root">
+/etc/dbus-1/system.d/com.redhat.PrinterDriversInstaller.conf:	<policy user="root">
+/etc/dbus-1/system.d/com.ubuntu.DeviceDriver.conf:  <!-- Only root can own the service -->
+/etc/dbus-1/system.d/com.ubuntu.DeviceDriver.conf:  <policy user="root">
+/etc/dbus-1/system.d/com.ubuntu.LanguageSelector.conf:        <policy user="root">
+/etc/dbus-1/system.d/com.ubuntu.SoftwareCenter.conf:        <policy user="root">
+/etc/dbus-1/system.d/com.ubuntu.SoftwareProperties.conf:  <policy user="root">
+/etc/dbus-1/system.d/com.ubuntu.SystemService.conf:        <policy user="root">
+/etc/dbus-1/system.d/com.ubuntu.USBCreator.conf:  <!-- Only root can own the service -->
+/etc/dbus-1/system.d/com.ubuntu.USBCreator.conf:  <policy user="root">
+/etc/dbus-1/system.d/com.ubuntu.WhoopsiePreferences.conf:  <!-- Only root can own the service -->
+/etc/dbus-1/system.d/com.ubuntu.WhoopsiePreferences.conf:  <policy user="root">
+/etc/dbus-1/system.d/ConsoleKit.conf:  <!-- Only root can own the service -->
+/etc/dbus-1/system.d/ConsoleKit.conf:  <policy user="root">
+/etc/dbus-1/system.d/dnsmasq.conf:	<policy user="root">
+/etc/dbus-1/system.d/Mountall.Server.conf:  <!-- Only the root user can own the Mountall name -->
+/etc/dbus-1/system.d/Mountall.Server.conf:  <!-- Permit the root user to invoke all of the methods on Mountall-->
+/etc/dbus-1/system.d/Mountall.Server.conf:  <policy user="root">
+/etc/dbus-1/system.d/Mountall.Server.conf:  <policy user="root">
+/etc/dbus-1/system.d/nm-avahi-autoipd.conf:        <policy user="root">
+/etc/dbus-1/system.d/nm-dhcp-client.conf:        <policy user="root">
+/etc/dbus-1/system.d/nm-dispatcher.conf:	<policy user="root">
+/etc/dbus-1/system.d/nm-pptp-service.conf:	<policy user="root">
+/etc/dbus-1/system.d/org.debian.apt.conf:  <policy user="root">
+/etc/dbus-1/system.d/org.debian.AptXapianIndex.conf:        <policy user="root">
+/etc/dbus-1/system.d/org.freedesktop.Accounts.conf:  <!-- Only root can own the service -->
+/etc/dbus-1/system.d/org.freedesktop.Accounts.conf:  <policy user="root">
+/etc/dbus-1/system.d/org.freedesktop.ColorManager.conf:  <!-- Only user root or user colord can own the colord service -->
+/etc/dbus-1/system.d/org.freedesktop.ColorManager.conf:  <policy user="root">
+/etc/dbus-1/system.d/org.freedesktop.DisplayManager.conf:  <!-- Only root can own the service -->
+/etc/dbus-1/system.d/org.freedesktop.DisplayManager.conf:  <policy user="root">
+/etc/dbus-1/system.d/org.freedesktop.hostname1.conf:        <policy user="root">
+/etc/dbus-1/system.d/org.freedesktop.locale1.conf:        <policy user="root">
+/etc/dbus-1/system.d/org.freedesktop.ModemManager.conf:  <policy user="root">
+/etc/dbus-1/system.d/org.freedesktop.NetworkManager.conf:        <policy user="root">
+/etc/dbus-1/system.d/org.freedesktop.PackageKit-aptd.conf:  <!-- Only user root can own the PackageKit service -->
+/etc/dbus-1/system.d/org.freedesktop.PackageKit-aptd.conf:  <policy user="root">
+/etc/dbus-1/system.d/org.freedesktop.PolicyKit1.conf:  <policy user="root">
+/etc/dbus-1/system.d/org.freedesktop.PolicyKit1.conf:  <policy user="root">
+/etc/dbus-1/system.d/org.freedesktop.RealtimeKit1.conf:  <policy user="root">
+/etc/dbus-1/system.d/org.freedesktop.RealtimeKit1.conf:  <policy user="root">
+/etc/dbus-1/system.d/org.freedesktop.UDisks.conf:  <!-- Only root can own the service -->
+/etc/dbus-1/system.d/org.freedesktop.UDisks.conf:  <policy user="root">
+/etc/dbus-1/system.d/org.freedesktop.UPower.conf:  <!-- Only root can own the service -->
+/etc/dbus-1/system.d/org.freedesktop.UPower.conf:  <policy user="root">
+/etc/dbus-1/system.d/org.gnome.SettingsDaemon.DateTimeMechanism.conf:  <!-- Only root can own the service -->
+/etc/dbus-1/system.d/org.gnome.SettingsDaemon.DateTimeMechanism.conf:  <policy user="root">
+/etc/dbus-1/system.d/org.kde.kcontrol.kcmremotewidgets.conf:  <!-- Only user root can own the foo helper -->
+/etc/dbus-1/system.d/org.kde.kcontrol.kcmremotewidgets.conf:  <policy user="root">
+/etc/dbus-1/system.d/org.kubuntu.qaptworker.conf:  <!-- Only user root can own the QAptWorker service -->
+/etc/dbus-1/system.d/org.kubuntu.qaptworker.conf:  <policy user="root">
+/etc/dbus-1/system.d/Upstart.conf:  <!-- Only the root user can own the Upstart name -->
+/etc/dbus-1/system.d/Upstart.conf:  <!-- Permit the root user to invoke all of the methods on Upstart, its jobs
+/etc/dbus-1/system.d/Upstart.conf:  <policy user="root">
+/etc/dbus-1/system.d/Upstart.conf:  <policy user="root">
+/etc/dbus-1/system.d/wpa_supplicant.conf:        <policy user="root">
+/etc/default/grub:# Uncomment if you don't want GRUB to pass "root=UUID=xxx" parameter to Linux
+/etc/dictionaries-common/words:arrowroot
+/etc/dictionaries-common/words:arrowroot's
+/etc/dictionaries-common/words:cheroot
+/etc/dictionaries-common/words:cheroots
+/etc/dictionaries-common/words:cheroot's
+/etc/dictionaries-common/words:root
+/etc/dictionaries-common/words:rooted
+/etc/dictionaries-common/words:rooter
+/etc/dictionaries-common/words:rooting
+/etc/dictionaries-common/words:rootless
+/etc/dictionaries-common/words:roots
+/etc/dictionaries-common/words:root's
+/etc/dictionaries-common/words:taproot
+/etc/dictionaries-common/words:taproots
+/etc/dictionaries-common/words:taproot's
+/etc/dictionaries-common/words:uproot
+/etc/dictionaries-common/words:uprooted
+/etc/dictionaries-common/words:uprooting
+/etc/dictionaries-common/words:uproots
+/etc/gnome/menus.blacklist:krusader_root-mode.desktop
+/etc/group:root:x:0:
+/etc/grub.d/00_header:background_image -m stretch `make_system_path_relative_to_its_root "$GRUB_BACKGROUND"`
+/etc/grub.d/00_header:. "${datarootdir}/grub/grub-mkconfig_lib"
+/etc/grub.d/00_header:datarootdir="${prefix}/share"
+/etc/grub.d/00_header:if loadfont `make_system_path_relative_to_its_root "${GRUB_FONT_PATH}"` ; then
+/etc/grub.d/00_header:loadfont (\$root)`make_system_path_relative_to_its_root $x`
+/etc/grub.d/00_header:  set locale_dir=(\$root)$(make_system_path_relative_to_its_root ${locale_dir})
+/etc/grub.d/00_header:set theme=(\$root)`make_system_path_relative_to_its_root $GRUB_THEME`
+/etc/grub.d/05_debian_theme:	echo "if background_image `make_system_path_relative_to_its_root "${1}"`; then"
+/etc/grub.d/10_linux:. "${datarootdir}/grub/grub-mkconfig_lib"
+/etc/grub.d/10_linux:datarootdir="${prefix}/share"
+/etc/grub.d/10_linux:export TEXTDOMAINDIR="${datarootdir}/locale"
+/etc/grub.d/10_linux:    GRUB_CMDLINE_LINUX="rootflags=subvol=${rootsubvol} ${GRUB_CMDLINE_LINUX}"
+/etc/grub.d/10_linux:  if [ "x${rootsubvol}" != x ]; then
+/etc/grub.d/10_linux:    if [ -z "${prepare_root_cache}" ]; then
+/etc/grub.d/10_linux:	linux	${rel_dirname}/${basename}.efi.signed root=${linux_root_device_thisversion} ro ${args}
+/etc/grub.d/10_linux:	linux	${rel_dirname}/${basename} root=${linux_root_device_thisversion} ro ${args}
+/etc/grub.d/10_linux:    linux_root_device_thisversion=${GRUB_DEVICE}
+/etc/grub.d/10_linux:  linux_root_device_thisversion="${LINUX_ROOT_DEVICE}"
+/etc/grub.d/10_linux:# loop-AES arranges things so that /dev/loop/X can be our root device, but
+/etc/grub.d/10_linux:prepare_root_cache=
+/etc/grub.d/10_linux:      prepare_root_cache="$(prepare_grub_to_access_device ${GRUB_DEVICE} | sed -e "s/^/\t/")"
+/etc/grub.d/10_linux:    printf '%s\n' "${prepare_root_cache}"
+/etc/grub.d/10_linux:  rel_dirname=`make_system_path_relative_to_its_root $dirname`
+/etc/grub.d/10_linux:  rootsubvol="`make_system_path_relative_to_its_root /`"
+/etc/grub.d/10_linux:  rootsubvol="${rootsubvol#/}"
+/etc/grub.d/20_linux_xen:. "${datarootdir}/grub/grub-mkconfig_lib"
+/etc/grub.d/20_linux_xen:datarootdir="${prefix}/share"
+/etc/grub.d/20_linux_xen:export TEXTDOMAINDIR="${datarootdir}/locale"
+/etc/grub.d/20_linux_xen:    GRUB_CMDLINE_LINUX="rootflags=subvol=${rootsubvol} ${GRUB_CMDLINE_LINUX}"
+/etc/grub.d/20_linux_xen:  if [ "x${rootsubvol}" != x ]; then
+/etc/grub.d/20_linux_xen:	    linux_root_device_thisversion=${GRUB_DEVICE}
+/etc/grub.d/20_linux_xen:	linux_root_device_thisversion="${LINUX_ROOT_DEVICE}"
+/etc/grub.d/20_linux_xen:# loop-AES arranges things so that /dev/loop/X can be our root device, but
+/etc/grub.d/20_linux_xen:	module	${rel_dirname}/${basename} placeholder root=${linux_root_device_thisversion} ro ${args}
+/etc/grub.d/20_linux_xen:	rel_dirname=`make_system_path_relative_to_its_root $dirname`
+/etc/grub.d/20_linux_xen:    rel_xen_dirname=`make_system_path_relative_to_its_root $xen_dirname`
+/etc/grub.d/20_linux_xen:  rootsubvol="`make_system_path_relative_to_its_root /`"
+/etc/grub.d/20_linux_xen:  rootsubvol="${rootsubvol#/}"
+/etc/grub.d/20_memtest86+:  MEMTESTPATH=$( make_system_path_relative_to_its_root "/boot/memtest86+.bin" )
+/etc/grub.d/20_memtest86+:#  MEMTESTPATH=$( make_system_path_relative_to_its_root "/boot/memtest86+_multiboot.bin" )
+/etc/grub.d/30_os-prober:. "${datarootdir}/grub/grub-mkconfig_lib"
+/etc/grub.d/30_os-prober:datarootdir="${prefix}/share"
+/etc/grub.d/30_os-prober:	drivemap -s (hd0) \${root}
+/etc/grub.d/30_os-prober:			--exec-server-task='\${exec-task}' -T typed '\${root}' \\
+/etc/grub.d/30_os-prober:	multiboot /boot/gnumach.gz root=device:${mach_device}
+/etc/grub.d/30_uefi-firmware:. "${datarootdir}/grub/grub-mkconfig_lib"
+/etc/grub.d/30_uefi-firmware:datarootdir="${prefix}/share"
+/etc/grub.d/30_uefi-firmware:export TEXTDOMAINDIR="${datarootdir}/locale"
+/etc/hdparm.conf:## the keyword 'command_line' are not run until after the root filesystem
+/etc/hdparm.conf:## to run hdparm to set parameters for your root disk, please use the 
+/etc/init.d/networking:	log_warning_msg "not deconfiguring network interfaces: iSCSI root is mounted."
+/etc/init.d/ssh:chrooted() {
+/etc/init.d/ssh:if [ -e /etc/init/ssh.conf ] && ! chrooted; then
+/etc/init.d/ssh:    if [ "$(stat -c %d/%i /)" = "$(stat -Lc %d/%i /proc/1/root 2>/dev/null)" ]; then
+/etc/init.d/ssh:	# /sbin/init's root, so we're *not* in a chroot and hence
+/etc/init.d/ssh:# The init.d script is only for chroots
+/etc/init.d/umountfs:# Required-Stop:     umountroot
+/etc/init.d/umountnfs.sh:# Short-Description: Unmount all network filesystems except the root fs.
+/etc/init.d/umountroot:	# it won't hold open files on the root filesystem (lp:#672177).
+/etc/init.d/umountroot:# Provides:          umountroot
+/etc/init.d/umountroot:	# See #339023 and the comment in checkroot.sh
+/etc/init.d/umountroot:# Short-Description: Mount the root filesystem read-only.
+/etc/init.d/umountroot:	# These directories must exist on the root filesystem as they are
+/etc/init.d/umountroot:	[ "$VERBOSE" = no ] || log_action_begin_msg "Mounting root filesystem read-only"
+/etc/init.d/x11-common:        # as it is owned by root, cannot be replaced with a symlink:
+/etc/init.d/x11-common:# assumes /tmp has a sticky bit set (or is only writeable by root)
+/etc/init.d/x11-common:        chown -h root:root "$DIR" || error=$((error + 1))
+/etc/init.d/xrdp:        check_root
+/etc/init.d/xrdp:        check_root
+/etc/init.d/xrdp:        check_root
+/etc/init.d/xrdp:check_root()  {
+/etc/init.d/xrdp:        log_failure_msg "You must be root to start, stop or restart $NAME."
+/etc/init.d/xrdp:# Tasks that can only be run as root
+/etc/init/mounted-debugfs.conf:# this makes sure that the tree is kept accessible only by root.
+/etc/init/mounted-proc.conf:# only by root slightly reduces the chances of these kinds of attacks
+/etc/init/plymouth-log.conf:exec /bin/plymouth update-root-fs --read-write
+/etc/initramfs-tools/initramfs.conf:# nfs - Boot using an NFS drive as the root of the drive.
+/etc/init/udev-finish.conf:    # Copy any rules generated while the root filesystem was read-only
+/etc/init/udev-finish.conf:# these out of /dev and onto the root filesystem.
+/etc/libnl-3/classid:ffff:ffff		root
+/etc/login.defs:# (examples: 022 -> 002, 077 -> 007) for non-root users, if the uid is
+/etc/logrotate.conf:    create 0660 root utmp
+/etc/logrotate.conf:    create 0664 root utmp
+/etc/logrotate.d/cups:	create 640 root lpadmin
+/etc/logrotate.d/dpkg:	create 644 root root
+/etc/logrotate.d/dpkg:	create 644 root root
+/etc/ltrace.conf:int   SYS_chroot(string);
+/etc/mailcap.order:#  After modifying this file, be sure to run /usr/sbin/update-mime (as root)
+/etc/netscsid.conf:# If no USER= entry is present, only root is allowed to run rscsi.
+/etc/netscsid.conf:# Note that rscsi runs as root and thus may be able to overwrite any file.
+/etc/pam.d/chfn:auth		sufficient	pam_rootok.so
+/etc/pam.d/chfn:# This allows root to change user infomation without being
+/etc/pam.d/chsh:auth		sufficient	pam_rootok.so
+/etc/pam.d/chsh:# This allows root to change user shell without being
+/etc/pam.d/login:# as possibly being root on insecure lines), but root passwords may be
+/etc/pam.d/login:# Disallows other than root logins when /etc/nologin exists
+/etc/pam.d/login:# Disallows root logins except on tty's listed in /etc/securetty
+/etc/pam.d/login:# root will not be prompted for a password on insecure lines.
+/etc/pam.d/login:# You can change it to a "requisite" module if you think root may mis-type
+/etc/pam.d/sshd:# Disallow non-root logins when /etc/nologin exists.
+/etc/pam.d/su:auth       sufficient pam_rootok.so
+/etc/pam.d/su:# denying "root" user, unless she's a member of "foo" or explicitly
+/etc/pam.d/su:# permitted earlier by e.g. "sufficient pam_rootok.so").
+/etc/pam.d/su:# than the default "root" (but this may have side effect of
+/etc/pam.d/su:# This allows root to su without passwords (normal operation)
+/etc/pam.d/su:# Uncomment this to force users to be a member of group root
+/etc/passwd:root:x:0:0:root:/root:/bin/bash
+/etc/ppp/ip-up.d/0dns-up:# Is resolv.conf a non-symlink on a ro root? If so give up.
+/etc/pulse/default.pa.BeforeVMwareToolsInstall:### Publish connection data in the X11 root window
+/etc/pulse/default.pa:### Publish connection data in the X11 root window
+/etc/rc0.d/K20xrdp:        check_root
+/etc/rc0.d/K20xrdp:        check_root
+/etc/rc0.d/K20xrdp:        check_root
+/etc/rc0.d/K20xrdp:check_root()  {
+/etc/rc0.d/K20xrdp:        log_failure_msg "You must be root to start, stop or restart $NAME."
+/etc/rc0.d/K20xrdp:# Tasks that can only be run as root
+/etc/rc0.d/S31umountnfs.sh:# Short-Description: Unmount all network filesystems except the root fs.
+/etc/rc0.d/S35networking:	log_warning_msg "not deconfiguring network interfaces: iSCSI root is mounted."
+/etc/rc0.d/S40umountfs:# Required-Stop:     umountroot
+/etc/rc0.d/S60umountroot:	# it won't hold open files on the root filesystem (lp:#672177).
+/etc/rc0.d/S60umountroot:# Provides:          umountroot
+/etc/rc0.d/S60umountroot:	# See #339023 and the comment in checkroot.sh
+/etc/rc0.d/S60umountroot:# Short-Description: Mount the root filesystem read-only.
+/etc/rc0.d/S60umountroot:	# These directories must exist on the root filesystem as they are
+/etc/rc0.d/S60umountroot:	[ "$VERBOSE" = no ] || log_action_begin_msg "Mounting root filesystem read-only"
+/etc/rc1.d/K20xrdp:        check_root
+/etc/rc1.d/K20xrdp:        check_root
+/etc/rc1.d/K20xrdp:        check_root
+/etc/rc1.d/K20xrdp:check_root()  {
+/etc/rc1.d/K20xrdp:        log_failure_msg "You must be root to start, stop or restart $NAME."
+/etc/rc1.d/K20xrdp:# Tasks that can only be run as root
+/etc/rc2.d/S20xrdp:        check_root
+/etc/rc2.d/S20xrdp:        check_root
+/etc/rc2.d/S20xrdp:        check_root
+/etc/rc2.d/S20xrdp:check_root()  {
+/etc/rc2.d/S20xrdp:        log_failure_msg "You must be root to start, stop or restart $NAME."
+/etc/rc2.d/S20xrdp:# Tasks that can only be run as root
+/etc/rc3.d/S20xrdp:        check_root
+/etc/rc3.d/S20xrdp:        check_root
+/etc/rc3.d/S20xrdp:        check_root
+/etc/rc3.d/S20xrdp:check_root()  {
+/etc/rc3.d/S20xrdp:        log_failure_msg "You must be root to start, stop or restart $NAME."
+/etc/rc3.d/S20xrdp:# Tasks that can only be run as root
+/etc/rc4.d/S20xrdp:        check_root
+/etc/rc4.d/S20xrdp:        check_root
+/etc/rc4.d/S20xrdp:        check_root
+/etc/rc4.d/S20xrdp:check_root()  {
+/etc/rc4.d/S20xrdp:        log_failure_msg "You must be root to start, stop or restart $NAME."
+/etc/rc4.d/S20xrdp:# Tasks that can only be run as root
+/etc/rc5.d/S20xrdp:        check_root
+/etc/rc5.d/S20xrdp:        check_root
+/etc/rc5.d/S20xrdp:        check_root
+/etc/rc5.d/S20xrdp:check_root()  {
+/etc/rc5.d/S20xrdp:        log_failure_msg "You must be root to start, stop or restart $NAME."
+/etc/rc5.d/S20xrdp:# Tasks that can only be run as root
+/etc/rc6.d/K20xrdp:        check_root
+/etc/rc6.d/K20xrdp:        check_root
+/etc/rc6.d/K20xrdp:        check_root
+/etc/rc6.d/K20xrdp:check_root()  {
+/etc/rc6.d/K20xrdp:        log_failure_msg "You must be root to start, stop or restart $NAME."
+/etc/rc6.d/K20xrdp:# Tasks that can only be run as root
+/etc/rc6.d/S31umountnfs.sh:# Short-Description: Unmount all network filesystems except the root fs.
+/etc/rc6.d/S35networking:	log_warning_msg "not deconfiguring network interfaces: iSCSI root is mounted."
+/etc/rc6.d/S40umountfs:# Required-Stop:     umountroot
+/etc/rc6.d/S60umountroot:	# it won't hold open files on the root filesystem (lp:#672177).
+/etc/rc6.d/S60umountroot:# Provides:          umountroot
+/etc/rc6.d/S60umountroot:	# See #339023 and the comment in checkroot.sh
+/etc/rc6.d/S60umountroot:# Short-Description: Mount the root filesystem read-only.
+/etc/rc6.d/S60umountroot:	# These directories must exist on the root filesystem as they are
+/etc/rc6.d/S60umountroot:	[ "$VERBOSE" = no ] || log_action_begin_msg "Mounting root filesystem read-only"
+/etc/rcS.d/S70x11-common:        # as it is owned by root, cannot be replaced with a symlink:
+/etc/rcS.d/S70x11-common:# assumes /tmp has a sticky bit set (or is only writeable by root)
+/etc/rcS.d/S70x11-common:        chown -h root:root "$DIR" || error=$((error + 1))
+/etc/resolvconf/update.d/dnscache:# back to the root nameservers listed in /etc/dnsroots.global
+/etc/resolvconf/update.d/dnscache:	cp "$TMPFILE" "$CACHE/root/servers/@"
+/etc/resolvconf/update.d/dnscache:DEFAULTROOTS="${ETC}/dnsroots.global"
+/etc/resolvconf/update.d/dnscache:				&& [ -d "$SVC/root" ] \
+/etc/resolvconf/update.d/dnscache:				&& [ -d "$SVC/root/ip" ] \
+/etc/resolvconf/update.d/dnscache:				&& [ -d "$SVC/root/servers" ] \
+/etc/resolvconf/update.d/dnscache:# If no nameservers were present, use the default root nameservers
+/etc/resolvconf/update.d/libc:		# Remove the root domain suffix
+/etc/samba/smb.conf:# Setup usershare options to enable non-root users to share folders
+/etc/samba/smb.conf:;   write list = root, @lpadmin
+/etc/securetty:# /etc/securetty: list of terminals on which root is allowed to login.
+/etc/security/access.conf:#-:ALL EXCEPT root:tty1
+/etc/security/access.conf:# Disallow non-root logins on tty1
+/etc/security/access.conf:#+ : root : 127.0.0.1
+/etc/security/access.conf:#+ : root : 192.168.200.1 192.168.200.4 192.168.200.9
+/etc/security/access.conf:#+ : root : 192.168.201.
+/etc/security/access.conf:#- : root : ALL
+/etc/security/access.conf:#+ : root : cron crond :0 tty1 tty2 tty3 tty4 tty5 tty6
+/etc/security/access.conf:#+ : root : .foo.bar.org
+/etc/security/access.conf:# User "root" should be able to have access from domain.
+/etc/security/access.conf:# User "root" should be allowed to get access from hosts with ip addresses.
+/etc/security/access.conf:# User "root" should be allowed to get access via cron .. tty5 tty6.
+/etc/security/access.conf:# User "root" should be denied to get access from all other sources.
+/etc/security/access.conf:# User "root" should get access from network 192.168.201.
+/etc/security/capability.conf:## set'. That is, if you look at a random process, even one run by root,
+/etc/security/group.conf:# 1. to run an application as root
+/etc/security/limits.conf:#        - chroot - change root to directory (Debian-specific)
+/etc/security/limits.conf:#ftp             -       chroot          /ftp
+/etc/security/limits.conf:#        - NOTE: group and wildcard limits are not applied to root.
+/etc/security/limits.conf:#root            hard    core            100000
+/etc/security/limits.conf:#          the literal username root.
+/etc/security/limits.conf:#          To apply a limit to the root user, <domain> must be
+/etc/security/namespace.conf:# name, Polyinstantion will not be performed for user root and adm for directories 
+/etc/security/namespace.conf:#/tmp     /tmp-inst/       	level      root,adm
+/etc/security/namespace.conf:#/var/tmp /var/tmp/tmp-inst/   	level      root,adm
+/etc/security/time.conf:# Another silly example, user 'root' is denied xsh access
+/etc/security/time.conf:#xsh;ttyp*;root;!WdMo0000-2400
+/etc/services:rootd		1094/tcp
+/etc/services:rootd		1094/udp
+/etc/skel/.bashrc:    debian_chroot=$(cat /etc/debian_chroot)
+/etc/skel/.bashrc:if [ -z "$debian_chroot" ] && [ -r /etc/debian_chroot ]; then
+/etc/skel/.bashrc:    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+/etc/skel/.bashrc:    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
+/etc/skel/.bashrc:    PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"
+/etc/skel/.bashrc:# set variable identifying the chroot you work in (used in the prompt below)
+/etc/ssh/ssh_host_dsa_key.pub:ssh-dss AAAAB3NzaC1kc3MAAACBALqsduy3OhH+eTxuLi0XG0kZDGUhxIMMq1iMeVH/tVTCHFdIhsWxXbO69MQoj4Pzvow0RaryFL91xdQwptIvueRfQzY2Plgu91eQLnJW4Q/GxIQm3Lcy8RWEO2o3FO77CatttzNvYD0hjpH8vaip3oK4c3+6EgCl1ij6iwN1bKU1AAAAFQD9sd06wdaToU4KNPL0gmBVbB40PwAAAIEAn8FKe/XYRV4uC4/QkDZF0+yVz/IME3O+8jk14vDlcq53bafnpmCisgOv8NlaQI+Jrq3BqnR0VgcKySzqHj6LHG1BISXkZdLeQDkaBZk1EpxhHgMb+wLooJcg8k0oID7wqH6cH5tdwhFHf4lR0ibWlUFjRj5KlrNNiNgajNwU1RIAAACBAJFJNGPnUgqDZ9Czuv1yRerzMmk/4XjFiOTBvBokVZ1tcrl3LbiZhBkFvdHXdNRQqqP1V/IAKaPHDM5EO+Q/V2fv/dyPYWZsMP8nfB2lDsKUW8n29uhomuendvgBIb8/YqlqWJ1AybJHEZwQO+bVhF9lEDD4VAPbZMtnIVMBFQrR root@alloy
+/etc/ssh/ssh_host_ecdsa_key.pub:ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBABaUwc93jfqNfLvGNArIIl9bRYMYFUh62Bllpz+N1b44tIFFUjyPTWn91qYiCNg22h1VyGHfDgYxj4kED6LMaY= root@alloy
+/etc/ssh/ssh_host_rsa_key.pub:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC2MWZkHeJk70bF0TLx6qDeafYEwkiknAJ4kyEIhbo45s1R3LlhckufuQgnhsKl4gZWNTCrHwsZupPVT86QqZU47gK0cf8h2irAhzd3/ieg45axX26EejkgH04pi2ShKM2XfBzeWSfdJJWVWGC5BX8ca8F+n9P6qu9IwgokqCXLnCUElwXlkXwAHvJ8Fn//Q0XcPrUly2ZZv4TpufJ0sNn7dSAd/wSpkxY0EPBqwNc4MfTkJw+1aJBXRrjx1EGxWfa0AGVowoscBVVv+QwGlEn/nXRHLuMNTa5CbCKNabJUXj24YMuxrhh8u67mNEiM+cfg47Pw0jpeGDD7i17fq7aP root@alloy
+/etc/ssl/openssl.cnf:dir		= ./demoCA		# TSA root directory
+/etc/sysctl.d/10-kernel-hardening.conf:# limits visibility to the root user, and "2" blocks even the root user.
+/etc/vmware-tools/messages/de/toolboxcmd.vmsg:error.noadmin.posix = "%1$s: Sie müssen root-Benutzer sein, um die %2$s-Vorgänge auszuführen.\n"
+/etc/vmware-tools/messages/en/toolboxcmd.vmsg:error.noadmin.posix = "%1$s: You must be root to perform %2$s operations.\n"
+/etc/vmware-tools/messages/it/toolboxcmd.vmsg:error.noadmin.posix = "%1$s: è necessario essere utente root per poter eseguire operazioni %2$s.\n"
+/etc/vmware-tools/messages/ja/toolboxcmd.vmsg:error.noadmin.posix = "%1$s: %2$s 操作を実行するには、root ユーザーである必要があります。\n"
+/etc/vmware-tools/messages/zh_CN/toolboxcmd.vmsg:error.noadmin.posix = "%1$s: 您必须是 root 用户才能执行 %2$s 操作。\n"
+/etc/wodim.conf:# or wodim runs with suid-root permissions.
+/etc/X11/Xreset.d/README:# Scripts in this directory are executed as root when a user log out from
+/etc/X11/Xwrapper.config:# again, run the following command as root:
+/etc/xdg/ubuntuone/syncdaemon.conf:im_ok_with_being_root_pretty_please_let_me_be_root.action = store_true
+/etc/xdg/ubuntuone/syncdaemon.conf:im_ok_with_being_root_pretty_please_let_me_be_root.default = False
+/etc/xdg/ubuntuone/syncdaemon.conf:im_ok_with_being_root_pretty_please_let_me_be_root.help = Allows the syncdaemon
+/etc/xdg/ubuntuone/syncdaemon.conf:im_ok_with_being_root_pretty_please_let_me_be_root.parser = bool
+/etc/xdg/ubuntuone/syncdaemon.conf:root_dir.default = ~/Ubuntu One
+/etc/xdg/ubuntuone/syncdaemon.conf:root_dir.help = Use the specified directory as the root
+/etc/xdg/ubuntuone/syncdaemon.conf:root_dir.parser = home_dir
+/etc/xdg/ubuntuone/syncdaemon.conf:shares_dir.help = Use the specified directory as shares root
+/etc/xdg/ubuntuone/syncdaemon.conf:    to run as root. Please don't use this option.
+匹配到二进制文件 /etc/alternatives/c++
+匹配到二进制文件 /etc/alternatives/cc
+匹配到二进制文件 /etc/alternatives/cpp
+匹配到二进制文件 /etc/alternatives/editor
+匹配到二进制文件 /etc/alternatives/ex
+匹配到二进制文件 /etc/alternatives/fakeroot.1.gz
+匹配到二进制文件 /etc/alternatives/fakeroot.es.1.gz
+匹配到二进制文件 /etc/alternatives/fakeroot.fr.1.gz
+匹配到二进制文件 /etc/alternatives/fakeroot.sv.1.gz
+匹配到二进制文件 /etc/alternatives/gconftool
+匹配到二进制文件 /etc/alternatives/gnome-text-editor
+匹配到二进制文件 /etc/alternatives/kdesu
+匹配到二进制文件 /etc/alternatives/mozilla-flashplugin
+匹配到二进制文件 /etc/alternatives/net
+匹配到二进制文件 /etc/alternatives/nmblookup
+匹配到二进制文件 /etc/alternatives/pico
+匹配到二进制文件 /etc/alternatives/rlogin
+匹配到二进制文件 /etc/alternatives/rsh
+匹配到二进制文件 /etc/alternatives/rview
+匹配到二进制文件 /etc/alternatives/rvim
+匹配到二进制文件 /etc/alternatives/testparm
+匹配到二进制文件 /etc/alternatives/updatedb
+匹配到二进制文件 /etc/alternatives/vi
+匹配到二进制文件 /etc/alternatives/view
+匹配到二进制文件 /etc/alternatives/vim
+匹配到二进制文件 /etc/alternatives/vimdiff
+匹配到二进制文件 /etc/alternatives/x-session-manager
+匹配到二进制文件 /etc/alternatives/Xvnc
+匹配到二进制文件 /etc/alternatives/x-window-manager
+匹配到二进制文件 /etc/ssl/certs/java/cacerts
+匹配到二进制文件 /etc/vmware-tools/icu/icudt44l.dat
+匹配到二进制文件 /etc/vmware-tools/plugins/common/libvix.so
+匹配到二进制文件 /etc/vmware-tools/plugins/vmsvc/libgrabbitmqProxy.so
+匹配到二进制文件 /etc/vmware-tools/plugins/vmusr/libdesktopEvents.so
+匹配到二进制文件 /etc/vmware-tools/plugins/vmusr/libdndcp.so
+匹配到二进制文件 /etc/vmware-tools/plugins/vmusr/libunity.so
+匹配到二进制文件 /etc/X11/X
