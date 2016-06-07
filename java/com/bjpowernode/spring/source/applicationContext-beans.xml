@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  - Application context definition for JPetStore's business layer.
+  - Contains bean references to the transaction manager and to the DAOs in
+  - dataAccessContext-local/jta.xml (see web.xml's "contextConfigLocation").
+  -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns:aop="http://www.springframework.org/schema/aop"
+		xmlns:tx="http://www.springframework.org/schema/tx"
+		xsi:schemaLocation="
+			http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+			http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+			http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.5.xsd"
+    >
+    
+    <bean id="classes" class="com.bjpowernode.spring.bean.Classes" lazy-init="true">
+        <property name="cid" value="0001"></property>
+        <property name="cname" value="一年一班"></property>
+    </bean>
+    
+    <!-- 
+    <bean id="classes1" class="com.bjpowernode.spring.bean.Classes">
+        <property name="cid" value="0002"></property>
+        <property name="cname" value="一年二班"></property>
+    </bean>
+     -->
+
+    <bean id="user" depends-on="classes" class="com.bjpowernode.spring.bean.User">
+        <property name="usercode" value="0001"></property>
+        <property name="username" value="zhangsan"></property>
+        <!-- 
+        <property name="classes">
+            <ref bean="classes1"/>
+        </property>
+         -->
+    </bean>
+</beans>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE sqlMapConfig      
+    PUBLIC "-//ibatis.apache.org//DTD SQL Map Config 2.0//EN"      
+    "http://ibatis.apache.org/dtd/sql-map-config-2.dtd">
+
+<sqlMapConfig>
+  <transactionManager type="JDBC">
+    <!--
+    type可以取值： SIMPLE， DBCP， JNDI
+    	SIMPLE ibatis自己实现的一个简单的连接池, 比较适合测试阶段，不适合在生产环境下使用
+    	DBCP   Apache的专业的连接池，适合在生产环境下使用
+    	JNDI   可以由容器（WebLogic， Tomcat）创建连接池，在Ibatis中访问它
+    -->
+    <dataSource type="SIMPLE">
+      <property name="JDBC.Driver" value="com.mysql.jdbc.Driver"/>
+      <!-- mysql连接串中的多个参数使用&amp;符号进行分隔 -->
+      <property name="JDBC.ConnectionURL" value="jdbc:mysql://localhost:3306/egov?useUnicode=true&amp;characterEncoding=gbk&amp;autoReconnect=true&amp;failOverReadOnly=false"/>
+      <property name="JDBC.Username" value="egov"/>
+      <property name="JDBC.Password" value="egov"/>
+    </dataSource>
+  </transactionManager>
+  
+  <!-- 查找具体的SQL映射文件, 从classpath下查找映射文件 -->
+  <sqlMap resource="com/bjpowernode/ibatis/test/user.xml"/>
+</sqlMapConfig>

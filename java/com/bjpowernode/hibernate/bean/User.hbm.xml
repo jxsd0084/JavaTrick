@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <!-- name属性表示对应的POJO对象 -->
+	<class name="com.bjpowernode.hibernate.bean.User">
+	    <!--
+	    主键
+	    
+	    name属性为POJO对象的主键属性
+	    -->
+	    <id name="id">
+	        <!--
+	        主键生成策略
+	        
+	        uuid : 主键由Hibernate生成，32无规则字符串。
+	        assigned :
+	        -->
+	        <generator class="uuid" />
+	    </id>
+	    <!-- 没有列名，默认将列名和属性名一致。 -->
+	    <property name="name"/>
+	    <property name="age" />
+	    <property name="regdate" />
+	</class>
+	
+</hibernate-mapping>
