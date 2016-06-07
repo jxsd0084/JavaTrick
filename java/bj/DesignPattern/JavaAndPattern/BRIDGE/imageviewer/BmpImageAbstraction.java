@@ -1,0 +1,13 @@
+package bj.DesignPattern.JavaAndPattern.BRIDGE.imageviewer;
+
+public class BmpImageAbstraction extends ImageAbstraction {
+
+	public void load() {
+		//some code here to load the image into memory
+	}
+
+	public void show() {
+		//some code here to display the image onto screen
+	}
+
+}
