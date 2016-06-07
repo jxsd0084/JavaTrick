@@ -5,6 +5,22 @@
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/java" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/java/bj/DesignPattern" />
+      <excludeFolder url="file://$MODULE_DIR$/java/bj/Java1200" />
+      <excludeFolder url="file://$MODULE_DIR$/java/bj/JavaAlgorithm" />
+      <excludeFolder url="file://$MODULE_DIR$/java/bj/JavaSpecialForces" />
+      <excludeFolder url="file://$MODULE_DIR$/java/bj/bigData" />
+      <excludeFolder url="file://$MODULE_DIR$/java/bj/crazy" />
+      <excludeFolder url="file://$MODULE_DIR$/java/bj/czbk" />
+      <excludeFolder url="file://$MODULE_DIR$/java/bj/fxkBasic" />
+      <excludeFolder url="file://$MODULE_DIR$/java/bj/hmkcode" />
+      <excludeFolder url="file://$MODULE_DIR$/java/bj/jakeChen" />
+      <excludeFolder url="file://$MODULE_DIR$/java/bj/mldn" />
+      <excludeFolder url="file://$MODULE_DIR$/java/bj/powernode" />
+      <excludeFolder url="file://$MODULE_DIR$/java/bj/sxt" />
+      <excludeFolder url="file://$MODULE_DIR$/java/com" />
+      <excludeFolder url="file://$MODULE_DIR$/java/com/bjpowernode" />
+      <excludeFolder url="file://$MODULE_DIR$/java/threads" />
       <excludeFolder url="file://$MODULE_DIR$/python" />
       <excludeFolder url="file://$MODULE_DIR$/scala" />
       <excludeFolder url="file://$MODULE_DIR$/shell" />
