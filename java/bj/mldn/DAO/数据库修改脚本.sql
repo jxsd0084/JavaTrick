@@ -1,0 +1,1 @@
+ALTER TABLE emp ADD(photo VARCHAR(100) DEFAULT 'nophoto.jpg') ;
