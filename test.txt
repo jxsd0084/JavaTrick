@@ -1,0 +1,2 @@
+普通字符串
+bj.crazy.ch15.u04.PrintStreamTest@1218025c
