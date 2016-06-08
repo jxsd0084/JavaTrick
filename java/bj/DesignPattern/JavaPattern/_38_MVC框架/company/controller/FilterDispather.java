@@ -7,6 +7,7 @@ import bj.DesignPattern.JavaPattern._38_MVC框架.company.action.IActionDispathe
 import bj.DesignPattern.JavaPattern._38_MVC框架.company.helper.ValueStackHelper;
 import bj.DesignPattern.JavaPattern._38_MVC框架.company.valuestack.ValueStack;
 
+import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
@@ -30,12 +31,13 @@ public class FilterDispather implements Filter {
 	}
 
 	// 过滤器必须实现的
+	@Override
 	public void doFilter( ServletRequest request, ServletResponse response,
 	                      FilterChain chain ) throws IOException, ServletException {
 
 		// 转换为HttpServletRequest
-		HttpServletRequest  req = (HttpServletRequest) request;
-		HttpServletResponse res = (HttpServletResponse) response;
+		HttpServletRequest  req = ( HttpServletRequest ) request;
+		HttpServletResponse res = ( HttpServletResponse ) response;
 		// 传递到其他过滤器处理
 		chain.doFilter( req, res );
 		// 获得从HTTP请求的ACTION名称
@@ -52,6 +54,7 @@ public class FilterDispather implements Filter {
 		rd.forward( req, res );
 	}
 
+	@Override
 	public void init( FilterConfig arg0 ) throws ServletException {
 		/*
 		 * 1、检查XML配置文件是否正确
@@ -61,7 +64,8 @@ public class FilterDispather implements Filter {
 
 	//通过url获得actionName
 	private String getActionNameFromURI( HttpServletRequest req ) {
-		String path       = (String) req.getRequestURI();
+
+		String path       = ( String ) req.getRequestURI();
 		String actionName = path.substring( path.lastIndexOf( "/" ) + 1, path.lastIndexOf( "." ) );
 		return actionName;
 	}
