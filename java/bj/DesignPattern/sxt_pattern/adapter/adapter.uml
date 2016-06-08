@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.sxt_pattern.adapter</OriginalElement>
+  <nodes>
+    <node x="228.0" y="133.0">bj.DesignPattern.sxt_pattern.adapter.Adapter</node>
+    <node x="62.0" y="0.0">bj.DesignPattern.sxt_pattern.adapter.Target</node>
+    <node x="281.5" y="0.0">bj.DesignPattern.sxt_pattern.adapter.Adaptee</node>
+    <node x="0.0" y="107.0">bj.DesignPattern.sxt_pattern.adapter.Adapter2</node>
+    <node x="0.0" y="261.0">bj.DesignPattern.sxt_pattern.adapter.Client</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.sxt_pattern.adapter.Adapter2" target="bj.DesignPattern.sxt_pattern.adapter.Target">
+      <point x="0.0" y="-54.5" />
+      <point x="-42.0" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.adapter.Client" target="bj.DesignPattern.sxt_pattern.adapter.Adapter2">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.adapter.Client" target="bj.DesignPattern.sxt_pattern.adapter.Adaptee">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.adapter.Adapter2" target="bj.DesignPattern.sxt_pattern.adapter.Adaptee">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.adapter.Adapter" target="bj.DesignPattern.sxt_pattern.adapter.Target">
+      <point x="-42.0" y="-28.5" />
+      <point x="270.0" y="82.0" />
+      <point x="188.0" y="82.0" />
+      <point x="42.0" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.adapter.Adapter" target="bj.DesignPattern.sxt_pattern.adapter.Adaptee">
+      <point x="42.0" y="-28.5" />
+      <point x="0.0" y="28.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.3000000000000003" x="381.9230769230768" y="208.61538461538453" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.sxt_pattern.adapter.Adapter2</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

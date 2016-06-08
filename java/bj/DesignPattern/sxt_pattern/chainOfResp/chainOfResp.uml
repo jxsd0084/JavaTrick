@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.sxt_pattern.chainOfResp</OriginalElement>
+  <nodes>
+    <node x="0.0" y="313.0">bj.DesignPattern.sxt_pattern.chainOfResp.LeaveRequest</node>
+    <node x="746.0" y="185.0">bj.DesignPattern.sxt_pattern.chainOfResp.Manager</node>
+    <node x="546.0" y="185.0">bj.DesignPattern.sxt_pattern.chainOfResp.Director</node>
+    <node x="417.25" y="0.0">bj.DesignPattern.sxt_pattern.chainOfResp.Leader</node>
+    <node x="259.0" y="185.0">bj.DesignPattern.sxt_pattern.chainOfResp.ViceGeneralManager</node>
+    <node x="0.0" y="185.0">bj.DesignPattern.sxt_pattern.chainOfResp.GeneralManager</node>
+    <node x="0.0" y="491.0">bj.DesignPattern.sxt_pattern.chainOfResp.Client</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.sxt_pattern.chainOfResp.Director" target="bj.DesignPattern.sxt_pattern.chainOfResp.Leader">
+      <point x="0.0" y="-41.5" />
+      <point x="636.0" y="165.0" />
+      <point x="538.5" y="165.0" />
+      <point x="24.25" y="67.5" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.chainOfResp.Manager" target="bj.DesignPattern.sxt_pattern.chainOfResp.Leader">
+      <point x="0.0" y="-41.5" />
+      <point x="839.5" y="155.0" />
+      <point x="587.0" y="155.0" />
+      <point x="72.75" y="67.5" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.chainOfResp.Client" target="bj.DesignPattern.sxt_pattern.chainOfResp.ViceGeneralManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.chainOfResp.Client" target="bj.DesignPattern.sxt_pattern.chainOfResp.LeaveRequest">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.chainOfResp.Client" target="bj.DesignPattern.sxt_pattern.chainOfResp.Director">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.chainOfResp.Client" target="bj.DesignPattern.sxt_pattern.chainOfResp.Manager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.chainOfResp.ViceGeneralManager" target="bj.DesignPattern.sxt_pattern.chainOfResp.Leader">
+      <point x="0.0" y="-41.5" />
+      <point x="392.5" y="165.0" />
+      <point x="490.0" y="165.0" />
+      <point x="-24.25" y="67.5" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.chainOfResp.GeneralManager" target="bj.DesignPattern.sxt_pattern.chainOfResp.Leader">
+      <point x="0.0" y="-41.5" />
+      <point x="119.5" y="155.0" />
+      <point x="441.5" y="155.0" />
+      <point x="-72.75" y="67.5" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.chainOfResp.Client" target="bj.DesignPattern.sxt_pattern.chainOfResp.GeneralManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.1" x="483.41666666666663" y="276.0" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.sxt_pattern.chainOfResp.LeaveRequest</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

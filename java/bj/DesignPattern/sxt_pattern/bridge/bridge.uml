@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.sxt_pattern.bridge</OriginalElement>
+  <nodes>
+    <node x="148.0" y="107.0">bj.DesignPattern.sxt_pattern.bridge.Laptop</node>
+    <node x="448.0" y="603.0">bj.DesignPattern.sxt_pattern.bridge.Client</node>
+    <node x="1076.0" y="107.0">bj.DesignPattern.sxt_pattern.bridge.Pad</node>
+    <node x="289.0" y="214.0">bj.DesignPattern.sxt_pattern.bridge.ShenzhouLaptop</node>
+    <node x="1076.0" y="214.0">bj.DesignPattern.sxt_pattern.bridge.LenovoPad</node>
+    <node x="109.75" y="316.0">bj.DesignPattern.sxt_pattern.bridge.Computer2</node>
+    <node x="754.0" y="214.0">bj.DesignPattern.sxt_pattern.bridge.ShenzhouDesktop</node>
+    <node x="1217.0" y="214.0">bj.DesignPattern.sxt_pattern.bridge.DellPad</node>
+    <node x="282.0" y="710.0">bj.DesignPattern.sxt_pattern.bridge.Lenovo</node>
+    <node x="141.0" y="710.0">bj.DesignPattern.sxt_pattern.bridge.Dell</node>
+    <node x="0.0" y="710.0">bj.DesignPattern.sxt_pattern.bridge.Hasee</node>
+    <node x="141.0" y="603.0">bj.DesignPattern.sxt_pattern.bridge.Brand</node>
+    <node x="605.0" y="0.0">bj.DesignPattern.sxt_pattern.bridge.Computer</node>
+    <node x="456.0" y="214.0">bj.DesignPattern.sxt_pattern.bridge.DellDesktop</node>
+    <node x="210.0" y="475.0">bj.DesignPattern.sxt_pattern.bridge.Laptop2</node>
+    <node x="0.0" y="475.0">bj.DesignPattern.sxt_pattern.bridge.Desktop2</node>
+    <node x="597.0" y="214.0">bj.DesignPattern.sxt_pattern.bridge.LenovoDesktop</node>
+    <node x="0.0" y="214.0">bj.DesignPattern.sxt_pattern.bridge.LenovoLaptop</node>
+    <node x="148.0" y="214.0">bj.DesignPattern.sxt_pattern.bridge.DellLaptop</node>
+    <node x="930.0" y="214.0">bj.DesignPattern.sxt_pattern.bridge.ShenzhouPad</node>
+    <node x="605.0" y="107.0">bj.DesignPattern.sxt_pattern.bridge.Desktop</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.sxt_pattern.bridge.Client" target="bj.DesignPattern.sxt_pattern.bridge.Desktop2">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.bridge.DellLaptop" target="bj.DesignPattern.sxt_pattern.bridge.Laptop">
+      <point x="0.0" y="-28.5" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.bridge.Client" target="bj.DesignPattern.sxt_pattern.bridge.Hasee">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.bridge.LenovoLaptop" target="bj.DesignPattern.sxt_pattern.bridge.Laptop">
+      <point x="0.0" y="-28.5" />
+      <point x="64.0" y="189.0" />
+      <point x="168.16666666666663" y="189.0" />
+      <point x="-40.33333333333334" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.bridge.DellDesktop" target="bj.DesignPattern.sxt_pattern.bridge.Desktop">
+      <point x="0.0" y="-28.5" />
+      <point x="516.5" y="189.0" />
+      <point x="625.1666666666666" y="189.0" />
+      <point x="-40.33333333333337" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.bridge.Client" target="bj.DesignPattern.sxt_pattern.bridge.Laptop2">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.bridge.Dell" target="bj.DesignPattern.sxt_pattern.bridge.Brand">
+      <point x="0.0" y="-28.5" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.bridge.Pad" target="bj.DesignPattern.sxt_pattern.bridge.Computer">
+      <point x="0.0" y="-28.5" />
+      <point x="1136.5" y="82.0" />
+      <point x="705.8333333333334" y="82.0" />
+      <point x="40.33333333333337" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.bridge.Desktop2" target="bj.DesignPattern.sxt_pattern.bridge.Computer2">
+      <point x="0.0" y="-41.5" />
+      <point x="95.0" y="450.0" />
+      <point x="153.75" y="450.0" />
+      <point x="-44.0" y="54.5" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.bridge.Laptop2" target="bj.DesignPattern.sxt_pattern.bridge.Computer2">
+      <point x="0.0" y="-41.5" />
+      <point x="300.5" y="450.0" />
+      <point x="241.75" y="450.0" />
+      <point x="44.0" y="54.5" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.bridge.Lenovo" target="bj.DesignPattern.sxt_pattern.bridge.Brand">
+      <point x="0.0" y="-28.5" />
+      <point x="342.5" y="685.0" />
+      <point x="241.83333333333334" y="685.0" />
+      <point x="40.33333333333334" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.bridge.ShenzhouLaptop" target="bj.DesignPattern.sxt_pattern.bridge.Laptop">
+      <point x="0.0" y="-28.5" />
+      <point x="362.5" y="189.0" />
+      <point x="248.83333333333337" y="189.0" />
+      <point x="40.33333333333334" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.bridge.ShenzhouPad" target="bj.DesignPattern.sxt_pattern.bridge.Pad">
+      <point x="0.0" y="-28.5" />
+      <point x="993.0" y="189.0" />
+      <point x="1096.1666666666667" y="189.0" />
+      <point x="-40.33333333333326" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.bridge.Computer2" target="bj.DesignPattern.sxt_pattern.bridge.Brand">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.bridge.Client" target="bj.DesignPattern.sxt_pattern.bridge.Lenovo">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.bridge.Laptop" target="bj.DesignPattern.sxt_pattern.bridge.Computer">
+      <point x="0.0" y="-28.5" />
+      <point x="208.5" y="82.0" />
+      <point x="625.1666666666666" y="82.0" />
+      <point x="-40.33333333333337" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.bridge.LenovoPad" target="bj.DesignPattern.sxt_pattern.bridge.Pad">
+      <point x="0.0" y="-28.5" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.bridge.Hasee" target="bj.DesignPattern.sxt_pattern.bridge.Brand">
+      <point x="0.0" y="-28.5" />
+      <point x="60.5" y="685.0" />
+      <point x="161.16666666666666" y="685.0" />
+      <point x="-40.33333333333334" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.bridge.LenovoDesktop" target="bj.DesignPattern.sxt_pattern.bridge.Desktop">
+      <point x="0.0" y="-28.5" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.bridge.ShenzhouDesktop" target="bj.DesignPattern.sxt_pattern.bridge.Desktop">
+      <point x="0.0" y="-28.5" />
+      <point x="832.0" y="189.0" />
+      <point x="705.8333333333334" y="189.0" />
+      <point x="40.33333333333337" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.bridge.DellPad" target="bj.DesignPattern.sxt_pattern.bridge.Pad">
+      <point x="0.0" y="-28.5" />
+      <point x="1277.5" y="189.0" />
+      <point x="1176.8333333333333" y="189.0" />
+      <point x="40.33333333333326" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.bridge.Desktop" target="bj.DesignPattern.sxt_pattern.bridge.Computer">
+      <point x="0.0" y="-28.5" />
+      <point x="0.0" y="28.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="716.0" y="396.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

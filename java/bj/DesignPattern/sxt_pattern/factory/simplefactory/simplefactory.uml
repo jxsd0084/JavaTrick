@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.sxt_pattern.factory.simplefactory</OriginalElement>
+  <nodes>
+    <node x="0.0" y="209.0">bj.DesignPattern.sxt_pattern.factory.simplefactory.CarFactory2</node>
+    <node x="138.0" y="107.0">bj.DesignPattern.sxt_pattern.factory.simplefactory.Audi</node>
+    <node x="0.0" y="107.0">bj.DesignPattern.sxt_pattern.factory.simplefactory.Byd</node>
+    <node x="226.0" y="209.0">bj.DesignPattern.sxt_pattern.factory.simplefactory.CarFactory</node>
+    <node x="0.0" y="336.0">bj.DesignPattern.sxt_pattern.factory.simplefactory.Client01</node>
+    <node x="224.0" y="336.0">bj.DesignPattern.sxt_pattern.factory.simplefactory.Client02</node>
+    <node x="69.0" y="0.0">bj.DesignPattern.sxt_pattern.factory.simplefactory.Car</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.sxt_pattern.factory.simplefactory.Client01" target="bj.DesignPattern.sxt_pattern.factory.simplefactory.Byd">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.factory.simplefactory.CarFactory2" target="bj.DesignPattern.sxt_pattern.factory.simplefactory.Audi">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.factory.simplefactory.CarFactory" target="bj.DesignPattern.sxt_pattern.factory.simplefactory.Audi">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.factory.simplefactory.Client01" target="bj.DesignPattern.sxt_pattern.factory.simplefactory.Audi">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.factory.simplefactory.Audi" target="bj.DesignPattern.sxt_pattern.factory.simplefactory.Car">
+      <point x="0.0" y="-28.5" />
+      <point x="197.0" y="82.0" />
+      <point x="157.5" y="82.0" />
+      <point x="29.5" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.factory.simplefactory.CarFactory2" target="bj.DesignPattern.sxt_pattern.factory.simplefactory.Byd">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.factory.simplefactory.CarFactory" target="bj.DesignPattern.sxt_pattern.factory.simplefactory.Byd">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.factory.simplefactory.Byd" target="bj.DesignPattern.sxt_pattern.factory.simplefactory.Car">
+      <point x="0.0" y="-28.5" />
+      <point x="59.0" y="82.0" />
+      <point x="98.5" y="82.0" />
+      <point x="-29.5" y="28.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.2000000000000002" x="333.41666666666663" y="214.66666666666663" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.sxt_pattern.factory.simplefactory.CarFactory2</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

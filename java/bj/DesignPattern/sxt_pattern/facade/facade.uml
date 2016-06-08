@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.sxt_pattern.facade</OriginalElement>
+  <nodes>
+    <node x="224.0" y="418.0">bj.DesignPattern.sxt_pattern.facade.RegisterFacade</node>
+    <node x="0.0" y="209.0">bj.DesignPattern.sxt_pattern.facade.税务局</node>
+    <node x="0.0" y="418.0">bj.DesignPattern.sxt_pattern.facade.Client1</node>
+    <node x="266.0" y="0.0">bj.DesignPattern.sxt_pattern.facade.银行</node>
+    <node x="0.0" y="316.0">bj.DesignPattern.sxt_pattern.facade.海淀税务局</node>
+    <node x="228.0" y="316.0">bj.DesignPattern.sxt_pattern.facade.海淀区工商局</node>
+    <node x="266.0" y="107.0">bj.DesignPattern.sxt_pattern.facade.中国工商银行</node>
+    <node x="0.0" y="0.0">bj.DesignPattern.sxt_pattern.facade.质检局</node>
+    <node x="0.0" y="107.0">bj.DesignPattern.sxt_pattern.facade.海淀质检局</node>
+    <node x="228.0" y="209.0">bj.DesignPattern.sxt_pattern.facade.工商局</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.sxt_pattern.facade.RegisterFacade" target="bj.DesignPattern.sxt_pattern.facade.海淀区工商局">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.facade.RegisterFacade" target="bj.DesignPattern.sxt_pattern.facade.海淀质检局">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.facade.Client1" target="bj.DesignPattern.sxt_pattern.facade.RegisterFacade">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.facade.海淀区工商局" target="bj.DesignPattern.sxt_pattern.facade.工商局">
+      <point x="0.0" y="-28.5" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.facade.海淀质检局" target="bj.DesignPattern.sxt_pattern.facade.质检局">
+      <point x="0.0" y="-28.5" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.facade.RegisterFacade" target="bj.DesignPattern.sxt_pattern.facade.中国工商银行">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.facade.海淀税务局" target="bj.DesignPattern.sxt_pattern.facade.税务局">
+      <point x="0.0" y="-28.5" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.facade.RegisterFacade" target="bj.DesignPattern.sxt_pattern.facade.海淀税务局">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.facade.中国工商银行" target="bj.DesignPattern.sxt_pattern.facade.银行">
+      <point x="0.0" y="-28.5" />
+      <point x="0.0" y="28.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="138.5" y="175.0" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.sxt_pattern.facade.RegisterFacade</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.sxt_pattern.decorator</OriginalElement>
+  <nodes>
+    <node x="389.0" y="133.0">bj.DesignPattern.sxt_pattern.decorator.Car</node>
+    <node x="310.5" y="0.0">bj.DesignPattern.sxt_pattern.decorator.ICar</node>
+    <node x="0.0" y="419.0">bj.DesignPattern.sxt_pattern.decorator.Client</node>
+    <node x="402.0" y="266.0">bj.DesignPattern.sxt_pattern.decorator.FlyCar</node>
+    <node x="227.0" y="107.0">bj.DesignPattern.sxt_pattern.decorator.SuperCar</node>
+    <node x="214.0" y="266.0">bj.DesignPattern.sxt_pattern.decorator.AICar</node>
+    <node x="0.0" y="266.0">bj.DesignPattern.sxt_pattern.decorator.WaterCar</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.sxt_pattern.decorator.Car" target="bj.DesignPattern.sxt_pattern.decorator.ICar">
+      <point x="0.0" y="-28.5" />
+      <point x="455.0" y="82.0" />
+      <point x="409.5" y="82.0" />
+      <point x="33.0" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.decorator.FlyCar" target="bj.DesignPattern.sxt_pattern.decorator.SuperCar">
+      <point x="0.0" y="-54.0" />
+      <point x="488.0" y="241.0" />
+      <point x="345.33333333333337" y="241.0" />
+      <point x="47.33333333333337" y="54.5" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.decorator.Client" target="bj.DesignPattern.sxt_pattern.decorator.Car">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.decorator.WaterCar" target="bj.DesignPattern.sxt_pattern.decorator.SuperCar">
+      <point x="0.0" y="-54.0" />
+      <point x="97.0" y="241.0" />
+      <point x="250.66666666666669" y="241.0" />
+      <point x="-47.33333333333334" y="54.5" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.decorator.Client" target="bj.DesignPattern.sxt_pattern.decorator.WaterCar">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.decorator.AICar" target="bj.DesignPattern.sxt_pattern.decorator.SuperCar">
+      <point x="0.0" y="-54.0" />
+      <point x="0.0" y="54.5" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.decorator.Client" target="bj.DesignPattern.sxt_pattern.decorator.FlyCar">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.decorator.SuperCar" target="bj.DesignPattern.sxt_pattern.decorator.ICar">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.1" x="343.27272727272725" y="277.6363636363636" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.sxt_pattern.decorator.WaterCar</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.sxt_pattern.factory.abstractFactory</OriginalElement>
+  <nodes>
+    <node x="163.0" y="675.0">bj.DesignPattern.sxt_pattern.factory.abstractFactory.LuxuryTyre</node>
+    <node x="0.0" y="675.0">bj.DesignPattern.sxt_pattern.factory.abstractFactory.LowTyre</node>
+    <node x="79.0" y="309.0">bj.DesignPattern.sxt_pattern.factory.abstractFactory.Engine</node>
+    <node x="158.0" y="441.0">bj.DesignPattern.sxt_pattern.factory.abstractFactory.LuxuryEngine</node>
+    <node x="261.0" y="157.0">bj.DesignPattern.sxt_pattern.factory.abstractFactory.LowCarFactory</node>
+    <node x="0.0" y="441.0">bj.DesignPattern.sxt_pattern.factory.abstractFactory.LowEngine</node>
+    <node x="130.5" y="0.0">bj.DesignPattern.sxt_pattern.factory.abstractFactory.CarFactory</node>
+    <node x="514.0" y="416.0">bj.DesignPattern.sxt_pattern.factory.abstractFactory.LowSeat</node>
+    <node x="341.0" y="416.0">bj.DesignPattern.sxt_pattern.factory.abstractFactory.LuxurySeat</node>
+    <node x="351.0" y="568.0">bj.DesignPattern.sxt_pattern.factory.abstractFactory.Client</node>
+    <node x="81.5" y="568.0">bj.DesignPattern.sxt_pattern.factory.abstractFactory.Tyre</node>
+    <node x="0.0" y="157.0">bj.DesignPattern.sxt_pattern.factory.abstractFactory.LuxuryCarFactory</node>
+    <node x="427.5" y="309.0">bj.DesignPattern.sxt_pattern.factory.abstractFactory.Seat</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.sxt_pattern.factory.abstractFactory.LuxurySeat" target="bj.DesignPattern.sxt_pattern.factory.abstractFactory.Seat">
+      <point x="0.0" y="-28.5" />
+      <point x="417.5" y="391.0" />
+      <point x="465.75" y="391.0" />
+      <point x="-38.25" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.factory.abstractFactory.LuxuryCarFactory" target="bj.DesignPattern.sxt_pattern.factory.abstractFactory.LuxuryEngine">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.factory.abstractFactory.LowCarFactory" target="bj.DesignPattern.sxt_pattern.factory.abstractFactory.LowTyre">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.factory.abstractFactory.LowCarFactory" target="bj.DesignPattern.sxt_pattern.factory.abstractFactory.LowEngine">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.factory.abstractFactory.LowTyre" target="bj.DesignPattern.sxt_pattern.factory.abstractFactory.Tyre">
+      <point x="0.0" y="-28.5" />
+      <point x="71.5" y="650.0" />
+      <point x="117.25" y="650.0" />
+      <point x="-35.75" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.factory.abstractFactory.LowEngine" target="bj.DesignPattern.sxt_pattern.factory.abstractFactory.Engine">
+      <point x="0.0" y="-41.0" />
+      <point x="69.0" y="416.0" />
+      <point x="113.5" y="416.0" />
+      <point x="-34.5" y="41.0" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.factory.abstractFactory.LowCarFactory" target="bj.DesignPattern.sxt_pattern.factory.abstractFactory.CarFactory">
+      <point x="0.0" y="-53.5" />
+      <point x="381.5" y="132.0" />
+      <point x="311.25" y="132.0" />
+      <point x="60.25" y="53.5" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.factory.abstractFactory.LuxuryCarFactory" target="bj.DesignPattern.sxt_pattern.factory.abstractFactory.CarFactory">
+      <point x="0.0" y="-53.5" />
+      <point x="120.5" y="132.0" />
+      <point x="190.75" y="132.0" />
+      <point x="-60.25" y="53.5" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.factory.abstractFactory.LowSeat" target="bj.DesignPattern.sxt_pattern.factory.abstractFactory.Seat">
+      <point x="0.0" y="-28.5" />
+      <point x="590.5" y="391.0" />
+      <point x="542.25" y="391.0" />
+      <point x="38.25" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.factory.abstractFactory.LowCarFactory" target="bj.DesignPattern.sxt_pattern.factory.abstractFactory.LowSeat">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.factory.abstractFactory.LuxuryCarFactory" target="bj.DesignPattern.sxt_pattern.factory.abstractFactory.LuxurySeat">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.factory.abstractFactory.LuxuryEngine" target="bj.DesignPattern.sxt_pattern.factory.abstractFactory.Engine">
+      <point x="0.0" y="-41.0" />
+      <point x="227.0" y="416.0" />
+      <point x="182.5" y="416.0" />
+      <point x="34.5" y="41.0" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.factory.abstractFactory.LuxuryTyre" target="bj.DesignPattern.sxt_pattern.factory.abstractFactory.Tyre">
+      <point x="0.0" y="-28.5" />
+      <point x="234.5" y="650.0" />
+      <point x="188.75" y="650.0" />
+      <point x="35.75" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.factory.abstractFactory.LuxuryCarFactory" target="bj.DesignPattern.sxt_pattern.factory.abstractFactory.LuxuryTyre">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.factory.abstractFactory.Client" target="bj.DesignPattern.sxt_pattern.factory.abstractFactory.LuxuryCarFactory">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="247.5" y="375.0" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.sxt_pattern.factory.abstractFactory.Tyre</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

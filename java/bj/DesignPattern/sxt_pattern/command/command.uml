@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.sxt_pattern.command</OriginalElement>
+  <nodes>
+    <node x="279.0" y="261.0">bj.DesignPattern.sxt_pattern.command.Client</node>
+    <node x="0.0" y="107.0">bj.DesignPattern.sxt_pattern.command.ConcreteCommand</node>
+    <node x="0.0" y="415.0">bj.DesignPattern.sxt_pattern.command.Receiver</node>
+    <node x="0.0" y="261.0">bj.DesignPattern.sxt_pattern.command.Invoke</node>
+    <node x="28.5" y="0.0">bj.DesignPattern.sxt_pattern.command.Command</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.sxt_pattern.command.Client" target="bj.DesignPattern.sxt_pattern.command.ConcreteCommand">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.command.Invoke" target="bj.DesignPattern.sxt_pattern.command.Command">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.command.ConcreteCommand" target="bj.DesignPattern.sxt_pattern.command.Receiver">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.command.Client" target="bj.DesignPattern.sxt_pattern.command.Invoke">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.command.Client" target="bj.DesignPattern.sxt_pattern.command.Receiver">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.command.ConcreteCommand" target="bj.DesignPattern.sxt_pattern.command.Command">
+      <point x="0.0" y="-54.5" />
+      <point x="0.0" y="28.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.1" x="310.41666666666663" y="254.66666666666663" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.sxt_pattern.command.Client</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

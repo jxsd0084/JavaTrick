@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.sxt_pattern.builder</OriginalElement>
+  <nodes>
+    <node x="0.0" y="157.0">bj.DesignPattern.sxt_pattern.builder.SxtAirShipBuilder</node>
+    <node x="0.0" y="309.0">bj.DesignPattern.sxt_pattern.builder.AirShip</node>
+    <node x="246.0" y="309.0">bj.DesignPattern.sxt_pattern.builder.OrbitalModule</node>
+    <node x="476.0" y="487.0">bj.DesignPattern.sxt_pattern.builder.Client</node>
+    <node x="258.0" y="487.0">bj.DesignPattern.sxt_pattern.builder.Engine</node>
+    <node x="293.0" y="107.0">bj.DesignPattern.sxt_pattern.builder.SxtAirshipDirector</node>
+    <node x="312.5" y="0.0">bj.DesignPattern.sxt_pattern.builder.AirShipDirector</node>
+    <node x="0.0" y="0.0">bj.DesignPattern.sxt_pattern.builder.AirShipBuilder</node>
+    <node x="0.0" y="487.0">bj.DesignPattern.sxt_pattern.builder.EscapeTower</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.sxt_pattern.builder.AirShip" target="bj.DesignPattern.sxt_pattern.builder.EscapeTower">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.builder.Client" target="bj.DesignPattern.sxt_pattern.builder.SxtAirshipDirector">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.builder.SxtAirshipDirector" target="bj.DesignPattern.sxt_pattern.builder.AirShipDirector">
+      <point x="0.0" y="-54.5" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.builder.SxtAirshipDirector" target="bj.DesignPattern.sxt_pattern.builder.AirShip">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.builder.SxtAirShipBuilder" target="bj.DesignPattern.sxt_pattern.builder.EscapeTower">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.builder.SxtAirShipBuilder" target="bj.DesignPattern.sxt_pattern.builder.AirShipBuilder">
+      <point x="0.0" y="-53.5" />
+      <point x="0.0" y="53.5" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.builder.SxtAirShipBuilder" target="bj.DesignPattern.sxt_pattern.builder.OrbitalModule">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.builder.AirShip" target="bj.DesignPattern.sxt_pattern.builder.Engine">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.builder.SxtAirshipDirector" target="bj.DesignPattern.sxt_pattern.builder.AirShipBuilder">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.builder.AirShip" target="bj.DesignPattern.sxt_pattern.builder.OrbitalModule">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.builder.SxtAirShipBuilder" target="bj.DesignPattern.sxt_pattern.builder.Engine">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.builder.Client" target="bj.DesignPattern.sxt_pattern.builder.SxtAirShipBuilder">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.1" x="418.53846153846143" y="279.6363636363636" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

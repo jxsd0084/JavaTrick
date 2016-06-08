@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.sxt_pattern.state</OriginalElement>
+  <nodes>
+    <node x="162.0" y="0.0">bj.DesignPattern.sxt_pattern.state.State</node>
+    <node x="0.0" y="209.0">bj.DesignPattern.sxt_pattern.state.HomeContext</node>
+    <node x="162.0" y="107.0">bj.DesignPattern.sxt_pattern.state.CheckedInState</node>
+    <node x="324.0" y="107.0">bj.DesignPattern.sxt_pattern.state.BookedState</node>
+    <node x="0.0" y="107.0">bj.DesignPattern.sxt_pattern.state.FreeState</node>
+    <node x="0.0" y="337.0">bj.DesignPattern.sxt_pattern.state.Client</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.sxt_pattern.state.BookedState" target="bj.DesignPattern.sxt_pattern.state.State">
+      <point x="0.0" y="-28.5" />
+      <point x="395.0" y="82.0" />
+      <point x="280.33333333333337" y="82.0" />
+      <point x="47.33333333333337" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.state.Client" target="bj.DesignPattern.sxt_pattern.state.FreeState">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.state.CheckedInState" target="bj.DesignPattern.sxt_pattern.state.State">
+      <point x="0.0" y="-28.5" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.state.HomeContext" target="bj.DesignPattern.sxt_pattern.state.State">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.state.Client" target="bj.DesignPattern.sxt_pattern.state.BookedState">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.state.FreeState" target="bj.DesignPattern.sxt_pattern.state.State">
+      <point x="0.0" y="-28.5" />
+      <point x="71.0" y="82.0" />
+      <point x="185.66666666666666" y="82.0" />
+      <point x="-47.33333333333334" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.sxt_pattern.state.Client" target="bj.DesignPattern.sxt_pattern.state.HomeContext">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.2000000000000002" x="399.41666666666663" y="194.66666666666663" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.sxt_pattern.state.FreeState</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
