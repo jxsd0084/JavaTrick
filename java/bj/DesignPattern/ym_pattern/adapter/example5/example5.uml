@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.ym_pattern.adapter.example5</OriginalElement>
+  <nodes>
+    <node x="34.0" y="454.0">bj.DesignPattern.ym_pattern.adapter.example5.Client</node>
+    <node x="-251.0" y="454.0">bj.DesignPattern.ym_pattern.adapter.example5.LogModel</node>
+    <node x="57.5" y="-66.0">bj.DesignPattern.ym_pattern.adapter.example5.LogFileOperateApi</node>
+    <node x="59.0" y="66.0">bj.DesignPattern.ym_pattern.adapter.example5.LogFileOperate</node>
+    <node x="-92.0" y="250.0">bj.DesignPattern.ym_pattern.adapter.example5.ClassAdapter</node>
+    <node x="-251.0" y="66.5">bj.DesignPattern.ym_pattern.adapter.example5.LogDbOperateApi</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.ym_pattern.adapter.example5.LogFileOperate" target="bj.DesignPattern.ym_pattern.adapter.example5.LogFileOperateApi">
+      <point x="0.0" y="-67.0" />
+      <point x="0.0" y="41.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.adapter.example5.Client" target="bj.DesignPattern.ym_pattern.adapter.example5.ClassAdapter">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.adapter.example5.Client" target="bj.DesignPattern.ym_pattern.adapter.example5.LogModel">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.adapter.example5.ClassAdapter" target="bj.DesignPattern.ym_pattern.adapter.example5.LogDbOperateApi">
+      <point x="-68.25" y="-79.5" />
+      <point x="-23.75" y="225.0" />
+      <point x="-106.0" y="225.0" />
+      <point x="0.0" y="66.5" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.adapter.example5.ClassAdapter" target="bj.DesignPattern.ym_pattern.adapter.example5.LogFileOperate">
+      <point x="68.25" y="-79.5" />
+      <point x="112.75" y="225.0" />
+      <point x="195.0" y="225.0" />
+      <point x="0.0" y="67.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="160.5" y="277.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

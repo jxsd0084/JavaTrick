@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.ym_pattern.abstractfactory.example2</OriginalElement>
+  <nodes>
+    <node x="0.0" y="577.0">bj.DesignPattern.ym_pattern.abstractfactory.example2.Client</node>
+    <node x="122.0" y="500.0">bj.DesignPattern.ym_pattern.abstractfactory.example2.ProductB1</node>
+    <node x="328.0" y="132.0">bj.DesignPattern.ym_pattern.abstractfactory.example2.ConcreteFactory2</node>
+    <node x="0.0" y="132.0">bj.DesignPattern.ym_pattern.abstractfactory.example2.ConcreteFactory1</node>
+    <node x="164.0" y="0.0">bj.DesignPattern.ym_pattern.abstractfactory.example2.AbstractFactory</node>
+    <node x="123.0" y="341.0">bj.DesignPattern.ym_pattern.abstractfactory.example2.ProductA2</node>
+    <node x="0.0" y="500.0">bj.DesignPattern.ym_pattern.abstractfactory.example2.ProductB2</node>
+    <node x="0.0" y="341.0">bj.DesignPattern.ym_pattern.abstractfactory.example2.ProductA1</node>
+    <node x="38.0" y="259.0">bj.DesignPattern.ym_pattern.abstractfactory.example2.AbstractProductA</node>
+    <node x="37.5" y="418.0">bj.DesignPattern.ym_pattern.abstractfactory.example2.AbstractProductB</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.ym_pattern.abstractfactory.example2.ConcreteFactory1" target="bj.DesignPattern.ym_pattern.abstractfactory.example2.AbstractFactory">
+      <point x="0.0" y="-41.0" />
+      <point x="154.0" y="107.0" />
+      <point x="241.0" y="107.0" />
+      <point x="-77.0" y="41.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.abstractfactory.example2.ConcreteFactory2" target="bj.DesignPattern.ym_pattern.abstractfactory.example2.AbstractFactory">
+      <point x="0.0" y="-41.0" />
+      <point x="482.0" y="107.0" />
+      <point x="395.0" y="107.0" />
+      <point x="77.0" y="41.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.abstractfactory.example2.ConcreteFactory2" target="bj.DesignPattern.ym_pattern.abstractfactory.example2.ProductA2">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.abstractfactory.example2.Client" target="bj.DesignPattern.ym_pattern.abstractfactory.example2.ConcreteFactory1">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.abstractfactory.example2.ConcreteFactory1" target="bj.DesignPattern.ym_pattern.abstractfactory.example2.ProductA1">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.abstractfactory.example2.ProductA1" target="bj.DesignPattern.ym_pattern.abstractfactory.example2.AbstractProductA">
+      <point x="0.0" y="-16.0" />
+      <point x="51.5" y="316.0" />
+      <point x="75.5" y="316.0" />
+      <point x="-37.5" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.abstractfactory.example2.ProductA2" target="bj.DesignPattern.ym_pattern.abstractfactory.example2.AbstractProductA">
+      <point x="0.0" y="-16.0" />
+      <point x="174.5" y="316.0" />
+      <point x="150.5" y="316.0" />
+      <point x="37.5" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.abstractfactory.example2.ConcreteFactory2" target="bj.DesignPattern.ym_pattern.abstractfactory.example2.ProductB2">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.abstractfactory.example2.ConcreteFactory1" target="bj.DesignPattern.ym_pattern.abstractfactory.example2.ProductB1">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.abstractfactory.example2.ProductB1" target="bj.DesignPattern.ym_pattern.abstractfactory.example2.AbstractProductB">
+      <point x="0.0" y="-16.0" />
+      <point x="173.0" y="475.0" />
+      <point x="149.25" y="475.0" />
+      <point x="37.25" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.abstractfactory.example2.ProductB2" target="bj.DesignPattern.ym_pattern.abstractfactory.example2.AbstractProductB">
+      <point x="0.0" y="-16.0" />
+      <point x="51.0" y="475.0" />
+      <point x="74.75" y="475.0" />
+      <point x="-37.25" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="183.5" y="336.0" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.ym_pattern.abstractfactory.example2.Client</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

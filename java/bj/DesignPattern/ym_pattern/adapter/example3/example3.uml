@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.ym_pattern.adapter.example3</OriginalElement>
+  <nodes>
+    <node x="145.5" y="55.0">bj.DesignPattern.ym_pattern.adapter.example3.LogFileOperate</node>
+    <node x="-237.0" y="106.0">bj.DesignPattern.ym_pattern.adapter.example3.Adapter</node>
+    <node x="-237.0" y="336.0">bj.DesignPattern.ym_pattern.adapter.example3.LogModel</node>
+    <node x="-214.0" y="-77.0">bj.DesignPattern.ym_pattern.adapter.example3.LogDbOperateApi</node>
+    <node x="48.0" y="336.0">bj.DesignPattern.ym_pattern.adapter.example3.Client</node>
+    <node x="144.0" y="-77.0">bj.DesignPattern.ym_pattern.adapter.example3.LogFileOperateApi</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.ym_pattern.adapter.example3.Client" target="bj.DesignPattern.ym_pattern.adapter.example3.LogFileOperate">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.adapter.example3.Adapter" target="bj.DesignPattern.ym_pattern.adapter.example3.LogFileOperateApi">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.adapter.example3.LogFileOperate" target="bj.DesignPattern.ym_pattern.adapter.example3.LogFileOperateApi">
+      <point x="0.0" y="-67.0" />
+      <point x="0.0" y="41.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.adapter.example3.Client" target="bj.DesignPattern.ym_pattern.adapter.example3.LogModel">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.adapter.example3.Adapter" target="bj.DesignPattern.ym_pattern.adapter.example3.LogDbOperateApi">
+      <point x="0.0" y="-92.5" />
+      <point x="0.0" y="66.5" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.adapter.example3.Client" target="bj.DesignPattern.ym_pattern.adapter.example3.Adapter">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="150.5" y="255.0" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.ym_pattern.adapter.example3.LogFileOperateApi</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

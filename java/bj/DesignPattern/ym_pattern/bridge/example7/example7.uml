@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.ym_pattern.bridge.example7</OriginalElement>
+  <nodes>
+    <node x="56.80925925925919" y="107.0">bj.DesignPattern.ym_pattern.bridge.example7.MessageMobile</node>
+    <node x="290.8092592592592" y="107.0">bj.DesignPattern.ym_pattern.bridge.example7.MessageEmail</node>
+    <node x="8.309259259259193" y="234.0">bj.DesignPattern.ym_pattern.bridge.example7.AbstractMessage</node>
+    <node x="544.8092592592592" y="107.0">bj.DesignPattern.ym_pattern.bridge.example7.MessageSMS</node>
+    <node x="337.3092592592592" y="234.5">bj.DesignPattern.ym_pattern.bridge.example7.AbstractMessage2</node>
+    <node x="290.6055555555555" y="0.0">bj.DesignPattern.ym_pattern.bridge.example7.MessageImplementor</node>
+    <node x="629.6055555555555" y="234.0">bj.DesignPattern.ym_pattern.bridge.example7.AbstractMessage3</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.ym_pattern.bridge.example7.AbstractMessage2" target="bj.DesignPattern.ym_pattern.bridge.example7.MessageEmail">
+      <point x="0.0" y="-54.0" />
+      <point x="53.5" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.bridge.example7.MessageMobile" target="bj.DesignPattern.ym_pattern.bridge.example7.MessageImplementor">
+      <point x="0.0" y="-28.5" />
+      <point x="163.8092592592592" y="87.0" />
+      <point x="354.80555555555543" y="87.0" />
+      <point x="-42.80000000000001" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.bridge.example7.MessageEmail" target="bj.DesignPattern.ym_pattern.bridge.example7.MessageImplementor">
+      <point x="0.0" y="-28.5" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.bridge.example7.AbstractMessage2" target="bj.DesignPattern.ym_pattern.bridge.example7.MessageMobile">
+      <point x="-76.0" y="-54.0" />
+      <point x="375.3092592592592" y="184.0" />
+      <point x="217.3092592592592" y="184.0" />
+      <point x="53.5" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.bridge.example7.AbstractMessage3" target="bj.DesignPattern.ym_pattern.bridge.example7.MessageSMS">
+      <point x="-68.0" y="-54.5" />
+      <point x="697.6055555555555" y="214.0" />
+      <point x="723.1425925925926" y="214.0" />
+      <point x="71.33333333333337" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.bridge.example7.AbstractMessage" target="bj.DesignPattern.ym_pattern.bridge.example7.MessageMobile">
+      <point x="-34.0" y="-54.5" />
+      <point x="-53.5" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.bridge.example7.MessageSMS" target="bj.DesignPattern.ym_pattern.bridge.example7.MessageImplementor">
+      <point x="0.0" y="-28.5" />
+      <point x="651.8092592592592" y="87.0" />
+      <point x="440.40555555555545" y="87.0" />
+      <point x="42.80000000000001" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.bridge.example7.AbstractMessage2" target="bj.DesignPattern.ym_pattern.bridge.example7.MessageSMS">
+      <point x="76.0" y="-54.0" />
+      <point x="527.3092592592592" y="214.0" />
+      <point x="651.8092592592592" y="214.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.bridge.example7.AbstractMessage" target="bj.DesignPattern.ym_pattern.bridge.example7.MessageImplementor">
+      <point x="-102.0" y="-54.5" />
+      <point x="42.30925925925919" y="214.0" />
+      <point x="0.0" y="214.0" />
+      <point x="0.0" y="77.0" />
+      <point x="312.0055555555555" y="77.0" />
+      <point x="-85.60000000000002" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.bridge.example7.AbstractMessage" target="bj.DesignPattern.ym_pattern.bridge.example7.MessageSMS">
+      <point x="102.0" y="-54.5" />
+      <point x="246.3092592592592" y="204.0" />
+      <point x="580.4759259259258" y="204.0" />
+      <point x="-71.33333333333337" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.bridge.example7.AbstractMessage3" target="bj.DesignPattern.ym_pattern.bridge.example7.MessageImplementor">
+      <point x="68.0" y="-54.5" />
+      <point x="833.6055555555555" y="214.0" />
+      <point x="795.4148148148147" y="214.0" />
+      <point x="795.4148148148147" y="77.0" />
+      <point x="483.2055555555555" y="77.0" />
+      <point x="85.60000000000002" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.bridge.example7.AbstractMessage" target="bj.DesignPattern.ym_pattern.bridge.example7.MessageEmail">
+      <point x="34.0" y="-54.5" />
+      <point x="178.3092592592592" y="194.0" />
+      <point x="344.3092592592592" y="194.0" />
+      <point x="-53.5" y="28.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.1" x="450.99999999999994" y="171.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.ym_pattern.bridge.example7.MessageImplementor</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.ym_pattern.adapter.example4</OriginalElement>
+  <nodes>
+    <node x="-24.0" y="471.0">bj.DesignPattern.ym_pattern.adapter.example4.Client</node>
+    <node x="-309.0" y="471.0">bj.DesignPattern.ym_pattern.adapter.example4.LogModel</node>
+    <node x="408.0" y="229.0">bj.DesignPattern.ym_pattern.adapter.example4.LogFileOperate</node>
+    <node x="-178.125" y="-17.0">bj.DesignPattern.ym_pattern.adapter.example4.LogDbOperateApi</node>
+    <node x="1.0" y="166.0">bj.DesignPattern.ym_pattern.adapter.example4.TwoDirectAdapter</node>
+    <node x="280.125" y="8.5">bj.DesignPattern.ym_pattern.adapter.example4.LogFileOperateApi</node>
+    <node x="-309.0" y="229.5">bj.DesignPattern.ym_pattern.adapter.example4.LogDbOperate</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.ym_pattern.adapter.example4.Client" target="bj.DesignPattern.ym_pattern.adapter.example4.LogDbOperate">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.adapter.example4.Client" target="bj.DesignPattern.ym_pattern.adapter.example4.TwoDirectAdapter">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.adapter.example4.LogFileOperate" target="bj.DesignPattern.ym_pattern.adapter.example4.LogFileOperateApi">
+      <point x="0.0" y="-67.0" />
+      <point x="544.0" y="141.0" />
+      <point x="486.375" y="141.0" />
+      <point x="68.75" y="41.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.adapter.example4.TwoDirectAdapter" target="bj.DesignPattern.ym_pattern.adapter.example4.LogDbOperateApi">
+      <point x="-96.75" y="-130.0" />
+      <point x="97.75" y="141.0" />
+      <point x="39.375" y="141.0" />
+      <point x="72.5" y="66.5" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.adapter.example4.Client" target="bj.DesignPattern.ym_pattern.adapter.example4.LogFileOperate">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.adapter.example4.TwoDirectAdapter" target="bj.DesignPattern.ym_pattern.adapter.example4.LogFileOperateApi">
+      <point x="96.75" y="-130.0" />
+      <point x="291.25" y="141.0" />
+      <point x="348.875" y="141.0" />
+      <point x="-68.75" y="41.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.adapter.example4.LogDbOperate" target="bj.DesignPattern.ym_pattern.adapter.example4.LogDbOperateApi">
+      <point x="0.0" y="-66.5" />
+      <point x="-164.0" y="141.0" />
+      <point x="-105.625" y="141.0" />
+      <point x="-72.5" y="66.5" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.adapter.example4.Client" target="bj.DesignPattern.ym_pattern.adapter.example4.LogModel">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="242.5" y="336.0" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.ym_pattern.adapter.example4.Client</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

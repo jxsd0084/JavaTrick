@@ -9,7 +9,6 @@
       <excludeFolder url="file://$MODULE_DIR$/java/bj/DesignPattern/JavaDesignPatterns" />
       <excludeFolder url="file://$MODULE_DIR$/java/bj/DesignPattern/JavaPattern" />
       <excludeFolder url="file://$MODULE_DIR$/java/bj/DesignPattern/sxt_pattern" />
-      <excludeFolder url="file://$MODULE_DIR$/java/bj/DesignPattern/ym_pattern" />
       <excludeFolder url="file://$MODULE_DIR$/java/bj/Java1200" />
       <excludeFolder url="file://$MODULE_DIR$/java/bj/JavaAlgorithm" />
       <excludeFolder url="file://$MODULE_DIR$/java/bj/JavaSpecialForces" />
@@ -20,6 +19,7 @@
       <excludeFolder url="file://$MODULE_DIR$/java/bj/geym" />
       <excludeFolder url="file://$MODULE_DIR$/java/bj/hmkcode" />
       <excludeFolder url="file://$MODULE_DIR$/java/bj/jakeChen" />
+      <excludeFolder url="file://$MODULE_DIR$/java/bj/mldn" />
       <excludeFolder url="file://$MODULE_DIR$/java/bj/powernode" />
       <excludeFolder url="file://$MODULE_DIR$/java/bj/sxt" />
       <excludeFolder url="file://$MODULE_DIR$/java/com" />

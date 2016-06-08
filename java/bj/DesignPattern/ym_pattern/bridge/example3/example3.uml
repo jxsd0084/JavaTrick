@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.ym_pattern.bridge.example3</OriginalElement>
+  <nodes>
+    <node x="874.2222222222222" y="107.0">bj.DesignPattern.ym_pattern.bridge.example3.CommonMessageEmail</node>
+    <node x="748.75" y="0.0">bj.DesignPattern.ym_pattern.bridge.example3.Message</node>
+    <node x="752.0" y="214.0">bj.DesignPattern.ym_pattern.bridge.example3.SpecialUrgencyMessageEmail</node>
+    <node x="0.0" y="214.0">bj.DesignPattern.ym_pattern.bridge.example3.UrgencyMessageSMS</node>
+    <node x="660.2222222222222" y="107.0">bj.DesignPattern.ym_pattern.bridge.example3.SpecialUrgencyMessage</node>
+    <node x="1108.2222222222222" y="107.0">bj.DesignPattern.ym_pattern.bridge.example3.CommonMessageSMS</node>
+    <node x="508.0" y="214.0">bj.DesignPattern.ym_pattern.bridge.example3.SpecialUrgencyMessageSMS</node>
+    <node x="164.0" y="107.0">bj.DesignPattern.ym_pattern.bridge.example3.UrgencyMessage</node>
+    <node x="254.0" y="214.0">bj.DesignPattern.ym_pattern.bridge.example3.UrgencyMessageEmail</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.ym_pattern.bridge.example3.UrgencyMessage" target="bj.DesignPattern.ym_pattern.bridge.example3.Message">
+      <point x="0.0" y="-28.5" />
+      <point x="259.0" y="77.0" />
+      <point x="775.5" y="77.0" />
+      <point x="-80.25" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.bridge.example3.CommonMessageEmail" target="bj.DesignPattern.ym_pattern.bridge.example3.Message">
+      <point x="0.0" y="-28.5" />
+      <point x="981.2222222222222" y="87.0" />
+      <point x="882.5" y="87.0" />
+      <point x="26.75" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.bridge.example3.SpecialUrgencyMessageEmail" target="bj.DesignPattern.ym_pattern.bridge.example3.SpecialUrgencyMessage">
+      <point x="0.0" y="-41.0" />
+      <point x="867.5" y="189.0" />
+      <point x="805.7222222222222" y="189.0" />
+      <point x="48.5" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.bridge.example3.SpecialUrgencyMessageSMS" target="bj.DesignPattern.ym_pattern.bridge.example3.SpecialUrgencyMessage">
+      <point x="0.0" y="-41.0" />
+      <point x="620.0" y="189.0" />
+      <point x="708.7222222222222" y="189.0" />
+      <point x="-48.5" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.bridge.example3.SpecialUrgencyMessage" target="bj.DesignPattern.ym_pattern.bridge.example3.Message">
+      <point x="0.0" y="-28.5" />
+      <point x="757.2222222222222" y="87.0" />
+      <point x="829.0" y="87.0" />
+      <point x="-26.75" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.bridge.example3.UrgencyMessageSMS" target="bj.DesignPattern.ym_pattern.bridge.example3.UrgencyMessage">
+      <point x="0.0" y="-41.0" />
+      <point x="117.0" y="189.0" />
+      <point x="211.5" y="189.0" />
+      <point x="-47.5" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.bridge.example3.CommonMessageSMS" target="bj.DesignPattern.ym_pattern.bridge.example3.Message">
+      <point x="0.0" y="-28.5" />
+      <point x="1215.2222222222222" y="77.0" />
+      <point x="936.0" y="77.0" />
+      <point x="80.25" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.bridge.example3.UrgencyMessageEmail" target="bj.DesignPattern.ym_pattern.bridge.example3.UrgencyMessage">
+      <point x="0.0" y="-41.0" />
+      <point x="371.0" y="189.0" />
+      <point x="306.5" y="189.0" />
+      <point x="47.5" y="28.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="661.5" y="148.0" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.ym_pattern.bridge.example3.UrgencyMessageEmail</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
