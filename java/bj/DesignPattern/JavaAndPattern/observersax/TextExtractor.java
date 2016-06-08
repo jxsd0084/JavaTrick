@@ -1,8 +1,10 @@
 package bj.DesignPattern.JavaAndPattern.observersax;
 
+import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
-import java.io.*;
+import java.io.IOException;
+import java.io.Writer;
 
 
 public class TextExtractor extends DefaultHandler {

@@ -12,9 +12,11 @@ public class MyReaderShort {
 
 	/**
 	 * 测试
- 	 * @param args
+	 *
+	 * @param args
 	 */
 	public static void main( String[] args ) throws ClassNotFoundException {
+
 		try {
 			parser = XMLReaderFactory.createXMLReader();
 

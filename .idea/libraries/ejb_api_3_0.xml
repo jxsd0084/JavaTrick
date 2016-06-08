@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="ejb-api-3.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/java/bj/DesignPattern/JavaAndPattern/lib/ejb-api-3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/java/bj/DesignPattern/JavaAndPattern/lib/javax.servlet-api-3.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/java/bj/DesignPattern/JavaAndPattern/lib/mail-1.4.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

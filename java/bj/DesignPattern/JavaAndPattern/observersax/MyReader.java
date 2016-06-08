@@ -1,8 +1,11 @@
 package bj.DesignPattern.JavaAndPattern.observersax;
 
+import org.xml.sax.ContentHandler;
+import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.XMLReaderFactory;
 
-import java.io.*;
+import java.io.OutputStreamWriter;
+import java.io.Writer;
 
 public class MyReader {
 
@@ -11,9 +14,11 @@ public class MyReader {
 
 	/**
 	 * 测试
- 	 * @param args
+	 *
+	 * @param args
 	 */
 	public static void main( String[] args ) {
+
 		try {
 			parser = XMLReaderFactory.createXMLReader();
 

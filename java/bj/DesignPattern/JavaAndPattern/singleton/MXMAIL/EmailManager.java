@@ -5,6 +5,7 @@ import bj.DesignPattern.JavaAndPattern.singleton.MXRECORD.MailServer;
 
 import javax.activation.DataHandler;
 import javax.activation.FileDataSource;
+import javax.mail.*;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeBodyPart;
 import javax.mail.internet.MimeMessage;
@@ -55,6 +56,7 @@ public class EmailManager {
 	 * recipient type TO, or CC, or BCC will be entered.
 	 */
 	public EmailManager( String subject, String from ) throws Exception {
+
 		m_subject = subject;
 		m_from = from;
 		m_to = null;
@@ -67,6 +69,7 @@ public class EmailManager {
 	 * recipient type TO, or CC, or BCC will be entered.
 	 */
 	public EmailManager( String subject, String from, String host, String user ) throws Exception {
+
 		m_user = user;
 		m_host = host;
 		m_subject = subject;
@@ -82,6 +85,7 @@ public class EmailManager {
 	 */
 	public EmailManager( String subject, String from, String to,
 	                     String cc, String bcc ) throws Exception {
+
 		m_subject = subject;
 		m_from = from;
 		addToAddress( to );
@@ -96,6 +100,7 @@ public class EmailManager {
 	public EmailManager( String subject, String from, String to,
 	                     String cc, String bcc, String user,
 	                     String host ) throws Exception {
+
 		m_user = user;
 		m_host = host;
 		m_subject = subject;
@@ -106,6 +111,7 @@ public class EmailManager {
 	}
 
 	public void addBccAddress( String bccAddr ) {
+
 		if ( ( bccAddr == null ) || ( bccAddr.length() <= 0 ) ) {
 			return;
 		}
@@ -118,6 +124,7 @@ public class EmailManager {
 	}
 
 	public void addBccAddress( Vector bccAddr ) {
+
 		if ( bccAddr == null ) {
 			return;
 		}
@@ -133,6 +140,7 @@ public class EmailManager {
 	}
 
 	public void addCcAddress( String ccAddr ) {
+
 		if ( ( ccAddr == null ) || ( ccAddr.length() <= 0 ) ) {
 			return;
 		}
@@ -145,6 +153,7 @@ public class EmailManager {
 	}
 
 	public void addCcAddress( Vector ccAddr ) {
+
 		if ( ccAddr == null ) {
 			return;
 		}
@@ -160,6 +169,7 @@ public class EmailManager {
 	}
 
 	public void addToAddress( String toAddr ) {
+
 		if ( ( toAddr == null ) || ( toAddr.length() <= 0 ) ) {
 			return;
 		}
@@ -172,6 +182,7 @@ public class EmailManager {
 	}
 
 	public void addToAddress( Vector toAddr ) {
+
 		if ( toAddr == null ) {
 			return;
 		}
@@ -187,6 +198,7 @@ public class EmailManager {
 	}
 
 	public void init() throws Exception {
+
 		mxl = MXList.getInstance( "dns://dns90.jeffcorp.com", "jeffcorp.com" );
 //        mxl.dump();
 
@@ -238,7 +250,7 @@ public class EmailManager {
 			// try to send emails
 			for ( int i = 0; i < mxl.size() && shouldContinue; i++ ) {
 				try {
-					m_host = ( (MailServer) mxl.elementAt( i ) ).getServer();
+					m_host = ( ( MailServer ) mxl.elementAt( i ) ).getServer();
 
 					System.out.println( "TRYING SMTP SERVER " + m_host + " FOR ROUND " + i );
 
@@ -268,6 +280,7 @@ public class EmailManager {
 	}
 
 	public void setAttachment( String filename ) throws Exception {
+
 		MimeBodyPart mimeAttach = new MimeBodyPart();
 
 		// attach the file to the message
@@ -278,6 +291,7 @@ public class EmailManager {
 	}
 
 	protected void setBccAddress() throws Exception {
+
 		if ( m_bcc == null ) {
 			return;
 		}
@@ -291,7 +305,7 @@ public class EmailManager {
 		int               addressIndex = 0;
 
 		while ( addressIndex < addressCount ) {
-			String address = (String) m_bcc.elementAt( addressIndex );
+			String address = ( String ) m_bcc.elementAt( addressIndex );
 			addresses[ addressIndex ] = new InternetAddress( address );
 			addressIndex++;
 		}
@@ -307,6 +321,7 @@ public class EmailManager {
 	}
 
 	protected void setCcAddress() throws Exception {
+
 		if ( m_cc == null ) {
 			return;
 		}
@@ -320,7 +335,7 @@ public class EmailManager {
 		int               addressIndex = 0;
 
 		while ( addressIndex < addressCount ) {
-			String address = (String) m_cc.elementAt( addressIndex );
+			String address = ( String ) m_cc.elementAt( addressIndex );
 			addresses[ addressIndex ] = new InternetAddress( address );
 			addressIndex++;
 		}
@@ -329,6 +344,7 @@ public class EmailManager {
 	}
 
 	protected void setFromAddress() throws Exception {
+
 		if ( m_from.length() <= 0 ) {
 			return;
 		}
@@ -337,6 +353,7 @@ public class EmailManager {
 	}
 
 	protected void setSubject() throws Exception {
+
 		if ( ( m_subject == null ) || ( m_subject.length() <= 0 ) ) {
 			return;
 		}
@@ -345,6 +362,7 @@ public class EmailManager {
 	}
 
 	protected void setToAddress() throws Exception {
+
 		if ( m_to == null ) {
 			throw new Exception( "Recipient TO is not set." );
 		}
@@ -358,7 +376,7 @@ public class EmailManager {
 		int               addressIndex = 0;
 
 		while ( addressIndex < addressCount ) {
-			String address = (String) m_to.elementAt( addressIndex );
+			String address = ( String ) m_to.elementAt( addressIndex );
 			addresses[ addressIndex ] = new InternetAddress( address );
 			addressIndex++;
 		}
@@ -367,10 +385,12 @@ public class EmailManager {
 	}
 
 	public void writeMessage( String msg ) {
+
 		m_emailContent += msg;
 	}
 
 	public static void main( String[] args ) {
+
 		try {
 			String from    = "jeff.yan@jeffcorp.com";
 			String to      = "jeff.yan@jeffcorp.com";

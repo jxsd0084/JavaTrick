@@ -1,14 +1,18 @@
 package bj.DesignPattern.JavaAndPattern.OBSERVER.xmlparser;
 
+import org.xml.sax.ContentHandler;
+import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.XMLReaderFactory;
 
-import java.io.*;
+import java.io.OutputStreamWriter;
+import java.io.Writer;
 
 public class ExtractorDriver {
 
 	/**
 	 * 测试
- 	 * @param args
+	 *
+	 * @param args
 	 */
 	public static void main( String[] args ) {
 

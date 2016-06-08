@@ -1,14 +1,21 @@
 package bj.DesignPattern.JavaAndPattern.BUILDER.sendemail;
 
+import javax.mail.Message;
+import javax.mail.Session;
+import javax.mail.Transport;
+import javax.mail.internet.InternetAddress;
+import javax.mail.internet.MimeMessage;
 import java.util.Properties;
 
 class SimpleMail {
 
 	/**
 	 * 测试
+	 *
 	 * @param args
 	 */
 	public static void main( String[] args ) throws Exception {
+
 		Properties props = new Properties();
 		props.setProperty( "mail.transport.protocol", "smtp" );
 		props.setProperty( "mail.host", "umbriel.citicorp.com" );
@@ -25,6 +32,7 @@ class SimpleMail {
 		transport.connect();
 		transport.sendMessage( message, message.getRecipients( Message.RecipientType.TO ) );
 		transport.close();
+
 	}
 
 }
