@@ -16,6 +16,7 @@ public class Adapter implements Target {
 	 * @param adaptee 需要被适配的对象
 	 */
 	public Adapter( Adaptee adaptee ) {
+
 		this.adaptee = adaptee;
 	}
 
@@ -23,5 +24,6 @@ public class Adapter implements Target {
 		// 可能转调已经实现了的方法，进行适配
 		adaptee.specificRequest();
 	}
+
 }
 

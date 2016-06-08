@@ -28,6 +28,7 @@ public class LogFileOperate implements LogFileOperateApi {
 	}
 
 	public List< LogModel > readLogFile() {
+
 		List< LogModel >  list = null;
 		ObjectInputStream oin  = null;
 		try {
@@ -36,7 +37,7 @@ public class LogFileOperate implements LogFileOperateApi {
 				oin = new ObjectInputStream(
 						new BufferedInputStream( new FileInputStream( f ) )
 				);
-				list = (List< LogModel >) oin.readObject();
+				list = ( List< LogModel > ) oin.readObject();
 			}
 		} catch ( Exception e ) {
 			e.printStackTrace();
@@ -53,6 +54,7 @@ public class LogFileOperate implements LogFileOperateApi {
 	}
 
 	public void writeLogFile( List< LogModel > list ) {
+
 		File               f    = new File( logFilePathName );
 		ObjectOutputStream oout = null;
 		try {
@@ -70,4 +72,5 @@ public class LogFileOperate implements LogFileOperateApi {
 			}
 		}
 	}
+
 }

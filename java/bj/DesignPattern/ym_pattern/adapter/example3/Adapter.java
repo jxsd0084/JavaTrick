@@ -18,6 +18,7 @@ public class Adapter implements LogDbOperateApi {
 	 * @param adaptee 需要被适配的对象
 	 */
 	public Adapter( LogFileOperateApi adaptee ) {
+
 		this.adaptee = adaptee;
 	}
 
@@ -31,6 +32,7 @@ public class Adapter implements LogDbOperateApi {
 	}
 
 	public List< LogModel > getAllLog() {
+
 		return adaptee.readLogFile();
 	}
 

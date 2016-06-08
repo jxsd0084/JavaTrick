@@ -9,5 +9,6 @@ public interface Target {
 	 * 示意方法，客户端请求处理的方法
 	 */
 	public void request();
+
 }
 

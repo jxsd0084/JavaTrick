@@ -20,4 +20,5 @@ public interface LogFileOperateApi {
 	 * @param list 要写到日志文件的日志列表
 	 */
 	public void writeLogFile( List< LogModel > list );
+
 }

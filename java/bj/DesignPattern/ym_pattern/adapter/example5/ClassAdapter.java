@@ -8,6 +8,7 @@ import java.util.List;
 public class ClassAdapter extends LogFileOperate implements LogDbOperateApi {
 
 	public ClassAdapter( String logFilePathName ) {
+
 		super( logFilePathName );
 	}
 
@@ -21,6 +22,7 @@ public class ClassAdapter extends LogFileOperate implements LogDbOperateApi {
 	}
 
 	public List< LogModel > getAllLog() {
+
 		return this.readLogFile();
 	}
 

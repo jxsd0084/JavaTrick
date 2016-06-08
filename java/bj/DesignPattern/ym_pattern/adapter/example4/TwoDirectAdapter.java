@@ -23,6 +23,7 @@ public class TwoDirectAdapter implements LogDbOperateApi, LogFileOperateApi {
 	 * @param dbLog   需要被适配的DB存储日志的接口对象
 	 */
 	public TwoDirectAdapter( LogFileOperateApi fileLog, LogDbOperateApi dbLog ) {
+
 		this.fileLog = fileLog;
 		this.dbLog = dbLog;
 	}
@@ -38,6 +39,7 @@ public class TwoDirectAdapter implements LogDbOperateApi, LogFileOperateApi {
 	}
 
 	public List< LogModel > getAllLog() {
+
 		return fileLog.readLogFile();
 	}
 
@@ -67,6 +69,7 @@ public class TwoDirectAdapter implements LogDbOperateApi, LogFileOperateApi {
 
 	/*-----以下是把DB操作的方式适配成为文件实现方式的接口-----*/
 	public List< LogModel > readLogFile() {
+
 		return dbLog.getAllLog();
 	}
 

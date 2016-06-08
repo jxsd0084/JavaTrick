@@ -35,4 +35,5 @@ public interface LogDbOperateApi {
 	 * @return 所有的日志对象
 	 */
 	public List< LogModel > getAllLog();
+
 }

@@ -11,5 +11,6 @@ public class Adaptee {
 	public void specificRequest() {
 		// 具体的功能处理
 	}
+
 }
 
