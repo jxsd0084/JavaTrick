@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.ym_pattern.interpreter.example2</OriginalElement>
+  <nodes>
+    <node x="112.5" y="0.0">bj.DesignPattern.ym_pattern.interpreter.example2.AbstractExpression</node>
+    <node x="208.0" y="82.0">bj.DesignPattern.ym_pattern.interpreter.example2.TerminalExpression</node>
+    <node x="0.0" y="159.0">bj.DesignPattern.ym_pattern.interpreter.example2.Context</node>
+    <node x="129.0" y="159.0">bj.DesignPattern.ym_pattern.interpreter.example2.Client</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.ym_pattern.interpreter.example2.NonterminalExpression</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.ym_pattern.interpreter.example2.NonterminalExpression" target="bj.DesignPattern.ym_pattern.interpreter.example2.AbstractExpression">
+      <point x="0.0" y="-16.0" />
+      <point x="94.0" y="57.0" />
+      <point x="152.0" y="57.0" />
+      <point x="-39.5" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.interpreter.example2.TerminalExpression" target="bj.DesignPattern.ym_pattern.interpreter.example2.AbstractExpression">
+      <point x="0.0" y="-16.0" />
+      <point x="289.0" y="57.0" />
+      <point x="231.0" y="57.0" />
+      <point x="39.5" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="185.0" y="95.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.ym_pattern.interpreter.example2.NonterminalExpression</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

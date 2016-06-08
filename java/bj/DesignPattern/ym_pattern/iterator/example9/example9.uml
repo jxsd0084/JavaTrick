@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.ym_pattern.iterator.example9</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">bj.DesignPattern.ym_pattern.iterator.example9.AggregationIterator</node>
+    <node x="178.0" y="159.0">bj.DesignPattern.ym_pattern.iterator.example9.PayModel</node>
+    <node x="10.0" y="82.0">bj.DesignPattern.ym_pattern.iterator.example9.ArrayIteratorImpl</node>
+    <node x="0.0" y="236.0">bj.DesignPattern.ym_pattern.iterator.example9.Client</node>
+    <node x="0.0" y="159.0">bj.DesignPattern.ym_pattern.iterator.example9.SalaryManager</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.ym_pattern.iterator.example9.ArrayIteratorImpl" target="bj.DesignPattern.ym_pattern.iterator.example9.AggregationIterator">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="139.0" y="134.0" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.ym_pattern.iterator.example9.ArrayIteratorImpl</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

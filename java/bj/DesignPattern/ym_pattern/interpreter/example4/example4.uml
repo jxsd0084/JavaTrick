@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.ym_pattern.interpreter.example4</OriginalElement>
+  <nodes>
+    <node x="389.0" y="0.0">bj.DesignPattern.ym_pattern.interpreter.example4.ReadXmlExpression</node>
+    <node x="362.0" y="82.0">bj.DesignPattern.ym_pattern.interpreter.example4.ElementTerminalExpression</node>
+    <node x="0.0" y="159.0">bj.DesignPattern.ym_pattern.interpreter.example4.Context</node>
+    <node x="844.0" y="82.0">bj.DesignPattern.ym_pattern.interpreter.example4.ElementsTerminalExpression</node>
+    <node x="599.0" y="82.0">bj.DesignPattern.ym_pattern.interpreter.example4.PropertysTerminalExpression</node>
+    <node x="129.0" y="159.0">bj.DesignPattern.ym_pattern.interpreter.example4.XmlUtil</node>
+    <node x="255.0" y="159.0">bj.DesignPattern.ym_pattern.interpreter.example4.Client</node>
+    <node x="178.0" y="82.0">bj.DesignPattern.ym_pattern.interpreter.example4.ElementsExpression</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.ym_pattern.interpreter.example4.ElementExpression</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.ym_pattern.interpreter.example4.ElementsTerminalExpression" target="bj.DesignPattern.ym_pattern.interpreter.example4.ReadXmlExpression">
+      <point x="0.0" y="-16.0" />
+      <point x="955.5" y="52.0" />
+      <point x="535.7" y="52.0" />
+      <point x="65.20000000000005" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.interpreter.example4.ElementsExpression" target="bj.DesignPattern.ym_pattern.interpreter.example4.ReadXmlExpression">
+      <point x="0.0" y="-16.0" />
+      <point x="260.0" y="62.0" />
+      <point x="437.9" y="62.0" />
+      <point x="-32.60000000000002" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.interpreter.example4.ElementExpression" target="bj.DesignPattern.ym_pattern.interpreter.example4.ReadXmlExpression">
+      <point x="0.0" y="-16.0" />
+      <point x="79.0" y="52.0" />
+      <point x="405.3" y="52.0" />
+      <point x="-65.19999999999999" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.interpreter.example4.PropertysTerminalExpression" target="bj.DesignPattern.ym_pattern.interpreter.example4.ReadXmlExpression">
+      <point x="0.0" y="-16.0" />
+      <point x="711.5" y="62.0" />
+      <point x="503.09999999999997" y="62.0" />
+      <point x="32.599999999999966" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.interpreter.example4.ElementTerminalExpression" target="bj.DesignPattern.ym_pattern.interpreter.example4.ReadXmlExpression">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="533.5" y="95.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.ym_pattern.interpreter.example4.ElementExpression</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

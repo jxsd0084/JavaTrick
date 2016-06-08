@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.ym_pattern.interpreter.example3</OriginalElement>
+  <nodes>
+    <node x="476.0" y="82.0">bj.DesignPattern.ym_pattern.interpreter.example3.ElementExpression</node>
+    <node x="239.0" y="82.0">bj.DesignPattern.ym_pattern.interpreter.example3.ElementTerminalExpression</node>
+    <node x="0.0" y="159.0">bj.DesignPattern.ym_pattern.interpreter.example3.Context</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.ym_pattern.interpreter.example3.PropertyTerminalExpression</node>
+    <node x="266.0" y="0.0">bj.DesignPattern.ym_pattern.interpreter.example3.ReadXmlExpression</node>
+    <node x="0.0" y="236.0">bj.DesignPattern.ym_pattern.interpreter.example3.Client</node>
+    <node x="129.0" y="159.0">bj.DesignPattern.ym_pattern.interpreter.example3.XmlUtil</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.ym_pattern.interpreter.example3.ElementTerminalExpression" target="bj.DesignPattern.ym_pattern.interpreter.example3.ReadXmlExpression">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.interpreter.example3.ElementExpression" target="bj.DesignPattern.ym_pattern.interpreter.example3.ReadXmlExpression">
+      <point x="0.0" y="-16.0" />
+      <point x="555.0" y="57.0" />
+      <point x="401.83333333333337" y="57.0" />
+      <point x="54.33333333333337" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.interpreter.example3.PropertyTerminalExpression" target="bj.DesignPattern.ym_pattern.interpreter.example3.ReadXmlExpression">
+      <point x="0.0" y="-16.0" />
+      <point x="109.5" y="57.0" />
+      <point x="293.1666666666667" y="57.0" />
+      <point x="-54.333333333333314" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="317.0" y="134.0" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.ym_pattern.interpreter.example3.ReadXmlExpression</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

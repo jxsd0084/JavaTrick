@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.ym_pattern.flyweight.example4</OriginalElement>
+  <nodes>
+    <node x="0.0" y="313.0">bj.DesignPattern.ym_pattern.flyweight.example4.Client</node>
+    <node x="158.75" y="0.0">bj.DesignPattern.ym_pattern.flyweight.example4.Flyweight</node>
+    <node x="158.0" y="236.0">bj.DesignPattern.ym_pattern.flyweight.example4.TestDB</node>
+    <node x="209.0" y="82.0">bj.DesignPattern.ym_pattern.flyweight.example4.UnsharedConcreteFlyweight</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.ym_pattern.flyweight.example4.AuthorizationFlyweight</node>
+    <node x="0.0" y="159.0">bj.DesignPattern.ym_pattern.flyweight.example4.FlyweightFactory</node>
+    <node x="0.0" y="236.0">bj.DesignPattern.ym_pattern.flyweight.example4.SecurityMgr</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.ym_pattern.flyweight.example4.UnsharedConcreteFlyweight" target="bj.DesignPattern.ym_pattern.flyweight.example4.Flyweight">
+      <point x="0.0" y="-16.0" />
+      <point x="319.0" y="57.0" />
+      <point x="230.75" y="57.0" />
+      <point x="24.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.flyweight.example4.AuthorizationFlyweight" target="bj.DesignPattern.ym_pattern.flyweight.example4.Flyweight">
+      <point x="0.0" y="-16.0" />
+      <point x="94.5" y="57.0" />
+      <point x="182.75" y="57.0" />
+      <point x="-24.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="214.5" y="172.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.ym_pattern.flyweight.example4.Client</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
