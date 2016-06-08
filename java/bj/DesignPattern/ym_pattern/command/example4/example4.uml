@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.ym_pattern.command.example4</OriginalElement>
+  <nodes>
+    <node x="114.5" y="0.0">bj.DesignPattern.ym_pattern.command.example4.Command</node>
+    <node x="184.0" y="82.0">bj.DesignPattern.ym_pattern.command.example4.AddCommand</node>
+    <node x="145.0" y="318.0">bj.DesignPattern.ym_pattern.command.example4.Client</node>
+    <node x="0.0" y="159.0">bj.DesignPattern.ym_pattern.command.example4.OperationApi</node>
+    <node x="11.5" y="241.0">bj.DesignPattern.ym_pattern.command.example4.Operation</node>
+    <node x="0.0" y="318.0">bj.DesignPattern.ym_pattern.command.example4.Calculator</node>
+    <node x="168.0" y="159.0">bj.DesignPattern.ym_pattern.command.example4.Calculator2</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.ym_pattern.command.example4.SubstractCommand</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.ym_pattern.command.example4.SubstractCommand" target="bj.DesignPattern.ym_pattern.command.example4.Command">
+      <point x="0.0" y="-16.0" />
+      <point x="82.0" y="57.0" />
+      <point x="140.0" y="57.0" />
+      <point x="-25.5" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.command.example4.Operation" target="bj.DesignPattern.ym_pattern.command.example4.OperationApi">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.command.example4.AddCommand" target="bj.DesignPattern.ym_pattern.command.example4.Command">
+      <point x="0.0" y="-16.0" />
+      <point x="249.0" y="57.0" />
+      <point x="191.0" y="57.0" />
+      <point x="25.5" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="157.0" y="175.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.ym_pattern.command.example7</OriginalElement>
+  <nodes>
+    <node x="1.0" y="159.0">bj.DesignPattern.ym_pattern.command.example7.CookApi</node>
+    <node x="157.0" y="82.0">bj.DesignPattern.ym_pattern.command.example7.ChopCommand</node>
+    <node x="0.0" y="241.0">bj.DesignPattern.ym_pattern.command.example7.HotCook</node>
+    <node x="0.0" y="395.0">bj.DesignPattern.ym_pattern.command.example7.Waiter</node>
+    <node x="0.0" y="318.0">bj.DesignPattern.ym_pattern.command.example7.CookManager</node>
+    <node x="173.0" y="318.0">bj.DesignPattern.ym_pattern.command.example7.FileOpeUtil</node>
+    <node x="175.0" y="0.0">bj.DesignPattern.ym_pattern.command.example7.Command</node>
+    <node x="315.0" y="82.0">bj.DesignPattern.ym_pattern.command.example7.MenuCommand</node>
+    <node x="121.0" y="395.0">bj.DesignPattern.ym_pattern.command.example7.Client</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.ym_pattern.command.example7.DuckCommand</node>
+    <node x="137.0" y="159.0">bj.DesignPattern.ym_pattern.command.example7.CommandQueue</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.ym_pattern.command.example7.DuckCommand" target="bj.DesignPattern.ym_pattern.command.example7.Command">
+      <point x="0.0" y="-16.0" />
+      <point x="68.5" y="57.0" />
+      <point x="192.0" y="57.0" />
+      <point x="-34.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.command.example7.ChopCommand" target="bj.DesignPattern.ym_pattern.command.example7.Command">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.command.example7.HotCook" target="bj.DesignPattern.ym_pattern.command.example7.CookApi">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.command.example7.MenuCommand" target="bj.DesignPattern.ym_pattern.command.example7.Command">
+      <point x="0.0" y="-16.0" />
+      <point x="386.0" y="57.0" />
+      <point x="260.0" y="57.0" />
+      <point x="34.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="228.5" y="213.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.ym_pattern.command.example7.HotCook</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

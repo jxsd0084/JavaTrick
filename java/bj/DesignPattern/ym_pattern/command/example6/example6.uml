@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.ym_pattern.command.example6</OriginalElement>
+  <nodes>
+    <node x="173.0" y="318.0">bj.DesignPattern.ym_pattern.command.example6.Waiter</node>
+    <node x="320.0" y="82.0">bj.DesignPattern.ym_pattern.command.example6.DuckCommand</node>
+    <node x="162.0" y="82.0">bj.DesignPattern.ym_pattern.command.example6.ChopCommand</node>
+    <node x="0.0" y="241.0">bj.DesignPattern.ym_pattern.command.example6.HotCook</node>
+    <node x="0.0" y="395.0">bj.DesignPattern.ym_pattern.command.example6.Client</node>
+    <node x="0.0" y="318.0">bj.DesignPattern.ym_pattern.command.example6.CookManager</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.ym_pattern.command.example6.MenuCommand</node>
+    <node x="137.0" y="159.0">bj.DesignPattern.ym_pattern.command.example6.CommandQueue</node>
+    <node x="1.0" y="159.0">bj.DesignPattern.ym_pattern.command.example6.CookApi</node>
+    <node x="180.0" y="0.0">bj.DesignPattern.ym_pattern.command.example6.Command</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.ym_pattern.command.example6.MenuCommand" target="bj.DesignPattern.ym_pattern.command.example6.Command">
+      <point x="0.0" y="-16.0" />
+      <point x="71.0" y="57.0" />
+      <point x="197.0" y="57.0" />
+      <point x="-34.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.command.example6.ChopCommand" target="bj.DesignPattern.ym_pattern.command.example6.Command">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.command.example6.HotCook" target="bj.DesignPattern.ym_pattern.command.example6.CookApi">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.command.example6.DuckCommand" target="bj.DesignPattern.ym_pattern.command.example6.Command">
+      <point x="0.0" y="-16.0" />
+      <point x="388.5" y="57.0" />
+      <point x="265.0" y="57.0" />
+      <point x="34.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="228.5" y="213.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.ym_pattern.command.example6.Waiter</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

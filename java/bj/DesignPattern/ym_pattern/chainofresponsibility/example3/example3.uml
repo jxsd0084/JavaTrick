@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.ym_pattern.chainofresponsibility.example3</OriginalElement>
+  <nodes>
+    <node x="301.0" y="82.0">bj.DesignPattern.ym_pattern.chainofresponsibility.example3.GeneralManager</node>
+    <node x="160.0" y="82.0">bj.DesignPattern.ym_pattern.chainofresponsibility.example3.DepManager</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.ym_pattern.chainofresponsibility.example3.ProjectManager</node>
+    <node x="0.0" y="159.0">bj.DesignPattern.ym_pattern.chainofresponsibility.example3.Client</node>
+    <node x="177.5" y="0.0">bj.DesignPattern.ym_pattern.chainofresponsibility.example3.Handler</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.ym_pattern.chainofresponsibility.example3.DepManager" target="bj.DesignPattern.ym_pattern.chainofresponsibility.example3.Handler">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.chainofresponsibility.example3.ProjectManager" target="bj.DesignPattern.ym_pattern.chainofresponsibility.example3.Handler">
+      <point x="0.0" y="-16.0" />
+      <point x="70.0" y="57.0" />
+      <point x="191.83333333333334" y="57.0" />
+      <point x="-28.666666666666657" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.chainofresponsibility.example3.GeneralManager" target="bj.DesignPattern.ym_pattern.chainofresponsibility.example3.Handler">
+      <point x="0.0" y="-16.0" />
+      <point x="373.5" y="57.0" />
+      <point x="249.16666666666669" y="57.0" />
+      <point x="28.666666666666686" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="223.0" y="95.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.ym_pattern.chainofresponsibility.example3.Handler</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

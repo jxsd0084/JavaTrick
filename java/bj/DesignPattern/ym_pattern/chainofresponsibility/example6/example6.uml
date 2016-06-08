@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.ym_pattern.chainofresponsibility.example6</OriginalElement>
+  <nodes>
+    <node x="0.0" y="159.0">bj.DesignPattern.ym_pattern.chainofresponsibility.example6.GoodsSaleEbo</node>
+    <node x="331.0" y="82.0">bj.DesignPattern.ym_pattern.chainofresponsibility.example6.SaleMgr</node>
+    <node x="0.0" y="236.0">bj.DesignPattern.ym_pattern.chainofresponsibility.example6.Client</node>
+    <node x="439.0" y="82.0">bj.DesignPattern.ym_pattern.chainofresponsibility.example6.SaleDataCheck</node>
+    <node x="174.0" y="159.0">bj.DesignPattern.ym_pattern.chainofresponsibility.example6.SaleModel</node>
+    <node x="174.0" y="82.0">bj.DesignPattern.ym_pattern.chainofresponsibility.example6.SaleLogicCheck</node>
+    <node x="251.75" y="0.0">bj.DesignPattern.ym_pattern.chainofresponsibility.example6.SaleHandler</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.ym_pattern.chainofresponsibility.example6.SaleSecurityCheck</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.ym_pattern.chainofresponsibility.example6.SaleMgr" target="bj.DesignPattern.ym_pattern.chainofresponsibility.example6.SaleHandler">
+      <point x="0.0" y="-16.0" />
+      <point x="375.0" y="62.0" />
+      <point x="323.0" y="62.0" />
+      <point x="14.25" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.chainofresponsibility.example6.SaleLogicCheck" target="bj.DesignPattern.ym_pattern.chainofresponsibility.example6.SaleHandler">
+      <point x="0.0" y="-16.0" />
+      <point x="242.5" y="62.0" />
+      <point x="294.5" y="62.0" />
+      <point x="-14.25" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.chainofresponsibility.example6.SaleSecurityCheck" target="bj.DesignPattern.ym_pattern.chainofresponsibility.example6.SaleHandler">
+      <point x="0.0" y="-16.0" />
+      <point x="77.0" y="52.0" />
+      <point x="266.0" y="52.0" />
+      <point x="-42.75" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.chainofresponsibility.example6.SaleDataCheck" target="bj.DesignPattern.ym_pattern.chainofresponsibility.example6.SaleHandler">
+      <point x="0.0" y="-16.0" />
+      <point x="505.5" y="52.0" />
+      <point x="351.5" y="52.0" />
+      <point x="42.75" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="286.0" y="134.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

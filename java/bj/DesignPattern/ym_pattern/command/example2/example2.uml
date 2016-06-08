@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.ym_pattern.command.example2</OriginalElement>
+  <nodes>
+    <node x="158.0" y="82.0">bj.DesignPattern.ym_pattern.command.example2.MsiMainBoard</node>
+    <node x="0.0" y="241.0">bj.DesignPattern.ym_pattern.command.example2.OpenCommand</node>
+    <node x="18.5" y="159.0">bj.DesignPattern.ym_pattern.command.example2.Command</node>
+    <node x="116.0" y="318.0">bj.DesignPattern.ym_pattern.command.example2.Box</node>
+    <node x="0.0" y="318.0">bj.DesignPattern.ym_pattern.command.example2.Client</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.ym_pattern.command.example2.GigaMainBoard</node>
+    <node x="81.25" y="0.0">bj.DesignPattern.ym_pattern.command.example2.MainBoardApi</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.ym_pattern.command.example2.MsiMainBoard" target="bj.DesignPattern.ym_pattern.command.example2.MainBoardApi">
+      <point x="0.0" y="-16.0" />
+      <point x="223.5" y="57.0" />
+      <point x="178.75" y="57.0" />
+      <point x="32.5" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.command.example2.GigaMainBoard" target="bj.DesignPattern.ym_pattern.command.example2.MainBoardApi">
+      <point x="0.0" y="-16.0" />
+      <point x="69.0" y="57.0" />
+      <point x="113.75" y="57.0" />
+      <point x="-32.5" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.command.example2.OpenCommand" target="bj.DesignPattern.ym_pattern.command.example2.Command">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="144.5" y="175.0" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.ym_pattern.command.example2.MainBoardApi</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
