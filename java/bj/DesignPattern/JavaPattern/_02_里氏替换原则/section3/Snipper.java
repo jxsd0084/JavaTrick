@@ -14,6 +14,7 @@ public class Snipper {
 
 	// 给狙击手一般狙击枪
 	public void setRifle( AUG _aug ) {
+
 		this.aug = _aug;
 	}
 

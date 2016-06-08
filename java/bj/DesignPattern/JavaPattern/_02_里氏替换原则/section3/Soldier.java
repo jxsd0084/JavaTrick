@@ -8,6 +8,7 @@ package bj.DesignPattern.JavaPattern._02_里氏替换原则.section3;
 public class Soldier {
 
 	public void killEnemy( AbstractGun gun ) {
+
 		System.out.println( "士兵开始杀人..." );
 		gun.shoot();
 	}

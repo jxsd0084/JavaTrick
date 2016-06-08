@@ -9,13 +9,15 @@ public class Client {
 
 	/**
 	 * 测试
- 	 * @param args
+	 *
+	 * @param args
 	 */
 	public static void main( String[] args ) {
+
 		// 产生三毛这个狙击手
 		Snipper sanMao = new Snipper();
 
-		sanMao.setRifle( (AUG) ( new Rifle() ) );
+		sanMao.setRifle( ( AUG ) ( new Rifle() ) );
 
 		sanMao.killEnemy();
 

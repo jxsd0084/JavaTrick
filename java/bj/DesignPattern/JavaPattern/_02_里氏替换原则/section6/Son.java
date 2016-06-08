@@ -8,10 +8,11 @@ import java.util.Map;
  *         I'm glad to share my knowledge with you all.
  *         子类
  */
-@SuppressWarnings("all")
+@SuppressWarnings( "all" )
 public class Son extends Father {
 
 	public Collection doSomething( Map map ) {
+
 		System.out.println( "子类被执行..." );
 		return map.values();
 	}

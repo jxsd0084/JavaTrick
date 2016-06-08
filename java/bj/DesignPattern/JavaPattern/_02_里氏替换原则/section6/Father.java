@@ -8,10 +8,11 @@ import java.util.HashMap;
  *         I'm glad to share my knowledge with you all.
  *         父类
  */
-@SuppressWarnings("all")
+@SuppressWarnings( "all" )
 public class Father {
 
 	public ArrayList doSomething( HashMap map ) {
+
 		System.out.println( "父类被执行..." );
 		return new ArrayList();
 	}
