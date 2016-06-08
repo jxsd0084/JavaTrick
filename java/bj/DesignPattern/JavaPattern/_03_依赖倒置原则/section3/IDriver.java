@@ -8,6 +8,6 @@ package bj.DesignPattern.JavaPattern._03_依赖倒置原则.section3;
 public interface IDriver {
 
 	// 是司机就应该会驾驶汽车
-	public void drive( ICar car );
+	public void drive( ICar car ); // 3.接口声明依赖对象
 
 }
