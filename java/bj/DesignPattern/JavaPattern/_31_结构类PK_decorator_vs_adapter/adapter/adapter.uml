@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._31_结构类PK_decorator_vs_adapter.adapter</OriginalElement>
+  <nodes>
+    <node x="166.25" y="164.0">bj.DesignPattern.JavaPattern._31_结构类PK_decorator_vs_adapter.adapter.Duckling</node>
+    <node x="0.0" y="241.0">bj.DesignPattern.JavaPattern._31_结构类PK_decorator_vs_adapter.adapter.Client</node>
+    <node x="162.5" y="82.0">bj.DesignPattern.JavaPattern._31_结构类PK_decorator_vs_adapter.adapter.Duck</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.JavaPattern._31_结构类PK_decorator_vs_adapter.adapter.WhiteSwan</node>
+    <node x="20.0" y="0.0">bj.DesignPattern.JavaPattern._31_结构类PK_decorator_vs_adapter.adapter.Swan</node>
+    <node x="23.25" y="164.0">bj.DesignPattern.JavaPattern._31_结构类PK_decorator_vs_adapter.adapter.UglyDuckling</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaPattern._31_结构类PK_decorator_vs_adapter.adapter.Duckling" target="bj.DesignPattern.JavaPattern._31_结构类PK_decorator_vs_adapter.adapter.Duck">
+      <point x="0.0" y="-16.0" />
+      <point x="16.75" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._31_结构类PK_decorator_vs_adapter.adapter.UglyDuckling" target="bj.DesignPattern.JavaPattern._31_结构类PK_decorator_vs_adapter.adapter.Duck">
+      <point x="30.75" y="-16.0" />
+      <point x="115.5" y="139.0" />
+      <point x="179.25" y="139.0" />
+      <point x="-16.75" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._31_结构类PK_decorator_vs_adapter.adapter.UglyDuckling" target="bj.DesignPattern.JavaPattern._31_结构类PK_decorator_vs_adapter.adapter.WhiteSwan">
+      <point x="-30.75" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._31_结构类PK_decorator_vs_adapter.adapter.WhiteSwan" target="bj.DesignPattern.JavaPattern._31_结构类PK_decorator_vs_adapter.adapter.Swan">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="130.0" y="136.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaPattern._31_结构类PK_decorator_vs_adapter.adapter.UglyDuckling</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

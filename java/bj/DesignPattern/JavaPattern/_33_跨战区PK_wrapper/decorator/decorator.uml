@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._33_跨战区PK_wrapper.decorator</OriginalElement>
+  <nodes>
+    <node x="87.0" y="164.0">bj.DesignPattern.JavaPattern._33_跨战区PK_wrapper.decorator.HotAir</node>
+    <node x="29.75" y="82.0">bj.DesignPattern.JavaPattern._33_跨战区PK_wrapper.decorator.Decorator</node>
+    <node x="106.5" y="0.0">bj.DesignPattern.JavaPattern._33_跨战区PK_wrapper.decorator.IStar</node>
+    <node x="148.75" y="82.0">bj.DesignPattern.JavaPattern._33_跨战区PK_wrapper.decorator.FreakStar</node>
+    <node x="0.0" y="241.0">bj.DesignPattern.JavaPattern._33_跨战区PK_wrapper.decorator.Client</node>
+    <node x="0.0" y="164.0">bj.DesignPattern.JavaPattern._33_跨战区PK_wrapper.decorator.Deny</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaPattern._33_跨战区PK_wrapper.decorator.FreakStar" target="bj.DesignPattern.JavaPattern._33_跨战区PK_wrapper.decorator.IStar">
+      <point x="0.0" y="-16.0" />
+      <point x="195.75" y="57.0" />
+      <point x="153.0" y="57.0" />
+      <point x="15.5" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._33_跨战区PK_wrapper.decorator.Deny" target="bj.DesignPattern.JavaPattern._33_跨战区PK_wrapper.decorator.Decorator">
+      <point x="0.0" y="-16.0" />
+      <point x="33.5" y="139.0" />
+      <point x="54.5" y="139.0" />
+      <point x="-24.75" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._33_跨战区PK_wrapper.decorator.Decorator" target="bj.DesignPattern.JavaPattern._33_跨战区PK_wrapper.decorator.IStar">
+      <point x="0.0" y="-16.0" />
+      <point x="79.25" y="57.0" />
+      <point x="122.0" y="57.0" />
+      <point x="-15.5" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._33_跨战区PK_wrapper.decorator.HotAir" target="bj.DesignPattern.JavaPattern._33_跨战区PK_wrapper.decorator.Decorator">
+      <point x="0.0" y="-16.0" />
+      <point x="125.0" y="139.0" />
+      <point x="104.0" y="139.0" />
+      <point x="24.75" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="121.5" y="136.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaPattern._33_跨战区PK_wrapper.decorator.Deny</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

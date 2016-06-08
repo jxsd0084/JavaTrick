@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._33_跨战区PK_command_vs_strategy.strategy</OriginalElement>
+  <nodes>
+    <node x="20.0" y="0.0">bj.DesignPattern.JavaPattern._33_跨战区PK_command_vs_strategy.strategy.Algorithm</node>
+    <node x="0.0" y="159.0">bj.DesignPattern.JavaPattern._33_跨战区PK_command_vs_strategy.strategy.Context</node>
+    <node x="82.0" y="82.0">bj.DesignPattern.JavaPattern._33_跨战区PK_command_vs_strategy.strategy.Zip</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.JavaPattern._33_跨战区PK_command_vs_strategy.strategy.Gzip</node>
+    <node x="129.0" y="159.0">bj.DesignPattern.JavaPattern._33_跨战区PK_command_vs_strategy.strategy.Client</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaPattern._33_跨战区PK_command_vs_strategy.strategy.Gzip" target="bj.DesignPattern.JavaPattern._33_跨战区PK_command_vs_strategy.strategy.Algorithm">
+      <point x="0.0" y="-16.0" />
+      <point x="31.0" y="57.0" />
+      <point x="45.0" y="57.0" />
+      <point x="-25.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._33_跨战区PK_command_vs_strategy.strategy.Zip" target="bj.DesignPattern.JavaPattern._33_跨战区PK_command_vs_strategy.strategy.Algorithm">
+      <point x="0.0" y="-16.0" />
+      <point x="109.0" y="57.0" />
+      <point x="95.0" y="57.0" />
+      <point x="25.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="100.0" y="95.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

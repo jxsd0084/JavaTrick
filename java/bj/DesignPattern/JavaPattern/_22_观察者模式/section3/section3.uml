@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._22_观察者模式.section3</OriginalElement>
+  <nodes>
+    <node x="0.0" y="159.0">bj.DesignPattern.JavaPattern._22_观察者模式.section3.Observable</node>
+    <node x="61.5" y="0.0">bj.DesignPattern.JavaPattern._22_观察者模式.section3.Observer</node>
+    <node x="75.0" y="82.0">bj.DesignPattern.JavaPattern._22_观察者模式.section3.LiuSi</node>
+    <node x="68.25" y="241.0">bj.DesignPattern.JavaPattern._22_观察者模式.section3.HanFeiZi</node>
+    <node x="159.0" y="82.0">bj.DesignPattern.JavaPattern._22_观察者模式.section3.WangSi</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.JavaPattern._22_观察者模式.section3.LiSi</node>
+    <node x="268.0" y="159.0">bj.DesignPattern.JavaPattern._22_观察者模式.section3.Client</node>
+    <node x="127.0" y="159.0">bj.DesignPattern.JavaPattern._22_观察者模式.section3.IHanFeiZi</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaPattern._22_观察者模式.section3.LiuSi" target="bj.DesignPattern.JavaPattern._22_观察者模式.section3.Observer">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._22_观察者模式.section3.HanFeiZi" target="bj.DesignPattern.JavaPattern._22_观察者模式.section3.IHanFeiZi">
+      <point x="23.0" y="-16.0" />
+      <point x="137.25" y="216.0" />
+      <point x="175.0" y="216.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._22_观察者模式.section3.WangSi" target="bj.DesignPattern.JavaPattern._22_观察者模式.section3.Observer">
+      <point x="0.0" y="-16.0" />
+      <point x="201.0" y="57.0" />
+      <point x="137.33333333333331" y="57.0" />
+      <point x="30.333333333333314" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._22_观察者模式.section3.LiSi" target="bj.DesignPattern.JavaPattern._22_观察者模式.section3.Observer">
+      <point x="0.0" y="-16.0" />
+      <point x="27.5" y="57.0" />
+      <point x="76.66666666666667" y="57.0" />
+      <point x="-30.33333333333333" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._22_观察者模式.section3.HanFeiZi" target="bj.DesignPattern.JavaPattern._22_观察者模式.section3.Observable">
+      <point x="-23.0" y="-16.0" />
+      <point x="91.25" y="216.0" />
+      <point x="53.5" y="216.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="169.5" y="136.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaPattern._22_观察者模式.section3.IHanFeiZi</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

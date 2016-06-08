@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._25_访问者模式.section5</OriginalElement>
+  <nodes>
+    <node x="0.0" y="82.0">bj.DesignPattern.JavaPattern._25_访问者模式.section5.IShowVisitor</node>
+    <node x="135.0" y="82.0">bj.DesignPattern.JavaPattern._25_访问者模式.section5.ITotalVisitor</node>
+    <node x="318.0" y="241.0">bj.DesignPattern.JavaPattern._25_访问者模式.section5.Client</node>
+    <node x="137.0" y="164.0">bj.DesignPattern.JavaPattern._25_访问者模式.section5.TotalVisitor</node>
+    <node x="2.0" y="164.0">bj.DesignPattern.JavaPattern._25_访问者模式.section5.ShowVisitor</node>
+    <node x="85.25" y="0.0">bj.DesignPattern.JavaPattern._25_访问者模式.section5.IVisitor</node>
+    <node x="104.25" y="241.0">bj.DesignPattern.JavaPattern._25_访问者模式.section5.Employee</node>
+    <node x="180.0" y="323.0">bj.DesignPattern.JavaPattern._25_访问者模式.section5.Manager</node>
+    <node x="0.0" y="323.0">bj.DesignPattern.JavaPattern._25_访问者模式.section5.CommonEmployee</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaPattern._25_访问者模式.section5.CommonEmployee" target="bj.DesignPattern.JavaPattern._25_访问者模式.section5.Employee">
+      <point x="0.0" y="-16.0" />
+      <point x="80.0" y="298.0" />
+      <point x="128.75" y="298.0" />
+      <point x="-24.5" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._25_访问者模式.section5.Manager" target="bj.DesignPattern.JavaPattern._25_访问者模式.section5.Employee">
+      <point x="0.0" y="-16.0" />
+      <point x="226.5" y="298.0" />
+      <point x="177.75" y="298.0" />
+      <point x="24.5" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._25_访问者模式.section5.ITotalVisitor" target="bj.DesignPattern.JavaPattern._25_访问者模式.section5.IVisitor">
+      <point x="0.0" y="-16.0" />
+      <point x="191.0" y="57.0" />
+      <point x="143.75" y="57.0" />
+      <point x="19.5" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._25_访问者模式.section5.TotalVisitor" target="bj.DesignPattern.JavaPattern._25_访问者模式.section5.ITotalVisitor">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._25_访问者模式.section5.ShowVisitor" target="bj.DesignPattern.JavaPattern._25_访问者模式.section5.IShowVisitor">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._25_访问者模式.section5.IShowVisitor" target="bj.DesignPattern.JavaPattern._25_访问者模式.section5.IVisitor">
+      <point x="0.0" y="-16.0" />
+      <point x="57.5" y="57.0" />
+      <point x="104.75" y="57.0" />
+      <point x="-19.5" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="194.5" y="177.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaPattern._25_访问者模式.section5.IVisitor</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

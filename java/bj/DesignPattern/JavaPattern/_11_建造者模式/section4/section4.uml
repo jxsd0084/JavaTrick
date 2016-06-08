@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._11_建造者模式.section4</OriginalElement>
+  <nodes>
+    <node x="0.0" y="159.0">bj.DesignPattern.JavaPattern._11_建造者模式.section4.Director</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.JavaPattern._11_建造者模式.section4.ConcreteProduct</node>
+    <node x="32.5" y="0.0">bj.DesignPattern.JavaPattern._11_建造者模式.section4.Builder</node>
+    <node x="131.0" y="159.0">bj.DesignPattern.JavaPattern._11_建造者模式.section4.Product</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaPattern._11_建造者模式.section4.ConcreteProduct" target="bj.DesignPattern.JavaPattern._11_建造者模式.section4.Builder">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="108.0" y="95.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

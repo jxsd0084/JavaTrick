@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._12_代理模式.section9</OriginalElement>
+  <nodes>
+    <node x="159.0" y="159.0">bj.DesignPattern.JavaPattern._12_代理模式.section9.Client</node>
+    <node x="0.0" y="0.0">bj.DesignPattern.JavaPattern._12_代理模式.section9.IGamePlayer</node>
+    <node x="0.0" y="159.0">bj.DesignPattern.JavaPattern._12_代理模式.section9.GamePlayIH</node>
+    <node x="2.0" y="82.0">bj.DesignPattern.JavaPattern._12_代理模式.section9.GamePlayer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaPattern._12_代理模式.section9.GamePlayer" target="bj.DesignPattern.JavaPattern._12_代理模式.section9.IGamePlayer">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="115.0" y="95.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaPattern._12_代理模式.section9.Client</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

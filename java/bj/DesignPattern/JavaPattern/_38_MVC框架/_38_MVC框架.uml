@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._38_MVC框架</OriginalElement>
+  <nodes>
+    <node x="241.0" y="1608.0">bj.DesignPattern.JavaPattern._38_MVC框架.company.action.InterceptorFactory</node>
+    <node x="86.75" y="1379.0">bj.DesignPattern.JavaPattern._38_MVC框架.company.helper.XmlHelper</node>
+    <node x="867.625" y="316.5">bj.DesignPattern.JavaPattern._38_MVC框架.company.action.ActionManager</node>
+    <node x="489.625" y="329.0">bj.DesignPattern.JavaPattern._38_MVC框架.company.valuestack.ValueStack</node>
+    <node x="0.0" y="910.0">bj.DesignPattern.JavaPattern._38_MVC框架.company.helper.ActionNode</node>
+    <node x="164.625" y="303.5">bj.DesignPattern.JavaPattern._38_MVC框架.cbf4life.view.JspView</node>
+    <node x="0.0" y="1608.0">bj.DesignPattern.JavaPattern._38_MVC框架.company.action.ActionSupport</node>
+    <node x="226.0" y="922.0">bj.DesignPattern.JavaPattern._38_MVC框架.company.helper.ViewPathVisitor</node>
+    <node x="157.85637254901962" y="473.5">bj.DesignPattern.JavaPattern._38_MVC框架.cbf4life.view.ViewManager</node>
+    <node x="418.125" y="449.0">bj.DesignPattern.JavaPattern._38_MVC框架.company.action.AbstractInterceptor</node>
+    <node x="91.25" y="1119.0">bj.DesignPattern.JavaPattern._38_MVC框架.company.helper.XmlActionNode</node>
+    <node x="1107.625" y="291.0">bj.DesignPattern.JavaPattern._38_MVC框架.company.action.Interceptors</node>
+    <node x="630.0" y="1608.0">bj.DesignPattern.JavaPattern._38_MVC框架.company.helper.ParamMapping</node>
+    <node x="557.5416666666666" y="1252.0">bj.DesignPattern.JavaPattern._38_MVC框架.company.helper.FileWatcher</node>
+    <node x="812.0" y="1608.0">bj.DesignPattern.JavaPattern._38_MVC框架.company.action.InterceptorConfig</node>
+    <node x="615.625" y="303.5">bj.DesignPattern.JavaPattern._38_MVC框架.cbf4life.view.SwfView</node>
+    <node x="426.80343137254886" y="107.0">bj.DesignPattern.JavaPattern._38_MVC框架.cbf4life.view.AbsView</node>
+    <node x="933.0" y="910.0">bj.DesignPattern.JavaPattern._38_MVC框架.company.helper.IXmlValidate</node>
+    <node x="1496.613725490196" y="682.0">bj.DesignPattern.JavaPattern._38_MVC框架.company.controller.FilterDispather</node>
+    <node x="1704.875" y="499.5">bj.DesignPattern.JavaPattern._38_MVC框架.company.helper.ValueStackHelper</node>
+    <node x="933.0" y="1081.0">bj.DesignPattern.JavaPattern._38_MVC框架.company.helper.CommonXmlValidate</node>
+    <node x="719.8034313725489" y="145.5">bj.DesignPattern.JavaPattern._38_MVC框架.cbf4life.view.ENLangData</node>
+    <node x="619.0" y="1017.0">bj.DesignPattern.JavaPattern._38_MVC框架.company.helper.Checker</node>
+    <node x="450.06470588235294" y="0.0">bj.DesignPattern.JavaPattern._38_MVC框架.cbf4life.view.AbsLangData</node>
+    <node x="464.0" y="1081.0">bj.DesignPattern.JavaPattern._38_MVC框架.company.helper.Watchable</node>
+    <node x="1519.625" y="316.5">bj.DesignPattern.JavaPattern._38_MVC框架.company.action.IActionDispather</node>
+    <node x="1019.0534313725489" y="486.5">bj.DesignPattern.JavaPattern._38_MVC框架.company.action.ActionDispather</node>
+    <node x="0.0" y="145.5">bj.DesignPattern.JavaPattern._38_MVC框架.cbf4life.view.GBLangData</node>
+    <node x="1168.0" y="1081.0">bj.DesignPattern.JavaPattern._38_MVC框架.company.helper.LogicXmlValidate</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaPattern._38_MVC框架.company.helper.FileWatcher" target="bj.DesignPattern.JavaPattern._38_MVC框架.company.helper.Watchable">
+      <point x="-47.25" y="-41.5" />
+      <point x="604.7916666666666" y="1227.0" />
+      <point x="531.5" y="1227.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._38_MVC框架.company.helper.XmlHelper" target="bj.DesignPattern.JavaPattern._38_MVC框架.company.helper.XmlActionNode">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._38_MVC框架.cbf4life.view.JspView" target="bj.DesignPattern.JavaPattern._38_MVC框架.cbf4life.view.AbsView">
+      <point x="0.0" y="-41.5" />
+      <point x="279.125" y="266.0" />
+      <point x="495.05343137254886" y="266.0" />
+      <point x="-68.25" y="67.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._38_MVC框架.company.action.ActionDispather" target="bj.DesignPattern.JavaPattern._38_MVC框架.company.action.Interceptors">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._38_MVC框架.company.action.AbstractInterceptor" target="bj.DesignPattern.JavaPattern._38_MVC框架.company.valuestack.ValueStack">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._38_MVC框架.company.helper.Checker" target="bj.DesignPattern.JavaPattern._38_MVC框架.company.helper.IXmlValidate">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._38_MVC框架.cbf4life.view.ViewManager" target="bj.DesignPattern.JavaPattern._38_MVC框架.company.valuestack.ValueStack">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._38_MVC框架.company.helper.XmlActionNode" target="bj.DesignPattern.JavaPattern._38_MVC框架.company.helper.ViewPathVisitor">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._38_MVC框架.cbf4life.view.AbsView" target="bj.DesignPattern.JavaPattern._38_MVC框架.cbf4life.view.AbsLangData">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._38_MVC框架.company.helper.CommonXmlValidate" target="bj.DesignPattern.JavaPattern._38_MVC框架.company.helper.IXmlValidate">
+      <point x="0.0" y="-28.5" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._38_MVC框架.cbf4life.view.ViewManager" target="bj.DesignPattern.JavaPattern._38_MVC框架.cbf4life.view.JspView">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._38_MVC框架.company.action.ActionDispather" target="bj.DesignPattern.JavaPattern._38_MVC框架.company.action.IActionDispather">
+      <point x="114.0" y="-54.0" />
+      <point x="1285.0534313725489" y="429.0" />
+      <point x="1577.875" y="429.0" />
+      <point x="-58.25" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._38_MVC框架.cbf4life.view.GBLangData" target="bj.DesignPattern.JavaPattern._38_MVC框架.cbf4life.view.AbsLangData">
+      <point x="0.0" y="-28.5" />
+      <point x="115.0" y="82.0" />
+      <point x="488.39803921568625" y="82.0" />
+      <point x="-76.66666666666669" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._38_MVC框架.cbf4life.view.SwfView" target="bj.DesignPattern.JavaPattern._38_MVC框架.cbf4life.view.AbsView">
+      <point x="0.0" y="-41.5" />
+      <point x="731.625" y="266.0" />
+      <point x="631.5534313725489" y="266.0" />
+      <point x="68.25" y="67.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._38_MVC框架.company.controller.FilterDispather" target="bj.DesignPattern.JavaPattern._38_MVC框架.cbf4life.view.ViewManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._38_MVC框架.company.controller.FilterDispather" target="bj.DesignPattern.JavaPattern._38_MVC框架.company.helper.ValueStackHelper">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._38_MVC框架.company.helper.FileWatcher" target="bj.DesignPattern.JavaPattern._38_MVC框架.company.helper.Checker">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._38_MVC框架.company.action.ActionDispather" target="bj.DesignPattern.JavaPattern._38_MVC框架.company.action.ActionManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._38_MVC框架.cbf4life.view.ViewManager" target="bj.DesignPattern.JavaPattern._38_MVC框架.cbf4life.view.GBLangData">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._38_MVC框架.company.helper.LogicXmlValidate" target="bj.DesignPattern.JavaPattern._38_MVC框架.company.helper.IXmlValidate">
+      <point x="0.0" y="-28.5" />
+      <point x="1275.5" y="992.0" />
+      <point x="1112.1666666666667" y="992.0" />
+      <point x="71.66666666666674" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._38_MVC框架.cbf4life.view.ENLangData" target="bj.DesignPattern.JavaPattern._38_MVC框架.cbf4life.view.AbsLangData">
+      <point x="0.0" y="-28.5" />
+      <point x="834.8034313725489" y="82.0" />
+      <point x="641.7313725490196" y="82.0" />
+      <point x="76.66666666666674" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._38_MVC框架.company.helper.XmlActionNode" target="bj.DesignPattern.JavaPattern._38_MVC框架.company.helper.ActionNode">
+      <point x="-60.75" y="-105.0" />
+      <point x="152.0" y="1094.0" />
+      <point x="103.0" y="1094.0" />
+      <point x="0.0" y="79.5" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._38_MVC框架.company.controller.FilterDispather" target="bj.DesignPattern.JavaPattern._38_MVC框架.company.action.IActionDispather">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._38_MVC框架.company.controller.FilterDispather" target="bj.DesignPattern.JavaPattern._38_MVC框架.company.action.ActionDispather">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8861751152073732" x="552.2246489859594" y="437.2038481539262" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

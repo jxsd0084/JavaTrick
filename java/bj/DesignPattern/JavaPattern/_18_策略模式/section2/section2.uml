@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._18_策略模式.section2</OriginalElement>
+  <nodes>
+    <node x="129.0" y="159.0">bj.DesignPattern.JavaPattern._18_策略模式.section2.Client</node>
+    <node x="0.0" y="159.0">bj.DesignPattern.JavaPattern._18_策略模式.section2.Context</node>
+    <node x="175.0" y="82.0">bj.DesignPattern.JavaPattern._18_策略模式.section2.ConcreteStrategy2</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.JavaPattern._18_策略模式.section2.ConcreteStrategy1</node>
+    <node x="121.5" y="0.0">bj.DesignPattern.JavaPattern._18_策略模式.section2.Strategy</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaPattern._18_策略模式.section2.ConcreteStrategy1" target="bj.DesignPattern.JavaPattern._18_策略模式.section2.Strategy">
+      <point x="0.0" y="-16.0" />
+      <point x="77.5" y="57.0" />
+      <point x="143.25" y="57.0" />
+      <point x="-21.75" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._18_策略模式.section2.ConcreteStrategy2" target="bj.DesignPattern.JavaPattern._18_策略模式.section2.Strategy">
+      <point x="0.0" y="-16.0" />
+      <point x="252.5" y="57.0" />
+      <point x="186.75" y="57.0" />
+      <point x="21.75" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="165.0" y="95.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaPattern._18_策略模式.section2.Client</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

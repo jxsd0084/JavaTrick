@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._28_享元模式.section7</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">bj.DesignPattern.JavaPattern._28_享元模式.section7.Test</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="29.5" y="16.0" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaPattern._28_享元模式.section7.Test</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._33_跨战区PK_wrapper.bridge</OriginalElement>
+  <nodes>
+    <node x="102.0" y="241.0">bj.DesignPattern.JavaPattern._33_跨战区PK_wrapper.bridge.Sing</node>
+    <node x="95.0" y="82.0">bj.DesignPattern.JavaPattern._33_跨战区PK_wrapper.bridge.FilmStar</node>
+    <node x="209.0" y="159.0">bj.DesignPattern.JavaPattern._33_跨战区PK_wrapper.bridge.Client</node>
+    <node x="21.5" y="159.0">bj.DesignPattern.JavaPattern._33_跨战区PK_wrapper.bridge.AbstractAction</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.JavaPattern._33_跨战区PK_wrapper.bridge.Singer</node>
+    <node x="0.0" y="241.0">bj.DesignPattern.JavaPattern._33_跨战区PK_wrapper.bridge.ActFilm</node>
+    <node x="31.25" y="0.0">bj.DesignPattern.JavaPattern._33_跨战区PK_wrapper.bridge.AbstractStar</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaPattern._33_跨战区PK_wrapper.bridge.Singer" target="bj.DesignPattern.JavaPattern._33_跨战区PK_wrapper.bridge.AbstractStar">
+      <point x="0.0" y="-16.0" />
+      <point x="37.5" y="57.0" />
+      <point x="59.5" y="57.0" />
+      <point x="-28.25" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._33_跨战区PK_wrapper.bridge.FilmStar" target="bj.DesignPattern.JavaPattern._33_跨战区PK_wrapper.bridge.AbstractStar">
+      <point x="0.0" y="-16.0" />
+      <point x="138.0" y="57.0" />
+      <point x="116.0" y="57.0" />
+      <point x="28.25" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._33_跨战区PK_wrapper.bridge.ActFilm" target="bj.DesignPattern.JavaPattern._33_跨战区PK_wrapper.bridge.AbstractAction">
+      <point x="0.0" y="-16.0" />
+      <point x="41.0" y="216.0" />
+      <point x="54.25" y="216.0" />
+      <point x="-32.75" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._33_跨战区PK_wrapper.bridge.Sing" target="bj.DesignPattern.JavaPattern._33_跨战区PK_wrapper.bridge.AbstractAction">
+      <point x="0.0" y="-16.0" />
+      <point x="133.0" y="216.0" />
+      <point x="119.75" y="216.0" />
+      <point x="32.75" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="140.0" y="136.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaPattern._33_跨战区PK_wrapper.bridge.ActFilm</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

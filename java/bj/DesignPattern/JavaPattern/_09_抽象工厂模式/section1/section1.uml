@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._09_抽象工厂模式.section1</OriginalElement>
+  <nodes>
+    <node x="740.0" y="164.0">bj.DesignPattern.JavaPattern._09_抽象工厂模式.section1.MaleBlackHuman</node>
+    <node x="448.9" y="82.0">bj.DesignPattern.JavaPattern._09_抽象工厂模式.section1.AbstractYellowHuman</node>
+    <node x="912.0" y="164.0">bj.DesignPattern.JavaPattern._09_抽象工厂模式.section1.FemaleBlackHuman</node>
+    <node x="69.5" y="241.0">bj.DesignPattern.JavaPattern._09_抽象工厂模式.section1.HumanFactory</node>
+    <node x="148.0" y="323.0">bj.DesignPattern.JavaPattern._09_抽象工厂模式.section1.MaleFactory</node>
+    <node x="498.5" y="0.0">bj.DesignPattern.JavaPattern._09_抽象工厂模式.section1.Human</node>
+    <node x="0.0" y="323.0">bj.DesignPattern.JavaPattern._09_抽象工厂模式.section1.FemaleFactory</node>
+    <node x="366.0" y="164.0">bj.DesignPattern.JavaPattern._09_抽象工厂模式.section1.MaleYellowHuman</node>
+    <node x="190.0" y="164.0">bj.DesignPattern.JavaPattern._09_抽象工厂模式.section1.MaleWhiteHuman</node>
+    <node x="0.0" y="164.0">bj.DesignPattern.JavaPattern._09_抽象工厂模式.section1.FemaleWhiteHuman</node>
+    <node x="307.0" y="241.0">bj.DesignPattern.JavaPattern._09_抽象工厂模式.section1.NvWa</node>
+    <node x="818.9" y="82.0">bj.DesignPattern.JavaPattern._09_抽象工厂模式.section1.AbstractBlackHuman</node>
+    <node x="546.0" y="164.0">bj.DesignPattern.JavaPattern._09_抽象工厂模式.section1.FemaleYellowHuman</node>
+    <node x="87.89999999999998" y="82.0">bj.DesignPattern.JavaPattern._09_抽象工厂模式.section1.AbstractWhiteHuman</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaPattern._09_抽象工厂模式.section1.MaleFactory" target="bj.DesignPattern.JavaPattern._09_抽象工厂模式.section1.HumanFactory">
+      <point x="0.0" y="-16.0" />
+      <point x="205.0" y="298.0" />
+      <point x="167.0" y="298.0" />
+      <point x="32.5" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._09_抽象工厂模式.section1.AbstractWhiteHuman" target="bj.DesignPattern.JavaPattern._09_抽象工厂模式.section1.Human">
+      <point x="0.0" y="-16.0" />
+      <point x="176.39999999999998" y="57.0" />
+      <point x="512.1666666666666" y="57.0" />
+      <point x="-27.33333333333337" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._09_抽象工厂模式.section1.FemaleYellowHuman" target="bj.DesignPattern.JavaPattern._09_抽象工厂模式.section1.AbstractYellowHuman">
+      <point x="0.0" y="-16.0" />
+      <point x="633.0" y="139.0" />
+      <point x="584.65" y="139.0" />
+      <point x="45.25" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._09_抽象工厂模式.section1.FemaleFactory" target="bj.DesignPattern.JavaPattern._09_抽象工厂模式.section1.HumanFactory">
+      <point x="0.0" y="-16.0" />
+      <point x="64.0" y="298.0" />
+      <point x="102.0" y="298.0" />
+      <point x="-32.5" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._09_抽象工厂模式.section1.MaleBlackHuman" target="bj.DesignPattern.JavaPattern._09_抽象工厂模式.section1.AbstractBlackHuman">
+      <point x="0.0" y="-16.0" />
+      <point x="816.0" y="139.0" />
+      <point x="862.15" y="139.0" />
+      <point x="-43.25" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._09_抽象工厂模式.section1.FemaleBlackHuman" target="bj.DesignPattern.JavaPattern._09_抽象工厂模式.section1.AbstractBlackHuman">
+      <point x="0.0" y="-16.0" />
+      <point x="995.0" y="139.0" />
+      <point x="948.65" y="139.0" />
+      <point x="43.25" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._09_抽象工厂模式.section1.MaleWhiteHuman" target="bj.DesignPattern.JavaPattern._09_抽象工厂模式.section1.AbstractWhiteHuman">
+      <point x="0.0" y="-16.0" />
+      <point x="268.0" y="139.0" />
+      <point x="220.64999999999998" y="139.0" />
+      <point x="44.25" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._09_抽象工厂模式.section1.AbstractYellowHuman" target="bj.DesignPattern.JavaPattern._09_抽象工厂模式.section1.Human">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._09_抽象工厂模式.section1.MaleYellowHuman" target="bj.DesignPattern.JavaPattern._09_抽象工厂模式.section1.AbstractYellowHuman">
+      <point x="0.0" y="-16.0" />
+      <point x="446.0" y="139.0" />
+      <point x="494.15" y="139.0" />
+      <point x="-45.25" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._09_抽象工厂模式.section1.FemaleWhiteHuman" target="bj.DesignPattern.JavaPattern._09_抽象工厂模式.section1.AbstractWhiteHuman">
+      <point x="0.0" y="-16.0" />
+      <point x="85.0" y="139.0" />
+      <point x="132.14999999999998" y="139.0" />
+      <point x="-44.25" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._09_抽象工厂模式.section1.AbstractBlackHuman" target="bj.DesignPattern.JavaPattern._09_抽象工厂模式.section1.Human">
+      <point x="0.0" y="-16.0" />
+      <point x="905.4" y="57.0" />
+      <point x="566.8333333333334" y="57.0" />
+      <point x="27.33333333333337" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="539.0" y="177.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaPattern._09_抽象工厂模式.section1.AbstractWhiteHuman</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

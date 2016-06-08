@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._20_迭代器模式.section2</OriginalElement>
+  <nodes>
+    <node x="179.0" y="82.0">bj.DesignPattern.JavaPattern._20_迭代器模式.section2.Project</node>
+    <node x="0.0" y="0.0">bj.DesignPattern.JavaPattern._20_迭代器模式.section2.IProjectIterator</node>
+    <node x="177.0" y="0.0">bj.DesignPattern.JavaPattern._20_迭代器模式.section2.IProject</node>
+    <node x="2.0" y="82.0">bj.DesignPattern.JavaPattern._20_迭代器模式.section2.ProjectIterator</node>
+    <node x="0.0" y="159.0">bj.DesignPattern.JavaPattern._20_迭代器模式.section2.Boss</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaPattern._20_迭代器模式.section2.ProjectIterator" target="bj.DesignPattern.JavaPattern._20_迭代器模式.section2.IProjectIterator">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._20_迭代器模式.section2.Project" target="bj.DesignPattern.JavaPattern._20_迭代器模式.section2.IProject">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="130.0" y="95.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaPattern._20_迭代器模式.section2.IProject</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

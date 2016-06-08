@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._21_组合模式.section1</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">bj.DesignPattern.JavaPattern._21_组合模式.section1.IBranch</node>
+    <node x="0.0" y="159.0">bj.DesignPattern.JavaPattern._21_组合模式.section1.ILeaf</node>
+    <node x="2.0" y="241.0">bj.DesignPattern.JavaPattern._21_组合模式.section1.Leaf</node>
+    <node x="130.0" y="82.0">bj.DesignPattern.JavaPattern._21_组合模式.section1.Root</node>
+    <node x="128.0" y="0.0">bj.DesignPattern.JavaPattern._21_组合模式.section1.IRoot</node>
+    <node x="109.0" y="159.0">bj.DesignPattern.JavaPattern._21_组合模式.section1.Client</node>
+    <node x="2.0" y="82.0">bj.DesignPattern.JavaPattern._21_组合模式.section1.Branch</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaPattern._21_组合模式.section1.Leaf" target="bj.DesignPattern.JavaPattern._21_组合模式.section1.ILeaf">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._21_组合模式.section1.Branch" target="bj.DesignPattern.JavaPattern._21_组合模式.section1.IBranch">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._21_组合模式.section1.Root" target="bj.DesignPattern.JavaPattern._21_组合模式.section1.IRoot">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="98.0" y="136.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaPattern._21_组合模式.section1.Branch</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

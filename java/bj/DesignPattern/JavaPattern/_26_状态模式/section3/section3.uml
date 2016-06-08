@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._26_状态模式.section3</OriginalElement>
+  <nodes>
+    <node x="438.0" y="82.0">bj.DesignPattern.JavaPattern._26_状态模式.section3.RunningState</node>
+    <node x="235.0" y="0.0">bj.DesignPattern.JavaPattern._26_状态模式.section3.LiftState</node>
+    <node x="284.0" y="82.0">bj.DesignPattern.JavaPattern._26_状态模式.section3.OpenningState</node>
+    <node x="129.0" y="159.0">bj.DesignPattern.JavaPattern._26_状态模式.section3.Client</node>
+    <node x="0.0" y="159.0">bj.DesignPattern.JavaPattern._26_状态模式.section3.Context</node>
+    <node x="148.0" y="82.0">bj.DesignPattern.JavaPattern._26_状态模式.section3.ClosingState</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.JavaPattern._26_状态模式.section3.StoppingState</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaPattern._26_状态模式.section3.OpenningState" target="bj.DesignPattern.JavaPattern._26_状态模式.section3.LiftState">
+      <point x="0.0" y="-16.0" />
+      <point x="351.0" y="62.0" />
+      <point x="289.375" y="62.0" />
+      <point x="10.875" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._26_状态模式.section3.StoppingState" target="bj.DesignPattern.JavaPattern._26_状态模式.section3.LiftState">
+      <point x="0.0" y="-16.0" />
+      <point x="64.0" y="52.0" />
+      <point x="245.875" y="52.0" />
+      <point x="-32.625" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._26_状态模式.section3.RunningState" target="bj.DesignPattern.JavaPattern._26_状态模式.section3.LiftState">
+      <point x="0.0" y="-16.0" />
+      <point x="500.0" y="52.0" />
+      <point x="311.125" y="52.0" />
+      <point x="32.625" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._26_状态模式.section3.ClosingState" target="bj.DesignPattern.JavaPattern._26_状态模式.section3.LiftState">
+      <point x="0.0" y="-16.0" />
+      <point x="206.0" y="62.0" />
+      <point x="267.625" y="62.0" />
+      <point x="-10.875" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="281.0" y="95.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaPattern._26_状态模式.section3.StoppingState</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

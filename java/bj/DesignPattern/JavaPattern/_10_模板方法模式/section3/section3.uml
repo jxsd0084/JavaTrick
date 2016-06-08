@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._10_模板方法模式.section3</OriginalElement>
+  <nodes>
+    <node x="0.0" y="159.0">bj.DesignPattern.JavaPattern._10_模板方法模式.section3.Client</node>
+    <node x="83.0" y="0.0">bj.DesignPattern.JavaPattern._10_模板方法模式.section3.AbstractClass</node>
+    <node x="153.0" y="82.0">bj.DesignPattern.JavaPattern._10_模板方法模式.section3.ConcreteClass1</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.JavaPattern._10_模板方法模式.section3.ConcreteClass2</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaPattern._10_模板方法模式.section3.ConcreteClass2" target="bj.DesignPattern.JavaPattern._10_模板方法模式.section3.AbstractClass">
+      <point x="0.0" y="-16.0" />
+      <point x="66.5" y="57.0" />
+      <point x="113.0" y="57.0" />
+      <point x="-30.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._10_模板方法模式.section3.ConcreteClass1" target="bj.DesignPattern.JavaPattern._10_模板方法模式.section3.AbstractClass">
+      <point x="0.0" y="-16.0" />
+      <point x="219.5" y="57.0" />
+      <point x="173.0" y="57.0" />
+      <point x="30.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="143.0" y="95.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaPattern._10_模板方法模式.section3.Client</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

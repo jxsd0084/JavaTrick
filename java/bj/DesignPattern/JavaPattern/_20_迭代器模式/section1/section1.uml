@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._20_迭代器模式.section1</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">bj.DesignPattern.JavaPattern._20_迭代器模式.section1.IProject</node>
+    <node x="128.0" y="0.0">bj.DesignPattern.JavaPattern._20_迭代器模式.section1.Boss</node>
+    <node x="2.0" y="82.0">bj.DesignPattern.JavaPattern._20_迭代器模式.section1.Project</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaPattern._20_迭代器模式.section1.Project" target="bj.DesignPattern.JavaPattern._20_迭代器模式.section1.IProject">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="95.0" y="57.0" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaPattern._20_迭代器模式.section1.Project</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

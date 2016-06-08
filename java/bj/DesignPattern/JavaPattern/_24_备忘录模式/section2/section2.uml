@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._24_备忘录模式.section2</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">bj.DesignPattern.JavaPattern._24_备忘录模式.section2.Memento</node>
+    <node x="116.0" y="77.0">bj.DesignPattern.JavaPattern._24_备忘录模式.section2.Boy</node>
+    <node x="0.0" y="77.0">bj.DesignPattern.JavaPattern._24_备忘录模式.section2.Client</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="86.5" y="54.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaPattern._24_备忘录模式.section2.Memento</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

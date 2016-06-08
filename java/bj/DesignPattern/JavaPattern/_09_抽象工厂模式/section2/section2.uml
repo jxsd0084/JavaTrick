@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._09_抽象工厂模式.section2</OriginalElement>
+  <nodes>
+    <node x="38.0" y="0.0">bj.DesignPattern.JavaPattern._09_抽象工厂模式.section2.AbstractProductA</node>
+    <node x="0.0" y="318.0">bj.DesignPattern.JavaPattern._09_抽象工厂模式.section2.Client</node>
+    <node x="122.0" y="241.0">bj.DesignPattern.JavaPattern._09_抽象工厂模式.section2.ProductB1</node>
+    <node x="378.0" y="241.0">bj.DesignPattern.JavaPattern._09_抽象工厂模式.section2.Creator2</node>
+    <node x="269.0" y="241.0">bj.DesignPattern.JavaPattern._09_抽象工厂模式.section2.Creator1</node>
+    <node x="300.0" y="159.0">bj.DesignPattern.JavaPattern._09_抽象工厂模式.section2.AbstractCreator</node>
+    <node x="37.5" y="159.0">bj.DesignPattern.JavaPattern._09_抽象工厂模式.section2.AbstractProductB</node>
+    <node x="123.0" y="82.0">bj.DesignPattern.JavaPattern._09_抽象工厂模式.section2.ProductA2</node>
+    <node x="0.0" y="241.0">bj.DesignPattern.JavaPattern._09_抽象工厂模式.section2.ProductB2</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.JavaPattern._09_抽象工厂模式.section2.ProductA1</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaPattern._09_抽象工厂模式.section2.ProductB1" target="bj.DesignPattern.JavaPattern._09_抽象工厂模式.section2.AbstractProductB">
+      <point x="0.0" y="-16.0" />
+      <point x="173.0" y="216.0" />
+      <point x="149.25" y="216.0" />
+      <point x="37.25" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._09_抽象工厂模式.section2.ProductB2" target="bj.DesignPattern.JavaPattern._09_抽象工厂模式.section2.AbstractProductB">
+      <point x="0.0" y="-16.0" />
+      <point x="51.0" y="216.0" />
+      <point x="74.75" y="216.0" />
+      <point x="-37.25" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._09_抽象工厂模式.section2.ProductA1" target="bj.DesignPattern.JavaPattern._09_抽象工厂模式.section2.AbstractProductA">
+      <point x="0.0" y="-16.0" />
+      <point x="51.5" y="57.0" />
+      <point x="75.5" y="57.0" />
+      <point x="-37.5" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._09_抽象工厂模式.section2.ProductA2" target="bj.DesignPattern.JavaPattern._09_抽象工厂模式.section2.AbstractProductA">
+      <point x="0.0" y="-16.0" />
+      <point x="174.5" y="57.0" />
+      <point x="150.5" y="57.0" />
+      <point x="37.5" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._09_抽象工厂模式.section2.Creator2" target="bj.DesignPattern.JavaPattern._09_抽象工厂模式.section2.AbstractCreator">
+      <point x="0.0" y="-16.0" />
+      <point x="422.5" y="216.0" />
+      <point x="402.0" y="216.0" />
+      <point x="34.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._09_抽象工厂模式.section2.Creator1" target="bj.DesignPattern.JavaPattern._09_抽象工厂模式.section2.AbstractCreator">
+      <point x="0.0" y="-16.0" />
+      <point x="313.5" y="216.0" />
+      <point x="334.0" y="216.0" />
+      <point x="-34.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="233.5" y="175.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

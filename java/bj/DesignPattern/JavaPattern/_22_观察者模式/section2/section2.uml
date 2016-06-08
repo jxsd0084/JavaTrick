@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._22_观察者模式.section2</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">bj.DesignPattern.JavaPattern._22_观察者模式.section2.IHanFeiZi</node>
+    <node x="143.0" y="82.0">bj.DesignPattern.JavaPattern._22_观察者模式.section2.LiSi</node>
+    <node x="141.0" y="0.0">bj.DesignPattern.JavaPattern._22_观察者模式.section2.ILiSi</node>
+    <node x="2.0" y="82.0">bj.DesignPattern.JavaPattern._22_观察者模式.section2.HanFeiZi</node>
+    <node x="0.0" y="159.0">bj.DesignPattern.JavaPattern._22_观察者模式.section2.Client</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaPattern._22_观察者模式.section2.LiSi" target="bj.DesignPattern.JavaPattern._22_观察者模式.section2.ILiSi">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._22_观察者模式.section2.HanFeiZi" target="bj.DesignPattern.JavaPattern._22_观察者模式.section2.IHanFeiZi">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="100.0" y="95.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaPattern._22_观察者模式.section2.HanFeiZi</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

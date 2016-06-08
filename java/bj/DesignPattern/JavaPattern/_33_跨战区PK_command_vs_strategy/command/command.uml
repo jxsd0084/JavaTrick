@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._33_跨战区PK_command_vs_strategy.command</OriginalElement>
+  <nodes>
+    <node x="173.0" y="241.0">bj.DesignPattern.JavaPattern._33_跨战区PK_command_vs_strategy.command.UncompressReceiver</node>
+    <node x="365.0" y="82.0">bj.DesignPattern.JavaPattern._33_跨战区PK_command_vs_strategy.command.GzipCompressCmd</node>
+    <node x="121.25" y="159.0">bj.DesignPattern.JavaPattern._33_跨战区PK_command_vs_strategy.command.IReceiver</node>
+    <node x="170.0" y="82.0">bj.DesignPattern.JavaPattern._33_跨战区PK_command_vs_strategy.command.GzipUncompressCmd</node>
+    <node x="543.0" y="82.0">bj.DesignPattern.JavaPattern._33_跨战区PK_command_vs_strategy.command.ZipUncompressCmd</node>
+    <node x="0.0" y="318.0">bj.DesignPattern.JavaPattern._33_跨战区PK_command_vs_strategy.command.Invoker</node>
+    <node x="127.0" y="318.0">bj.DesignPattern.JavaPattern._33_跨战区PK_command_vs_strategy.command.Client</node>
+    <node x="0.0" y="241.0">bj.DesignPattern.JavaPattern._33_跨战区PK_command_vs_strategy.command.CompressReceiver</node>
+    <node x="291.75" y="0.0">bj.DesignPattern.JavaPattern._33_跨战区PK_command_vs_strategy.command.AbstractCmd</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.JavaPattern._33_跨战区PK_command_vs_strategy.command.ZipCompressCmd</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaPattern._33_跨战区PK_command_vs_strategy.command.ZipCompressCmd" target="bj.DesignPattern.JavaPattern._33_跨战区PK_command_vs_strategy.command.AbstractCmd">
+      <point x="0.0" y="-16.0" />
+      <point x="75.0" y="52.0" />
+      <point x="306.5" y="52.0" />
+      <point x="-44.25" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._33_跨战区PK_command_vs_strategy.command.GzipUncompressCmd" target="bj.DesignPattern.JavaPattern._33_跨战区PK_command_vs_strategy.command.AbstractCmd">
+      <point x="0.0" y="-16.0" />
+      <point x="257.5" y="62.0" />
+      <point x="336.0" y="62.0" />
+      <point x="-14.75" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._33_跨战区PK_command_vs_strategy.command.GzipCompressCmd" target="bj.DesignPattern.JavaPattern._33_跨战区PK_command_vs_strategy.command.AbstractCmd">
+      <point x="0.0" y="-16.0" />
+      <point x="444.0" y="62.0" />
+      <point x="365.5" y="62.0" />
+      <point x="14.75" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._33_跨战区PK_command_vs_strategy.command.ZipUncompressCmd" target="bj.DesignPattern.JavaPattern._33_跨战区PK_command_vs_strategy.command.AbstractCmd">
+      <point x="0.0" y="-16.0" />
+      <point x="626.5" y="52.0" />
+      <point x="395.0" y="52.0" />
+      <point x="44.25" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._33_跨战区PK_command_vs_strategy.command.CompressReceiver" target="bj.DesignPattern.JavaPattern._33_跨战区PK_command_vs_strategy.command.IReceiver">
+      <point x="0.0" y="-16.0" />
+      <point x="76.5" y="216.0" />
+      <point x="144.25" y="216.0" />
+      <point x="-23.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._33_跨战区PK_command_vs_strategy.command.UncompressReceiver" target="bj.DesignPattern.JavaPattern._33_跨战区PK_command_vs_strategy.command.IReceiver">
+      <point x="0.0" y="-16.0" />
+      <point x="258.0" y="216.0" />
+      <point x="190.25" y="216.0" />
+      <point x="23.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="355.0" y="175.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

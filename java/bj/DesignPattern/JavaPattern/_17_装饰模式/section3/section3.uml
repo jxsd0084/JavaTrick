@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._17_装饰模式.section3</OriginalElement>
+  <nodes>
+    <node x="127.5" y="82.0">bj.DesignPattern.JavaPattern._17_装饰模式.section3.Decorator</node>
+    <node x="246.5" y="82.0">bj.DesignPattern.JavaPattern._17_装饰模式.section3.ConcreteComponent</node>
+    <node x="198.75" y="0.0">bj.DesignPattern.JavaPattern._17_装饰模式.section3.Component</node>
+    <node x="0.0" y="241.0">bj.DesignPattern.JavaPattern._17_装饰模式.section3.Client</node>
+    <node x="187.0" y="164.0">bj.DesignPattern.JavaPattern._17_装饰模式.section3.ConcreteDecorator1</node>
+    <node x="0.0" y="164.0">bj.DesignPattern.JavaPattern._17_装饰模式.section3.ConcreteDecorator2</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaPattern._17_装饰模式.section3.ConcreteComponent" target="bj.DesignPattern.JavaPattern._17_装饰模式.section3.Component">
+      <point x="0.0" y="-16.0" />
+      <point x="332.5" y="57.0" />
+      <point x="282.75" y="57.0" />
+      <point x="28.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._17_装饰模式.section3.ConcreteDecorator1" target="bj.DesignPattern.JavaPattern._17_装饰模式.section3.Decorator">
+      <point x="0.0" y="-16.0" />
+      <point x="270.5" y="139.0" />
+      <point x="201.75" y="139.0" />
+      <point x="24.75" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._17_装饰模式.section3.Decorator" target="bj.DesignPattern.JavaPattern._17_装饰模式.section3.Component">
+      <point x="0.0" y="-16.0" />
+      <point x="177.0" y="57.0" />
+      <point x="226.75" y="57.0" />
+      <point x="-28.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._17_装饰模式.section3.ConcreteDecorator2" target="bj.DesignPattern.JavaPattern._17_装饰模式.section3.Decorator">
+      <point x="0.0" y="-16.0" />
+      <point x="83.5" y="139.0" />
+      <point x="152.25" y="139.0" />
+      <point x="-24.75" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="209.5" y="136.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

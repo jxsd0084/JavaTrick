@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._15_命令模式.section4</OriginalElement>
+  <nodes>
+    <node x="129.0" y="0.0">bj.DesignPattern.JavaPattern._15_命令模式.section4.Command</node>
+    <node x="0.0" y="318.0">bj.DesignPattern.JavaPattern._15_命令模式.section4.Invoker</node>
+    <node x="190.0" y="82.0">bj.DesignPattern.JavaPattern._15_命令模式.section4.ConcreteCommand1</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.JavaPattern._15_命令模式.section4.ConcreteCommand2</node>
+    <node x="127.0" y="318.0">bj.DesignPattern.JavaPattern._15_命令模式.section4.Client</node>
+    <node x="168.0" y="241.0">bj.DesignPattern.JavaPattern._15_命令模式.section4.ConcreteReciver2</node>
+    <node x="0.0" y="241.0">bj.DesignPattern.JavaPattern._15_命令模式.section4.ConcreteReciver1</node>
+    <node x="114.0" y="159.0">bj.DesignPattern.JavaPattern._15_命令模式.section4.Receiver</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaPattern._15_命令模式.section4.ConcreteCommand1" target="bj.DesignPattern.JavaPattern._15_命令模式.section4.Command">
+      <point x="0.0" y="-16.0" />
+      <point x="275.0" y="57.0" />
+      <point x="205.5" y="57.0" />
+      <point x="25.5" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._15_命令模式.section4.ConcreteReciver1" target="bj.DesignPattern.JavaPattern._15_命令模式.section4.Receiver">
+      <point x="0.0" y="-16.0" />
+      <point x="74.0" y="216.0" />
+      <point x="136.0" y="216.0" />
+      <point x="-22.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._15_命令模式.section4.ConcreteReciver2" target="bj.DesignPattern.JavaPattern._15_命令模式.section4.Receiver">
+      <point x="0.0" y="-16.0" />
+      <point x="242.0" y="216.0" />
+      <point x="180.0" y="216.0" />
+      <point x="22.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._15_命令模式.section4.ConcreteCommand2" target="bj.DesignPattern.JavaPattern._15_命令模式.section4.Command">
+      <point x="0.0" y="-16.0" />
+      <point x="85.0" y="57.0" />
+      <point x="154.5" y="57.0" />
+      <point x="-25.5" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="180.0" y="175.0" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaPattern._15_命令模式.section4.ConcreteCommand2</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

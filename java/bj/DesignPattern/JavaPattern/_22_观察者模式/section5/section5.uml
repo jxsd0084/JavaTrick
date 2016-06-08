@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._22_观察者模式.section5</OriginalElement>
+  <nodes>
+    <node x="0.0" y="154.0">bj.DesignPattern.JavaPattern._22_观察者模式.section5.LiuSi</node>
+    <node x="0.0" y="77.0">bj.DesignPattern.JavaPattern._22_观察者模式.section5.WangSi</node>
+    <node x="0.0" y="0.0">bj.DesignPattern.JavaPattern._22_观察者模式.section5.HanFeiZi</node>
+    <node x="109.0" y="154.0">bj.DesignPattern.JavaPattern._22_观察者模式.section5.LiSi</node>
+    <node x="129.0" y="77.0">bj.DesignPattern.JavaPattern._22_观察者模式.section5.Client</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="100.0" y="93.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

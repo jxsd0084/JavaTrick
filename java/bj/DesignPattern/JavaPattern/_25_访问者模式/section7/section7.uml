@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._25_访问者模式.section7</OriginalElement>
+  <nodes>
+    <node x="132.0" y="241.0">bj.DesignPattern.JavaPattern._25_访问者模式.section7.OldActor</node>
+    <node x="113.0" y="82.0">bj.DesignPattern.JavaPattern._25_访问者模式.section7.KungFuRole</node>
+    <node x="0.0" y="241.0">bj.DesignPattern.JavaPattern._25_访问者模式.section7.YoungActor</node>
+    <node x="77.25" y="0.0">bj.DesignPattern.JavaPattern._25_访问者模式.section7.Role</node>
+    <node x="70.5" y="159.0">bj.DesignPattern.JavaPattern._25_访问者模式.section7.AbsActor</node>
+    <node x="269.0" y="159.0">bj.DesignPattern.JavaPattern._25_访问者模式.section7.Client</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.JavaPattern._25_访问者模式.section7.IdiotRole</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaPattern._25_访问者模式.section7.KungFuRole" target="bj.DesignPattern.JavaPattern._25_访问者模式.section7.Role">
+      <point x="0.0" y="-16.0" />
+      <point x="170.0" y="57.0" />
+      <point x="123.75" y="57.0" />
+      <point x="15.5" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._25_访问者模式.section7.OldActor" target="bj.DesignPattern.JavaPattern._25_访问者模式.section7.AbsActor">
+      <point x="0.0" y="-16.0" />
+      <point x="178.0" y="216.0" />
+      <point x="140.25" y="216.0" />
+      <point x="23.25" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._25_访问者模式.section7.YoungActor" target="bj.DesignPattern.JavaPattern._25_访问者模式.section7.AbsActor">
+      <point x="0.0" y="-16.0" />
+      <point x="56.0" y="216.0" />
+      <point x="93.75" y="216.0" />
+      <point x="-23.25" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._25_访问者模式.section7.IdiotRole" target="bj.DesignPattern.JavaPattern._25_访问者模式.section7.Role">
+      <point x="0.0" y="-16.0" />
+      <point x="46.5" y="57.0" />
+      <point x="92.75" y="57.0" />
+      <point x="-15.5" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="170.0" y="136.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._19_适配器模式.section2</OriginalElement>
+  <nodes>
+    <node x="155.0" y="82.0">bj.DesignPattern.JavaPattern._19_适配器模式.section2.Adapter</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.JavaPattern._19_适配器模式.section2.ConcreteTarget</node>
+    <node x="48.75" y="0.0">bj.DesignPattern.JavaPattern._19_适配器模式.section2.Target</node>
+    <node x="0.0" y="159.0">bj.DesignPattern.JavaPattern._19_适配器模式.section2.Client</node>
+    <node x="175.0" y="0.0">bj.DesignPattern.JavaPattern._19_适配器模式.section2.Adaptee</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaPattern._19_适配器模式.section2.Adapter" target="bj.DesignPattern.JavaPattern._19_适配器模式.section2.Adaptee">
+      <point x="21.5" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._19_适配器模式.section2.Adapter" target="bj.DesignPattern.JavaPattern._19_适配器模式.section2.Target">
+      <point x="-21.5" y="-16.0" />
+      <point x="176.5" y="57.0" />
+      <point x="105.0" y="57.0" />
+      <point x="18.75" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._19_适配器模式.section2.ConcreteTarget" target="bj.DesignPattern.JavaPattern._19_适配器模式.section2.Target">
+      <point x="0.0" y="-16.0" />
+      <point x="-18.75" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="132.0" y="95.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaPattern._19_适配器模式.section2.Adaptee</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

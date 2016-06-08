@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._16_责任链模式.section1</OriginalElement>
+  <nodes>
+    <node x="2.0" y="241.0">bj.DesignPattern.JavaPattern._16_责任链模式.section1.Women</node>
+    <node x="95.5" y="0.0">bj.DesignPattern.JavaPattern._16_责任链模式.section1.IHandler</node>
+    <node x="207.0" y="82.0">bj.DesignPattern.JavaPattern._16_责任链模式.section1.Son</node>
+    <node x="134.0" y="159.0">bj.DesignPattern.JavaPattern._16_责任链模式.section1.Client</node>
+    <node x="94.0" y="82.0">bj.DesignPattern.JavaPattern._16_责任链模式.section1.Husband</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.JavaPattern._16_责任链模式.section1.Father</node>
+    <node x="0.0" y="159.0">bj.DesignPattern.JavaPattern._16_责任链模式.section1.IWomen</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaPattern._16_责任链模式.section1.Women" target="bj.DesignPattern.JavaPattern._16_责任链模式.section1.IWomen">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._16_责任链模式.section1.Husband" target="bj.DesignPattern.JavaPattern._16_责任链模式.section1.IHandler">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._16_责任链模式.section1.Son" target="bj.DesignPattern.JavaPattern._16_责任链模式.section1.IHandler">
+      <point x="0.0" y="-16.0" />
+      <point x="236.0" y="57.0" />
+      <point x="170.5" y="57.0" />
+      <point x="30.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._16_责任链模式.section1.Father" target="bj.DesignPattern.JavaPattern._16_责任链模式.section1.IHandler">
+      <point x="0.0" y="-16.0" />
+      <point x="37.0" y="57.0" />
+      <point x="110.5" y="57.0" />
+      <point x="-30.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="132.5" y="136.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaPattern._16_责任链模式.section1.IWomen</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

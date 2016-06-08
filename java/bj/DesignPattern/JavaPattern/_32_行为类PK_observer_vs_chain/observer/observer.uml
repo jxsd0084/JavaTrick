@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._32_行为类PK_observer_vs_chain.observer</OriginalElement>
+  <nodes>
+    <node x="0.0" y="159.0">bj.DesignPattern.JavaPattern._32_行为类PK_observer_vs_chain.observer.Recorder</node>
+    <node x="137.0" y="159.0">bj.DesignPattern.JavaPattern._32_行为类PK_observer_vs_chain.observer.Client</node>
+    <node x="193.5" y="0.0">bj.DesignPattern.JavaPattern._32_行为类PK_observer_vs_chain.observer.DnsServer</node>
+    <node x="322.0" y="82.0">bj.DesignPattern.JavaPattern._32_行为类PK_observer_vs_chain.observer.TopDnsServer</node>
+    <node x="184.0" y="82.0">bj.DesignPattern.JavaPattern._32_行为类PK_observer_vs_chain.observer.SHDnsServer</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.JavaPattern._32_行为类PK_observer_vs_chain.observer.ChinaTopDnsServer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaPattern._32_行为类PK_observer_vs_chain.observer.ChinaTopDnsServer" target="bj.DesignPattern.JavaPattern._32_行为类PK_observer_vs_chain.observer.DnsServer">
+      <point x="0.0" y="-16.0" />
+      <point x="82.0" y="57.0" />
+      <point x="210.0" y="57.0" />
+      <point x="-33.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._32_行为类PK_observer_vs_chain.observer.TopDnsServer" target="bj.DesignPattern.JavaPattern._32_行为类PK_observer_vs_chain.observer.DnsServer">
+      <point x="0.0" y="-16.0" />
+      <point x="384.5" y="57.0" />
+      <point x="276.0" y="57.0" />
+      <point x="33.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._32_行为类PK_observer_vs_chain.observer.SHDnsServer" target="bj.DesignPattern.JavaPattern._32_行为类PK_observer_vs_chain.observer.DnsServer">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="223.5" y="95.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._31_结构类PK_decorator_vs_adapter.decorator</OriginalElement>
+  <nodes>
+    <node x="188.0" y="164.0">bj.DesignPattern.JavaPattern._31_结构类PK_decorator_vs_adapter.decorator.StrongBehavior</node>
+    <node x="120.50000000000001" y="82.0">bj.DesignPattern.JavaPattern._31_结构类PK_decorator_vs_adapter.decorator.Decorator</node>
+    <node x="239.5" y="82.0">bj.DesignPattern.JavaPattern._31_结构类PK_decorator_vs_adapter.decorator.UglyDuckling</node>
+    <node x="0.0" y="164.0">bj.DesignPattern.JavaPattern._31_结构类PK_decorator_vs_adapter.decorator.BeautifyAppearance</node>
+    <node x="201.5" y="0.0">bj.DesignPattern.JavaPattern._31_结构类PK_decorator_vs_adapter.decorator.Swan</node>
+    <node x="0.0" y="241.0">bj.DesignPattern.JavaPattern._31_结构类PK_decorator_vs_adapter.decorator.Client</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaPattern._31_结构类PK_decorator_vs_adapter.decorator.BeautifyAppearance" target="bj.DesignPattern.JavaPattern._31_结构类PK_decorator_vs_adapter.decorator.Decorator">
+      <point x="0.0" y="-16.0" />
+      <point x="84.0" y="139.0" />
+      <point x="145.25" y="139.0" />
+      <point x="-24.75" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._31_结构类PK_decorator_vs_adapter.decorator.UglyDuckling" target="bj.DesignPattern.JavaPattern._31_结构类PK_decorator_vs_adapter.decorator.Swan">
+      <point x="0.0" y="-16.0" />
+      <point x="301.0" y="57.0" />
+      <point x="252.5" y="57.0" />
+      <point x="17.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._31_结构类PK_decorator_vs_adapter.decorator.StrongBehavior" target="bj.DesignPattern.JavaPattern._31_结构类PK_decorator_vs_adapter.decorator.Decorator">
+      <point x="0.0" y="-16.0" />
+      <point x="256.0" y="139.0" />
+      <point x="194.75" y="139.0" />
+      <point x="24.75" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._31_结构类PK_decorator_vs_adapter.decorator.Decorator" target="bj.DesignPattern.JavaPattern._31_结构类PK_decorator_vs_adapter.decorator.Swan">
+      <point x="0.0" y="-16.0" />
+      <point x="170.0" y="57.0" />
+      <point x="218.5" y="57.0" />
+      <point x="-17.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="181.5" y="136.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._18_策略模式.section1</OriginalElement>
+  <nodes>
+    <node x="118.0" y="82.0">bj.DesignPattern.JavaPattern._18_策略模式.section1.GivenGreenLight</node>
+    <node x="282.0" y="82.0">bj.DesignPattern.JavaPattern._18_策略模式.section1.BlockEnemy</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.JavaPattern._18_策略模式.section1.BackDoor</node>
+    <node x="0.0" y="159.0">bj.DesignPattern.JavaPattern._18_策略模式.section1.ZhaoYun</node>
+    <node x="144.5" y="0.0">bj.DesignPattern.JavaPattern._18_策略模式.section1.IStrategy</node>
+    <node x="138.0" y="159.0">bj.DesignPattern.JavaPattern._18_策略模式.section1.Context</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaPattern._18_策略模式.section1.BackDoor" target="bj.DesignPattern.JavaPattern._18_策略模式.section1.IStrategy">
+      <point x="0.0" y="-16.0" />
+      <point x="49.0" y="57.0" />
+      <point x="159.66666666666666" y="57.0" />
+      <point x="-30.333333333333343" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._18_策略模式.section1.GivenGreenLight" target="bj.DesignPattern.JavaPattern._18_策略模式.section1.IStrategy">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._18_策略模式.section1.BlockEnemy" target="bj.DesignPattern.JavaPattern._18_策略模式.section1.IStrategy">
+      <point x="0.0" y="-16.0" />
+      <point x="339.0" y="57.0" />
+      <point x="220.33333333333331" y="57.0" />
+      <point x="30.333333333333314" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="198.0" y="95.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaPattern._18_策略模式.section1.IStrategy</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

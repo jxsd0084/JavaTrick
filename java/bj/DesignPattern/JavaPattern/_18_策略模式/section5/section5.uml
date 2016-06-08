@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._18_策略模式.section5</OriginalElement>
+  <nodes>
+    <node x="78.0" y="82.0">bj.DesignPattern.JavaPattern._18_策略模式.section5.Add</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.JavaPattern._18_策略模式.section5.Sub</node>
+    <node x="129.0" y="159.0">bj.DesignPattern.JavaPattern._18_策略模式.section5.Client</node>
+    <node x="18.5" y="0.0">bj.DesignPattern.JavaPattern._18_策略模式.section5.Calculator</node>
+    <node x="0.0" y="159.0">bj.DesignPattern.JavaPattern._18_策略模式.section5.Context</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaPattern._18_策略模式.section5.Add" target="bj.DesignPattern.JavaPattern._18_策略模式.section5.Calculator">
+      <point x="0.0" y="-16.0" />
+      <point x="108.0" y="57.0" />
+      <point x="93.5" y="57.0" />
+      <point x="25.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._18_策略模式.section5.Sub" target="bj.DesignPattern.JavaPattern._18_策略模式.section5.Calculator">
+      <point x="0.0" y="-16.0" />
+      <point x="29.0" y="57.0" />
+      <point x="43.5" y="57.0" />
+      <point x="-25.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="100.0" y="95.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaPattern._18_策略模式.section5.Calculator</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

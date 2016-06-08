@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._21_组合模式.section6</OriginalElement>
+  <nodes>
+    <node x="0.0" y="159.0">bj.DesignPattern.JavaPattern._21_组合模式.section6.Client</node>
+    <node x="99.0" y="82.0">bj.DesignPattern.JavaPattern._21_组合模式.section6.Leaf</node>
+    <node x="52.25" y="0.0">bj.DesignPattern.JavaPattern._21_组合模式.section6.Corp</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.JavaPattern._21_组合模式.section6.Branch</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaPattern._21_组合模式.section6.Leaf" target="bj.DesignPattern.JavaPattern._21_组合模式.section6.Corp">
+      <point x="0.0" y="-16.0" />
+      <point x="129.0" y="57.0" />
+      <point x="100.25" y="57.0" />
+      <point x="16.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._21_组合模式.section6.Branch" target="bj.DesignPattern.JavaPattern._21_组合模式.section6.Corp">
+      <point x="0.0" y="-16.0" />
+      <point x="39.5" y="57.0" />
+      <point x="68.25" y="57.0" />
+      <point x="-16.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="79.5" y="95.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaPattern._21_组合模式.section6.Client</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

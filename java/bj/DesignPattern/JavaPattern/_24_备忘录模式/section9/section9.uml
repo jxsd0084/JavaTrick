@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._24_备忘录模式.section9</OriginalElement>
+  <nodes>
+    <node x="0.0" y="77.0">bj.DesignPattern.JavaPattern._24_备忘录模式.section9.Originator</node>
+    <node x="0.0" y="0.0">bj.DesignPattern.JavaPattern._24_备忘录模式.section9.IMemento</node>
+    <node x="0.0" y="154.0">bj.DesignPattern.JavaPattern._24_备忘录模式.section9.Caretaker</node>
+    <node x="141.0" y="154.0">bj.DesignPattern.JavaPattern._24_备忘录模式.section9.Client</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="106.0" y="93.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

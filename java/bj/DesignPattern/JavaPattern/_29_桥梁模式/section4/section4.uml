@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._29_桥梁模式.section4</OriginalElement>
+  <nodes>
+    <node x="95.0" y="241.0">bj.DesignPattern.JavaPattern._29_桥梁模式.section4.Clothes</node>
+    <node x="44.25" y="159.0">bj.DesignPattern.JavaPattern._29_桥梁模式.section4.Product</node>
+    <node x="127.0" y="82.0">bj.DesignPattern.JavaPattern._29_桥梁模式.section4.ShanZhaiCorp</node>
+    <node x="90.25" y="0.0">bj.DesignPattern.JavaPattern._29_桥梁模式.section4.Corp</node>
+    <node x="0.0" y="241.0">bj.DesignPattern.JavaPattern._29_桥梁模式.section4.House</node>
+    <node x="222.0" y="159.0">bj.DesignPattern.JavaPattern._29_桥梁模式.section4.Client</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.JavaPattern._29_桥梁模式.section4.HouseCorp</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaPattern._29_桥梁模式.section4.HouseCorp" target="bj.DesignPattern.JavaPattern._29_桥梁模式.section4.Corp">
+      <point x="0.0" y="-16.0" />
+      <point x="53.5" y="57.0" />
+      <point x="106.25" y="57.0" />
+      <point x="-16.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._29_桥梁模式.section4.ShanZhaiCorp" target="bj.DesignPattern.JavaPattern._29_桥梁模式.section4.Corp">
+      <point x="0.0" y="-16.0" />
+      <point x="191.0" y="57.0" />
+      <point x="138.25" y="57.0" />
+      <point x="16.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._29_桥梁模式.section4.Clothes" target="bj.DesignPattern.JavaPattern._29_桥梁模式.section4.Product">
+      <point x="0.0" y="-16.0" />
+      <point x="136.0" y="216.0" />
+      <point x="108.0" y="216.0" />
+      <point x="21.25" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._29_桥梁模式.section4.House" target="bj.DesignPattern.JavaPattern._29_桥梁模式.section4.Product">
+      <point x="0.0" y="-16.0" />
+      <point x="37.5" y="216.0" />
+      <point x="65.5" y="216.0" />
+      <point x="-21.25" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="146.5" y="136.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaPattern._29_桥梁模式.section4.House</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

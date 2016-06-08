@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._27_解释器模式.section2</OriginalElement>
+  <nodes>
+    <node x="182.0" y="82.0">bj.DesignPattern.JavaPattern._27_解释器模式.section2.NonterminalExpression</node>
+    <node x="129.0" y="159.0">bj.DesignPattern.JavaPattern._27_解释器模式.section2.Client</node>
+    <node x="0.0" y="159.0">bj.DesignPattern.JavaPattern._27_解释器模式.section2.Context</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.JavaPattern._27_解释器模式.section2.TerminalExpression</node>
+    <node x="127.0" y="0.0">bj.DesignPattern.JavaPattern._27_解释器模式.section2.Expression</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaPattern._27_解释器模式.section2.NonterminalExpression" target="bj.DesignPattern.JavaPattern._27_解释器模式.section2.Expression">
+      <point x="0.0" y="-16.0" />
+      <point x="276.0" y="57.0" />
+      <point x="204.25" y="57.0" />
+      <point x="25.75" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._27_解释器模式.section2.TerminalExpression" target="bj.DesignPattern.JavaPattern._27_解释器模式.section2.Expression">
+      <point x="0.0" y="-16.0" />
+      <point x="81.0" y="57.0" />
+      <point x="152.75" y="57.0" />
+      <point x="-25.75" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="185.0" y="95.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

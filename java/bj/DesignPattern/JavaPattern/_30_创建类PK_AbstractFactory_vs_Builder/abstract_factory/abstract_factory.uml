@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._30_创建类PK_AbstractFactory_vs_Builder.abstract_factory</OriginalElement>
+  <nodes>
+    <node x="228.0" y="164.0">bj.DesignPattern.JavaPattern._30_创建类PK_AbstractFactory_vs_Builder.abstract_factory.BenzVan</node>
+    <node x="339.0" y="164.0">bj.DesignPattern.JavaPattern._30_创建类PK_AbstractFactory_vs_Builder.abstract_factory.BenzSuv</node>
+    <node x="56.49999999999997" y="82.0">bj.DesignPattern.JavaPattern._30_创建类PK_AbstractFactory_vs_Builder.abstract_factory.AbsBMW</node>
+    <node x="0.0" y="164.0">bj.DesignPattern.JavaPattern._30_创建类PK_AbstractFactory_vs_Builder.abstract_factory.BMWSuv</node>
+    <node x="133.0" y="323.0">bj.DesignPattern.JavaPattern._30_创建类PK_AbstractFactory_vs_Builder.abstract_factory.BMWFactory</node>
+    <node x="112.99999999999999" y="164.0">bj.DesignPattern.JavaPattern._30_创建类PK_AbstractFactory_vs_Builder.abstract_factory.BMWVan</node>
+    <node x="0.0" y="400.0">bj.DesignPattern.JavaPattern._30_创建类PK_AbstractFactory_vs_Builder.abstract_factory.Client</node>
+    <node x="0.0" y="323.0">bj.DesignPattern.JavaPattern._30_创建类PK_AbstractFactory_vs_Builder.abstract_factory.BenzFactory</node>
+    <node x="186.5" y="0.0">bj.DesignPattern.JavaPattern._30_创建类PK_AbstractFactory_vs_Builder.abstract_factory.ICar</node>
+    <node x="283.5" y="82.0">bj.DesignPattern.JavaPattern._30_创建类PK_AbstractFactory_vs_Builder.abstract_factory.AbsBenz</node>
+    <node x="73.0" y="241.0">bj.DesignPattern.JavaPattern._30_创建类PK_AbstractFactory_vs_Builder.abstract_factory.CarFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaPattern._30_创建类PK_AbstractFactory_vs_Builder.abstract_factory.BenzVan" target="bj.DesignPattern.JavaPattern._30_创建类PK_AbstractFactory_vs_Builder.abstract_factory.AbsBenz">
+      <point x="0.0" y="-16.0" />
+      <point x="273.5" y="139.0" />
+      <point x="306.0" y="139.0" />
+      <point x="-22.5" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._30_创建类PK_AbstractFactory_vs_Builder.abstract_factory.AbsBenz" target="bj.DesignPattern.JavaPattern._30_创建类PK_AbstractFactory_vs_Builder.abstract_factory.ICar">
+      <point x="0.0" y="-16.0" />
+      <point x="328.5" y="57.0" />
+      <point x="230.0" y="57.0" />
+      <point x="14.5" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._30_创建类PK_AbstractFactory_vs_Builder.abstract_factory.BenzSuv" target="bj.DesignPattern.JavaPattern._30_创建类PK_AbstractFactory_vs_Builder.abstract_factory.AbsBenz">
+      <point x="0.0" y="-16.0" />
+      <point x="383.5" y="139.0" />
+      <point x="351.0" y="139.0" />
+      <point x="22.5" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._30_创建类PK_AbstractFactory_vs_Builder.abstract_factory.AbsBMW" target="bj.DesignPattern.JavaPattern._30_创建类PK_AbstractFactory_vs_Builder.abstract_factory.ICar">
+      <point x="0.0" y="-16.0" />
+      <point x="103.49999999999997" y="57.0" />
+      <point x="201.0" y="57.0" />
+      <point x="-14.5" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._30_创建类PK_AbstractFactory_vs_Builder.abstract_factory.BMWFactory" target="bj.DesignPattern.JavaPattern._30_创建类PK_AbstractFactory_vs_Builder.abstract_factory.CarFactory">
+      <point x="0.0" y="-16.0" />
+      <point x="191.5" y="298.0" />
+      <point x="149.5" y="298.0" />
+      <point x="25.5" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._30_创建类PK_AbstractFactory_vs_Builder.abstract_factory.BenzFactory" target="bj.DesignPattern.JavaPattern._30_创建类PK_AbstractFactory_vs_Builder.abstract_factory.CarFactory">
+      <point x="0.0" y="-16.0" />
+      <point x="56.5" y="298.0" />
+      <point x="98.5" y="298.0" />
+      <point x="-25.5" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._30_创建类PK_AbstractFactory_vs_Builder.abstract_factory.BMWSuv" target="bj.DesignPattern.JavaPattern._30_创建类PK_AbstractFactory_vs_Builder.abstract_factory.AbsBMW">
+      <point x="0.0" y="-16.0" />
+      <point x="46.5" y="139.0" />
+      <point x="79.99999999999997" y="139.0" />
+      <point x="-23.5" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._30_创建类PK_AbstractFactory_vs_Builder.abstract_factory.BMWVan" target="bj.DesignPattern.JavaPattern._30_创建类PK_AbstractFactory_vs_Builder.abstract_factory.AbsBMW">
+      <point x="0.0" y="-16.0" />
+      <point x="160.5" y="139.0" />
+      <point x="126.99999999999997" y="139.0" />
+      <point x="23.5" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="214.0" y="216.0" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaPattern._30_创建类PK_AbstractFactory_vs_Builder.abstract_factory.AbsBenz</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

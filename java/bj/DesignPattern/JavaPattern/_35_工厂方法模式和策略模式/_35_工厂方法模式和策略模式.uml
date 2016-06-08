@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._35_工厂方法模式和策略模式</OriginalElement>
+  <nodes>
+    <node x="116.0" y="313.0">bj.DesignPattern.JavaPattern._35_工厂方法模式和策略模式.Trade</node>
+    <node x="200.0" y="159.0">bj.DesignPattern.JavaPattern._35_工厂方法模式和策略模式.DeductionFacade</node>
+    <node x="231.0" y="313.0">bj.DesignPattern.JavaPattern._35_工厂方法模式和策略模式.Card</node>
+    <node x="100.25" y="0.0">bj.DesignPattern.JavaPattern._35_工厂方法模式和策略模式.IDeduction</node>
+    <node x="0.0" y="159.0">bj.DesignPattern.JavaPattern._35_工厂方法模式和策略模式.DeductionContext</node>
+    <node x="0.0" y="313.0">bj.DesignPattern.JavaPattern._35_工厂方法模式和策略模式.Client</node>
+    <node x="168.0" y="82.0">bj.DesignPattern.JavaPattern._35_工厂方法模式和策略模式.FreeDeduction</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.JavaPattern._35_工厂方法模式和策略模式.SteadyDeduction</node>
+    <node x="0.0" y="236.0">bj.DesignPattern.JavaPattern._35_工厂方法模式和策略模式.StrategyFactory</node>
+    <node x="180.0" y="236.0">bj.DesignPattern.JavaPattern._35_工厂方法模式和策略模式.StrategyMan</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaPattern._35_工厂方法模式和策略模式.SteadyDeduction" target="bj.DesignPattern.JavaPattern._35_工厂方法模式和策略模式.IDeduction">
+      <point x="0.0" y="-16.0" />
+      <point x="74.0" y="57.0" />
+      <point x="127.0" y="57.0" />
+      <point x="-26.75" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._35_工厂方法模式和策略模式.FreeDeduction" target="bj.DesignPattern.JavaPattern._35_工厂方法模式和策略模式.IDeduction">
+      <point x="0.0" y="-16.0" />
+      <point x="233.5" y="57.0" />
+      <point x="180.5" y="57.0" />
+      <point x="26.75" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="175.0" y="172.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaPattern._35_工厂方法模式和策略模式.Trade</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

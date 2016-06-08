@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._11_建造者模式.section2</OriginalElement>
+  <nodes>
+    <node x="133.0" y="82.0">bj.DesignPattern.JavaPattern._11_建造者模式.section2.BMWBuilder</node>
+    <node x="133.0" y="241.0">bj.DesignPattern.JavaPattern._11_建造者模式.section2.BenzModel</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.JavaPattern._11_建造者模式.section2.BenzBuilder</node>
+    <node x="73.0" y="159.0">bj.DesignPattern.JavaPattern._11_建造者模式.section2.CarModel</node>
+    <node x="73.0" y="0.0">bj.DesignPattern.JavaPattern._11_建造者模式.section2.CarBuilder</node>
+    <node x="0.0" y="241.0">bj.DesignPattern.JavaPattern._11_建造者模式.section2.BMWModel</node>
+    <node x="287.0" y="159.0">bj.DesignPattern.JavaPattern._11_建造者模式.section2.Client</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaPattern._11_建造者模式.section2.BenzModel" target="bj.DesignPattern.JavaPattern._11_建造者模式.section2.CarModel">
+      <point x="0.0" y="-16.0" />
+      <point x="187.5" y="216.0" />
+      <point x="146.5" y="216.0" />
+      <point x="24.5" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._11_建造者模式.section2.BMWBuilder" target="bj.DesignPattern.JavaPattern._11_建造者模式.section2.CarBuilder">
+      <point x="0.0" y="-16.0" />
+      <point x="191.5" y="57.0" />
+      <point x="149.5" y="57.0" />
+      <point x="25.5" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._11_建造者模式.section2.BMWModel" target="bj.DesignPattern.JavaPattern._11_建造者模式.section2.CarModel">
+      <point x="0.0" y="-16.0" />
+      <point x="56.5" y="216.0" />
+      <point x="97.5" y="216.0" />
+      <point x="-24.5" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._11_建造者模式.section2.BenzBuilder" target="bj.DesignPattern.JavaPattern._11_建造者模式.section2.CarBuilder">
+      <point x="0.0" y="-16.0" />
+      <point x="56.5" y="57.0" />
+      <point x="98.5" y="57.0" />
+      <point x="-25.5" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="179.0" y="136.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaPattern._11_建造者模式.section2.CarBuilder</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

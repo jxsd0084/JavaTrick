@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._28_享元模式.section5</OriginalElement>
+  <nodes>
+    <node x="0.0" y="154.0">bj.DesignPattern.JavaPattern._28_享元模式.section5.SignInfo</node>
+    <node x="0.0" y="0.0">bj.DesignPattern.JavaPattern._28_享元模式.section5.SignInfoFactory</node>
+    <node x="134.0" y="154.0">bj.DesignPattern.JavaPattern._28_享元模式.section5.Client</node>
+    <node x="0.0" y="77.0">bj.DesignPattern.JavaPattern._28_享元模式.section5.ExtrinsicState</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="102.5" y="93.0" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaPattern._28_享元模式.section5.SignInfo</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

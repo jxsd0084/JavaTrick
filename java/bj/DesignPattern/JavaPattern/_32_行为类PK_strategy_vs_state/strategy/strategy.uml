@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._32_行为类PK_strategy_vs_state.strategy</OriginalElement>
+  <nodes>
+    <node x="0.0" y="159.0">bj.DesignPattern.JavaPattern._32_行为类PK_strategy_vs_state.strategy.Context</node>
+    <node x="112.0" y="82.0">bj.DesignPattern.JavaPattern._32_行为类PK_strategy_vs_state.strategy.AdultWork</node>
+    <node x="237.0" y="82.0">bj.DesignPattern.JavaPattern._32_行为类PK_strategy_vs_state.strategy.ChildWork</node>
+    <node x="129.0" y="159.0">bj.DesignPattern.JavaPattern._32_行为类PK_strategy_vs_state.strategy.Client</node>
+    <node x="96.5" y="0.0">bj.DesignPattern.JavaPattern._32_行为类PK_strategy_vs_state.strategy.WorkAlgorithm</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.JavaPattern._32_行为类PK_strategy_vs_state.strategy.OldWork</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaPattern._32_行为类PK_strategy_vs_state.strategy.ChildWork" target="bj.DesignPattern.JavaPattern._32_行为类PK_strategy_vs_state.strategy.WorkAlgorithm">
+      <point x="0.0" y="-16.0" />
+      <point x="288.5" y="57.0" />
+      <point x="209.83333333333334" y="57.0" />
+      <point x="45.33333333333334" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._32_行为类PK_strategy_vs_state.strategy.OldWork" target="bj.DesignPattern.JavaPattern._32_行为类PK_strategy_vs_state.strategy.WorkAlgorithm">
+      <point x="0.0" y="-16.0" />
+      <point x="46.0" y="57.0" />
+      <point x="119.16666666666666" y="57.0" />
+      <point x="-45.33333333333334" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._32_行为类PK_strategy_vs_state.strategy.AdultWork" target="bj.DesignPattern.JavaPattern._32_行为类PK_strategy_vs_state.strategy.WorkAlgorithm">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="170.0" y="95.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._14_中介者模式.section2</OriginalElement>
+  <nodes>
+    <node x="27.5" y="241.0">bj.DesignPattern.JavaPattern._14_中介者模式.section2.Mediator</node>
+    <node x="37.0" y="0.0">bj.DesignPattern.JavaPattern._14_中介者模式.section2.AbstractColleague</node>
+    <node x="194.0" y="159.0">bj.DesignPattern.JavaPattern._14_中介者模式.section2.Client</node>
+    <node x="80.0" y="82.0">bj.DesignPattern.JavaPattern._14_中介者模式.section2.Stock</node>
+    <node x="169.0" y="82.0">bj.DesignPattern.JavaPattern._14_中介者模式.section2.Purchase</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.JavaPattern._14_中介者模式.section2.Sale</node>
+    <node x="0.0" y="159.0">bj.DesignPattern.JavaPattern._14_中介者模式.section2.AbstractMediator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaPattern._14_中介者模式.section2.Sale" target="bj.DesignPattern.JavaPattern._14_中介者模式.section2.AbstractColleague">
+      <point x="0.0" y="-16.0" />
+      <point x="30.0" y="57.0" />
+      <point x="62.833333333333336" y="57.0" />
+      <point x="-51.666666666666664" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._14_中介者模式.section2.Stock" target="bj.DesignPattern.JavaPattern._14_中介者模式.section2.AbstractColleague">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._14_中介者模式.section2.Purchase" target="bj.DesignPattern.JavaPattern._14_中介者模式.section2.AbstractColleague">
+      <point x="0.0" y="-16.0" />
+      <point x="215.5" y="57.0" />
+      <point x="166.16666666666666" y="57.0" />
+      <point x="51.66666666666666" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._14_中介者模式.section2.Mediator" target="bj.DesignPattern.JavaPattern._14_中介者模式.section2.AbstractMediator">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="132.5" y="136.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaPattern._14_中介者模式.section2.AbstractMediator</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

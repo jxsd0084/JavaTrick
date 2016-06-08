@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._28_享元模式.section3</OriginalElement>
+  <nodes>
+    <node x="0.0" y="159.0">bj.DesignPattern.JavaPattern._28_享元模式.section3.FlyweightFactory</node>
+    <node x="184.0" y="82.0">bj.DesignPattern.JavaPattern._28_享元模式.section3.ConcreteFlyweight2</node>
+    <node x="126.0" y="0.0">bj.DesignPattern.JavaPattern._28_享元模式.section3.Flyweight</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.JavaPattern._28_享元模式.section3.ConcreteFlyweight1</node>
+    <node x="0.0" y="236.0">bj.DesignPattern.JavaPattern._28_享元模式.section3.Client</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaPattern._28_享元模式.section3.ConcreteFlyweight2" target="bj.DesignPattern.JavaPattern._28_享元模式.section3.Flyweight">
+      <point x="0.0" y="-16.0" />
+      <point x="266.0" y="57.0" />
+      <point x="198.0" y="57.0" />
+      <point x="24.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._28_享元模式.section3.ConcreteFlyweight1" target="bj.DesignPattern.JavaPattern._28_享元模式.section3.Flyweight">
+      <point x="0.0" y="-16.0" />
+      <point x="82.0" y="57.0" />
+      <point x="150.0" y="57.0" />
+      <point x="-24.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="174.0" y="134.0" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaPattern._28_享元模式.section3.FlyweightFactory</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

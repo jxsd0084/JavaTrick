@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._30_创建类PK_factory_vs_builder.builder</OriginalElement>
+  <nodes>
+    <node x="156.5" y="0.0">bj.DesignPattern.JavaPattern._30_创建类PK_factory_vs_builder.builder.Builder</node>
+    <node x="147.0" y="159.0">bj.DesignPattern.JavaPattern._30_创建类PK_factory_vs_builder.builder.Director</node>
+    <node x="0.0" y="159.0">bj.DesignPattern.JavaPattern._30_创建类PK_factory_vs_builder.builder.SuperMan</node>
+    <node x="0.0" y="236.0">bj.DesignPattern.JavaPattern._30_创建类PK_factory_vs_builder.builder.Client</node>
+    <node x="207.0" y="82.0">bj.DesignPattern.JavaPattern._30_创建类PK_factory_vs_builder.builder.ChildSuperManBuilder</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.JavaPattern._30_创建类PK_factory_vs_builder.builder.AdultSuperManBuilder</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaPattern._30_创建类PK_factory_vs_builder.builder.AdultSuperManBuilder" target="bj.DesignPattern.JavaPattern._30_创建类PK_factory_vs_builder.builder.Builder">
+      <point x="0.0" y="-16.0" />
+      <point x="93.5" y="57.0" />
+      <point x="176.5" y="57.0" />
+      <point x="-20.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._30_创建类PK_factory_vs_builder.builder.ChildSuperManBuilder" target="bj.DesignPattern.JavaPattern._30_创建类PK_factory_vs_builder.builder.Builder">
+      <point x="0.0" y="-16.0" />
+      <point x="299.5" y="57.0" />
+      <point x="216.5" y="57.0" />
+      <point x="20.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="196.0" y="134.0" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaPattern._30_创建类PK_factory_vs_builder.builder.AdultSuperManBuilder</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

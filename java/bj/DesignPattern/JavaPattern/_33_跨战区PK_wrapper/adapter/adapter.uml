@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._33_跨战区PK_wrapper.adapter</OriginalElement>
+  <nodes>
+    <node x="104.0" y="82.0">bj.DesignPattern.JavaPattern._33_跨战区PK_wrapper.adapter.FilmStar</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.JavaPattern._33_跨战区PK_wrapper.adapter.Standin</node>
+    <node x="30.5" y="159.0">bj.DesignPattern.JavaPattern._33_跨战区PK_wrapper.adapter.IActor</node>
+    <node x="178.0" y="159.0">bj.DesignPattern.JavaPattern._33_跨战区PK_wrapper.adapter.direcotr</node>
+    <node x="63.5" y="0.0">bj.DesignPattern.JavaPattern._33_跨战区PK_wrapper.adapter.IStar</node>
+    <node x="0.0" y="241.0">bj.DesignPattern.JavaPattern._33_跨战区PK_wrapper.adapter.UnknownActor</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaPattern._33_跨战区PK_wrapper.adapter.Standin" target="bj.DesignPattern.JavaPattern._33_跨战区PK_wrapper.adapter.IStar">
+      <point x="0.0" y="-16.0" />
+      <point x="42.0" y="57.0" />
+      <point x="79.0" y="57.0" />
+      <point x="-15.5" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._33_跨战区PK_wrapper.adapter.UnknownActor" target="bj.DesignPattern.JavaPattern._33_跨战区PK_wrapper.adapter.IActor">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._33_跨战区PK_wrapper.adapter.FilmStar" target="bj.DesignPattern.JavaPattern._33_跨战区PK_wrapper.adapter.IStar">
+      <point x="0.0" y="-16.0" />
+      <point x="147.0" y="57.0" />
+      <point x="110.0" y="57.0" />
+      <point x="15.5" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="131.0" y="136.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaPattern._33_跨战区PK_wrapper.adapter.IStar</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

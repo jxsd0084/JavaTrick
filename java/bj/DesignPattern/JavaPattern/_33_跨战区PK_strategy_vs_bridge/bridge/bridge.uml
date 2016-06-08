@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._33_跨战区PK_strategy_vs_bridge.bridge</OriginalElement>
+  <nodes>
+    <node x="238.0" y="159.0">bj.DesignPattern.JavaPattern._33_跨战区PK_strategy_vs_bridge.bridge.Client</node>
+    <node x="116.0" y="241.0">bj.DesignPattern.JavaPattern._33_跨战区PK_strategy_vs_bridge.bridge.Postfix</node>
+    <node x="41.25" y="0.0">bj.DesignPattern.JavaPattern._33_跨战区PK_strategy_vs_bridge.bridge.MailTemplate</node>
+    <node x="115.0" y="82.0">bj.DesignPattern.JavaPattern._33_跨战区PK_strategy_vs_bridge.bridge.TextMail</node>
+    <node x="0.0" y="241.0">bj.DesignPattern.JavaPattern._33_跨战区PK_strategy_vs_bridge.bridge.SendMail</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.JavaPattern._33_跨战区PK_strategy_vs_bridge.bridge.HtmlMail</node>
+    <node x="49.75" y="159.0">bj.DesignPattern.JavaPattern._33_跨战区PK_strategy_vs_bridge.bridge.MailServer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaPattern._33_跨战区PK_strategy_vs_bridge.bridge.Postfix" target="bj.DesignPattern.JavaPattern._33_跨战区PK_strategy_vs_bridge.bridge.MailServer">
+      <point x="0.0" y="-16.0" />
+      <point x="154.5" y="216.0" />
+      <point x="127.0" y="216.0" />
+      <point x="25.75" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._33_跨战区PK_strategy_vs_bridge.bridge.SendMail" target="bj.DesignPattern.JavaPattern._33_跨战区PK_strategy_vs_bridge.bridge.MailServer">
+      <point x="0.0" y="-16.0" />
+      <point x="48.0" y="216.0" />
+      <point x="75.5" y="216.0" />
+      <point x="-25.75" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._33_跨战区PK_strategy_vs_bridge.bridge.HtmlMail" target="bj.DesignPattern.JavaPattern._33_跨战区PK_strategy_vs_bridge.bridge.MailTemplate">
+      <point x="0.0" y="-16.0" />
+      <point x="47.5" y="57.0" />
+      <point x="72.5" y="57.0" />
+      <point x="-31.25" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._33_跨战区PK_strategy_vs_bridge.bridge.TextMail" target="bj.DesignPattern.JavaPattern._33_跨战区PK_strategy_vs_bridge.bridge.MailTemplate">
+      <point x="0.0" y="-16.0" />
+      <point x="160.0" y="57.0" />
+      <point x="135.0" y="57.0" />
+      <point x="31.25" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="154.5" y="136.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaPattern._33_跨战区PK_strategy_vs_bridge.bridge.Client</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

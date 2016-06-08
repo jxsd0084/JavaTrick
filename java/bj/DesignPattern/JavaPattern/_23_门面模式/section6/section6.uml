@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._23_门面模式.section6</OriginalElement>
+  <nodes>
+    <node x="0.0" y="77.0">bj.DesignPattern.JavaPattern._23_门面模式.section6.ClassC</node>
+    <node x="119.0" y="77.0">bj.DesignPattern.JavaPattern._23_门面模式.section6.ClassB</node>
+    <node x="124.0" y="0.0">bj.DesignPattern.JavaPattern._23_门面模式.section6.ClassA</node>
+    <node x="0.0" y="154.0">bj.DesignPattern.JavaPattern._23_门面模式.section6.Client</node>
+    <node x="0.0" y="0.0">bj.DesignPattern.JavaPattern._23_门面模式.section6.Facade</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="99.5" y="93.0" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaPattern._23_门面模式.section6.ClassC</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

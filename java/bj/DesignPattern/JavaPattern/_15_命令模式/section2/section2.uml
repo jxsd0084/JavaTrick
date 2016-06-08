@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._15_命令模式.section2</OriginalElement>
+  <nodes>
+    <node x="127.0" y="318.0">bj.DesignPattern.JavaPattern._15_命令模式.section2.Client</node>
+    <node x="257.0" y="82.0">bj.DesignPattern.JavaPattern._15_命令模式.section2.RequirementGroup</node>
+    <node x="129.0" y="82.0">bj.DesignPattern.JavaPattern._15_命令模式.section2.PageGroup</node>
+    <node x="200.0" y="241.0">bj.DesignPattern.JavaPattern._15_命令模式.section2.AddRequirementCommand</node>
+    <node x="0.0" y="318.0">bj.DesignPattern.JavaPattern._15_命令模式.section2.Invoker</node>
+    <node x="148.25" y="159.0">bj.DesignPattern.JavaPattern._15_命令模式.section2.Command</node>
+    <node x="0.0" y="241.0">bj.DesignPattern.JavaPattern._15_命令模式.section2.DeletePageCommand</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.JavaPattern._15_命令模式.section2.CodeGroup</node>
+    <node x="146.0" y="0.0">bj.DesignPattern.JavaPattern._15_命令模式.section2.Group</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaPattern._15_命令模式.section2.DeletePageCommand" target="bj.DesignPattern.JavaPattern._15_命令模式.section2.Command">
+      <point x="0.0" y="-16.0" />
+      <point x="90.0" y="216.0" />
+      <point x="173.75" y="216.0" />
+      <point x="-25.5" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._15_命令模式.section2.AddRequirementCommand" target="bj.DesignPattern.JavaPattern._15_命令模式.section2.Command">
+      <point x="0.0" y="-16.0" />
+      <point x="308.5" y="216.0" />
+      <point x="224.75" y="216.0" />
+      <point x="25.5" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._15_命令模式.section2.CodeGroup" target="bj.DesignPattern.JavaPattern._15_命令模式.section2.Group">
+      <point x="0.0" y="-16.0" />
+      <point x="54.5" y="57.0" />
+      <point x="158.33333333333334" y="57.0" />
+      <point x="-24.666666666666657" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._15_命令模式.section2.PageGroup" target="bj.DesignPattern.JavaPattern._15_命令模式.section2.Group">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._15_命令模式.section2.RequirementGroup" target="bj.DesignPattern.JavaPattern._15_命令模式.section2.Group">
+      <point x="0.0" y="-16.0" />
+      <point x="337.5" y="57.0" />
+      <point x="207.66666666666669" y="57.0" />
+      <point x="24.666666666666686" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="209.0" y="175.0" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaPattern._15_命令模式.section2.Client</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

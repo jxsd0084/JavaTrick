@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._15_命令模式.section1</OriginalElement>
+  <nodes>
+    <node x="310.0" y="82.0">bj.DesignPattern.JavaPattern._15_命令模式.section1.PageGroup</node>
+    <node x="0.0" y="159.0">bj.DesignPattern.JavaPattern._15_命令模式.section1.Client</node>
+    <node x="129.0" y="82.0">bj.DesignPattern.JavaPattern._15_命令模式.section1.RequirementGroup</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.JavaPattern._15_命令模式.section1.CodeGroup</node>
+    <node x="172.5" y="0.0">bj.DesignPattern.JavaPattern._15_命令模式.section1.Group</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaPattern._15_命令模式.section1.CodeGroup" target="bj.DesignPattern.JavaPattern._15_命令模式.section1.Group">
+      <point x="0.0" y="-16.0" />
+      <point x="54.5" y="57.0" />
+      <point x="184.83333333333334" y="57.0" />
+      <point x="-24.666666666666657" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._15_命令模式.section1.PageGroup" target="bj.DesignPattern.JavaPattern._15_命令模式.section1.Group">
+      <point x="0.0" y="-16.0" />
+      <point x="364.0" y="57.0" />
+      <point x="234.16666666666669" y="57.0" />
+      <point x="24.666666666666686" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._15_命令模式.section1.RequirementGroup" target="bj.DesignPattern.JavaPattern._15_命令模式.section1.Group">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="209.0" y="95.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaPattern._15_命令模式.section1.Group</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

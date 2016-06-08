@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._37_规格模式.section3</OriginalElement>
+  <nodes>
+    <node x="158.0" y="82.0">bj.DesignPattern.JavaPattern._37_规格模式.section3.UserByNameEqual</node>
+    <node x="0.0" y="318.0">bj.DesignPattern.JavaPattern._37_规格模式.section3.User</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.JavaPattern._37_规格模式.section3.UserByAgeThan</node>
+    <node x="166.0" y="159.0">bj.DesignPattern.JavaPattern._37_规格模式.section3.Client</node>
+    <node x="2.0" y="241.0">bj.DesignPattern.JavaPattern._37_规格模式.section3.UserProvider</node>
+    <node x="0.0" y="159.0">bj.DesignPattern.JavaPattern._37_规格模式.section3.IUserProvider</node>
+    <node x="76.25" y="0.0">bj.DesignPattern.JavaPattern._37_规格模式.section3.IUserSpecification</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaPattern._37_规格模式.section3.UserProvider" target="bj.DesignPattern.JavaPattern._37_规格模式.section3.IUserProvider">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._37_规格模式.section3.UserByAgeThan" target="bj.DesignPattern.JavaPattern._37_规格模式.section3.IUserSpecification">
+      <point x="0.0" y="-16.0" />
+      <point x="69.0" y="57.0" />
+      <point x="114.25" y="57.0" />
+      <point x="-38.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._37_规格模式.section3.UserByNameEqual" target="bj.DesignPattern.JavaPattern._37_规格模式.section3.IUserSpecification">
+      <point x="0.0" y="-16.0" />
+      <point x="235.5" y="57.0" />
+      <point x="190.25" y="57.0" />
+      <point x="38.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="156.5" y="175.0" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaPattern._37_规格模式.section3.IUserSpecification</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
