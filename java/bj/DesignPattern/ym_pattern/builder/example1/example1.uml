@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.ym_pattern.builder.example1</OriginalElement>
+  <nodes>
+    <node x="0.0" y="152.0">bj.DesignPattern.ym_pattern.builder.example1.ExportToTxt</node>
+    <node x="0.0" y="254.0">bj.DesignPattern.ym_pattern.builder.example1.ExportToXml</node>
+    <node x="0.0" y="356.0">bj.DesignPattern.ym_pattern.builder.example1.Client</node>
+    <node x="0.0" y="0.0">bj.DesignPattern.ym_pattern.builder.example1.ExportDataModel</node>
+    <node x="224.0" y="356.0">bj.DesignPattern.ym_pattern.builder.example1.ExportFooterModel</node>
+    <node x="247.0" y="0.0">bj.DesignPattern.ym_pattern.builder.example1.ExportHeaderModel</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.ym_pattern.builder.example1.Client" target="bj.DesignPattern.ym_pattern.builder.example1.ExportHeaderModel">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.builder.example1.Client" target="bj.DesignPattern.ym_pattern.builder.example1.ExportToTxt">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.builder.example1.Client" target="bj.DesignPattern.ym_pattern.builder.example1.ExportToXml">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.builder.example1.Client" target="bj.DesignPattern.ym_pattern.builder.example1.ExportFooterModel">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.builder.example1.Client" target="bj.DesignPattern.ym_pattern.builder.example1.ExportDataModel">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="157.0" y="131.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.ym_pattern.builder.example1.ExportToTxt</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

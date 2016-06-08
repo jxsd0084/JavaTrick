@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.ym_pattern.adapter.example1</OriginalElement>
+  <nodes>
+    <node x="0.0" y="107.0">bj.DesignPattern.ym_pattern.adapter.example1.Adapter</node>
+    <node x="31.5" y="0.0">bj.DesignPattern.ym_pattern.adapter.example1.Target</node>
+    <node x="244.0" y="261.0">bj.DesignPattern.ym_pattern.adapter.example1.Client</node>
+    <node x="0.0" y="261.0">bj.DesignPattern.ym_pattern.adapter.example1.Adaptee</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.ym_pattern.adapter.example1.Adapter" target="bj.DesignPattern.ym_pattern.adapter.example1.Adaptee">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.adapter.example1.Client" target="bj.DesignPattern.ym_pattern.adapter.example1.Adapter">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.adapter.example1.Client" target="bj.DesignPattern.ym_pattern.adapter.example1.Adaptee">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.adapter.example1.Adapter" target="bj.DesignPattern.ym_pattern.adapter.example1.Target">
+      <point x="0.0" y="-54.5" />
+      <point x="0.0" y="28.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.1" x="251.27272727272725" y="95.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.ym_pattern.adapter.example1.Target</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

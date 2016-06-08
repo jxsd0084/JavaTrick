@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.ym_pattern.templatemethod.example8</OriginalElement>
+  <nodes>
+    <node x="0.0" y="204.0">bj.DesignPattern.ym_pattern.templatemethod.example8.Client</node>
+    <node x="0.0" y="0.0">bj.DesignPattern.ym_pattern.templatemethod.example8.UserModel</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.ym_pattern.templatemethod.example8.Client" target="bj.DesignPattern.ym_pattern.templatemethod.example8.UserModel">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="52.5" y="54.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.ym_pattern.templatemethod.example8.Client</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.ym_pattern.bridge.example1</OriginalElement>
+  <nodes>
+    <node x="-132.09090909090907" y="-0.9090909090908781">bj.DesignPattern.ym_pattern.bridge.example1.Message</node>
+    <node x="-249.09090909090907" y="208.09090909090912">bj.DesignPattern.ym_pattern.bridge.example1.Client</node>
+    <node x="-15.090909090909065" y="106.09090909090912">bj.DesignPattern.ym_pattern.bridge.example1.CommonMessageSMS</node>
+    <node x="-249.09090909090907" y="106.09090909090912">bj.DesignPattern.ym_pattern.bridge.example1.CommonMessageEmail</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.ym_pattern.bridge.example1.CommonMessageEmail" target="bj.DesignPattern.ym_pattern.bridge.example1.Message">
+      <point x="0.0" y="-28.5" />
+      <point x="-142.09090909090907" y="81.09090909090912" />
+      <point x="-78.59090909090907" y="81.09090909090912" />
+      <point x="-53.5" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.bridge.example1.Client" target="bj.DesignPattern.ym_pattern.bridge.example1.CommonMessageSMS">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.bridge.example1.Client" target="bj.DesignPattern.ym_pattern.bridge.example1.CommonMessageEmail">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.bridge.example1.CommonMessageSMS" target="bj.DesignPattern.ym_pattern.bridge.example1.Message">
+      <point x="0.0" y="-28.5" />
+      <point x="91.90909090909093" y="81.09090909090912" />
+      <point x="28.409090909090935" y="81.09090909090912" />
+      <point x="53.5" y="28.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.2000000000000002" x="196.5" y="95.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.ym_pattern.abstractfactory.example1</OriginalElement>
+  <nodes>
+    <node x="0.0" y="624.0">bj.DesignPattern.ym_pattern.abstractfactory.example1.Client</node>
+    <node x="197.0" y="107.0">bj.DesignPattern.ym_pattern.abstractfactory.example1.GAMainboard</node>
+    <node x="349.0" y="261.0">bj.DesignPattern.ym_pattern.abstractfactory.example1.ComputerEngineer</node>
+    <node x="105.5" y="0.0">bj.DesignPattern.ym_pattern.abstractfactory.example1.MainboardApi</node>
+    <node x="162.0" y="368.0">bj.DesignPattern.ym_pattern.abstractfactory.example1.IntelCPU</node>
+    <node x="366.0" y="522.0">bj.DesignPattern.ym_pattern.abstractfactory.example1.CPUFactory</node>
+    <node x="0.0" y="522.0">bj.DesignPattern.ym_pattern.abstractfactory.example1.MainboardFactory</node>
+    <node x="74.5" y="261.0">bj.DesignPattern.ym_pattern.abstractfactory.example1.CPUApi</node>
+    <node x="0.0" y="107.0">bj.DesignPattern.ym_pattern.abstractfactory.example1.MSIMainboard</node>
+    <node x="0.0" y="368.0">bj.DesignPattern.ym_pattern.abstractfactory.example1.AMDCPU</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.ym_pattern.abstractfactory.example1.ComputerEngineer" target="bj.DesignPattern.ym_pattern.abstractfactory.example1.CPUApi">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.abstractfactory.example1.CPUFactory" target="bj.DesignPattern.ym_pattern.abstractfactory.example1.IntelCPU">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.abstractfactory.example1.MainboardFactory" target="bj.DesignPattern.ym_pattern.abstractfactory.example1.MSIMainboard">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.abstractfactory.example1.GAMainboard" target="bj.DesignPattern.ym_pattern.abstractfactory.example1.MainboardApi">
+      <point x="0.0" y="-54.5" />
+      <point x="285.5" y="82.0" />
+      <point x="227.75" y="82.0" />
+      <point x="40.75" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.abstractfactory.example1.Client" target="bj.DesignPattern.ym_pattern.abstractfactory.example1.ComputerEngineer">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.abstractfactory.example1.AMDCPU" target="bj.DesignPattern.ym_pattern.abstractfactory.example1.CPUApi">
+      <point x="0.0" y="-54.5" />
+      <point x="71.0" y="343.0" />
+      <point x="113.25" y="343.0" />
+      <point x="-38.75" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.abstractfactory.example1.ComputerEngineer" target="bj.DesignPattern.ym_pattern.abstractfactory.example1.MainboardApi">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.abstractfactory.example1.MSIMainboard" target="bj.DesignPattern.ym_pattern.abstractfactory.example1.MainboardApi">
+      <point x="0.0" y="-54.5" />
+      <point x="88.5" y="82.0" />
+      <point x="146.25" y="82.0" />
+      <point x="-40.75" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.abstractfactory.example1.IntelCPU" target="bj.DesignPattern.ym_pattern.abstractfactory.example1.CPUApi">
+      <point x="0.0" y="-54.5" />
+      <point x="233.0" y="343.0" />
+      <point x="190.75" y="343.0" />
+      <point x="38.75" y="28.5" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.abstractfactory.example1.CPUFactory" target="bj.DesignPattern.ym_pattern.abstractfactory.example1.AMDCPU">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.abstractfactory.example1.MainboardFactory" target="bj.DesignPattern.ym_pattern.abstractfactory.example1.GAMainboard">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="204.5" y="374.0" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.ym_pattern.abstractfactory.example1.Client</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

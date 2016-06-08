@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.mldn.DAO.org.lxh</OriginalElement>
+  <nodes>
+    <node x="-602.2222222222223" y="258.1111111111111">bj.mldn.DAO.org.lxh.oracle.dao.impl.IEmpDAOImpl</node>
+    <node x="-274.2222222222223" y="233.11111111111111">bj.mldn.DAO.org.lxh.oracle.dao.proxy.IEmpDAOProxy</node>
+    <node x="-602.2222222222223" y="562.1111111111111">bj.mldn.DAO.org.lxh.oracle.dbc.DataBaseConnection</node>
+    <node x="-602.2222222222223" y="817.1111111111111">bj.mldn.DAO.org.lxh.oracle.dao.factory.DAOFactory</node>
+    <node x="-281.2222222222223" y="817.1111111111111">bj.mldn.DAO.org.lxh.test.Test</node>
+    <node x="22.777777777777715" y="562.1111111111111">bj.mldn.DAO.org.lxh.util.IPTimeStamp</node>
+    <node x="-417.2222222222223" y="1.1111111111111143">bj.mldn.DAO.org.lxh.oracle.dao.IEmpDAO</node>
+    <node x="-271.2222222222223" y="562.1111111111111">bj.mldn.DAO.org.lxh.oracle.vo.Emp</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.mldn.DAO.org.lxh.oracle.dao.impl.IEmpDAOImpl" target="bj.mldn.DAO.org.lxh.oracle.dao.IEmpDAO">
+      <point x="0.0" y="-117.0" />
+      <point x="-448.2222222222223" y="208.11111111111111" />
+      <point x="-338.9722222222223" y="208.11111111111111" />
+      <point x="-78.25" y="91.0" />
+    </edge>
+    <edge source="bj.mldn.DAO.org.lxh.oracle.dao.factory.DAOFactory" target="bj.mldn.DAO.org.lxh.oracle.dao.proxy.IEmpDAOProxy">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.mldn.DAO.org.lxh.oracle.dao.proxy.IEmpDAOProxy" target="bj.mldn.DAO.org.lxh.oracle.dao.IEmpDAO">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.mldn.DAO.org.lxh.test.Test" target="bj.mldn.DAO.org.lxh.oracle.vo.Emp">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.mldn.DAO.org.lxh.oracle.dao.impl.IEmpDAOImpl" target="bj.mldn.DAO.org.lxh.oracle.vo.Emp">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.mldn.DAO.org.lxh.oracle.dao.proxy.IEmpDAOProxy" target="bj.mldn.DAO.org.lxh.oracle.dbc.DataBaseConnection">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="bj.mldn.DAO.org.lxh.oracle.dao.proxy.IEmpDAOProxy" target="bj.mldn.DAO.org.lxh.oracle.dao.impl.IEmpDAOImpl">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="-15.5" y="292.0" />
+  <SelectedNodes>
+    <node>bj.mldn.DAO.org.lxh.oracle.dao.impl.IEmpDAOImpl</node>
+    <node>bj.mldn.DAO.org.lxh.oracle.dao.proxy.IEmpDAOProxy</node>
+    <node>bj.mldn.DAO.org.lxh.oracle.dbc.DataBaseConnection</node>
+    <node>bj.mldn.DAO.org.lxh.oracle.dao.factory.DAOFactory</node>
+    <node>bj.mldn.DAO.org.lxh.test.Test</node>
+    <node>bj.mldn.DAO.org.lxh.util.IPTimeStamp</node>
+    <node>bj.mldn.DAO.org.lxh.oracle.dao.IEmpDAO</node>
+    <node>bj.mldn.DAO.org.lxh.oracle.vo.Emp</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
