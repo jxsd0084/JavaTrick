@@ -12,10 +12,12 @@ public class Soldier {
 
 	// 给士兵一支枪
 	public void setGun( AbstractGun _gun ) {
+
 		this.gun = _gun;
 	}
 
 	public void killEnemy() {
+
 		System.out.println( "士兵开始杀人..." );
 		gun.shoot();
 	}
