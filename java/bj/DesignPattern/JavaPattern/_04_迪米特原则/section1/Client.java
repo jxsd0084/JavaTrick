@@ -9,13 +9,14 @@ public class Client {
 
 	/**
 	 * 测试
- 	 * @param args
+	 *
+	 * @param args
 	 */
 	public static void main( String[] args ) {
 
 		Teacher teacher = new Teacher();
 
-		//老师发布命令
+		// 老师发布命令
 		teacher.commond( new GroupLeader() );
 	}
 

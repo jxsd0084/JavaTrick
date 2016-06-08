@@ -13,6 +13,7 @@ public class GroupLeader {
 
 	// 传递全班的女生进来
 	public GroupLeader( List< Girl > _listGirls ) {
+
 		this.listGirls = _listGirls;
 	}
 
