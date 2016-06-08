@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaAndPattern.flyweight</OriginalElement>
+  <nodes>
+    <node x="0.0" y="231.0">bj.DesignPattern.JavaAndPattern.flyweight.SIMPLE</node>
+    <node x="0.0" y="77.0">bj.DesignPattern.JavaAndPattern.flyweight.composite</node>
+    <node x="0.0" y="0.0">bj.DesignPattern.JavaAndPattern.flyweight.coffeeshop</node>
+    <node x="0.0" y="154.0">bj.DesignPattern.JavaAndPattern.flyweight.coffeestall</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="84.0" y="131.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaAndPattern.flyweight.SIMPLE</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

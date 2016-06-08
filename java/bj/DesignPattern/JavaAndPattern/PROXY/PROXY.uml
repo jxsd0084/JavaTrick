@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaAndPattern.PROXY</OriginalElement>
+  <nodes>
+    <node x="212.0" y="236.0">bj.DesignPattern.JavaAndPattern.PROXY.REFLECT</node>
+    <node x="0.0" y="236.0">bj.DesignPattern.JavaAndPattern.PROXY.smartproxy</node>
+    <node x="0.0" y="313.0">bj.DesignPattern.JavaAndPattern.PROXY.Client</node>
+    <node x="139.0" y="82.0">bj.DesignPattern.JavaAndPattern.PROXY.RealSubject</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.JavaAndPattern.PROXY.ProxySubject</node>
+    <node x="86.0" y="0.0">bj.DesignPattern.JavaAndPattern.PROXY.Subject</node>
+    <node x="0.0" y="159.0">bj.DesignPattern.JavaAndPattern.PROXY.imageloader</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaAndPattern.PROXY.ProxySubject" target="bj.DesignPattern.JavaAndPattern.PROXY.Subject">
+      <point x="0.0" y="-16.0" />
+      <point x="59.5" y="57.0" />
+      <point x="106.5" y="57.0" />
+      <point x="-20.5" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaAndPattern.PROXY.RealSubject" target="bj.DesignPattern.JavaAndPattern.PROXY.Subject">
+      <point x="0.0" y="-16.0" />
+      <point x="194.5" y="57.0" />
+      <point x="147.5" y="57.0" />
+      <point x="20.5" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="180.5" y="172.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaAndPattern.factorymethod</OriginalElement>
+  <nodes>
+    <node x="342.0" y="395.0">bj.DesignPattern.JavaAndPattern.factorymethod.Client</node>
+    <node x="0.0" y="318.0">bj.DesignPattern.JavaAndPattern.factorymethod.instantiate</node>
+    <node x="0.0" y="395.0">bj.DesignPattern.JavaAndPattern.factorymethod.FARM</node>
+    <node x="169.0" y="241.0">bj.DesignPattern.JavaAndPattern.factorymethod.ConcreteCreator2</node>
+    <node x="0.0" y="241.0">bj.DesignPattern.JavaAndPattern.factorymethod.ConcreteCreator1</node>
+    <node x="178.0" y="395.0">bj.DesignPattern.JavaAndPattern.factorymethod.URL</node>
+    <node x="173.0" y="82.0">bj.DesignPattern.JavaAndPattern.factorymethod.ConcreteProduct2</node>
+    <node x="120.5" y="0.0">bj.DesignPattern.JavaAndPattern.factorymethod.Product</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.JavaAndPattern.factorymethod.ConcreteProduct1</node>
+    <node x="118.5" y="159.0">bj.DesignPattern.JavaAndPattern.factorymethod.Creator</node>
+    <node x="209.0" y="318.0">bj.DesignPattern.JavaAndPattern.factorymethod.QUERY</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaAndPattern.factorymethod.ConcreteProduct1" target="bj.DesignPattern.JavaAndPattern.factorymethod.Product">
+      <point x="0.0" y="-16.0" />
+      <point x="76.5" y="57.0" />
+      <point x="141.75" y="57.0" />
+      <point x="-21.25" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaAndPattern.factorymethod.ConcreteCreator2" target="bj.DesignPattern.JavaAndPattern.factorymethod.Creator">
+      <point x="0.0" y="-16.0" />
+      <point x="243.5" y="216.0" />
+      <point x="179.25" y="216.0" />
+      <point x="20.25" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaAndPattern.factorymethod.ConcreteProduct2" target="bj.DesignPattern.JavaAndPattern.factorymethod.Product">
+      <point x="0.0" y="-16.0" />
+      <point x="249.5" y="57.0" />
+      <point x="184.25" y="57.0" />
+      <point x="21.25" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaAndPattern.factorymethod.ConcreteCreator1" target="bj.DesignPattern.JavaAndPattern.factorymethod.Creator">
+      <point x="0.0" y="-16.0" />
+      <point x="74.5" y="216.0" />
+      <point x="138.75" y="216.0" />
+      <point x="-20.25" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="206.5" y="213.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaAndPattern.factorymethod.Client</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

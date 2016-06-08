@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaAndPattern.OBSERVER</OriginalElement>
+  <nodes>
+    <node x="0.0" y="390.0">bj.DesignPattern.JavaAndPattern.OBSERVER.ConcreteObserver</node>
+    <node x="0.0" y="159.0">bj.DesignPattern.JavaAndPattern.OBSERVER.monkeyking</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.JavaAndPattern.OBSERVER.ConcreteSubject</node>
+    <node x="0.0" y="236.0">bj.DesignPattern.JavaAndPattern.OBSERVER.xmlparser</node>
+    <node x="203.0" y="236.0">bj.DesignPattern.JavaAndPattern.OBSERVER.CONCEPT</node>
+    <node x="187.0" y="0.0">bj.DesignPattern.JavaAndPattern.OBSERVER.imageobserver</node>
+    <node x="202.0" y="313.0">bj.DesignPattern.JavaAndPattern.OBSERVER.variation</node>
+    <node x="0.0" y="313.0">bj.DesignPattern.JavaAndPattern.OBSERVER.JAVAUTIL</node>
+    <node x="366.0" y="390.0">bj.DesignPattern.JavaAndPattern.OBSERVER.Observer</node>
+    <node x="30.0" y="0.0">bj.DesignPattern.JavaAndPattern.OBSERVER.Subject</node>
+    <node x="196.0" y="390.0">bj.DesignPattern.JavaAndPattern.OBSERVER.MVC</node>
+    <node x="222.0" y="159.0">bj.DesignPattern.JavaAndPattern.OBSERVER.WATCHING</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaAndPattern.OBSERVER.ConcreteSubject" target="bj.DesignPattern.JavaAndPattern.OBSERVER.Subject">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="228.5" y="211.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

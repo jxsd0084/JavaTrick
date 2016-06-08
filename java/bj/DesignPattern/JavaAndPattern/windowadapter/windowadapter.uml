@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaAndPattern.windowadapter</OriginalElement>
+  <nodes>
+    <node x="0.5" y="82.0">bj.DesignPattern.JavaAndPattern.windowadapter.ServiceAdapter</node>
+    <node x="0.0" y="0.0">bj.DesignPattern.JavaAndPattern.windowadapter.AbstractService</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaAndPattern.windowadapter.ServiceAdapter" target="bj.DesignPattern.JavaAndPattern.windowadapter.AbstractService">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="67.0" y="57.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaAndPattern.simplefactory</OriginalElement>
+  <nodes>
+    <node x="362.0" y="0.0">bj.DesignPattern.JavaAndPattern.simplefactory.Product</node>
+    <node x="204.0" y="236.0">bj.DesignPattern.JavaAndPattern.simplefactory.EXERCISE</node>
+    <node x="112.5" y="0.0">bj.DesignPattern.JavaAndPattern.simplefactory.Fruit</node>
+    <node x="92.0" y="82.0">bj.DesignPattern.JavaAndPattern.simplefactory.Strawberry</node>
+    <node x="0.0" y="390.0">bj.DesignPattern.JavaAndPattern.simplefactory.FruitIF</node>
+    <node x="199.0" y="313.0">bj.DesignPattern.JavaAndPattern.simplefactory.FruitGardener</node>
+    <node x="0.0" y="313.0">bj.DesignPattern.JavaAndPattern.simplefactory.BadFruitException</node>
+    <node x="332.0" y="82.0">bj.DesignPattern.JavaAndPattern.simplefactory.ConcreteProduct</node>
+    <node x="368.0" y="313.0">bj.DesignPattern.JavaAndPattern.simplefactory.Creator</node>
+    <node x="215.0" y="82.0">bj.DesignPattern.JavaAndPattern.simplefactory.Grape</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.JavaAndPattern.simplefactory.Apple</node>
+    <node x="0.0" y="236.0">bj.DesignPattern.JavaAndPattern.simplefactory.simplified</node>
+    <node x="0.0" y="159.0">bj.DesignPattern.JavaAndPattern.simplefactory.dateformat</node>
+    <node x="213.0" y="159.0">bj.DesignPattern.JavaAndPattern.simplefactory.simplified1</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaAndPattern.simplefactory.Strawberry" target="bj.DesignPattern.JavaAndPattern.simplefactory.Fruit">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaAndPattern.simplefactory.ConcreteProduct" target="bj.DesignPattern.JavaAndPattern.simplefactory.Product">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaAndPattern.simplefactory.Apple" target="bj.DesignPattern.JavaAndPattern.simplefactory.Fruit">
+      <point x="0.0" y="-16.0" />
+      <point x="36.0" y="57.0" />
+      <point x="122.83333333333333" y="57.0" />
+      <point x="-20.66666666666667" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaAndPattern.simplefactory.Grape" target="bj.DesignPattern.JavaAndPattern.simplefactory.Fruit">
+      <point x="0.0" y="-16.0" />
+      <point x="251.0" y="57.0" />
+      <point x="164.16666666666669" y="57.0" />
+      <point x="20.666666666666686" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="238.5" y="211.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

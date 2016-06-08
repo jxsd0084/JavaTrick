@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaAndPattern.composite</OriginalElement>
+  <nodes>
+    <node x="80.0" y="82.0">bj.DesignPattern.JavaAndPattern.composite.Composite</node>
+    <node x="0.0" y="313.0">bj.DesignPattern.JavaAndPattern.composite.containers</node>
+    <node x="208.0" y="313.0">bj.DesignPattern.JavaAndPattern.composite.filesystem</node>
+    <node x="0.0" y="159.0">bj.DesignPattern.JavaAndPattern.composite.drawingtransparent</node>
+    <node x="25.0" y="0.0">bj.DesignPattern.JavaAndPattern.composite.Component</node>
+    <node x="199.0" y="390.0">bj.DesignPattern.JavaAndPattern.composite.SAFE</node>
+    <node x="0.0" y="390.0">bj.DesignPattern.JavaAndPattern.composite.exercise1</node>
+    <node x="220.0" y="236.0">bj.DesignPattern.JavaAndPattern.composite.transparent</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.JavaAndPattern.composite.Leaf</node>
+    <node x="0.0" y="236.0">bj.DesignPattern.JavaAndPattern.composite.drawingsafe</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaAndPattern.composite.Leaf" target="bj.DesignPattern.JavaAndPattern.composite.Component">
+      <point x="0.0" y="-16.0" />
+      <point x="30.0" y="57.0" />
+      <point x="53.0" y="57.0" />
+      <point x="-28.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaAndPattern.composite.Composite" target="bj.DesignPattern.JavaAndPattern.composite.Component">
+      <point x="0.0" y="-16.0" />
+      <point x="132.0" y="57.0" />
+      <point x="109.0" y="57.0" />
+      <point x="28.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="195.0" y="211.0" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaAndPattern.composite.Leaf</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

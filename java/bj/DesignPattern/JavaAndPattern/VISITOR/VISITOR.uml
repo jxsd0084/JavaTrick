@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaAndPattern.VISITOR</OriginalElement>
+  <nodes>
+    <node x="199.0" y="231.0">bj.DesignPattern.JavaAndPattern.VISITOR.PARTS</node>
+    <node x="0.0" y="231.0">bj.DesignPattern.JavaAndPattern.VISITOR.VISITOR0</node>
+    <node x="0.0" y="0.0">bj.DesignPattern.JavaAndPattern.VISITOR.visitorsimplified</node>
+    <node x="0.0" y="154.0">bj.DesignPattern.JavaAndPattern.VISITOR.inventory</node>
+    <node x="0.0" y="77.0">bj.DesignPattern.JavaAndPattern.VISITOR.visitoradapter</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="168.0" y="131.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaAndPattern.VISITOR.PARTS</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

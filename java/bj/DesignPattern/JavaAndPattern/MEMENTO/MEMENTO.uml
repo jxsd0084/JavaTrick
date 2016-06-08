@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaAndPattern.MEMENTO</OriginalElement>
+  <nodes>
+    <node x="224.0" y="308.0">bj.DesignPattern.JavaAndPattern.MEMENTO.WHITEBOX</node>
+    <node x="0.0" y="308.0">bj.DesignPattern.JavaAndPattern.MEMENTO.historyonself</node>
+    <node x="0.0" y="0.0">bj.DesignPattern.JavaAndPattern.MEMENTO.whiteboxcheckpoints</node>
+    <node x="0.0" y="385.0">bj.DesignPattern.JavaAndPattern.MEMENTO.BLACKBOX</node>
+    <node x="243.0" y="231.0">bj.DesignPattern.JavaAndPattern.MEMENTO.innermember</node>
+    <node x="0.0" y="231.0">bj.DesignPattern.JavaAndPattern.MEMENTO.wideandnarrow</node>
+    <node x="0.0" y="154.0">bj.DesignPattern.JavaAndPattern.MEMENTO.wideandnarrow1</node>
+    <node x="0.0" y="77.0">bj.DesignPattern.JavaAndPattern.MEMENTO.whiteboxenhanced</node>
+    <node x="251.0" y="154.0">bj.DesignPattern.JavaAndPattern.MEMENTO.wideandnarrow2</node>
+    <node x="211.0" y="385.0">bj.DesignPattern.JavaAndPattern.MEMENTO.THEORY</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="228.5" y="208.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

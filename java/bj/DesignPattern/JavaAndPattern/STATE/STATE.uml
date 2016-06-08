@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaAndPattern.STATE</OriginalElement>
+  <nodes>
+    <node x="171.0" y="0.0">bj.DesignPattern.JavaAndPattern.STATE.switchStatements</node>
+    <node x="30.0" y="0.0">bj.DesignPattern.JavaAndPattern.STATE.State</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.JavaAndPattern.STATE.ConcreteState</node>
+    <node x="0.0" y="236.0">bj.DesignPattern.JavaAndPattern.STATE.TAOIST</node>
+    <node x="220.0" y="159.0">bj.DesignPattern.JavaAndPattern.STATE.audioplayer</node>
+    <node x="187.0" y="236.0">bj.DesignPattern.JavaAndPattern.STATE.LOGIN</node>
+    <node x="169.0" y="313.0">bj.DesignPattern.JavaAndPattern.STATE.TCP</node>
+    <node x="0.0" y="390.0">bj.DesignPattern.JavaAndPattern.STATE.Context</node>
+    <node x="0.0" y="313.0">bj.DesignPattern.JavaAndPattern.STATE.WEB</node>
+    <node x="0.0" y="159.0">bj.DesignPattern.JavaAndPattern.STATE.drawingtool</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaAndPattern.STATE.ConcreteState" target="bj.DesignPattern.JavaAndPattern.STATE.State">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="196.5" y="211.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

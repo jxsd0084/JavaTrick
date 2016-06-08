@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaAndPattern.FACADE</OriginalElement>
+  <nodes>
+    <node x="203.0" y="154.0">bj.DesignPattern.JavaAndPattern.FACADE.SECURITY</node>
+    <node x="0.0" y="231.0">bj.DesignPattern.JavaAndPattern.FACADE.FacadeSample</node>
+    <node x="0.0" y="308.0">bj.DesignPattern.JavaAndPattern.FACADE.StringOutput</node>
+    <node x="0.0" y="77.0">bj.DesignPattern.JavaAndPattern.FACADE.sessionfacade</node>
+    <node x="0.0" y="385.0">bj.DesignPattern.JavaAndPattern.FACADE.Facade</node>
+    <node x="165.0" y="308.0">bj.DesignPattern.JavaAndPattern.FACADE.LineOutput</node>
+    <node x="174.0" y="231.0">bj.DesignPattern.JavaAndPattern.FACADE.SignalOutput</node>
+    <node x="0.0" y="154.0">bj.DesignPattern.JavaAndPattern.FACADE.CONCEPT</node>
+    <node x="0.0" y="0.0">bj.DesignPattern.JavaAndPattern.FACADE.securityfacade</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="180.0" y="208.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaAndPattern.FACADE.SECURITY</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

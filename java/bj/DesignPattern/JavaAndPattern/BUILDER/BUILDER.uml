@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaAndPattern.BUILDER</OriginalElement>
+  <nodes>
+    <node x="185.0" y="0.0">bj.DesignPattern.JavaAndPattern.BUILDER.messagebuilder</node>
+    <node x="0.0" y="313.0">bj.DesignPattern.JavaAndPattern.BUILDER.JAVAMAIL</node>
+    <node x="208.0" y="313.0">bj.DesignPattern.JavaAndPattern.BUILDER.sendemail</node>
+    <node x="0.0" y="159.0">bj.DesignPattern.JavaAndPattern.BUILDER.simplified1</node>
+    <node x="0.0" y="467.0">bj.DesignPattern.JavaAndPattern.BUILDER.Product</node>
+    <node x="212.0" y="159.0">bj.DesignPattern.JavaAndPattern.BUILDER.simplified2</node>
+    <node x="400.0" y="390.0">bj.DesignPattern.JavaAndPattern.BUILDER.Director</node>
+    <node x="204.0" y="390.0">bj.DesignPattern.JavaAndPattern.BUILDER.rtfreader</node>
+    <node x="0.0" y="236.0">bj.DesignPattern.JavaAndPattern.BUILDER.EXTENDED</node>
+    <node x="30.0" y="0.0">bj.DesignPattern.JavaAndPattern.BUILDER.Builder</node>
+    <node x="212.0" y="236.0">bj.DesignPattern.JavaAndPattern.BUILDER.extended1</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.JavaAndPattern.BUILDER.ConcreteBuilder</node>
+    <node x="130.0" y="467.0">bj.DesignPattern.JavaAndPattern.BUILDER.Client</node>
+    <node x="0.0" y="390.0">bj.DesignPattern.JavaAndPattern.BUILDER.MESSAGE</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaAndPattern.BUILDER.ConcreteBuilder" target="bj.DesignPattern.JavaAndPattern.BUILDER.Builder">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="243.0" y="249.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

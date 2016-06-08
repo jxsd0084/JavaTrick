@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaAndPattern.BRIDGE</OriginalElement>
+  <nodes>
+    <node x="0.0" y="395.0">bj.DesignPattern.JavaAndPattern.BRIDGE.airplanes</node>
+    <node x="0.0" y="241.0">bj.DesignPattern.JavaAndPattern.BRIDGE.RefinedAbstraction</node>
+    <node x="139.25" y="0.0">bj.DesignPattern.JavaAndPattern.BRIDGE.Implementor</node>
+    <node x="0.0" y="318.0">bj.DesignPattern.JavaAndPattern.BRIDGE.airplanes2</node>
+    <node x="378.0" y="395.0">bj.DesignPattern.JavaAndPattern.BRIDGE.PEER</node>
+    <node x="206.0" y="159.0">bj.DesignPattern.JavaAndPattern.BRIDGE.imageviewer</node>
+    <node x="209.0" y="82.0">bj.DesignPattern.JavaAndPattern.BRIDGE.ConcreteImplementorB</node>
+    <node x="199.0" y="395.0">bj.DesignPattern.JavaAndPattern.BRIDGE.EXCEL</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.JavaAndPattern.BRIDGE.ConcreteImplementorA</node>
+    <node x="26.0" y="159.0">bj.DesignPattern.JavaAndPattern.BRIDGE.Abstraction</node>
+    <node x="207.0" y="318.0">bj.DesignPattern.JavaAndPattern.BRIDGE.simplified</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaAndPattern.BRIDGE.ConcreteImplementorB" target="bj.DesignPattern.JavaAndPattern.BRIDGE.Implementor">
+      <point x="0.0" y="-16.0" />
+      <point x="303.0" y="57.0" />
+      <point x="228.5" y="57.0" />
+      <point x="29.75" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaAndPattern.BRIDGE.ConcreteImplementorA" target="bj.DesignPattern.JavaAndPattern.BRIDGE.Implementor">
+      <point x="0.0" y="-16.0" />
+      <point x="94.5" y="57.0" />
+      <point x="169.0" y="57.0" />
+      <point x="-29.75" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaAndPattern.BRIDGE.RefinedAbstraction" target="bj.DesignPattern.JavaAndPattern.BRIDGE.Abstraction">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="252.5" y="213.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaAndPattern.BRIDGE.airplanes</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

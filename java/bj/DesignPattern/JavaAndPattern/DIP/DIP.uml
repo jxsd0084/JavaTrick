@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaAndPattern.DIP</OriginalElement>
+  <nodes>
+    <node x="89.0" y="241.0">bj.DesignPattern.JavaAndPattern.DIP.Overdrawn</node>
+    <node x="239.0" y="159.0">bj.DesignPattern.JavaAndPattern.DIP.Account</node>
+    <node x="42.0" y="0.0">bj.DesignPattern.JavaAndPattern.DIP.AccountType</node>
+    <node x="115.0" y="82.0">bj.DesignPattern.JavaAndPattern.DIP.Savings</node>
+    <node x="23.5" y="159.0">bj.DesignPattern.JavaAndPattern.DIP.AccountStatus</node>
+    <node x="0.0" y="241.0">bj.DesignPattern.JavaAndPattern.DIP.Open</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.JavaAndPattern.DIP.Checking</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaAndPattern.DIP.Savings" target="bj.DesignPattern.JavaAndPattern.DIP.AccountType">
+      <point x="0.0" y="-16.0" />
+      <point x="156.5" y="57.0" />
+      <point x="132.0" y="57.0" />
+      <point x="30.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaAndPattern.DIP.Overdrawn" target="bj.DesignPattern.JavaAndPattern.DIP.AccountStatus">
+      <point x="0.0" y="-16.0" />
+      <point x="141.5" y="216.0" />
+      <point x="120.25" y="216.0" />
+      <point x="32.25" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaAndPattern.DIP.Checking" target="bj.DesignPattern.JavaAndPattern.DIP.AccountType">
+      <point x="0.0" y="-16.0" />
+      <point x="47.5" y="57.0" />
+      <point x="72.0" y="57.0" />
+      <point x="-30.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaAndPattern.DIP.Open" target="bj.DesignPattern.JavaAndPattern.DIP.AccountStatus">
+      <point x="0.0" y="-16.0" />
+      <point x="34.5" y="216.0" />
+      <point x="55.75" y="216.0" />
+      <point x="-32.25" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="163.5" y="136.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaAndPattern.DIP.Open</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

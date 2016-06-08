@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaAndPattern.multilingual</OriginalElement>
+  <nodes>
+    <node x="0.0" y="231.0">bj.DesignPattern.JavaAndPattern.multilingual.DICE</node>
+    <node x="0.0" y="154.0">bj.DesignPattern.JavaAndPattern.multilingual.LingualResource</node>
+    <node x="0.0" y="77.0">bj.DesignPattern.JavaAndPattern.multilingual.NUMBER</node>
+    <node x="0.0" y="0.0">bj.DesignPattern.JavaAndPattern.multilingual.LingualResourceTester</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="91.5" y="131.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

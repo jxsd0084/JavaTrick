@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaAndPattern.ISP</OriginalElement>
+  <nodes>
+    <node x="0.0" y="77.0">bj.DesignPattern.JavaAndPattern.ISP.altavista</node>
+    <node x="0.0" y="0.0">bj.DesignPattern.JavaAndPattern.ISP.entitlement</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="85.5" y="54.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaAndPattern.ISP.altavista</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

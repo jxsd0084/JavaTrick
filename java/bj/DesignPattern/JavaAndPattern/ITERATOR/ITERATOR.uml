@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaAndPattern.ITERATOR</OriginalElement>
+  <nodes>
+    <node x="212.0" y="231.0">bj.DesignPattern.JavaAndPattern.ITERATOR.BLACKBOX</node>
+    <node x="0.0" y="154.0">bj.DesignPattern.JavaAndPattern.ITERATOR.vecterator1</node>
+    <node x="0.0" y="308.0">bj.DesignPattern.JavaAndPattern.ITERATOR.MONKEY</node>
+    <node x="0.0" y="77.0">bj.DesignPattern.JavaAndPattern.ITERATOR.copsandsales</node>
+    <node x="0.0" y="0.0">bj.DesignPattern.JavaAndPattern.ITERATOR.javacollections</node>
+    <node x="199.0" y="308.0">bj.DesignPattern.JavaAndPattern.ITERATOR.linkedlist</node>
+    <node x="213.0" y="154.0">bj.DesignPattern.JavaAndPattern.ITERATOR.vecterator2</node>
+    <node x="227.0" y="77.0">bj.DesignPattern.JavaAndPattern.ITERATOR.badexample</node>
+    <node x="0.0" y="231.0">bj.DesignPattern.JavaAndPattern.ITERATOR.WHITEBOX</node>
+    <node x="237.0" y="0.0">bj.DesignPattern.JavaAndPattern.ITERATOR.goodexample</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="211.5" y="170.0" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaAndPattern.ITERATOR.BLACKBOX</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

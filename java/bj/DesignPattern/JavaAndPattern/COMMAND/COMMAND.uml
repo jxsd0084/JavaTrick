@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaAndPattern.COMMAND</OriginalElement>
+  <nodes>
+    <node x="0.0" y="621.0">bj.DesignPattern.JavaAndPattern.COMMAND.Invoker</node>
+    <node x="30.0" y="0.0">bj.DesignPattern.JavaAndPattern.COMMAND.Command</node>
+    <node x="0.0" y="467.0">bj.DesignPattern.JavaAndPattern.COMMAND.JAVAAWT</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.JavaAndPattern.COMMAND.ConcreteCommand</node>
+    <node x="0.0" y="544.0">bj.DesignPattern.JavaAndPattern.COMMAND.ITSUKYU</node>
+    <node x="0.0" y="159.0">bj.DesignPattern.JavaAndPattern.COMMAND.audioplayer2</node>
+    <node x="207.0" y="0.0">bj.DesignPattern.JavaAndPattern.COMMAND.undoconcept</node>
+    <node x="205.0" y="467.0">bj.DesignPattern.JavaAndPattern.COMMAND.television</node>
+    <node x="217.0" y="313.0">bj.DesignPattern.JavaAndPattern.COMMAND.drawapplet</node>
+    <node x="0.0" y="390.0">bj.DesignPattern.JavaAndPattern.COMMAND.stocktrader</node>
+    <node x="226.0" y="159.0">bj.DesignPattern.JavaAndPattern.COMMAND.swingundo2</node>
+    <node x="0.0" y="313.0">bj.DesignPattern.JavaAndPattern.COMMAND.lightandfan</node>
+    <node x="213.0" y="390.0">bj.DesignPattern.JavaAndPattern.COMMAND.swingundo</node>
+    <node x="373.0" y="544.0">bj.DesignPattern.JavaAndPattern.COMMAND.Receiver</node>
+    <node x="127.0" y="621.0">bj.DesignPattern.JavaAndPattern.COMMAND.Client</node>
+    <node x="195.0" y="544.0">bj.DesignPattern.JavaAndPattern.COMMAND.BOOK</node>
+    <node x="407.0" y="467.0">bj.DesignPattern.JavaAndPattern.COMMAND.drawlines</node>
+    <node x="0.0" y="236.0">bj.DesignPattern.JavaAndPattern.COMMAND.DOCUMENT</node>
+    <node x="220.0" y="236.0">bj.DesignPattern.JavaAndPattern.COMMAND.audioplayer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaAndPattern.COMMAND.ConcreteCommand" target="bj.DesignPattern.JavaAndPattern.COMMAND.Command">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="282.0" y="326.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaAndPattern.COMMAND.Invoker</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

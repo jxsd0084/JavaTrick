@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaAndPattern.decorator</OriginalElement>
+  <nodes>
+    <node x="0.0" y="395.0">bj.DesignPattern.JavaAndPattern.decorator.GREPS</node>
+    <node x="212.0" y="318.0">bj.DesignPattern.JavaAndPattern.decorator.GREPR</node>
+    <node x="101.25" y="0.0">bj.DesignPattern.JavaAndPattern.decorator.Component</node>
+    <node x="218.0" y="241.0">bj.DesignPattern.JavaAndPattern.decorator.simplified1</node>
+    <node x="0.0" y="318.0">bj.DesignPattern.JavaAndPattern.decorator.simplified2</node>
+    <node x="0.0" y="164.0">bj.DesignPattern.JavaAndPattern.decorator.ConcreteDecorator</node>
+    <node x="149.0" y="82.0">bj.DesignPattern.JavaAndPattern.decorator.ConcreteComponent</node>
+    <node x="30.0" y="82.0">bj.DesignPattern.JavaAndPattern.decorator.Decorator</node>
+    <node x="0.0" y="241.0">bj.DesignPattern.JavaAndPattern.decorator.printinvoice</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaAndPattern.decorator.ConcreteDecorator" target="bj.DesignPattern.JavaAndPattern.decorator.Decorator">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaAndPattern.decorator.Decorator" target="bj.DesignPattern.JavaAndPattern.decorator.Component">
+      <point x="0.0" y="-16.0" />
+      <point x="79.5" y="57.0" />
+      <point x="129.25" y="57.0" />
+      <point x="-28.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaAndPattern.decorator.ConcreteComponent" target="bj.DesignPattern.JavaAndPattern.decorator.Component">
+      <point x="0.0" y="-16.0" />
+      <point x="235.0" y="57.0" />
+      <point x="185.25" y="57.0" />
+      <point x="28.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="192.5" y="213.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaAndPattern.decorator.GREPS</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

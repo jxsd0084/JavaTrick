@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaAndPattern.prototype</OriginalElement>
+  <nodes>
+    <node x="0.0" y="236.0">bj.DesignPattern.JavaAndPattern.prototype.CONCEPT2</node>
+    <node x="203.0" y="0.0">bj.DesignPattern.JavaAndPattern.prototype.cloneexample</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.JavaAndPattern.prototype.ConcretePrototype</node>
+    <node x="211.0" y="236.0">bj.DesignPattern.JavaAndPattern.prototype.MANAGER</node>
+    <node x="0.0" y="159.0">bj.DesignPattern.JavaAndPattern.prototype.monkeyking2</node>
+    <node x="230.0" y="159.0">bj.DesignPattern.JavaAndPattern.prototype.monkeyking</node>
+    <node x="189.0" y="313.0">bj.DesignPattern.JavaAndPattern.prototype.BIKE</node>
+    <node x="0.0" y="390.0">bj.DesignPattern.JavaAndPattern.prototype.CAD</node>
+    <node x="0.0" y="313.0">bj.DesignPattern.JavaAndPattern.prototype.PANDA</node>
+    <node x="168.0" y="390.0">bj.DesignPattern.JavaAndPattern.prototype.Client</node>
+    <node x="30.0" y="0.0">bj.DesignPattern.JavaAndPattern.prototype.Prototype</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaAndPattern.prototype.ConcretePrototype" target="bj.DesignPattern.JavaAndPattern.prototype.Prototype">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="203.5" y="211.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

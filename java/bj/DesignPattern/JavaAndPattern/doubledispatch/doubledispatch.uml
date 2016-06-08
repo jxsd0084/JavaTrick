@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaAndPattern.doubledispatch</OriginalElement>
+  <nodes>
+    <node x="184.0" y="313.0">bj.DesignPattern.JavaAndPattern.doubledispatch.Client</node>
+    <node x="0.0" y="313.0">bj.DesignPattern.JavaAndPattern.doubledispatch.MIXED</node>
+    <node x="149.0" y="0.0">bj.DesignPattern.JavaAndPattern.doubledispatch.ballkicking1</node>
+    <node x="0.0" y="159.0">bj.DesignPattern.JavaAndPattern.doubledispatch.OVERLOAD</node>
+    <node x="0.0" y="236.0">bj.DesignPattern.JavaAndPattern.doubledispatch.ballkicking</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.JavaAndPattern.doubledispatch.ColorPoint</node>
+    <node x="212.0" y="236.0">bj.DesignPattern.JavaAndPattern.doubledispatch.POINTS</node>
+    <node x="18.0" y="0.0">bj.DesignPattern.JavaAndPattern.doubledispatch.Point</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaAndPattern.doubledispatch.ColorPoint" target="bj.DesignPattern.JavaAndPattern.doubledispatch.Point">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="178.0" y="172.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaAndPattern.doubledispatch.Client</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

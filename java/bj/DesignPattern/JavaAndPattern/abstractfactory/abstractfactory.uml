@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaAndPattern.abstractfactory</OriginalElement>
+  <nodes>
+    <node x="199.0" y="395.0">bj.DesignPattern.JavaAndPattern.abstractfactory.FARM</node>
+    <node x="216.0" y="318.0">bj.DesignPattern.JavaAndPattern.abstractfactory.exercise1</node>
+    <node x="0.0" y="318.0">bj.DesignPattern.JavaAndPattern.abstractfactory.COMPUTER</node>
+    <node x="0.0" y="395.0">bj.DesignPattern.JavaAndPattern.abstractfactory.exercise3</node>
+    <node x="393.0" y="241.0">bj.DesignPattern.JavaAndPattern.abstractfactory.ProductB2</node>
+    <node x="123.0" y="241.0">bj.DesignPattern.JavaAndPattern.abstractfactory.ProductA1</node>
+    <node x="0.0" y="241.0">bj.DesignPattern.JavaAndPattern.abstractfactory.ProductA2</node>
+    <node x="169.0" y="82.0">bj.DesignPattern.JavaAndPattern.abstractfactory.ConcreteCreator2</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.JavaAndPattern.abstractfactory.ConcreteCreator1</node>
+    <node x="65.5" y="159.0">bj.DesignPattern.JavaAndPattern.abstractfactory.ProductA</node>
+    <node x="118.5" y="0.0">bj.DesignPattern.JavaAndPattern.abstractfactory.Creator</node>
+    <node x="271.0" y="241.0">bj.DesignPattern.JavaAndPattern.abstractfactory.ProductB1</node>
+    <node x="336.0" y="159.0">bj.DesignPattern.JavaAndPattern.abstractfactory.ProductB</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaAndPattern.abstractfactory.ConcreteCreator1" target="bj.DesignPattern.JavaAndPattern.abstractfactory.Creator">
+      <point x="0.0" y="-16.0" />
+      <point x="74.5" y="57.0" />
+      <point x="138.75" y="57.0" />
+      <point x="-20.25" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaAndPattern.abstractfactory.ConcreteCreator2" target="bj.DesignPattern.JavaAndPattern.abstractfactory.Creator">
+      <point x="0.0" y="-16.0" />
+      <point x="243.5" y="57.0" />
+      <point x="179.25" y="57.0" />
+      <point x="20.25" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaAndPattern.abstractfactory.ProductA2" target="bj.DesignPattern.JavaAndPattern.abstractfactory.ProductA">
+      <point x="0.0" y="-16.0" />
+      <point x="51.5" y="216.0" />
+      <point x="89.25" y="216.0" />
+      <point x="-23.75" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaAndPattern.abstractfactory.ProductA1" target="bj.DesignPattern.JavaAndPattern.abstractfactory.ProductA">
+      <point x="0.0" y="-16.0" />
+      <point x="174.5" y="216.0" />
+      <point x="136.75" y="216.0" />
+      <point x="23.75" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaAndPattern.abstractfactory.ProductB2" target="bj.DesignPattern.JavaAndPattern.abstractfactory.ProductB">
+      <point x="0.0" y="-16.0" />
+      <point x="444.0" y="216.0" />
+      <point x="406.5" y="216.0" />
+      <point x="23.5" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaAndPattern.abstractfactory.ProductB1" target="bj.DesignPattern.JavaAndPattern.abstractfactory.ProductB">
+      <point x="0.0" y="-16.0" />
+      <point x="322.0" y="216.0" />
+      <point x="359.5" y="216.0" />
+      <point x="-23.5" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="247.5" y="213.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaAndPattern.abstractfactory.FARM</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
