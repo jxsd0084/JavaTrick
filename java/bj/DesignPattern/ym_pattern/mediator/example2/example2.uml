@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.ym_pattern.mediator.example2</OriginalElement>
+  <nodes>
+    <node x="167.0" y="159.0">bj.DesignPattern.ym_pattern.mediator.example2.Client</node>
+    <node x="207.0" y="82.0">bj.DesignPattern.ym_pattern.mediator.example2.VideoCard</node>
+    <node x="126.99999999999999" y="82.0">bj.DesignPattern.ym_pattern.mediator.example2.CPU</node>
+    <node x="0.0" y="241.0">bj.DesignPattern.ym_pattern.mediator.example2.MotherBoard</node>
+    <node x="329.0" y="82.0">bj.DesignPattern.ym_pattern.mediator.example2.CDDriver</node>
+    <node x="14.0" y="159.0">bj.DesignPattern.ym_pattern.mediator.example2.Mediator</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.ym_pattern.mediator.example2.SoundCard</node>
+    <node x="157.5" y="0.0">bj.DesignPattern.ym_pattern.mediator.example2.Colleague</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.ym_pattern.mediator.example2.VideoCard" target="bj.DesignPattern.ym_pattern.mediator.example2.Colleague">
+      <point x="0.0" y="-16.0" />
+      <point x="258.0" y="62.0" />
+      <point x="220.0" y="62.0" />
+      <point x="12.5" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.mediator.example2.MotherBoard" target="bj.DesignPattern.ym_pattern.mediator.example2.Mediator">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.mediator.example2.CPU" target="bj.DesignPattern.ym_pattern.mediator.example2.Colleague">
+      <point x="0.0" y="-16.0" />
+      <point x="157.0" y="62.0" />
+      <point x="195.0" y="62.0" />
+      <point x="-12.5" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.mediator.example2.CDDriver" target="bj.DesignPattern.ym_pattern.mediator.example2.Colleague">
+      <point x="0.0" y="-16.0" />
+      <point x="375.0" y="52.0" />
+      <point x="245.0" y="52.0" />
+      <point x="37.5" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.mediator.example2.SoundCard" target="bj.DesignPattern.ym_pattern.mediator.example2.Colleague">
+      <point x="0.0" y="-16.0" />
+      <point x="53.5" y="52.0" />
+      <point x="170.0" y="52.0" />
+      <point x="-37.5" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="210.5" y="136.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.ym_pattern.mediator.example2.Client</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

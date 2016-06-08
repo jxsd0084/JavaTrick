@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.ym_pattern.memento.example4</OriginalElement>
+  <nodes>
+    <node x="168.0" y="241.0">bj.DesignPattern.ym_pattern.memento.example4.Calculator</node>
+    <node x="70.0" y="82.0">bj.DesignPattern.ym_pattern.memento.example4.AbstractCommand</node>
+    <node x="313.0" y="241.0">bj.DesignPattern.ym_pattern.memento.example4.Memento</node>
+    <node x="150.0" y="164.0">bj.DesignPattern.ym_pattern.memento.example4.SubstractCommand</node>
+    <node x="97.5" y="0.0">bj.DesignPattern.ym_pattern.memento.example4.Command</node>
+    <node x="0.0" y="164.0">bj.DesignPattern.ym_pattern.memento.example4.AddCommand</node>
+    <node x="11.5" y="323.0">bj.DesignPattern.ym_pattern.memento.example4.Operation</node>
+    <node x="0.0" y="400.0">bj.DesignPattern.ym_pattern.memento.example4.Client</node>
+    <node x="0.0" y="241.0">bj.DesignPattern.ym_pattern.memento.example4.OperationApi</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.ym_pattern.memento.example4.AddCommand" target="bj.DesignPattern.ym_pattern.memento.example4.AbstractCommand">
+      <point x="0.0" y="-16.0" />
+      <point x="65.0" y="139.0" />
+      <point x="109.25" y="139.0" />
+      <point x="-39.25" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.memento.example4.Operation" target="bj.DesignPattern.ym_pattern.memento.example4.OperationApi">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.memento.example4.AbstractCommand" target="bj.DesignPattern.ym_pattern.memento.example4.Command">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.memento.example4.SubstractCommand" target="bj.DesignPattern.ym_pattern.memento.example4.AbstractCommand">
+      <point x="0.0" y="-16.0" />
+      <point x="232.0" y="139.0" />
+      <point x="187.75" y="139.0" />
+      <point x="39.25" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="205.5" y="216.0" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.ym_pattern.memento.example4.Calculator</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

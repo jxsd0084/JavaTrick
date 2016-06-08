@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.ym_pattern.mediator.example1</OriginalElement>
+  <nodes>
+    <node x="129.75" y="0.0">bj.DesignPattern.ym_pattern.mediator.example1.Colleague</node>
+    <node x="0.0" y="241.0">bj.DesignPattern.ym_pattern.mediator.example1.ConcreteMediator</node>
+    <node x="30.0" y="159.0">bj.DesignPattern.ym_pattern.mediator.example1.Mediator</node>
+    <node x="190.0" y="82.0">bj.DesignPattern.ym_pattern.mediator.example1.ConcreteColleagueB</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.ym_pattern.mediator.example1.ConcreteColleagueA</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.ym_pattern.mediator.example1.ConcreteColleagueB" target="bj.DesignPattern.ym_pattern.mediator.example1.Colleague">
+      <point x="0.0" y="-16.0" />
+      <point x="274.5" y="57.0" />
+      <point x="204.75" y="57.0" />
+      <point x="25.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.mediator.example1.ConcreteColleagueA" target="bj.DesignPattern.ym_pattern.mediator.example1.Colleague">
+      <point x="0.0" y="-16.0" />
+      <point x="85.0" y="57.0" />
+      <point x="154.75" y="57.0" />
+      <point x="-25.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.mediator.example1.ConcreteMediator" target="bj.DesignPattern.ym_pattern.mediator.example1.Mediator">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="179.5" y="136.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.ym_pattern.mediator.example1.ConcreteColleagueA</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

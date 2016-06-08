@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.ym_pattern.prototype.example6</OriginalElement>
+  <nodes>
+    <node x="33.0" y="82.0">bj.DesignPattern.ym_pattern.prototype.example6.Product</node>
+    <node x="173.0" y="159.0">bj.DesignPattern.ym_pattern.prototype.example6.Client</node>
+    <node x="0.0" y="241.0">bj.DesignPattern.ym_pattern.prototype.example6.PersonalOrder</node>
+    <node x="17.5" y="159.0">bj.DesignPattern.ym_pattern.prototype.example6.OrderApi</node>
+    <node x="0.0" y="0.0">bj.DesignPattern.ym_pattern.prototype.example6.ProductPrototype</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.ym_pattern.prototype.example6.Product" target="bj.DesignPattern.ym_pattern.prototype.example6.ProductPrototype">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.prototype.example6.PersonalOrder" target="bj.DesignPattern.ym_pattern.prototype.example6.OrderApi">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="122.0" y="136.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.ym_pattern.prototype.example6.ProductPrototype</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
