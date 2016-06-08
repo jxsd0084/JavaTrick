@@ -18,6 +18,7 @@ public class NovelBook implements IBook {
 
 	// 通过构造函数传递书籍数据
 	public NovelBook( String _name, int _price, String _author ) {
+
 		this.name = _name;
 		this.price = _price;
 		this.author = _author;
@@ -25,16 +26,19 @@ public class NovelBook implements IBook {
 
 	// 获得作者是谁
 	public String getAuthor() {
+
 		return this.author;
 	}
 
 	// 书籍叫什么名字
 	public String getName() {
+
 		return this.name;
 	}
 
 	// 获得书籍的价格
 	public int getPrice() {
+
 		return this.price;
 	}
 
