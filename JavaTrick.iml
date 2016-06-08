@@ -33,6 +33,7 @@
     </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="ejb-api-3.0" level="project" />
     <orderEntry type="library" name="Maven: org.javassist:javassist:3.20.0-GA" level="project" />
     <orderEntry type="library" name="Maven: com.google.guava:guava:18.0" level="project" />
     <orderEntry type="library" name="Maven: org.mongodb:mongo-java-driver:3.1.0" level="project" />
@@ -324,6 +325,9 @@
     <orderEntry type="library" name="Maven: net.sourceforge.collections:collections-generic:4.01" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse.jgit:org.eclipse.jgit:3.3.1.201403241930-r" level="project" />
     <orderEntry type="library" name="Maven: com.googlecode.javaewah:JavaEWAH:0.7.9" level="project" />
-    <orderEntry type="library" name="ejb-api-3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.jmock:jmock:2.4.0" level="project" />
+    <orderEntry type="library" name="Maven: org.hamcrest:hamcrest-library:1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.jmock:jmock-junit4:2.6.0" level="project" />
+    <orderEntry type="library" name="Maven: junit:junit-dep:4.4" level="project" />
   </component>
 </module>
