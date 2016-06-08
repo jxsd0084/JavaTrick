@@ -6,4 +6,5 @@ public class RdbDetailDAOImpl implements OrderDetailDAO {
 
 		System.out.println( "now in RdbDetailDAOImpl saveOrderDetail" );
 	}
+
 }

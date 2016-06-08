@@ -46,9 +46,9 @@ public class ComputerEngineer {
 		// 可是，装机工程师并不知道如何去创建，怎么办呢？
 
 		// 使用抽象工厂来获取相应的接口对象
-		this.cpu = (CPUApi) schema.createProduct( 1 );
-		this.mainboard = (MainboardApi) schema.createProduct( 2 );
-		this.memory = (MemoryApi) schema.createProduct( 3 );
+		this.cpu = ( CPUApi ) schema.createProduct( 1 );
+		this.mainboard = ( MainboardApi ) schema.createProduct( 2 );
+		this.memory = ( MemoryApi ) schema.createProduct( 3 );
 
 		// 测试一下配件是否好用
 		this.cpu.calculate();

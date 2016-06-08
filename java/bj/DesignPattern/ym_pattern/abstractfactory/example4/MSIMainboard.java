@@ -16,6 +16,7 @@ public class MSIMainboard implements MainboardApi {
 	 * @param cpuHoles CPU插槽的孔数
 	 */
 	public MSIMainboard( int cpuHoles ) {
+
 		this.cpuHoles = cpuHoles;
 	}
 
@@ -23,4 +24,5 @@ public class MSIMainboard implements MainboardApi {
 
 		System.out.println( "now in MSIMainboard,cpuHoles=" + cpuHoles );
 	}
+
 }

@@ -16,6 +16,7 @@ public class IntelCPU implements CPUApi {
 	 * @param pins CPU的针脚数目
 	 */
 	public IntelCPU( int pins ) {
+
 		this.pins = pins;
 	}
 

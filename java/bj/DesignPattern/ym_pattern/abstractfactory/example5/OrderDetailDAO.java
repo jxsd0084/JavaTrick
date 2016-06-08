@@ -9,4 +9,5 @@ public interface OrderDetailDAO {
 	 * 示意方法，保存订单子记录
 	 */
 	public void saveOrderDetail();
+
 }

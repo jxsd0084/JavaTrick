@@ -12,6 +12,7 @@ public class CPUFactory {
 	 * @return CPU接口对象的方法
 	 */
 	public static CPUApi createCPUApi( int type ) {
+
 		CPUApi cpu = null;
 
 		// 根据参数来选择并创建相应的CPU对象

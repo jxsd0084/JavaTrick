@@ -18,4 +18,5 @@ public abstract class DAOFactory {
 	 * @return 订单子记录对应的DAO对象
 	 */
 	public abstract OrderDetailDAO createOrderDetailDAO();
+
 }

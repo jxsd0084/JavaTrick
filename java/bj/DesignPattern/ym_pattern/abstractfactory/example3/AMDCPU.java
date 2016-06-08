@@ -16,6 +16,7 @@ public class AMDCPU implements CPUApi {
 	 * @param pins CPU的针脚数目
 	 */
 	public AMDCPU( int pins ) {
+
 		this.pins = pins;
 	}
 

@@ -4,6 +4,7 @@ public class BusinessObject {
 
 	/**
 	 * 测试
+	 *
 	 * @param args
 	 */
 	public static void main( String[] args ) {

@@ -13,4 +13,5 @@ public interface AbstractFactory {
 	 * @return 创建出的产品对象
 	 */
 	public Object createProduct( int type );
+
 }

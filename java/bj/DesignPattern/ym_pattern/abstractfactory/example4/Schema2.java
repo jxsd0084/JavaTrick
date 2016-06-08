@@ -7,6 +7,7 @@ package bj.DesignPattern.ym_pattern.abstractfactory.example4;
 public class Schema2 implements AbstractFactory {
 
 	public Object createProduct( int type ) {
+
 		Object retObj = null;
 		// type为1表示创建CPU，type为2表示创建主板
 		if ( type == 1 ) {

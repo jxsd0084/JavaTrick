@@ -4,6 +4,7 @@ public class Client {
 
 	/**
 	 * 测试
+	 *
 	 * @param args
 	 */
 	public static void main( String[] args ) {
@@ -16,6 +17,7 @@ public class Client {
 
 		// 告诉装机工程师自己选择的装机方案，让装机工程师组装电脑
 		engineer.makeComputer( schema );
+
 	}
 
 }

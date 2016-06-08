@@ -16,6 +16,7 @@ public class GAMainboard implements MainboardApi {
 	 * @param cpuHoles CPU插槽的孔数
 	 */
 	public GAMainboard( int cpuHoles ) {
+
 		this.cpuHoles = cpuHoles;
 	}
 
