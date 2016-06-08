@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.ym_pattern.factorymethod.example4</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">bj.DesignPattern.ym_pattern.factorymethod.example4.Product</node>
+    <node x="130.0" y="0.0">bj.DesignPattern.ym_pattern.factorymethod.example4.Creator</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="105.5" y="16.0" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.ym_pattern.factorymethod.example4.Product</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

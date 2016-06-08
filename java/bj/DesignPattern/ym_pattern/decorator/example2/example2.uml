@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.ym_pattern.decorator.example2</OriginalElement>
+  <nodes>
+    <node x="3.5" y="0.0">bj.DesignPattern.ym_pattern.decorator.example2.A</node>
+    <node x="188.0" y="159.0">bj.DesignPattern.ym_pattern.decorator.example2.B</node>
+    <node x="94.0" y="0.0">bj.DesignPattern.ym_pattern.decorator.example2.C3</node>
+    <node x="0.0" y="159.0">bj.DesignPattern.ym_pattern.decorator.example2.C4</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.ym_pattern.decorator.example2.C1</node>
+    <node x="94.0" y="159.0">bj.DesignPattern.ym_pattern.decorator.example2.C2</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.ym_pattern.decorator.example2.C1" target="bj.DesignPattern.ym_pattern.decorator.example2.A">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="114.5" y="95.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.ym_pattern.decorator.example2.C1</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

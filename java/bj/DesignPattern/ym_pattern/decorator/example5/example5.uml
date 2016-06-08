@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.ym_pattern.decorator.example5</OriginalElement>
+  <nodes>
+    <node x="0.0" y="77.0">bj.DesignPattern.ym_pattern.decorator.example5.EncryptOutputStream</node>
+    <node x="0.0" y="154.0">bj.DesignPattern.ym_pattern.decorator.example5.IOTest</node>
+    <node x="0.0" y="0.0">bj.DesignPattern.ym_pattern.decorator.example5.EncryptOutputStream2</node>
+    <node x="119.0" y="154.0">bj.DesignPattern.ym_pattern.decorator.example5.Client</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="95.0" y="93.0" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.ym_pattern.decorator.example5.EncryptOutputStream</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

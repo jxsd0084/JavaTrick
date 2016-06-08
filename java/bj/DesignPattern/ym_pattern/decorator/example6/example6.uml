@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.ym_pattern.decorator.example6</OriginalElement>
+  <nodes>
+    <node x="143.0" y="0.0">bj.DesignPattern.ym_pattern.decorator.example6.GoodsSaleEbi</node>
+    <node x="144.0" y="164.0">bj.DesignPattern.ym_pattern.decorator.example6.CheckDecorator</node>
+    <node x="0.0" y="241.0">bj.DesignPattern.ym_pattern.decorator.example6.SaleModel</node>
+    <node x="88.49999999999999" y="82.0">bj.DesignPattern.ym_pattern.decorator.example6.Decorator</node>
+    <node x="207.5" y="82.0">bj.DesignPattern.ym_pattern.decorator.example6.GoodsSaleEbo</node>
+    <node x="149.0" y="241.0">bj.DesignPattern.ym_pattern.decorator.example6.Client</node>
+    <node x="0.0" y="164.0">bj.DesignPattern.ym_pattern.decorator.example6.LogDecorator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.ym_pattern.decorator.example6.LogDecorator" target="bj.DesignPattern.ym_pattern.decorator.example6.Decorator">
+      <point x="0.0" y="-16.0" />
+      <point x="62.0" y="139.0" />
+      <point x="113.24999999999999" y="139.0" />
+      <point x="-24.75" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.decorator.example6.GoodsSaleEbo" target="bj.DesignPattern.ym_pattern.decorator.example6.GoodsSaleEbi">
+      <point x="0.0" y="-16.0" />
+      <point x="272.0" y="57.0" />
+      <point x="236.0" y="57.0" />
+      <point x="31.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.decorator.example6.Decorator" target="bj.DesignPattern.ym_pattern.decorator.example6.GoodsSaleEbi">
+      <point x="0.0" y="-16.0" />
+      <point x="138.0" y="57.0" />
+      <point x="174.0" y="57.0" />
+      <point x="-31.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.decorator.example6.CheckDecorator" target="bj.DesignPattern.ym_pattern.decorator.example6.Decorator">
+      <point x="0.0" y="-16.0" />
+      <point x="214.0" y="139.0" />
+      <point x="162.75" y="139.0" />
+      <point x="24.75" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="168.5" y="136.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.ym_pattern.decorator.example6.LogDecorator</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

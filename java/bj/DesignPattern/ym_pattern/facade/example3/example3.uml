@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.ym_pattern.facade.example3</OriginalElement>
+  <nodes>
+    <node x="116.0" y="231.0">bj.DesignPattern.ym_pattern.facade.example3.DAO</node>
+    <node x="0.0" y="154.0">bj.DesignPattern.ym_pattern.facade.example3.Business</node>
+    <node x="0.0" y="77.0">bj.DesignPattern.ym_pattern.facade.example3.ConfigModel</node>
+    <node x="0.0" y="0.0">bj.DesignPattern.ym_pattern.facade.example3.ConfigManager</node>
+    <node x="134.0" y="154.0">bj.DesignPattern.ym_pattern.facade.example3.Facade</node>
+    <node x="166.0" y="77.0">bj.DesignPattern.ym_pattern.facade.example3.Presentation</node>
+    <node x="0.0" y="231.0">bj.DesignPattern.ym_pattern.facade.example3.Client</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="141.5" y="131.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.ym_pattern.facade.example3.DAO</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

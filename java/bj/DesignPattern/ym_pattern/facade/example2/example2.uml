@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.ym_pattern.facade.example2</OriginalElement>
+  <nodes>
+    <node x="0.0" y="82.0">bj.DesignPattern.ym_pattern.facade.example2.AModuleImpl</node>
+    <node x="3.5" y="0.0">bj.DesignPattern.ym_pattern.facade.example2.AModuleApi</node>
+    <node x="173.5" y="0.0">bj.DesignPattern.ym_pattern.facade.example2.CModuleApi</node>
+    <node x="3.5" y="159.0">bj.DesignPattern.ym_pattern.facade.example2.BModuleApi</node>
+    <node x="170.0" y="82.0">bj.DesignPattern.ym_pattern.facade.example2.CModuleImpl</node>
+    <node x="0.0" y="318.0">bj.DesignPattern.ym_pattern.facade.example2.Client</node>
+    <node x="0.0" y="241.0">bj.DesignPattern.ym_pattern.facade.example2.BModuleImpl</node>
+    <node x="169.0" y="159.0">bj.DesignPattern.ym_pattern.facade.example2.Facade</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.ym_pattern.facade.example2.AModuleImpl" target="bj.DesignPattern.ym_pattern.facade.example2.AModuleApi">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.facade.example2.CModuleImpl" target="bj.DesignPattern.ym_pattern.facade.example2.CModuleApi">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.facade.example2.BModuleImpl" target="bj.DesignPattern.ym_pattern.facade.example2.BModuleApi">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="147.0" y="175.0" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.ym_pattern.facade.example2.AModuleApi</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

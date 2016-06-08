@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.ym_pattern.decorator.example4</OriginalElement>
+  <nodes>
+    <node x="198.0" y="164.0">bj.DesignPattern.ym_pattern.decorator.example4.SumPrizeDecorator</node>
+    <node x="229.5" y="82.0">bj.DesignPattern.ym_pattern.decorator.example4.Decorator</node>
+    <node x="135.0" y="241.0">bj.DesignPattern.ym_pattern.decorator.example4.Client</node>
+    <node x="300.75" y="0.0">bj.DesignPattern.ym_pattern.decorator.example4.Component</node>
+    <node x="0.0" y="241.0">bj.DesignPattern.ym_pattern.decorator.example4.TempDB</node>
+    <node x="348.5" y="82.0">bj.DesignPattern.ym_pattern.decorator.example4.ConcreteComponent</node>
+    <node x="380.0" y="164.0">bj.DesignPattern.ym_pattern.decorator.example4.GroupPrizeDecorator</node>
+    <node x="0.0" y="164.0">bj.DesignPattern.ym_pattern.decorator.example4.MonthPrizeDecorator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.ym_pattern.decorator.example4.MonthPrizeDecorator" target="bj.DesignPattern.ym_pattern.decorator.example4.Decorator">
+      <point x="0.0" y="-16.0" />
+      <point x="89.0" y="139.0" />
+      <point x="246.0" y="139.0" />
+      <point x="-33.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.decorator.example4.GroupPrizeDecorator" target="bj.DesignPattern.ym_pattern.decorator.example4.Decorator">
+      <point x="0.0" y="-16.0" />
+      <point x="467.0" y="139.0" />
+      <point x="312.0" y="139.0" />
+      <point x="33.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.decorator.example4.SumPrizeDecorator" target="bj.DesignPattern.ym_pattern.decorator.example4.Decorator">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.decorator.example4.Decorator" target="bj.DesignPattern.ym_pattern.decorator.example4.Component">
+      <point x="0.0" y="-16.0" />
+      <point x="279.0" y="57.0" />
+      <point x="328.75" y="57.0" />
+      <point x="-28.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.decorator.example4.ConcreteComponent" target="bj.DesignPattern.ym_pattern.decorator.example4.Component">
+      <point x="0.0" y="-16.0" />
+      <point x="434.5" y="57.0" />
+      <point x="384.75" y="57.0" />
+      <point x="28.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="277.0" y="136.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.ym_pattern.decorator.example4.MonthPrizeDecorator</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

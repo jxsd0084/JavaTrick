@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.ym_pattern.factorymethod.example7</OriginalElement>
+  <nodes>
+    <node x="4.0" y="159.0">bj.DesignPattern.ym_pattern.factorymethod.example7.ExportOperate</node>
+    <node x="0.0" y="318.0">bj.DesignPattern.ym_pattern.factorymethod.example7.Client</node>
+    <node x="253.0" y="82.0">bj.DesignPattern.ym_pattern.factorymethod.example7.ExportXml</node>
+    <node x="115.0" y="82.0">bj.DesignPattern.ym_pattern.factorymethod.example7.ExportTxtFile</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.ym_pattern.factorymethod.example7.ExportDB</node>
+    <node x="113.5" y="0.0">bj.DesignPattern.ym_pattern.factorymethod.example7.ExportFileApi</node>
+    <node x="0.0" y="241.0">bj.DesignPattern.ym_pattern.factorymethod.example7.ExportOperate2</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.ym_pattern.factorymethod.example7.ExportOperate2" target="bj.DesignPattern.ym_pattern.factorymethod.example7.ExportOperate">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.factorymethod.example7.ExportTxtFile" target="bj.DesignPattern.ym_pattern.factorymethod.example7.ExportFileApi">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.factorymethod.example7.ExportDB" target="bj.DesignPattern.ym_pattern.factorymethod.example7.ExportFileApi">
+      <point x="0.0" y="-16.0" />
+      <point x="47.5" y="57.0" />
+      <point x="133.66666666666666" y="57.0" />
+      <point x="-40.33333333333334" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.factorymethod.example7.ExportXml" target="bj.DesignPattern.ym_pattern.factorymethod.example7.ExportFileApi">
+      <point x="0.0" y="-16.0" />
+      <point x="303.5" y="57.0" />
+      <point x="214.33333333333334" y="57.0" />
+      <point x="40.33333333333334" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="177.0" y="175.0" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.ym_pattern.factorymethod.example7.ExportOperate2</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
