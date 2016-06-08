@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._02_里氏替换原则.section3</OriginalElement>
+  <nodes>
+    <node x="82.0" y="164.0">bj.DesignPattern.JavaPattern._02_里氏替换原则.section3.G3</node>
+    <node x="38.0" y="82.0">bj.DesignPattern.JavaPattern._02_里氏替换原则.section3.Rifle</node>
+    <node x="259.0" y="82.0">bj.DesignPattern.JavaPattern._02_里氏替换原则.section3.Handgun</node>
+    <node x="0.0" y="164.0">bj.DesignPattern.JavaPattern._02_里氏替换原则.section3.AUG</node>
+    <node x="0.0" y="241.0">bj.DesignPattern.JavaPattern._02_里氏替换原则.section3.Snipper</node>
+    <node x="120.0" y="82.0">bj.DesignPattern.JavaPattern._02_里氏替换原则.section3.MachineGun</node>
+    <node x="185.75" y="0.0">bj.DesignPattern.JavaPattern._02_里氏替换原则.section3.AbstractGun</node>
+    <node x="129.0" y="241.0">bj.DesignPattern.JavaPattern._02_里氏替换原则.section3.Soldier</node>
+    <node x="0.0" y="318.0">bj.DesignPattern.JavaPattern._02_里氏替换原则.section3.Client</node>
+    <node x="375.0" y="82.0">bj.DesignPattern.JavaPattern._02_里氏替换原则.section3.ToyGun</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaPattern._02_里氏替换原则.section3.AUG" target="bj.DesignPattern.JavaPattern._02_里氏替换原则.section3.Rifle">
+      <point x="0.0" y="-16.0" />
+      <point x="31.0" y="139.0" />
+      <point x="53.5" y="139.0" />
+      <point x="-15.5" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._02_里氏替换原则.section3.MachineGun" target="bj.DesignPattern.JavaPattern._02_里氏替换原则.section3.AbstractGun">
+      <point x="0.0" y="-16.0" />
+      <point x="179.5" y="62.0" />
+      <point x="228.875" y="62.0" />
+      <point x="-14.375" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._02_里氏替换原则.section3.Handgun" target="bj.DesignPattern.JavaPattern._02_里氏替换原则.section3.AbstractGun">
+      <point x="0.0" y="-16.0" />
+      <point x="307.0" y="62.0" />
+      <point x="257.625" y="62.0" />
+      <point x="14.375" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._02_里氏替换原则.section3.Rifle" target="bj.DesignPattern.JavaPattern._02_里氏替换原则.section3.AbstractGun">
+      <point x="0.0" y="-16.0" />
+      <point x="69.0" y="52.0" />
+      <point x="200.125" y="52.0" />
+      <point x="-43.125" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._02_里氏替换原则.section3.G3" target="bj.DesignPattern.JavaPattern._02_里氏替换原则.section3.Rifle">
+      <point x="0.0" y="-16.0" />
+      <point x="107.0" y="139.0" />
+      <point x="84.5" y="139.0" />
+      <point x="15.5" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._02_里氏替换原则.section3.ToyGun" target="bj.DesignPattern.JavaPattern._02_里氏替换原则.section3.AbstractGun">
+      <point x="0.0" y="-16.0" />
+      <point x="417.0" y="52.0" />
+      <point x="286.375" y="52.0" />
+      <point x="43.125" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="229.5" y="175.0" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaPattern._02_里氏替换原则.section3.ToyGun</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

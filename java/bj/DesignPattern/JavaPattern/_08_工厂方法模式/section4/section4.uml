@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._08_工厂方法模式.section4</OriginalElement>
+  <nodes>
+    <node x="138.0" y="241.0">bj.DesignPattern.JavaPattern._08_工厂方法模式.section4.WhiteHuman</node>
+    <node x="186.0" y="82.0">bj.DesignPattern.JavaPattern._08_工厂方法模式.section4.YellowHumanFactory</node>
+    <node x="0.0" y="318.0">bj.DesignPattern.JavaPattern._08_工厂方法模式.section4.HumanFactory</node>
+    <node x="280.0" y="241.0">bj.DesignPattern.JavaPattern._08_工厂方法模式.section4.YellowHuman</node>
+    <node x="0.0" y="241.0">bj.DesignPattern.JavaPattern._08_工厂方法模式.section4.BlackHuman</node>
+    <node x="380.0" y="82.0">bj.DesignPattern.JavaPattern._08_工厂方法模式.section4.WhiteHumanFactory</node>
+    <node x="180.5" y="0.0">bj.DesignPattern.JavaPattern._08_工厂方法模式.section4.AbstractHumanFactory</node>
+    <node x="158.0" y="159.0">bj.DesignPattern.JavaPattern._08_工厂方法模式.section4.Human</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.JavaPattern._08_工厂方法模式.section4.BlackHumanFactory</node>
+    <node x="0.0" y="395.0">bj.DesignPattern.JavaPattern._08_工厂方法模式.section4.NvWa</node>
+    <node x="175.0" y="318.0">bj.DesignPattern.JavaPattern._08_工厂方法模式.section4.ClassUtils</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaPattern._08_工厂方法模式.section4.WhiteHuman" target="bj.DesignPattern.JavaPattern._08_工厂方法模式.section4.Human">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._08_工厂方法模式.section4.YellowHumanFactory" target="bj.DesignPattern.JavaPattern._08_工厂方法模式.section4.AbstractHumanFactory">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._08_工厂方法模式.section4.BlackHumanFactory" target="bj.DesignPattern.JavaPattern._08_工厂方法模式.section4.AbstractHumanFactory">
+      <point x="0.0" y="-16.0" />
+      <point x="83.0" y="57.0" />
+      <point x="211.33333333333334" y="57.0" />
+      <point x="-61.66666666666666" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._08_工厂方法模式.section4.YellowHuman" target="bj.DesignPattern.JavaPattern._08_工厂方法模式.section4.Human">
+      <point x="0.0" y="-16.0" />
+      <point x="343.0" y="216.0" />
+      <point x="226.33333333333331" y="216.0" />
+      <point x="27.333333333333314" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._08_工厂方法模式.section4.WhiteHumanFactory" target="bj.DesignPattern.JavaPattern._08_工厂方法模式.section4.AbstractHumanFactory">
+      <point x="0.0" y="-16.0" />
+      <point x="465.0" y="57.0" />
+      <point x="334.66666666666663" y="57.0" />
+      <point x="61.66666666666663" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._08_工厂方法模式.section4.BlackHuman" target="bj.DesignPattern.JavaPattern._08_工厂方法模式.section4.Human">
+      <point x="0.0" y="-16.0" />
+      <point x="59.0" y="216.0" />
+      <point x="171.66666666666666" y="216.0" />
+      <point x="-27.333333333333343" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="275.0" y="213.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaPattern._08_工厂方法模式.section4.Human</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

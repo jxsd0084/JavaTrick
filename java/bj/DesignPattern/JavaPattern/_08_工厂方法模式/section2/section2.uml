@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._08_工厂方法模式.section2</OriginalElement>
+  <nodes>
+    <node x="173.0" y="82.0">bj.DesignPattern.JavaPattern._08_工厂方法模式.section2.ConcreteProduct1</node>
+    <node x="0.0" y="241.0">bj.DesignPattern.JavaPattern._08_工厂方法模式.section2.ConcreteCreator</node>
+    <node x="0.0" y="318.0">bj.DesignPattern.JavaPattern._08_工厂方法模式.section2.Client</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.JavaPattern._08_工厂方法模式.section2.ConcreteProduct2</node>
+    <node x="30.0" y="159.0">bj.DesignPattern.JavaPattern._08_工厂方法模式.section2.Creator</node>
+    <node x="120.5" y="0.0">bj.DesignPattern.JavaPattern._08_工厂方法模式.section2.Product</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaPattern._08_工厂方法模式.section2.ConcreteCreator" target="bj.DesignPattern.JavaPattern._08_工厂方法模式.section2.Creator">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._08_工厂方法模式.section2.ConcreteProduct2" target="bj.DesignPattern.JavaPattern._08_工厂方法模式.section2.Product">
+      <point x="0.0" y="-16.0" />
+      <point x="76.5" y="57.0" />
+      <point x="141.75" y="57.0" />
+      <point x="-21.25" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._08_工厂方法模式.section2.ConcreteProduct1" target="bj.DesignPattern.JavaPattern._08_工厂方法模式.section2.Product">
+      <point x="0.0" y="-16.0" />
+      <point x="249.5" y="57.0" />
+      <point x="184.25" y="57.0" />
+      <point x="21.25" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="163.0" y="175.0" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaPattern._08_工厂方法模式.section2.Product</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

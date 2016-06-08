@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._06_开闭原则.section6</OriginalElement>
+  <nodes>
+    <node x="10.0" y="82.0">bj.DesignPattern.JavaPattern._06_开闭原则.section6.BookOffRole</node>
+    <node x="0.0" y="0.0">bj.DesignPattern.JavaPattern._06_开闭原则.section6.AbstractOffRole</node>
+    <node x="151.0" y="159.0">bj.DesignPattern.JavaPattern._06_开闭原则.section6.BookStore</node>
+    <node x="17.5" y="159.0">bj.DesignPattern.JavaPattern._06_开闭原则.section6.IBook</node>
+    <node x="0.0" y="241.0">bj.DesignPattern.JavaPattern._06_开闭原则.section6.NovelBook</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaPattern._06_开闭原则.section6.NovelBook" target="bj.DesignPattern.JavaPattern._06_开闭原则.section6.IBook">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._06_开闭原则.section6.BookOffRole" target="bj.DesignPattern.JavaPattern._06_开闭原则.section6.AbstractOffRole">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="126.5" y="136.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaPattern._06_开闭原则.section6.AbstractOffRole</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

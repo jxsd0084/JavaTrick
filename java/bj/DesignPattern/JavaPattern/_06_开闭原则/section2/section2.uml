@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._06_开闭原则.section2</OriginalElement>
+  <nodes>
+    <node x="10.5" y="82.0">bj.DesignPattern.JavaPattern._06_开闭原则.section2.NovelBook</node>
+    <node x="0.0" y="164.0">bj.DesignPattern.JavaPattern._06_开闭原则.section2.OffNovelBook</node>
+    <node x="28.0" y="0.0">bj.DesignPattern.JavaPattern._06_开闭原则.section2.IBook</node>
+    <node x="172.0" y="0.0">bj.DesignPattern.JavaPattern._06_开闭原则.section2.BookStore</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaPattern._06_开闭原则.section2.OffNovelBook" target="bj.DesignPattern.JavaPattern._06_开闭原则.section2.NovelBook">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._06_开闭原则.section2.NovelBook" target="bj.DesignPattern.JavaPattern._06_开闭原则.section2.IBook">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="137.0" y="98.0" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaPattern._06_开闭原则.section2.IBook</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

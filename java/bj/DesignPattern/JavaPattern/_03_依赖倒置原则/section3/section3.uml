@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._03_依赖倒置原则.section3</OriginalElement>
+  <nodes>
+    <node x="121.0" y="0.0">bj.DesignPattern.JavaPattern._03_依赖倒置原则.section3.ICar</node>
+    <node x="0.0" y="0.0">bj.DesignPattern.JavaPattern._03_依赖倒置原则.section3.IDriver</node>
+    <node x="2.0" y="82.0">bj.DesignPattern.JavaPattern._03_依赖倒置原则.section3.Driver</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaPattern._03_依赖倒置原则.section3.Driver" target="bj.DesignPattern.JavaPattern._03_依赖倒置原则.section3.IDriver">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="89.5" y="57.0" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaPattern._03_依赖倒置原则.section3.ICar</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

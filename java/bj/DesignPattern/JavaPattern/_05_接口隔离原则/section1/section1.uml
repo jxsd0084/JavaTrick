@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.JavaPattern._05_接口隔离原则.section1</OriginalElement>
+  <nodes>
+    <node x="192.0" y="82.0">bj.DesignPattern.JavaPattern._05_接口隔离原则.section1.PrettyGirl</node>
+    <node x="2.0" y="159.0">bj.DesignPattern.JavaPattern._05_接口隔离原则.section1.ISearcher</node>
+    <node x="0.0" y="0.0">bj.DesignPattern.JavaPattern._05_接口隔离原则.section1.AbstractSearcher</node>
+    <node x="190.0" y="0.0">bj.DesignPattern.JavaPattern._05_接口隔离原则.section1.IPrettyGirl</node>
+    <node x="0.0" y="241.0">bj.DesignPattern.JavaPattern._05_接口隔离原则.section1.Searcher2</node>
+    <node x="143.0" y="159.0">bj.DesignPattern.JavaPattern._05_接口隔离原则.section1.Client</node>
+    <node x="27.5" y="82.0">bj.DesignPattern.JavaPattern._05_接口隔离原则.section1.Searcher</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.JavaPattern._05_接口隔离原则.section1.Searcher" target="bj.DesignPattern.JavaPattern._05_接口隔离原则.section1.AbstractSearcher">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._05_接口隔离原则.section1.PrettyGirl" target="bj.DesignPattern.JavaPattern._05_接口隔离原则.section1.IPrettyGirl">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.JavaPattern._05_接口隔离原则.section1.Searcher2" target="bj.DesignPattern.JavaPattern._05_接口隔离原则.section1.ISearcher">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="144.0" y="136.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.JavaPattern._05_接口隔离原则.section1.IPrettyGirl</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
