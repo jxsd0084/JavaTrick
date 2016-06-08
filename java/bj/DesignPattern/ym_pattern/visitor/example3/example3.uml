@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.ym_pattern.visitor.example3</OriginalElement>
+  <nodes>
+    <node x="177.0" y="82.0">bj.DesignPattern.ym_pattern.visitor.example3.ConcreteElementB</node>
+    <node x="182.0" y="318.0">bj.DesignPattern.ym_pattern.visitor.example3.Client</node>
+    <node x="115.0" y="159.0">bj.DesignPattern.ym_pattern.visitor.example3.Visitor</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.ym_pattern.visitor.example3.ConcreteElementA</node>
+    <node x="162.0" y="241.0">bj.DesignPattern.ym_pattern.visitor.example3.ConcreteVisitor2</node>
+    <node x="0.0" y="241.0">bj.DesignPattern.ym_pattern.visitor.example3.ConcreteVisitor1</node>
+    <node x="0.0" y="318.0">bj.DesignPattern.ym_pattern.visitor.example3.ObjectStructure</node>
+    <node x="123.25" y="0.0">bj.DesignPattern.ym_pattern.visitor.example3.Element</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.ym_pattern.visitor.example3.ConcreteVisitor1" target="bj.DesignPattern.ym_pattern.visitor.example3.Visitor">
+      <point x="0.0" y="-16.0" />
+      <point x="71.0" y="216.0" />
+      <point x="133.5" y="216.0" />
+      <point x="-18.5" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.visitor.example3.ConcreteElementB" target="bj.DesignPattern.ym_pattern.visitor.example3.Element">
+      <point x="0.0" y="-16.0" />
+      <point x="255.0" y="57.0" />
+      <point x="188.5" y="57.0" />
+      <point x="21.75" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.visitor.example3.ConcreteElementA" target="bj.DesignPattern.ym_pattern.visitor.example3.Element">
+      <point x="0.0" y="-16.0" />
+      <point x="78.5" y="57.0" />
+      <point x="145.0" y="57.0" />
+      <point x="-21.75" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.visitor.example3.ConcreteVisitor2" target="bj.DesignPattern.ym_pattern.visitor.example3.Visitor">
+      <point x="0.0" y="-16.0" />
+      <point x="233.0" y="216.0" />
+      <point x="170.5" y="216.0" />
+      <point x="18.5" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="166.5" y="175.0" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.ym_pattern.visitor.example3.Element</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

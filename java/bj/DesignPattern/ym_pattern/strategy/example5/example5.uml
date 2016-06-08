@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.ym_pattern.strategy.example5</OriginalElement>
+  <nodes>
+    <node x="299.0" y="82.0">bj.DesignPattern.ym_pattern.strategy.example5.RMBCash</node>
+    <node x="91.0" y="82.0">bj.DesignPattern.ym_pattern.strategy.example5.DollarCash</node>
+    <node x="216.0" y="82.0">bj.DesignPattern.ym_pattern.strategy.example5.Card</node>
+    <node x="4.0" y="159.0">bj.DesignPattern.ym_pattern.strategy.example5.PaymentContext</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.ym_pattern.strategy.example5.Card2</node>
+    <node x="0.0" y="241.0">bj.DesignPattern.ym_pattern.strategy.example5.PaymentContext2</node>
+    <node x="122.5" y="0.0">bj.DesignPattern.ym_pattern.strategy.example5.PaymentStrategy</node>
+    <node x="0.0" y="318.0">bj.DesignPattern.ym_pattern.strategy.example5.Client</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.ym_pattern.strategy.example5.Card2" target="bj.DesignPattern.ym_pattern.strategy.example5.PaymentStrategy">
+      <point x="0.0" y="-16.0" />
+      <point x="35.5" y="52.0" />
+      <point x="140.75" y="52.0" />
+      <point x="-54.75" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.strategy.example5.DollarCash" target="bj.DesignPattern.ym_pattern.strategy.example5.PaymentStrategy">
+      <point x="0.0" y="-16.0" />
+      <point x="143.5" y="62.0" />
+      <point x="177.25" y="62.0" />
+      <point x="-18.25" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.strategy.example5.Card" target="bj.DesignPattern.ym_pattern.strategy.example5.PaymentStrategy">
+      <point x="0.0" y="-16.0" />
+      <point x="247.5" y="62.0" />
+      <point x="213.75" y="62.0" />
+      <point x="18.25" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.strategy.example5.PaymentContext2" target="bj.DesignPattern.ym_pattern.strategy.example5.PaymentContext">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.strategy.example5.RMBCash" target="bj.DesignPattern.ym_pattern.strategy.example5.PaymentStrategy">
+      <point x="0.0" y="-16.0" />
+      <point x="347.0" y="52.0" />
+      <point x="250.25" y="52.0" />
+      <point x="54.75" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="197.5" y="175.0" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.ym_pattern.strategy.example5.PaymentStrategy</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.ym_pattern.templatemethod.example1</OriginalElement>
+  <nodes>
+    <node x="0.0" y="154.0">bj.DesignPattern.ym_pattern.templatemethod.example1.UserModel</node>
+    <node x="0.0" y="0.0">bj.DesignPattern.ym_pattern.templatemethod.example1.NormalLogin</node>
+    <node x="0.0" y="77.0">bj.DesignPattern.ym_pattern.templatemethod.example1.LoginModel</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="60.0" y="93.0" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.ym_pattern.templatemethod.example1.UserModel</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

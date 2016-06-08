@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.ym_pattern.strategy.example3</OriginalElement>
+  <nodes>
+    <node x="352.0" y="82.0">bj.DesignPattern.ym_pattern.strategy.example3.ConcreteStrategyA</node>
+    <node x="176.0" y="82.0">bj.DesignPattern.ym_pattern.strategy.example3.ConcreteStrategyB</node>
+    <node x="0.0" y="159.0">bj.DesignPattern.ym_pattern.strategy.example3.Context</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.ym_pattern.strategy.example3.ConcreteStrategyC</node>
+    <node x="210.5" y="0.0">bj.DesignPattern.ym_pattern.strategy.example3.Strategy</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.ym_pattern.strategy.example3.ConcreteStrategyC" target="bj.DesignPattern.ym_pattern.strategy.example3.Strategy">
+      <point x="0.0" y="-16.0" />
+      <point x="78.0" y="57.0" />
+      <point x="225.0" y="57.0" />
+      <point x="-29.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.strategy.example3.ConcreteStrategyB" target="bj.DesignPattern.ym_pattern.strategy.example3.Strategy">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.strategy.example3.ConcreteStrategyA" target="bj.DesignPattern.ym_pattern.strategy.example3.Strategy">
+      <point x="0.0" y="-16.0" />
+      <point x="430.5" y="57.0" />
+      <point x="283.0" y="57.0" />
+      <point x="29.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="254.5" y="95.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.ym_pattern.strategy.example3.Strategy</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

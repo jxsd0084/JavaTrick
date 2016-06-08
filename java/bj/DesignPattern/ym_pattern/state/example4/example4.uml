@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.ym_pattern.state.example4</OriginalElement>
+  <nodes>
+    <node x="0.0" y="159.0">bj.DesignPattern.ym_pattern.state.example4.VoteManager</node>
+    <node x="484.0" y="82.0">bj.DesignPattern.ym_pattern.state.example4.BlackWarnVoteState</node>
+    <node x="169.0" y="159.0">bj.DesignPattern.ym_pattern.state.example4.Client</node>
+    <node x="673.0" y="82.0">bj.DesignPattern.ym_pattern.state.example4.SpiteVoteState</node>
+    <node x="320.0" y="82.0">bj.DesignPattern.ym_pattern.state.example4.RepeatVoteState</node>
+    <node x="153.0" y="82.0">bj.DesignPattern.ym_pattern.state.example4.NormalVoteState</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.ym_pattern.state.example4.BlackVoteState</node>
+    <node x="343.5" y="0.0">bj.DesignPattern.ym_pattern.state.example4.VoteState</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.ym_pattern.state.example4.NormalVoteState" target="bj.DesignPattern.ym_pattern.state.example4.VoteState">
+      <point x="0.0" y="-16.0" />
+      <point x="226.5" y="62.0" />
+      <point x="372.6" y="62.0" />
+      <point x="-19.399999999999977" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.state.example4.RepeatVoteState" target="bj.DesignPattern.ym_pattern.state.example4.VoteState">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.state.example4.SpiteVoteState" target="bj.DesignPattern.ym_pattern.state.example4.VoteState">
+      <point x="0.0" y="-16.0" />
+      <point x="738.5" y="52.0" />
+      <point x="430.8" y="52.0" />
+      <point x="38.80000000000001" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.state.example4.BlackWarnVoteState" target="bj.DesignPattern.ym_pattern.state.example4.VoteState">
+      <point x="0.0" y="-16.0" />
+      <point x="568.5" y="62.0" />
+      <point x="411.4" y="62.0" />
+      <point x="19.399999999999977" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.state.example4.BlackVoteState" target="bj.DesignPattern.ym_pattern.state.example4.VoteState">
+      <point x="0.0" y="-16.0" />
+      <point x="66.5" y="52.0" />
+      <point x="353.2" y="52.0" />
+      <point x="-38.80000000000001" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="402.0" y="95.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.ym_pattern.state.example4.VoteManager</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

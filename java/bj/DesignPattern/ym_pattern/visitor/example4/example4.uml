@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.ym_pattern.visitor.example4</OriginalElement>
+  <nodes>
+    <node x="183.0" y="241.0">bj.DesignPattern.ym_pattern.visitor.example4.PersonalCustomer</node>
+    <node x="182.0" y="318.0">bj.DesignPattern.ym_pattern.visitor.example4.Client</node>
+    <node x="417.0" y="82.0">bj.DesignPattern.ym_pattern.visitor.example4.ServiceRequestVisitor</node>
+    <node x="275.5" y="0.0">bj.DesignPattern.ym_pattern.visitor.example4.Visitor</node>
+    <node x="122.75" y="159.0">bj.DesignPattern.ym_pattern.visitor.example4.Customer</node>
+    <node x="0.0" y="241.0">bj.DesignPattern.ym_pattern.visitor.example4.EnterpriseCustomer</node>
+    <node x="228.0" y="82.0">bj.DesignPattern.ym_pattern.visitor.example4.WorthAnalyzeVisitor</node>
+    <node x="0.0" y="318.0">bj.DesignPattern.ym_pattern.visitor.example4.ObjectStructure</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.ym_pattern.visitor.example4.PredilectionAnalyzeVisitor</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.ym_pattern.visitor.example4.PredilectionAnalyzeVisitor" target="bj.DesignPattern.ym_pattern.visitor.example4.Visitor">
+      <point x="0.0" y="-16.0" />
+      <point x="104.0" y="57.0" />
+      <point x="287.8333333333333" y="57.0" />
+      <point x="-24.666666666666686" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.visitor.example4.PersonalCustomer" target="bj.DesignPattern.ym_pattern.visitor.example4.Customer">
+      <point x="0.0" y="-16.0" />
+      <point x="260.0" y="216.0" />
+      <point x="194.75" y="216.0" />
+      <point x="24.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.visitor.example4.WorthAnalyzeVisitor" target="bj.DesignPattern.ym_pattern.visitor.example4.Visitor">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.visitor.example4.EnterpriseCustomer" target="bj.DesignPattern.ym_pattern.visitor.example4.Customer">
+      <point x="0.0" y="-16.0" />
+      <point x="81.5" y="216.0" />
+      <point x="146.75" y="216.0" />
+      <point x="-24.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.visitor.example4.ServiceRequestVisitor" target="bj.DesignPattern.ym_pattern.visitor.example4.Visitor">
+      <point x="0.0" y="-16.0" />
+      <point x="504.5" y="57.0" />
+      <point x="337.1666666666667" y="57.0" />
+      <point x="24.666666666666686" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="296.0" y="175.0" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.ym_pattern.visitor.example4.EnterpriseCustomer</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

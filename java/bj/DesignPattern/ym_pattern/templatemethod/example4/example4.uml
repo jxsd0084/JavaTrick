@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.ym_pattern.templatemethod.example4</OriginalElement>
+  <nodes>
+    <node x="0.0" y="241.0">bj.DesignPattern.ym_pattern.templatemethod.example4.NormalLoginModel</node>
+    <node x="25.0" y="159.0">bj.DesignPattern.ym_pattern.templatemethod.example4.LoginModel</node>
+    <node x="140.0" y="82.0">bj.DesignPattern.ym_pattern.templatemethod.example4.WorkerLogin</node>
+    <node x="0.0" y="318.0">bj.DesignPattern.ym_pattern.templatemethod.example4.Client</node>
+    <node x="279.0" y="82.0">bj.DesignPattern.ym_pattern.templatemethod.example4.NormalLogin2</node>
+    <node x="133.0" y="0.0">bj.DesignPattern.ym_pattern.templatemethod.example4.LoginTemplate</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.ym_pattern.templatemethod.example4.NormalLogin</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.ym_pattern.templatemethod.example4.NormalLogin" target="bj.DesignPattern.ym_pattern.templatemethod.example4.LoginTemplate">
+      <point x="0.0" y="-16.0" />
+      <point x="60.0" y="57.0" />
+      <point x="155.16666666666666" y="57.0" />
+      <point x="-44.33333333333334" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.templatemethod.example4.NormalLogin2" target="bj.DesignPattern.ym_pattern.templatemethod.example4.LoginTemplate">
+      <point x="0.0" y="-16.0" />
+      <point x="343.0" y="57.0" />
+      <point x="243.83333333333334" y="57.0" />
+      <point x="44.33333333333334" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.templatemethod.example4.WorkerLogin" target="bj.DesignPattern.ym_pattern.templatemethod.example4.LoginTemplate">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.templatemethod.example4.NormalLoginModel" target="bj.DesignPattern.ym_pattern.templatemethod.example4.LoginModel">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="203.5" y="175.0" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.ym_pattern.templatemethod.example4.LoginModel</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

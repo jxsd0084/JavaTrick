@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.ym_pattern.strategy.example8</OriginalElement>
+  <nodes>
+    <node x="31.75" y="0.0">bj.DesignPattern.ym_pattern.strategy.example8.LogStrategy</node>
+    <node x="0.25" y="82.0">bj.DesignPattern.ym_pattern.strategy.example8.LogStrategyTemplate</node>
+    <node x="97.0" y="164.0">bj.DesignPattern.ym_pattern.strategy.example8.FileLog</node>
+    <node x="0.0" y="164.0">bj.DesignPattern.ym_pattern.strategy.example8.DbLog</node>
+    <node x="154.0" y="241.0">bj.DesignPattern.ym_pattern.strategy.example8.Client</node>
+    <node x="0.0" y="241.0">bj.DesignPattern.ym_pattern.strategy.example8.LogContext</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.ym_pattern.strategy.example8.FileLog" target="bj.DesignPattern.ym_pattern.strategy.example8.LogStrategyTemplate">
+      <point x="0.0" y="-16.0" />
+      <point x="137.0" y="139.0" />
+      <point x="131.5" y="139.0" />
+      <point x="43.75" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.strategy.example8.DbLog" target="bj.DesignPattern.ym_pattern.strategy.example8.LogStrategyTemplate">
+      <point x="0.0" y="-16.0" />
+      <point x="38.5" y="139.0" />
+      <point x="44.0" y="139.0" />
+      <point x="-43.75" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.strategy.example8.LogStrategyTemplate" target="bj.DesignPattern.ym_pattern.strategy.example8.LogStrategy">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="112.5" y="136.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.ym_pattern.strategy.example8.DbLog</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

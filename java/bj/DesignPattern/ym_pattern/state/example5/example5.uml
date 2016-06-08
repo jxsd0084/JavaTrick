@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.ym_pattern.state.example5</OriginalElement>
+  <nodes>
+    <node x="151.0" y="82.0">bj.DesignPattern.ym_pattern.state.example5.NormalVoteState</node>
+    <node x="0.0" y="159.0">bj.DesignPattern.ym_pattern.state.example5.VoteManager</node>
+    <node x="471.0" y="82.0">bj.DesignPattern.ym_pattern.state.example5.RepeatVoteState</node>
+    <node x="318.0" y="82.0">bj.DesignPattern.ym_pattern.state.example5.BlackVoteState</node>
+    <node x="256.0" y="0.0">bj.DesignPattern.ym_pattern.state.example5.VoteState</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.ym_pattern.state.example5.SpiteVoteState</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.ym_pattern.state.example5.BlackVoteState" target="bj.DesignPattern.ym_pattern.state.example5.VoteState">
+      <point x="0.0" y="-16.0" />
+      <point x="384.5" y="62.0" />
+      <point x="316.625" y="62.0" />
+      <point x="12.125" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.state.example5.NormalVoteState" target="bj.DesignPattern.ym_pattern.state.example5.VoteState">
+      <point x="0.0" y="-16.0" />
+      <point x="224.5" y="62.0" />
+      <point x="292.375" y="62.0" />
+      <point x="-12.125" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.state.example5.SpiteVoteState" target="bj.DesignPattern.ym_pattern.state.example5.VoteState">
+      <point x="0.0" y="-16.0" />
+      <point x="65.5" y="52.0" />
+      <point x="268.125" y="52.0" />
+      <point x="-36.375" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.state.example5.RepeatVoteState" target="bj.DesignPattern.ym_pattern.state.example5.VoteState">
+      <point x="0.0" y="-16.0" />
+      <point x="543.0" y="52.0" />
+      <point x="340.875" y="52.0" />
+      <point x="36.375" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="307.5" y="95.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.ym_pattern.state.example5.SpiteVoteState</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

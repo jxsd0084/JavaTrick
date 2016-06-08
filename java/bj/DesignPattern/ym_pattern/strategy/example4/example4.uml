@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.ym_pattern.strategy.example4</OriginalElement>
+  <nodes>
+    <node x="644.0" y="82.0">bj.DesignPattern.ym_pattern.strategy.example4.NormalCustomerStrategy</node>
+    <node x="241.00000000000003" y="82.0">bj.DesignPattern.ym_pattern.strategy.example4.LargeCustomerStrategy</node>
+    <node x="392.25" y="0.0">bj.DesignPattern.ym_pattern.strategy.example4.Strategy</node>
+    <node x="0.0" y="159.0">bj.DesignPattern.ym_pattern.strategy.example4.Client2</node>
+    <node x="449.0" y="82.0">bj.DesignPattern.ym_pattern.strategy.example4.OldCustomerStrategy</node>
+    <node x="240.0" y="159.0">bj.DesignPattern.ym_pattern.strategy.example4.Price</node>
+    <node x="124.0" y="159.0">bj.DesignPattern.ym_pattern.strategy.example4.Client</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.ym_pattern.strategy.example4.CooperateCustomerStrategy</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.ym_pattern.strategy.example4.OldCustomerStrategy" target="bj.DesignPattern.ym_pattern.strategy.example4.Strategy">
+      <point x="0.0" y="-16.0" />
+      <point x="536.5" y="62.0" />
+      <point x="446.625" y="62.0" />
+      <point x="10.875" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.strategy.example4.NormalCustomerStrategy" target="bj.DesignPattern.ym_pattern.strategy.example4.Strategy">
+      <point x="0.0" y="-16.0" />
+      <point x="744.5" y="52.0" />
+      <point x="468.375" y="52.0" />
+      <point x="32.625" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.strategy.example4.LargeCustomerStrategy" target="bj.DesignPattern.ym_pattern.strategy.example4.Strategy">
+      <point x="0.0" y="-16.0" />
+      <point x="335.0" y="62.0" />
+      <point x="424.875" y="62.0" />
+      <point x="-10.875" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.strategy.example4.CooperateCustomerStrategy" target="bj.DesignPattern.ym_pattern.strategy.example4.Strategy">
+      <point x="0.0" y="-16.0" />
+      <point x="110.5" y="52.0" />
+      <point x="403.125" y="52.0" />
+      <point x="-32.625" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="422.5" y="95.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.ym_pattern.strategy.example4.CooperateCustomerStrategy</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

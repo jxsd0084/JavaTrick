@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.ym_pattern.state.example8</OriginalElement>
+  <nodes>
+    <node x="329.0" y="164.0">bj.DesignPattern.ym_pattern.state.example8.ProjectManagerState</node>
+    <node x="25.5" y="241.0">bj.DesignPattern.ym_pattern.state.example8.StateMachine</node>
+    <node x="154.0" y="164.0">bj.DesignPattern.ym_pattern.state.example8.DepManagerState</node>
+    <node x="213.0" y="400.0">bj.DesignPattern.ym_pattern.state.example8.Client</node>
+    <node x="0.0" y="164.0">bj.DesignPattern.ym_pattern.state.example8.AuditOverState</node>
+    <node x="0.0" y="323.0">bj.DesignPattern.ym_pattern.state.example8.LeaveRequestContext</node>
+    <node x="198.5" y="0.0">bj.DesignPattern.ym_pattern.state.example8.State</node>
+    <node x="152.5" y="82.0">bj.DesignPattern.ym_pattern.state.example8.LeaveRequestState</node>
+    <node x="0.0" y="400.0">bj.DesignPattern.ym_pattern.state.example8.LeaveRequestModel</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.ym_pattern.state.example8.LeaveRequestContext" target="bj.DesignPattern.ym_pattern.state.example8.StateMachine">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.state.example8.LeaveRequestState" target="bj.DesignPattern.ym_pattern.state.example8.State">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.state.example8.AuditOverState" target="bj.DesignPattern.ym_pattern.state.example8.LeaveRequestState">
+      <point x="0.0" y="-16.0" />
+      <point x="67.0" y="139.0" />
+      <point x="178.83333333333334" y="139.0" />
+      <point x="-52.66666666666666" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.state.example8.DepManagerState" target="bj.DesignPattern.ym_pattern.state.example8.LeaveRequestState">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.state.example8.ProjectManagerState" target="bj.DesignPattern.ym_pattern.state.example8.LeaveRequestState">
+      <point x="0.0" y="-16.0" />
+      <point x="416.0" y="139.0" />
+      <point x="284.16666666666663" y="139.0" />
+      <point x="52.66666666666663" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="251.5" y="216.0" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.ym_pattern.state.example8.LeaveRequestState</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

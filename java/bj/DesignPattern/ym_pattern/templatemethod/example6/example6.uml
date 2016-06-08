@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.ym_pattern.templatemethod.example6</OriginalElement>
+  <nodes>
+    <node x="0.0" y="236.0">bj.DesignPattern.ym_pattern.templatemethod.example6.Client</node>
+    <node x="207.0" y="82.0">bj.DesignPattern.ym_pattern.templatemethod.example6.UserJDBC</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.ym_pattern.templatemethod.example6.UserQueryModel</node>
+    <node x="203.0" y="159.0">bj.DesignPattern.ym_pattern.templatemethod.example6.JDBCTest</node>
+    <node x="190.0" y="0.0">bj.DesignPattern.ym_pattern.templatemethod.example6.JDBCTemplate</node>
+    <node x="0.0" y="159.0">bj.DesignPattern.ym_pattern.templatemethod.example6.UpdateDBCallBack</node>
+    <node x="20.0" y="0.0">bj.DesignPattern.ym_pattern.templatemethod.example6.UserModel</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.ym_pattern.templatemethod.example6.UserQueryModel" target="bj.DesignPattern.ym_pattern.templatemethod.example6.UserModel">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.templatemethod.example6.UserJDBC" target="bj.DesignPattern.ym_pattern.templatemethod.example6.JDBCTemplate">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="160.0" y="134.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
