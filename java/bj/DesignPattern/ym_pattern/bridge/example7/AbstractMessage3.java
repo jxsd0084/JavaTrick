@@ -25,6 +25,7 @@ public abstract class AbstractMessage3 {
 	 * @param toUser  把消息发送的目的人员
 	 */
 	public void sendMessage( String message, String toUser ) {
+
 		this.impl.send( message, toUser );
 	}
 

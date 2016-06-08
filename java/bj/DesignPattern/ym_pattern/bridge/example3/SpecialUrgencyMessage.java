@@ -6,4 +6,5 @@ package bj.DesignPattern.ym_pattern.bridge.example3;
 public interface SpecialUrgencyMessage extends Message {
 
 	public void hurry( String messageId );
+
 }

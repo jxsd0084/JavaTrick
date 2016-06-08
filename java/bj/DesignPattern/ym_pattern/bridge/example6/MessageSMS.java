@@ -9,4 +9,5 @@ public class MessageSMS implements MessageImplementor {
 
 		System.out.println( "使用站内短消息的方式，发送消息'" + message + "'给" + toUser );
 	}
+
 }

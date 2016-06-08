@@ -12,4 +12,5 @@ public interface Message {
 	 * @param toUser  把消息发送的目的人员
 	 */
 	public void send( String message, String toUser );
+
 }

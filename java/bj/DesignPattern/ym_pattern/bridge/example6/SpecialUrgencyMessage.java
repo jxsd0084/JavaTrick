@@ -6,6 +6,7 @@ package bj.DesignPattern.ym_pattern.bridge.example6;
 public class SpecialUrgencyMessage extends AbstractMessage {
 
 	public SpecialUrgencyMessage( MessageImplementor impl ) {
+
 		super( impl );
 	}
 
@@ -14,6 +15,7 @@ public class SpecialUrgencyMessage extends AbstractMessage {
 	}
 
 	public void sendMessage( String message, String toUser ) {
+
 		message = "特急：" + message;
 		super.sendMessage( message, toUser );
 		// 还需要增加一条待催促的信息

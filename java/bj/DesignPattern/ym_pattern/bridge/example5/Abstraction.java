@@ -16,6 +16,7 @@ public abstract class Abstraction {
 	 * @param impl 实现部分的对象
 	 */
 	public Abstraction( Implementor impl ) {
+
 		this.impl = impl;
 	}
 
@@ -23,6 +24,7 @@ public abstract class Abstraction {
 	 * 示例操作，实现一定的功能，可能需要转调实现部分的具体实现方法
 	 */
 	public void operation() {
+
 		impl.operationImpl();
 	}
 

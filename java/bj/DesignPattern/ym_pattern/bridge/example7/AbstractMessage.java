@@ -16,6 +16,7 @@ public abstract class AbstractMessage {
 	 * @param type 传入选择实现部分的类型
 	 */
 	public AbstractMessage( int type ) {
+
 		if ( type == 1 ) {
 			this.impl = new MessageSMS();
 
@@ -35,6 +36,7 @@ public abstract class AbstractMessage {
 	 * @param toUser  把消息发送的目的人员
 	 */
 	public void sendMessage( String message, String toUser ) {
+
 		this.impl.send( message, toUser );
 	}
 

@@ -7,6 +7,7 @@ public class JDBCTest {
 
 	/**
 	 * 测试
+	 *
 	 * @param args
 	 */
 	public static void main( String[] args ) throws Exception {

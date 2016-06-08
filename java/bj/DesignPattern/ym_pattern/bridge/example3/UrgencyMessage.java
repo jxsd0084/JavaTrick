@@ -12,4 +12,5 @@ public interface UrgencyMessage extends Message {
 	 * @return 包含监控到的数据对象，这里示意一下，所以用了Object
 	 */
 	public Object watch( String messageId );
+
 }

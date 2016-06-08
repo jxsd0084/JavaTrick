@@ -12,6 +12,7 @@ public abstract class AbstractMessage2 {
 	 * @return 合适的实现对象
 	 */
 	protected MessageImplementor getImpl( String message ) {
+
 		MessageImplementor impl = null;
 		if ( message == null ) {
 			// 如果没有消息，默认使用站内短消息
@@ -47,6 +48,7 @@ public abstract class AbstractMessage2 {
 	 * @param toUser  把消息发送的目的人员
 	 */
 	public void sendMessage( String message, String toUser ) {
+
 		this.getImpl( message ).send( message, toUser );
 	}
 

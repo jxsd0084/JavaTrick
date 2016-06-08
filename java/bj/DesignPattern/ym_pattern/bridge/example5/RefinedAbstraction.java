@@ -6,6 +6,7 @@ package bj.DesignPattern.ym_pattern.bridge.example5;
 public class RefinedAbstraction extends Abstraction {
 
 	public RefinedAbstraction( Implementor impl ) {
+
 		super( impl );
 	}
 
@@ -17,4 +18,5 @@ public class RefinedAbstraction extends Abstraction {
 	public void otherOperation() {
 		//
 	}
+
 }

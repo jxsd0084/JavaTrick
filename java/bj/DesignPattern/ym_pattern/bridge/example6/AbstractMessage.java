@@ -16,6 +16,7 @@ public abstract class AbstractMessage {
 	 * @param impl 实现部分的对象
 	 */
 	public AbstractMessage( MessageImplementor impl ) {
+
 		this.impl = impl;
 	}
 
@@ -26,6 +27,7 @@ public abstract class AbstractMessage {
 	 * @param toUser  把消息发送的目的人员
 	 */
 	public void sendMessage( String message, String toUser ) {
+
 		this.impl.send( message, toUser );
 	}
 
