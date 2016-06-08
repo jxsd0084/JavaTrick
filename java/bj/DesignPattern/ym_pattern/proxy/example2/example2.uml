@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.ym_pattern.proxy.example2</OriginalElement>
+  <nodes>
+    <node x="69.5" y="0.0">bj.DesignPattern.ym_pattern.proxy.example2.Subject</node>
+    <node x="131.0" y="82.0">bj.DesignPattern.ym_pattern.proxy.example2.Proxy</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.ym_pattern.proxy.example2.RealSubject</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.ym_pattern.proxy.example2.Proxy" target="bj.DesignPattern.ym_pattern.proxy.example2.Subject">
+      <point x="0.0" y="-16.0" />
+      <point x="165.5" y="57.0" />
+      <point x="131.0" y="57.0" />
+      <point x="20.5" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.proxy.example2.RealSubject" target="bj.DesignPattern.ym_pattern.proxy.example2.Subject">
+      <point x="0.0" y="-16.0" />
+      <point x="55.5" y="57.0" />
+      <point x="90.0" y="57.0" />
+      <point x="-20.5" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="100.0" y="57.0" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.ym_pattern.proxy.example2.RealSubject</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

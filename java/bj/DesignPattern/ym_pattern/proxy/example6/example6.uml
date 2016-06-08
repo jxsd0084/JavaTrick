@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.ym_pattern.proxy.example6</OriginalElement>
+  <nodes>
+    <node x="18.5" y="0.0">bj.DesignPattern.ym_pattern.proxy.example6.Order</node>
+    <node x="0.0" y="159.0">bj.DesignPattern.ym_pattern.proxy.example6.Client</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.ym_pattern.proxy.example6.OrderProxy</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.ym_pattern.proxy.example6.OrderProxy" target="bj.DesignPattern.ym_pattern.proxy.example6.Order">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="53.5" y="95.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

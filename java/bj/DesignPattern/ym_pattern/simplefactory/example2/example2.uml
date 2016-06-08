@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.ym_pattern.simplefactory.example2</OriginalElement>
+  <nodes>
+    <node x="92.0" y="82.0">bj.DesignPattern.ym_pattern.simplefactory.example2.ImplB</node>
+    <node x="0.0" y="82.0">bj.DesignPattern.ym_pattern.simplefactory.example2.ImplA</node>
+    <node x="0.0" y="159.0">bj.DesignPattern.ym_pattern.simplefactory.example2.Factory</node>
+    <node x="125.0" y="159.0">bj.DesignPattern.ym_pattern.simplefactory.example2.Client</node>
+    <node x="54.25" y="0.0">bj.DesignPattern.ym_pattern.simplefactory.example2.Api</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.ym_pattern.simplefactory.example2.ImplA" target="bj.DesignPattern.ym_pattern.simplefactory.example2.Api">
+      <point x="0.0" y="-16.0" />
+      <point x="36.0" y="57.0" />
+      <point x="68.0" y="57.0" />
+      <point x="-13.75" y="16.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.simplefactory.example2.ImplB" target="bj.DesignPattern.ym_pattern.simplefactory.example2.Api">
+      <point x="0.0" y="-16.0" />
+      <point x="127.5" y="57.0" />
+      <point x="95.5" y="57.0" />
+      <point x="13.75" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="98.0" y="95.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.ym_pattern.simplefactory.example2.Api</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
