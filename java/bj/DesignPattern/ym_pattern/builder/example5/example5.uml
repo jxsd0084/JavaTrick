@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bj.DesignPattern.ym_pattern.builder.example5</OriginalElement>
+  <nodes>
+    <node x="125.5" y="568.0">bj.DesignPattern.ym_pattern.builder.example5.Client</node>
+    <node x="0.0" y="284.0">bj.DesignPattern.ym_pattern.builder.example5.ConcreteBuilder</node>
+    <node x="63.0" y="0.0">bj.DesignPattern.ym_pattern.builder.example5.InsuranceContract</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bj.DesignPattern.ym_pattern.builder.example5.Client" target="bj.DesignPattern.ym_pattern.builder.example5.ConcreteBuilder">
+      <point x="0.0" y="-28.5" />
+      <point x="0.0" y="117.0" />
+    </edge>
+    <edge source="bj.DesignPattern.ym_pattern.builder.example5.ConcreteBuilder" target="bj.DesignPattern.ym_pattern.builder.example5.InsuranceContract">
+      <point x="0.0" y="-117.0" />
+      <point x="0.0" y="117.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="215.0" y="312.5" />
+  <SelectedNodes>
+    <node>bj.DesignPattern.ym_pattern.builder.example5.ConcreteBuilder</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -28,4 +28,5 @@ public interface Builder {
 	 * @param efm 文件尾的内容
 	 */
 	public void buildFooter( ExportFooterModel efm );
+
 }

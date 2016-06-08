@@ -16,10 +16,12 @@ public class ConcreteBuilder implements Builder {
 	 * @return 构建器最终构建的产品对象
 	 */
 	public Product getResult() {
+
 		return resultProduct;
 	}
 
 	public void buildPart() {
 		// 构建某个部件的功能处理
 	}
+
 }

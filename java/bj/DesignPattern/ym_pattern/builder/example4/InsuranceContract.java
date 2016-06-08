@@ -35,6 +35,7 @@ public class InsuranceContract {
 	 * 构造方法，访问级别是同包能访问
 	 */
 	InsuranceContract( ConcreteBuilder builder ) {
+
 		this.contractId = builder.getContractId();
 		this.personName = builder.getPersonName();
 		this.companyName = builder.getCompanyName();
@@ -47,6 +48,7 @@ public class InsuranceContract {
 	 * 示意：保险合同的某些操作
 	 */
 	public void someOperation() {
+
 		System.out.println( "Now in Insurance Contract someOperation==" + this.contractId );
 	}
 

@@ -10,12 +10,6 @@
   </nodes>
   <notes />
   <edges>
-    <edge source="bj.DesignPattern.ym_pattern.builder.example2.ConcreteBuilder" target="bj.DesignPattern.ym_pattern.builder.example2.Builder">
-      <point x="-44.25" y="-41.5" />
-      <point x="252.25" y="82.0" />
-      <point x="172.5" y="82.0" />
-      <point x="39.25" y="28.5" />
-    </edge>
     <edge source="bj.DesignPattern.ym_pattern.builder.example2.Director" target="bj.DesignPattern.ym_pattern.builder.example2.Builder">
       <point x="0.0" y="-41.5" />
       <point x="-39.25" y="28.5" />
@@ -24,16 +18,22 @@
       <point x="44.25" y="-41.5" />
       <point x="0.0" y="16.0" />
     </edge>
+    <edge source="bj.DesignPattern.ym_pattern.builder.example2.ConcreteBuilder" target="bj.DesignPattern.ym_pattern.builder.example2.Builder">
+      <point x="-44.25" y="-41.5" />
+      <point x="252.25" y="82.0" />
+      <point x="172.5" y="82.0" />
+      <point x="39.25" y="28.5" />
+    </edge>
   </edges>
   <settings layout="Hierarchic Group" zoom="1.2000000000000002" x="192.5" y="95.0" />
   <SelectedNodes>
     <node>bj.DesignPattern.ym_pattern.builder.example2.Director</node>
   </SelectedNodes>
   <Categories>
-    <Category>Constructors</Category>
-    <Category>Methods</Category>
-    <Category>Properties</Category>
     <Category>Inner Classes</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
   </Categories>
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>

@@ -20,6 +20,7 @@ public class ConcreteBuilder {
 	 * @param endDate    保险失效的日期
 	 */
 	public ConcreteBuilder( String contractId, long beginDate, long endDate ) {
+
 		this.contractId = contractId;
 		this.beginDate = beginDate;
 		this.endDate = endDate;
@@ -32,6 +33,7 @@ public class ConcreteBuilder {
 	 * @return 构建器对象
 	 */
 	public ConcreteBuilder setPersonName( String personName ) {
+
 		this.personName = personName;
 		return this;
 	}
@@ -43,6 +45,7 @@ public class ConcreteBuilder {
 	 * @return 构建器对象
 	 */
 	public ConcreteBuilder setCompanyName( String companyName ) {
+
 		this.companyName = companyName;
 		return this;
 	}
@@ -54,6 +57,7 @@ public class ConcreteBuilder {
 	 * @return 构建器对象
 	 */
 	public ConcreteBuilder setOtherData( String otherData ) {
+
 		this.otherData = otherData;
 		return this;
 	}
@@ -64,30 +68,37 @@ public class ConcreteBuilder {
 	 * @return 构建的保险合同的对象
 	 */
 	public InsuranceContract build() {
+
 		return new InsuranceContract( this );
 	}
 
 	public String getContractId() {
+
 		return contractId;
 	}
 
 	public String getPersonName() {
+
 		return personName;
 	}
 
 	public String getCompanyName() {
+
 		return companyName;
 	}
 
 	public long getBeginDate() {
+
 		return beginDate;
 	}
 
 	public long getEndDate() {
+
 		return endDate;
 	}
 
 	public String getOtherData() {
+
 		return otherData;
 	}
 

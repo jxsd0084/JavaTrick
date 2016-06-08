@@ -19,6 +19,7 @@ public class Director {
 	 * @param builder 构建器对象
 	 */
 	public Director( Builder builder ) {
+
 		this.builder = builder;
 	}
 

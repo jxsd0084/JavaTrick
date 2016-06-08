@@ -35,6 +35,7 @@ public class InsuranceContract {
 	 * 构造方法，访问级别是同包能访问
 	 */
 	InsuranceContract( ConcreteBuilder builder ) {
+
 		this.contractId = builder.getContractId();
 		this.personName = builder.getPersonName();
 		this.companyName = builder.getCompanyName();
